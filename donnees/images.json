@@ -1,0 +1,7303 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logos/logo-encre.png",
+    "role": "logo",
+    "alt": "EWA Design, Art | chitecture",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "3a6db7fd3fdb6c0c",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 8938,
+      "logo-480.webp": 29764
+    },
+    "media": "c.media({ nom: 'logo', alt: \"EWA Design, Art | chitecture\", sizes: '240px' })"
+  },
+  "logo-clair": {
+    "nom": "logo-clair",
+    "source": "recu/logos/logo-clair.png",
+    "role": "logo",
+    "alt": "EWA Design, Art | chitecture",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "3c3df06a02501700",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-clair-240.webp",
+      "logo-clair-480.webp"
+    ],
+    "poids": {
+      "logo-clair-240.webp": 8758,
+      "logo-clair-480.webp": 30618
+    },
+    "media": "c.media({ nom: 'logo-clair', alt: \"EWA Design, Art | chitecture\", sizes: '240px' })"
+  },
+  "impulsions-a": {
+    "nom": "impulsions-a",
+    "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-2.jpg",
+    "role": "galerie",
+    "alt": "Impulsions 2026 A, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "7759522f901962ee",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "55% 45%",
+    "sujet": {
+      "x": 30.9,
+      "y": 11.8,
+      "l": 55.9,
+      "h": 75
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.49,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.46,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.41,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.37,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "impulsions-a-480.webp",
+      "impulsions-a-960.webp",
+      "impulsions-a-1600.webp"
+    ],
+    "poids": {
+      "impulsions-a-480.webp": 39048,
+      "impulsions-a-960.webp": 154816,
+      "impulsions-a-1600.webp": 303884
+    },
+    "media": "c.media({ nom: 'impulsions-a', alt: \"Impulsions 2026 A, estampe numérique abstraite carrée\", cadrage: '55% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "impulsions-g": {
+    "nom": "impulsions-g",
+    "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026.jpg",
+    "role": "galerie",
+    "alt": "Impulsions 2026 G, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "a8c93c02fd32f43e",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "43% 42%",
+    "sujet": {
+      "x": 26.5,
+      "y": 20.6,
+      "l": 35.3,
+      "h": 42.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.57,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.5,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "impulsions-g-480.webp",
+      "impulsions-g-960.webp",
+      "impulsions-g-1600.webp"
+    ],
+    "poids": {
+      "impulsions-g-480.webp": 42464,
+      "impulsions-g-960.webp": 155836,
+      "impulsions-g-1600.webp": 271192
+    },
+    "media": "c.media({ nom: 'impulsions-g', alt: \"Impulsions 2026 G, estampe numérique abstraite carrée\", cadrage: '43% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "impulsions-i-a": {
+    "nom": "impulsions-i-a",
+    "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-3.jpg",
+    "role": "galerie",
+    "alt": "Impulsions 2026 I-A, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "c6fb8569201a8cc6",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "55% 51%",
+    "sujet": {
+      "x": 32.4,
+      "y": 26.5,
+      "l": 55.9,
+      "h": 60.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.34,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "impulsions-i-a-480.webp",
+      "impulsions-i-a-960.webp",
+      "impulsions-i-a-1600.webp"
+    ],
+    "poids": {
+      "impulsions-i-a-480.webp": 40990,
+      "impulsions-i-a-960.webp": 140982,
+      "impulsions-i-a-1600.webp": 240264
+    },
+    "media": "c.media({ nom: 'impulsions-i-a', alt: \"Impulsions 2026 I-A, estampe numérique abstraite carrée\", cadrage: '55% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "impulsions-i-b": {
+    "nom": "impulsions-i-b",
+    "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-4.jpg",
+    "role": "galerie",
+    "alt": "Impulsions 2026 I-B, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "5226a91ecc775c91",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "56% 49%",
+    "sujet": {
+      "x": 30.9,
+      "y": 23.5,
+      "l": 57.4,
+      "h": 64.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.35,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "impulsions-i-b-480.webp",
+      "impulsions-i-b-960.webp",
+      "impulsions-i-b-1600.webp"
+    ],
+    "poids": {
+      "impulsions-i-b-480.webp": 40084,
+      "impulsions-i-b-960.webp": 133920,
+      "impulsions-i-b-1600.webp": 294046
+    },
+    "media": "c.media({ nom: 'impulsions-i-b', alt: \"Impulsions 2026 I-B, estampe numérique abstraite carrée\", cadrage: '56% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "impulsions-ja": {
+    "nom": "impulsions-ja",
+    "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-6.jpg",
+    "role": "galerie",
+    "alt": "Impulsions 2026 JA, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "9723a5d60535282f",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "47% 40%",
+    "sujet": {
+      "x": 27.9,
+      "y": 20.6,
+      "l": 38.2,
+      "h": 36.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.46,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.44,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "impulsions-ja-480.webp",
+      "impulsions-ja-960.webp",
+      "impulsions-ja-1600.webp"
+    ],
+    "poids": {
+      "impulsions-ja-480.webp": 37594,
+      "impulsions-ja-960.webp": 127454,
+      "impulsions-ja-1600.webp": 238862
+    },
+    "media": "c.media({ nom: 'impulsions-ja', alt: \"Impulsions 2026 JA, estampe numérique abstraite carrée\", cadrage: '47% 40%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "impulsions-jc": {
+    "nom": "impulsions-jc",
+    "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-8.jpg",
+    "role": "galerie",
+    "alt": "Impulsions 2026 JC, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "6be5cddeb2a0c581",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "52% 43%",
+    "sujet": {
+      "x": 33.8,
+      "y": 23.5,
+      "l": 36.8,
+      "h": 41.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.44,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.41,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.35,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "impulsions-jc-480.webp",
+      "impulsions-jc-960.webp",
+      "impulsions-jc-1600.webp"
+    ],
+    "poids": {
+      "impulsions-jc-480.webp": 38002,
+      "impulsions-jc-960.webp": 131332,
+      "impulsions-jc-1600.webp": 241606
+    },
+    "media": "c.media({ nom: 'impulsions-jc', alt: \"Impulsions 2026 JC, estampe numérique abstraite carrée\", cadrage: '52% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "impulsions-k1": {
+    "nom": "impulsions-k1",
+    "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-10.jpg",
+    "role": "galerie",
+    "alt": "Impulsions 2026 K1, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "49fe53bb4f5defda",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "58% 51%",
+    "sujet": {
+      "x": 38.2,
+      "y": 26.5,
+      "l": 48.5,
+      "h": 60.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.44,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.35,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "impulsions-k1-480.webp",
+      "impulsions-k1-960.webp",
+      "impulsions-k1-1600.webp"
+    ],
+    "poids": {
+      "impulsions-k1-480.webp": 42678,
+      "impulsions-k1-960.webp": 144556,
+      "impulsions-k1-1600.webp": 266718
+    },
+    "media": "c.media({ nom: 'impulsions-k1', alt: \"Impulsions 2026 K1, estampe numérique abstraite carrée\", cadrage: '58% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "impulsions-k3-bis": {
+    "nom": "impulsions-k3-bis",
+    "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-12.jpg",
+    "role": "galerie",
+    "alt": "Impulsions 2026 K3 bis, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "d49bf7fbb0e8fe10",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "47% 43%",
+    "sujet": {
+      "x": 29.4,
+      "y": 23.5,
+      "l": 36.8,
+      "h": 38.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.35,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.26,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "impulsions-k3-bis-480.webp",
+      "impulsions-k3-bis-960.webp",
+      "impulsions-k3-bis-1600.webp"
+    ],
+    "poids": {
+      "impulsions-k3-bis-480.webp": 44286,
+      "impulsions-k3-bis-960.webp": 148574,
+      "impulsions-k3-bis-1600.webp": 273822
+    },
+    "media": "c.media({ nom: 'impulsions-k3-bis', alt: \"Impulsions 2026 K3 bis, estampe numérique abstraite carrée\", cadrage: '47% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "impulsions-l1": {
+    "nom": "impulsions-l1",
+    "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-11.jpg",
+    "role": "galerie",
+    "alt": "Impulsions 2026 L1, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "0e5f7813af979f2c",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "56% 47%",
+    "sujet": {
+      "x": 33.8,
+      "y": 20.6,
+      "l": 55.9,
+      "h": 67.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "impulsions-l1-480.webp",
+      "impulsions-l1-960.webp",
+      "impulsions-l1-1600.webp"
+    ],
+    "poids": {
+      "impulsions-l1-480.webp": 48546,
+      "impulsions-l1-960.webp": 166448,
+      "impulsions-l1-1600.webp": 303576
+    },
+    "media": "c.media({ nom: 'impulsions-l1', alt: \"Impulsions 2026 L1, estampe numérique abstraite carrée\", cadrage: '56% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "impulsions-l2": {
+    "nom": "impulsions-l2",
+    "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-13.jpg",
+    "role": "galerie",
+    "alt": "Impulsions 2026 L2, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "48b843aa9b0da12b",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "57% 49%",
+    "sujet": {
+      "x": 35.3,
+      "y": 16.2,
+      "l": 52.9,
+      "h": 73.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.16,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "impulsions-l2-480.webp",
+      "impulsions-l2-960.webp",
+      "impulsions-l2-1600.webp"
+    ],
+    "poids": {
+      "impulsions-l2-480.webp": 49178,
+      "impulsions-l2-960.webp": 163330,
+      "impulsions-l2-1600.webp": 291766
+    },
+    "media": "c.media({ nom: 'impulsions-l2', alt: \"Impulsions 2026 L2, estampe numérique abstraite carrée\", cadrage: '57% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "impulsions-d-2-bis": {
+    "nom": "impulsions-d-2-bis",
+    "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-17.jpg",
+    "role": "galerie",
+    "alt": "Impulsions 2026 D-2 bis, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "318b7394522f0544",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "49% 45%",
+    "sujet": {
+      "x": 29.4,
+      "y": 25,
+      "l": 39.7,
+      "h": 39.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.66,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.59,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.59,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.59,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "impulsions-d-2-bis-480.webp",
+      "impulsions-d-2-bis-960.webp",
+      "impulsions-d-2-bis-1600.webp"
+    ],
+    "poids": {
+      "impulsions-d-2-bis-480.webp": 35980,
+      "impulsions-d-2-bis-960.webp": 141738,
+      "impulsions-d-2-bis-1600.webp": 238814
+    },
+    "media": "c.media({ nom: 'impulsions-d-2-bis', alt: \"Impulsions 2026 D-2 bis, estampe numérique abstraite carrée\", cadrage: '49% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "impulsions-f": {
+    "nom": "impulsions-f",
+    "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-18.jpg",
+    "role": "galerie",
+    "alt": "Impulsions 2026 F, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "d36e915ae06e7893",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "46% 61%",
+    "sujet": {
+      "x": 34.3,
+      "y": 54.6,
+      "l": 22.7,
+      "h": 25.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.54,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.44,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.33,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "impulsions-f-480.webp",
+      "impulsions-f-960.webp",
+      "impulsions-f-1600.webp"
+    ],
+    "poids": {
+      "impulsions-f-480.webp": 42830,
+      "impulsions-f-960.webp": 161450,
+      "impulsions-f-1600.webp": 278826
+    },
+    "media": "c.media({ nom: 'impulsions-f', alt: \"Impulsions 2026 F, estampe numérique abstraite carrée\", cadrage: '46% 61%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "combo-e": {
+    "nom": "combo-e",
+    "source": "recu/ewa-design-recu/serie-combo-small-90x90.jpg",
+    "role": "galerie",
+    "alt": "Combo 2026 E, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5720321d479eb9d5",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "45% 49%",
+    "sujet": {
+      "x": 29.4,
+      "y": 27.9,
+      "l": 30.9,
+      "h": 41.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.35,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "combo-e-480.webp",
+      "combo-e-960.webp",
+      "combo-e-1600.webp"
+    ],
+    "poids": {
+      "combo-e-480.webp": 52336,
+      "combo-e-960.webp": 197628,
+      "combo-e-1600.webp": 326536
+    },
+    "media": "c.media({ nom: 'combo-e', alt: \"Combo 2026 E, estampe numérique abstraite carrée\", cadrage: '45% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "combo-c": {
+    "nom": "combo-c",
+    "source": "recu/ewa-design-recu/serie-combo-small-90x90-2.jpg",
+    "role": "galerie",
+    "alt": "Combo 2026 C, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "3c398e0e6e559020",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "55% 36%",
+    "sujet": {
+      "x": 39.7,
+      "y": 13.2,
+      "l": 29.4,
+      "h": 44.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "combo-c-480.webp",
+      "combo-c-960.webp",
+      "combo-c-1600.webp"
+    ],
+    "poids": {
+      "combo-c-480.webp": 61348,
+      "combo-c-960.webp": 232438,
+      "combo-c-1600.webp": 393334
+    },
+    "media": "c.media({ nom: 'combo-c', alt: \"Combo 2026 C, estampe numérique abstraite carrée\", cadrage: '55% 36%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "combo-b": {
+    "nom": "combo-b",
+    "source": "recu/ewa-design-recu/serie-combo-small-90x90-3.jpg",
+    "role": "galerie",
+    "alt": "Combo 2026 B, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0f52d9ed312bb4a5",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "53% 42%",
+    "sujet": {
+      "x": 35.3,
+      "y": 26.5,
+      "l": 35.3,
+      "h": 30.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.23,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "combo-b-480.webp",
+      "combo-b-960.webp",
+      "combo-b-1600.webp"
+    ],
+    "poids": {
+      "combo-b-480.webp": 68908,
+      "combo-b-960.webp": 248798,
+      "combo-b-1600.webp": 423082
+    },
+    "media": "c.media({ nom: 'combo-b', alt: \"Combo 2026 B, estampe numérique abstraite carrée\", cadrage: '53% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "combo-d": {
+    "nom": "combo-d",
+    "source": "recu/ewa-design-recu/serie-combo-small-90x90-4.jpg",
+    "role": "galerie",
+    "alt": "Combo 2026 D, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b395b815340bf930",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "51% 39%",
+    "sujet": {
+      "x": 32.4,
+      "y": 14.7,
+      "l": 35.3,
+      "h": 47.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "combo-d-480.webp",
+      "combo-d-960.webp",
+      "combo-d-1600.webp"
+    ],
+    "poids": {
+      "combo-d-480.webp": 61108,
+      "combo-d-960.webp": 228152,
+      "combo-d-1600.webp": 393528
+    },
+    "media": "c.media({ nom: 'combo-d', alt: \"Combo 2026 D, estampe numérique abstraite carrée\", cadrage: '51% 39%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "combo-f": {
+    "nom": "combo-f",
+    "source": "recu/ewa-design-recu/serie-combo-small-90x90-6.jpg",
+    "role": "galerie",
+    "alt": "Combo 2026 F, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "edf424cbc1c2b65f",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "49% 45%",
+    "sujet": {
+      "x": 30.9,
+      "y": 27.9,
+      "l": 35.3,
+      "h": 35.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "combo-f-480.webp",
+      "combo-f-960.webp",
+      "combo-f-1600.webp"
+    ],
+    "poids": {
+      "combo-f-480.webp": 65800,
+      "combo-f-960.webp": 215092,
+      "combo-f-1600.webp": 333906
+    },
+    "media": "c.media({ nom: 'combo-f', alt: \"Combo 2026 F, estampe numérique abstraite carrée\", cadrage: '49% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "combo-l": {
+    "nom": "combo-l",
+    "source": "recu/ewa-design-recu/serie-combo-small-90x90-7.jpg",
+    "role": "galerie",
+    "alt": "Combo 2026 L, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a63a84c718f312c1",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "52% 48%",
+    "sujet": {
+      "x": 38.2,
+      "y": 32.4,
+      "l": 26.5,
+      "h": 32.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "combo-l-480.webp",
+      "combo-l-960.webp",
+      "combo-l-1600.webp"
+    ],
+    "poids": {
+      "combo-l-480.webp": 67914,
+      "combo-l-960.webp": 232324,
+      "combo-l-1600.webp": 331050
+    },
+    "media": "c.media({ nom: 'combo-l', alt: \"Combo 2026 L, estampe numérique abstraite carrée\", cadrage: '52% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "combo-j": {
+    "nom": "combo-j",
+    "source": "recu/ewa-design-recu/serie-combo-small-90x90-8.jpg",
+    "role": "galerie",
+    "alt": "Combo 2026 J, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "eccb1b651e4563e2",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "49% 36%",
+    "sujet": {
+      "x": 27.9,
+      "y": 11.8,
+      "l": 42.6,
+      "h": 45.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "combo-j-480.webp",
+      "combo-j-960.webp",
+      "combo-j-1600.webp"
+    ],
+    "poids": {
+      "combo-j-480.webp": 78968,
+      "combo-j-960.webp": 241644,
+      "combo-j-1600.webp": 327264
+    },
+    "media": "c.media({ nom: 'combo-j', alt: \"Combo 2026 J, estampe numérique abstraite carrée\", cadrage: '49% 36%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "combo-n": {
+    "nom": "combo-n",
+    "source": "recu/ewa-design-recu/serie-combo-small-90x90-11.jpg",
+    "role": "galerie",
+    "alt": "Combo 2026 N, estampe numérique abstraite carrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5491fc2bbf2691d3",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "58% 41%",
+    "sujet": {
+      "x": 44.1,
+      "y": 27.9,
+      "l": 26.5,
+      "h": 26.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.24,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "combo-n-480.webp",
+      "combo-n-960.webp",
+      "combo-n-1600.webp"
+    ],
+    "poids": {
+      "combo-n-480.webp": 57656,
+      "combo-n-960.webp": 203316,
+      "combo-n-1600.webp": 291486
+    },
+    "media": "c.media({ nom: 'combo-n', alt: \"Combo 2026 N, estampe numérique abstraite carrée\", cadrage: '58% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "empreintes-a": {
+    "nom": "empreintes-a",
+    "source": "recu/ewa-design-recu/serie-empreintes-2025-2.jpg",
+    "role": "galerie",
+    "alt": "Empreintes 2025 A, estampe numérique en bleus glacier",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "8fec9de6789e202d",
+    "ratio": "5:4",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 34%",
+    "sujet": {
+      "x": 36.8,
+      "y": 22.1,
+      "l": 26.5,
+      "h": 25
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.57,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.54,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.52,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.49,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1600,
+      "source": [
+        2000,
+        1600
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "empreintes-a-480.webp",
+      "empreintes-a-960.webp",
+      "empreintes-a-1600.webp"
+    ],
+    "poids": {
+      "empreintes-a-480.webp": 21460,
+      "empreintes-a-960.webp": 74968,
+      "empreintes-a-1600.webp": 205624
+    },
+    "media": "c.media({ nom: 'empreintes-a', alt: \"Empreintes 2025 A, estampe numérique en bleus glacier\", cadrage: '50% 34%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '5 / 4' })"
+  },
+  "empreintes-b": {
+    "nom": "empreintes-b",
+    "source": "recu/ewa-design-recu/serie-empreintes-2025-b.jpg",
+    "role": "galerie",
+    "alt": "Empreintes 2025 B, estampe numérique en bleus glacier",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ade709dd3f2dab47",
+    "ratio": "5:4",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "51% 35%",
+    "sujet": {
+      "x": 26.5,
+      "y": 14.7,
+      "l": 50,
+      "h": 39.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.65,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.62,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.4,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1600,
+      "source": [
+        2000,
+        1600
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "empreintes-b-480.webp",
+      "empreintes-b-960.webp",
+      "empreintes-b-1600.webp"
+    ],
+    "poids": {
+      "empreintes-b-480.webp": 23100,
+      "empreintes-b-960.webp": 84742,
+      "empreintes-b-1600.webp": 244420
+    },
+    "media": "c.media({ nom: 'empreintes-b', alt: \"Empreintes 2025 B, estampe numérique en bleus glacier\", cadrage: '51% 35%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '5 / 4' })"
+  },
+  "empreintes-c": {
+    "nom": "empreintes-c",
+    "source": "recu/ewa-design-recu/serie-empreintes-2025-c.jpg",
+    "role": "galerie",
+    "alt": "Empreintes 2025 C, estampe numérique en bleus glacier",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0489c0b0f994589b",
+    "ratio": "5:4",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 39%",
+    "sujet": {
+      "x": 38.2,
+      "y": 22.1,
+      "l": 23.5,
+      "h": 35.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.62,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.59,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1600,
+      "source": [
+        2000,
+        1600
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "empreintes-c-480.webp",
+      "empreintes-c-960.webp",
+      "empreintes-c-1600.webp"
+    ],
+    "poids": {
+      "empreintes-c-480.webp": 20890,
+      "empreintes-c-960.webp": 80494,
+      "empreintes-c-1600.webp": 235158
+    },
+    "media": "c.media({ nom: 'empreintes-c', alt: \"Empreintes 2025 C, estampe numérique en bleus glacier\", cadrage: '50% 39%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '5 / 4' })"
+  },
+  "empreintes-h": {
+    "nom": "empreintes-h",
+    "source": "recu/ewa-design-recu/serie-empreintes-2025-h.jpg",
+    "role": "galerie",
+    "alt": "Empreintes 2025 H, estampe numérique en bleus glacier",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c296fd3ee4693a26",
+    "ratio": "5:4",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "48% 41%",
+    "sujet": {
+      "x": 35.3,
+      "y": 25,
+      "l": 25,
+      "h": 32.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.61,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.56,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.51,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1600,
+      "source": [
+        2000,
+        1600
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "empreintes-h-480.webp",
+      "empreintes-h-960.webp",
+      "empreintes-h-1600.webp"
+    ],
+    "poids": {
+      "empreintes-h-480.webp": 18770,
+      "empreintes-h-960.webp": 67206,
+      "empreintes-h-1600.webp": 190794
+    },
+    "media": "c.media({ nom: 'empreintes-h', alt: \"Empreintes 2025 H, estampe numérique en bleus glacier\", cadrage: '48% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '5 / 4' })"
+  },
+  "empreintes-i": {
+    "nom": "empreintes-i",
+    "source": "recu/ewa-design-recu/serie-empreintes-2025-i.jpg",
+    "role": "galerie",
+    "alt": "Empreintes 2025 I, estampe numérique en bleus glacier",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "1455ccfea2dedce2",
+    "ratio": "5:4",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "52% 41%",
+    "sujet": {
+      "x": 35.3,
+      "y": 23.5,
+      "l": 35.3,
+      "h": 36.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.62,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.59,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.51,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1600,
+      "source": [
+        2000,
+        1600
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "empreintes-i-480.webp",
+      "empreintes-i-960.webp",
+      "empreintes-i-1600.webp"
+    ],
+    "poids": {
+      "empreintes-i-480.webp": 19104,
+      "empreintes-i-960.webp": 70346,
+      "empreintes-i-1600.webp": 202268
+    },
+    "media": "c.media({ nom: 'empreintes-i', alt: \"Empreintes 2025 I, estampe numérique en bleus glacier\", cadrage: '52% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '5 / 4' })"
+  },
+  "empreintes-j": {
+    "nom": "empreintes-j",
+    "source": "recu/ewa-design-recu/serie-empreintes-2025-j.jpg",
+    "role": "galerie",
+    "alt": "Empreintes 2025 J, estampe numérique en bleus glacier",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d717aca6710b4b40",
+    "ratio": "5:4",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "45% 42%",
+    "sujet": {
+      "x": 27.9,
+      "y": 25,
+      "l": 33.8,
+      "h": 35.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.61,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.54,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.52,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.51,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1600,
+      "source": [
+        2000,
+        1600
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "empreintes-j-480.webp",
+      "empreintes-j-960.webp",
+      "empreintes-j-1600.webp"
+    ],
+    "poids": {
+      "empreintes-j-480.webp": 22352,
+      "empreintes-j-960.webp": 71130,
+      "empreintes-j-1600.webp": 165568
+    },
+    "media": "c.media({ nom: 'empreintes-j', alt: \"Empreintes 2025 J, estampe numérique en bleus glacier\", cadrage: '45% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '5 / 4' })"
+  },
+  "splash-a": {
+    "nom": "splash-a",
+    "source": "recu/ewa-design-recu/splash-105x70-web.jpg",
+    "role": "galerie",
+    "alt": "Splash A, estampe numérique en noir et blanc, 105 × 70 cm",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b1d3832bf98b63b4",
+    "ratio": "2000:1333",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "49% 43%",
+    "sujet": {
+      "x": 16.8,
+      "y": 30.1,
+      "l": 52.6,
+      "h": 25.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.45,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "splash-a-480.webp",
+      "splash-a-960.webp",
+      "splash-a-1600.webp"
+    ],
+    "poids": {
+      "splash-a-480.webp": 23432,
+      "splash-a-960.webp": 81892,
+      "splash-a-1600.webp": 203536
+    },
+    "media": "c.media({ nom: 'splash-a', alt: \"Splash A, estampe numérique en noir et blanc, 105 × 70 cm\", cadrage: '49% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1333' })"
+  },
+  "splash-b": {
+    "nom": "splash-b",
+    "source": "recu/ewa-design-recu/splash-b-105x70-web.jpg",
+    "role": "galerie",
+    "alt": "Splash B, estampe numérique en noir et blanc, 105 × 70 cm",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6c6281d10e96d6ce",
+    "ratio": "2000:1333",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "43% 50%",
+    "sujet": {
+      "x": 15.8,
+      "y": 36.6,
+      "l": 43,
+      "h": 45.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "splash-b-480.webp",
+      "splash-b-960.webp",
+      "splash-b-1600.webp"
+    ],
+    "poids": {
+      "splash-b-480.webp": 24924,
+      "splash-b-960.webp": 94272,
+      "splash-b-1600.webp": 250628
+    },
+    "media": "c.media({ nom: 'splash-b', alt: \"Splash B, estampe numérique en noir et blanc, 105 × 70 cm\", cadrage: '43% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1333' })"
+  },
+  "splash-e": {
+    "nom": "splash-e",
+    "source": "recu/ewa-design-recu/splash-e-105x70-web.jpg",
+    "role": "galerie",
+    "alt": "Splash E, estampe numérique en noir et blanc, 105 × 70 cm",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "8f74302fb9c6326d",
+    "ratio": "2000:1333",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "45% 47%",
+    "sujet": {
+      "x": 12.5,
+      "y": 23.5,
+      "l": 51,
+      "h": 49.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "splash-e-480.webp",
+      "splash-e-960.webp",
+      "splash-e-1600.webp"
+    ],
+    "poids": {
+      "splash-e-480.webp": 25852,
+      "splash-e-960.webp": 83472,
+      "splash-e-1600.webp": 178824
+    },
+    "media": "c.media({ nom: 'splash-e', alt: \"Splash E, estampe numérique en noir et blanc, 105 × 70 cm\", cadrage: '45% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1333' })"
+  },
+  "splash-f": {
+    "nom": "splash-f",
+    "source": "recu/ewa-design-recu/splash-f-105x70-web.jpg",
+    "role": "galerie",
+    "alt": "Splash F, estampe numérique en noir et blanc, 105 × 70 cm",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "53c01eac38aba3de",
+    "ratio": "2000:1333",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "68% 23%",
+    "sujet": {
+      "x": 60,
+      "y": 5.1,
+      "l": 33.4,
+      "h": 23.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "splash-f-480.webp",
+      "splash-f-960.webp",
+      "splash-f-1600.webp"
+    ],
+    "poids": {
+      "splash-f-480.webp": 27282,
+      "splash-f-960.webp": 90608,
+      "splash-f-1600.webp": 205812
+    },
+    "media": "c.media({ nom: 'splash-f', alt: \"Splash F, estampe numérique en noir et blanc, 105 × 70 cm\", cadrage: '68% 23%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1333' })"
+  },
+  "splash-h": {
+    "nom": "splash-h",
+    "source": "recu/ewa-design-recu/splash-h-105x70-web.jpg",
+    "role": "galerie",
+    "alt": "Splash H, estampe numérique en noir et blanc, 105 × 70 cm",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "629c907eb530e6a8",
+    "ratio": "2000:1333",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "47% 41%",
+    "sujet": {
+      "x": 27.6,
+      "y": 7.9,
+      "l": 41,
+      "h": 58.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "splash-h-480.webp",
+      "splash-h-960.webp",
+      "splash-h-1600.webp"
+    ],
+    "poids": {
+      "splash-h-480.webp": 24558,
+      "splash-h-960.webp": 86892,
+      "splash-h-1600.webp": 206554
+    },
+    "media": "c.media({ nom: 'splash-h', alt: \"Splash H, estampe numérique en noir et blanc, 105 × 70 cm\", cadrage: '47% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1333' })"
+  },
+  "splash-k": {
+    "nom": "splash-k",
+    "source": "recu/ewa-design-recu/splash-k-105x70-web.jpg",
+    "role": "galerie",
+    "alt": "Splash K, estampe numérique en noir et blanc, 105 × 70 cm",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "19a5d66ad9e9fbbe",
+    "ratio": "2000:1333",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "49% 42%",
+    "sujet": {
+      "x": 26.5,
+      "y": 23.5,
+      "l": 44.1,
+      "h": 36.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "splash-k-480.webp",
+      "splash-k-960.webp",
+      "splash-k-1600.webp"
+    ],
+    "poids": {
+      "splash-k-480.webp": 22496,
+      "splash-k-960.webp": 77450,
+      "splash-k-1600.webp": 160120
+    },
+    "media": "c.media({ nom: 'splash-k', alt: \"Splash K, estampe numérique en noir et blanc, 105 × 70 cm\", cadrage: '49% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1333' })"
+  },
+  "vibration-a1": {
+    "nom": "vibration-a1",
+    "source": "recu/ewa-design-recu/serie-vibration-nature-2025-9.jpg",
+    "role": "galerie",
+    "alt": "Vibration nature 2025 A1, estampe verticale en ocres et olive",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "483de1205ccf5d96",
+    "ratio": "7:16",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "46% 47%",
+    "sujet": {
+      "x": 27.9,
+      "y": 25,
+      "l": 36.8,
+      "h": 48.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.35,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 875,
+      "height": 2000,
+      "source": [
+        875,
+        2000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "875 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "vibration-a1-400.webp",
+      "vibration-a1-800.webp"
+    ],
+    "poids": {
+      "vibration-a1-400.webp": 67218,
+      "vibration-a1-800.webp": 262648
+    },
+    "media": "c.media({ nom: 'vibration-a1', alt: \"Vibration nature 2025 A1, estampe verticale en ocres et olive\", cadrage: '46% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '7 / 16' })"
+  },
+  "vibration-b1": {
+    "nom": "vibration-b1",
+    "source": "recu/ewa-design-recu/serie-vibration-nature-2025.jpg",
+    "role": "galerie",
+    "alt": "Vibration nature 2025 B1, estampe verticale en ocres et olive",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5a4a0abbeace5fa7",
+    "ratio": "7:16",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "58% 37%",
+    "sujet": {
+      "x": 41.2,
+      "y": 20.6,
+      "l": 32.4,
+      "h": 32.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.38,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.3,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 875,
+      "height": 2000,
+      "source": [
+        875,
+        2000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "875 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "vibration-b1-400.webp",
+      "vibration-b1-800.webp"
+    ],
+    "poids": {
+      "vibration-b1-400.webp": 60766,
+      "vibration-b1-800.webp": 238890
+    },
+    "media": "c.media({ nom: 'vibration-b1', alt: \"Vibration nature 2025 B1, estampe verticale en ocres et olive\", cadrage: '58% 37%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '7 / 16' })"
+  },
+  "vibration-g1": {
+    "nom": "vibration-g1",
+    "source": "recu/ewa-design-recu/serie-vibration-nature-2025-6.jpg",
+    "role": "galerie",
+    "alt": "Vibration nature 2025 G1, estampe verticale en ocres et olive",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "60bd55e45eafa8cd",
+    "ratio": "7:16",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "46% 43%",
+    "sujet": {
+      "x": 27.9,
+      "y": 27.9,
+      "l": 38.2,
+      "h": 30.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 875,
+      "height": 2000,
+      "source": [
+        875,
+        2000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "875 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "vibration-g1-400.webp",
+      "vibration-g1-800.webp"
+    ],
+    "poids": {
+      "vibration-g1-400.webp": 71842,
+      "vibration-g1-800.webp": 294280
+    },
+    "media": "c.media({ nom: 'vibration-g1', alt: \"Vibration nature 2025 G1, estampe verticale en ocres et olive\", cadrage: '46% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '7 / 16' })"
+  },
+  "vibration-j1": {
+    "nom": "vibration-j1",
+    "source": "recu/ewa-design-recu/serie-vibration-nature-2025-7.jpg",
+    "role": "galerie",
+    "alt": "Vibration nature 2025 J1, estampe verticale en ocres et olive",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "9ebeddb85466c80d",
+    "ratio": "7:16",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 38%",
+    "sujet": {
+      "x": 35.3,
+      "y": 14.7,
+      "l": 32.4,
+      "h": 45.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.3,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 875,
+      "height": 2000,
+      "source": [
+        875,
+        2000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "875 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "vibration-j1-400.webp",
+      "vibration-j1-800.webp"
+    ],
+    "poids": {
+      "vibration-j1-400.webp": 82214,
+      "vibration-j1-800.webp": 284784
+    },
+    "media": "c.media({ nom: 'vibration-j1', alt: \"Vibration nature 2025 J1, estampe verticale en ocres et olive\", cadrage: '50% 38%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '7 / 16' })"
+  },
+  "vibration-k1": {
+    "nom": "vibration-k1",
+    "source": "recu/ewa-design-recu/serie-vibration-nature-2025-3.jpg",
+    "role": "galerie",
+    "alt": "Vibration nature 2025 K1, estampe verticale en ocres et olive",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "85d2fffb5faef684",
+    "ratio": "7:16",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 73%",
+    "sujet": {
+      "x": 31.1,
+      "y": 66.4,
+      "l": 32.6,
+      "h": 28.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 875,
+      "height": 2000,
+      "source": [
+        875,
+        2000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "875 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "vibration-k1-400.webp",
+      "vibration-k1-800.webp"
+    ],
+    "poids": {
+      "vibration-k1-400.webp": 67976,
+      "vibration-k1-800.webp": 247780
+    },
+    "media": "c.media({ nom: 'vibration-k1', alt: \"Vibration nature 2025 K1, estampe verticale en ocres et olive\", cadrage: '49% 73%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '7 / 16' })"
+  },
+  "vibration-n1": {
+    "nom": "vibration-n1",
+    "source": "recu/ewa-design-recu/serie-vibration-nature-2025-2.jpg",
+    "role": "galerie",
+    "alt": "Vibration nature 2025 N1, estampe verticale en ocres et olive",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "59512259e0f5f9da",
+    "ratio": "7:16",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "47% 45%",
+    "sujet": {
+      "x": 35.3,
+      "y": 30.9,
+      "l": 23.5,
+      "h": 27.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 875,
+      "height": 2000,
+      "source": [
+        875,
+        2000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "875 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "vibration-n1-400.webp",
+      "vibration-n1-800.webp"
+    ],
+    "poids": {
+      "vibration-n1-400.webp": 64956,
+      "vibration-n1-800.webp": 237354
+    },
+    "media": "c.media({ nom: 'vibration-n1', alt: \"Vibration nature 2025 N1, estampe verticale en ocres et olive\", cadrage: '47% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '7 / 16' })"
+  },
+  "archi-rubans": {
+    "nom": "archi-rubans",
+    "source": "recu/ewa-design-recu/complexe-sportif-futuriste-rubans.png",
+    "role": "ouverture",
+    "alt": "Croquis aquarellé d'un complexe sportif en rubans fluides, concours de Chan Chan au Pérou",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "b5c97ead7ed193f0",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      960,
+      1440
+    ],
+    "mobile": null,
+    "cadrage": "50% 45%",
+    "sujet": {
+      "x": 10.8,
+      "y": 16.2,
+      "l": 80.7,
+      "h": 47.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 248,
+      "top": 0,
+      "width": 1221,
+      "height": 916,
+      "source": [
+        1717,
+        916
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,18 fois (source de 1221 px après recadrage)"
+    ],
+    "fichiers": [
+      "archi-rubans-640.webp",
+      "archi-rubans-960.webp",
+      "archi-rubans-1440.webp"
+    ],
+    "poids": {
+      "archi-rubans-640.webp": 105200,
+      "archi-rubans-960.webp": 220354,
+      "archi-rubans-1440.webp": 289302
+    },
+    "media": "c.media({ nom: 'archi-rubans', alt: \"Croquis aquarellé d'un complexe sportif en rubans fluides, concours de Chan Chan au Pérou\", cadrage: '50% 45%', sizes: '100vw', priorite: true })"
+  },
+  "archi-cotier": {
+    "nom": "archi-cotier",
+    "source": "recu/ewa-design-recu/complexe-cotier-futuriste-rubans.png",
+    "role": "ouverture",
+    "alt": "Croquis d'un complexe côtier en rubans au bord de l'eau",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "efaa67e82162cbd1",
+    "ratio": "21:9",
+    "largeurs": [
+      640,
+      1280,
+      1536
+    ],
+    "mobile": {
+      "ratio": "4:3",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 48%"
+    },
+    "cadrage": "54% 50%",
+    "sujet": {
+      "x": 33.8,
+      "y": 5,
+      "l": 42.6,
+      "h": 71
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 163,
+      "width": 1536,
+      "height": 658,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "archi-cotier-640.webp",
+      "archi-cotier-1280.webp",
+      "archi-cotier-1536.webp",
+      "archi-cotier-mobile-640.webp",
+      "archi-cotier-mobile-1080.webp"
+    ],
+    "poids": {
+      "archi-cotier-640.webp": 56914,
+      "archi-cotier-1280.webp": 213364,
+      "archi-cotier-1536.webp": 297282,
+      "archi-cotier-mobile-640.webp": 87078,
+      "archi-cotier-mobile-1080.webp": 240082
+    },
+    "media": "c.media({ nom: 'archi-cotier', alt: \"Croquis d'un complexe côtier en rubans au bord de l'eau\", cadrage: '54% 50%', cadrageMobile: '50% 48%', sizes: '100vw', priorite: true })"
+  },
+  "habitat-prairie": {
+    "nom": "habitat-prairie",
+    "source": "recu/ewa-design-recu/habitat-autonome-ewa-design-5.png",
+    "role": "section-fond",
+    "alt": "Habitat autonome en bois avec serre et panneaux solaires, dans une prairie avec des moutons",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "126b58aa54d1c7dd",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1689
+    ],
+    "mobile": null,
+    "cadrage": "53% 55%",
+    "sujet": {
+      "x": 22,
+      "y": 34.1,
+      "l": 78,
+      "h": 37.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.34,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 34,
+      "top": 0,
+      "width": 1655,
+      "height": 931,
+      "source": [
+        1689,
+        931
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "habitat-prairie-640.webp",
+      "habitat-prairie-1280.webp",
+      "habitat-prairie-1689.webp"
+    ],
+    "poids": {
+      "habitat-prairie-640.webp": 48080,
+      "habitat-prairie-1280.webp": 194928,
+      "habitat-prairie-1689.webp": 287790
+    },
+    "media": "c.media({ nom: 'habitat-prairie', alt: \"Habitat autonome en bois avec serre et panneaux solaires, dans une prairie avec des moutons\", cadrage: '53% 55%', sizes: '100vw' })"
+  },
+  "habitat-lisiere": {
+    "nom": "habitat-lisiere",
+    "source": "recu/ewa-design-recu/habitat-autonome-ewa-design-4.png",
+    "role": "galerie",
+    "alt": "Habitat autonome en bois en lisière de forêt",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "bd206f2492988b3b",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "53% 57%",
+    "sujet": {
+      "x": 7.7,
+      "y": 37.5,
+      "l": 92.2,
+      "h": 41.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 339,
+      "top": 0,
+      "width": 1511,
+      "height": 850,
+      "source": [
+        1850,
+        850
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "habitat-lisiere-640.webp",
+      "habitat-lisiere-1280.webp"
+    ],
+    "poids": {
+      "habitat-lisiere-640.webp": 52978,
+      "habitat-lisiere-1280.webp": 199120
+    },
+    "media": "c.media({ nom: 'habitat-lisiere', alt: \"Habitat autonome en bois en lisière de forêt\", cadrage: '53% 57%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 9' })"
+  },
+  "habitat-groupe": {
+    "nom": "habitat-groupe",
+    "source": "recu/ewa-design-recu/habitat-autonome-ewa-design-6.png",
+    "role": "galerie",
+    "alt": "Trois modules d'habitat autonome reliés par une serre",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b11a32e489e8f3ce",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 12.4,
+      "y": 29.6,
+      "l": 85.6,
+      "h": 37.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 198,
+      "top": 0,
+      "width": 1518,
+      "height": 854,
+      "source": [
+        1840,
+        854
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "habitat-groupe-640.webp",
+      "habitat-groupe-1280.webp"
+    ],
+    "poids": {
+      "habitat-groupe-640.webp": 53650,
+      "habitat-groupe-1280.webp": 184464
+    },
+    "media": "c.media({ nom: 'habitat-groupe', alt: \"Trois modules d'habitat autonome reliés par une serre\", cadrage: '50% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 9' })"
+  },
+  "habitat-coupe": {
+    "nom": "habitat-coupe",
+    "source": "recu/ewa-design-recu/habitat-autonome-ewa-design-3.png",
+    "role": "galerie",
+    "alt": "Coupe d'un module d'habitat autonome : serre verticale, récupération de l'eau de pluie, géothermie",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f3e624307019dc79",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 16.4,
+      "y": 11.6,
+      "l": 83.6,
+      "h": 83.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 66,
+      "top": 0,
+      "width": 1179,
+      "height": 1179,
+      "source": [
+        1334,
+        1179
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,09 fois (source de 1179 px après recadrage)"
+    ],
+    "fichiers": [
+      "habitat-coupe-480.webp",
+      "habitat-coupe-960.webp",
+      "habitat-coupe-1280.webp"
+    ],
+    "poids": {
+      "habitat-coupe-480.webp": 36380,
+      "habitat-coupe-960.webp": 125164,
+      "habitat-coupe-1280.webp": 180214
+    },
+    "media": "c.media({ nom: 'habitat-coupe', alt: \"Coupe d'un module d'habitat autonome : serre verticale, récupération de l'eau de pluie, géothermie\", cadrage: '49% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "eco-flottant": {
+    "nom": "eco-flottant",
+    "source": "recu/ewa-design-recu/eco-quartier-ewa-design-5.png",
+    "role": "galerie",
+    "alt": "Maisons sur pilotis au bord d'un lac, quartier écologique",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "387e684a6194b713",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 3.6,
+      "y": 38,
+      "l": 94.7,
+      "h": 30.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 3,
+      "top": 0,
+      "width": 1636,
+      "height": 920,
+      "source": [
+        1710,
+        920
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "eco-flottant-640.webp",
+      "eco-flottant-1280.webp"
+    ],
+    "poids": {
+      "eco-flottant-640.webp": 57924,
+      "eco-flottant-1280.webp": 192268
+    },
+    "media": "c.media({ nom: 'eco-flottant', alt: \"Maisons sur pilotis au bord d'un lac, quartier écologique\", cadrage: '50% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 9' })"
+  },
+  "eco-anneau": {
+    "nom": "eco-anneau",
+    "source": "recu/ewa-design-recu/eco-quartier-ewa-design-3.png",
+    "role": "galerie",
+    "alt": "Île-jardin en anneau au large d'une ville côtière",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "05830ddf55796fe7",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "52% 65%",
+    "sujet": {
+      "x": 41.5,
+      "y": 60.4,
+      "l": 32.9,
+      "h": 20.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.38,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.35,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 227,
+      "top": 0,
+      "width": 1563,
+      "height": 879,
+      "source": [
+        1790,
+        879
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "eco-anneau-640.webp",
+      "eco-anneau-1280.webp"
+    ],
+    "poids": {
+      "eco-anneau-640.webp": 28074,
+      "eco-anneau-1280.webp": 86876
+    },
+    "media": "c.media({ nom: 'eco-anneau', alt: \"Île-jardin en anneau au large d'une ville côtière\", cadrage: '52% 65%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 9' })"
+  },
+  "urb-plan": {
+    "nom": "urb-plan",
+    "source": "recu/ewa-design-recu/urb-4.jpg",
+    "role": "vignette",
+    "alt": "Plan masse d'un quartier flottant en étoile sur la mer",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f22fc966f38e1a42",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 23.6,
+      "y": 34.6,
+      "l": 34.8,
+      "h": 37.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 10,
+      "top": 0,
+      "width": 1024,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "urb-plan-480.webp",
+      "urb-plan-960.webp"
+    ],
+    "poids": {
+      "urb-plan-480.webp": 71328,
+      "urb-plan-960.webp": 217858
+    },
+    "media": "c.media({ nom: 'urb-plan', alt: \"Plan masse d'un quartier flottant en étoile sur la mer\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "croquis-art-chitecture": {
+    "nom": "croquis-art-chitecture",
+    "source": "recu/ewa-design-recu/art-chitecture.png",
+    "role": "galerie",
+    "alt": "Croquis aquarellé non photoréaliste d'un ensemble de rubans de béton et de verre",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "914486c394757e0c",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1536
+    ],
+    "mobile": null,
+    "cadrage": "48% 45%",
+    "sujet": {
+      "x": 29.4,
+      "y": 23.5,
+      "l": 38.2,
+      "h": 44.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "croquis-art-chitecture-640.webp",
+      "croquis-art-chitecture-1280.webp",
+      "croquis-art-chitecture-1536.webp"
+    ],
+    "poids": {
+      "croquis-art-chitecture-640.webp": 89226,
+      "croquis-art-chitecture-1280.webp": 261100,
+      "croquis-art-chitecture-1536.webp": 297096
+    },
+    "media": "c.media({ nom: 'croquis-art-chitecture', alt: \"Croquis aquarellé non photoréaliste d'un ensemble de rubans de béton et de verre\", cadrage: '48% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "croquis-villa-couleurs": {
+    "nom": "croquis-villa-couleurs",
+    "source": "recu/ewa-design-recu/villa-contemporaine-couleurs-abstraites.png",
+    "role": "galerie",
+    "alt": "Villa contemporaine au bord d'une piscine, croquis aux couleurs d'estampe",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "1833382ba2e47024",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1536
+    ],
+    "mobile": null,
+    "cadrage": "53% 47%",
+    "sujet": {
+      "x": 29.4,
+      "y": 26.5,
+      "l": 45.6,
+      "h": 41.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "croquis-villa-couleurs-640.webp",
+      "croquis-villa-couleurs-1280.webp",
+      "croquis-villa-couleurs-1536.webp"
+    ],
+    "poids": {
+      "croquis-villa-couleurs-640.webp": 92882,
+      "croquis-villa-couleurs-1280.webp": 278080,
+      "croquis-villa-couleurs-1536.webp": 319162
+    },
+    "media": "c.media({ nom: 'croquis-villa-couleurs', alt: \"Villa contemporaine au bord d'une piscine, croquis aux couleurs d'estampe\", cadrage: '53% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "croquis-villa-encre": {
+    "nom": "croquis-villa-encre",
+    "source": "recu/ewa-design-recu/villa-contemporaine-encre-lumiere.png",
+    "role": "galerie",
+    "alt": "Villa contemporaine dessinée à l'encre, en noir et blanc",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "243e81b371853012",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 22.1,
+      "y": 25,
+      "l": 55.8,
+      "h": 45.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 230,
+      "top": 0,
+      "width": 1412,
+      "height": 941,
+      "source": [
+        1672,
+        941
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "croquis-villa-encre-640.webp",
+      "croquis-villa-encre-1280.webp"
+    ],
+    "poids": {
+      "croquis-villa-encre-640.webp": 76378,
+      "croquis-villa-encre-1280.webp": 239660
+    },
+    "media": "c.media({ nom: 'croquis-villa-encre', alt: \"Villa contemporaine dessinée à l'encre, en noir et blanc\", cadrage: '50% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "concours-terre": {
+    "nom": "concours-terre",
+    "source": "recu/ewa-design-recu/sthr.png",
+    "role": "vignette",
+    "alt": "École en terre aux voûtes en chaînette, concours pour la Tanzanie",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "cfb85b58bbddc1d1",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 37.8,
+      "l": 100,
+      "h": 41.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.92,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 280,
+      "top": 0,
+      "width": 1195,
+      "height": 896,
+      "source": [
+        1754,
+        896
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "concours-terre-480.webp",
+      "concours-terre-960.webp"
+    ],
+    "poids": {
+      "concours-terre-480.webp": 23114,
+      "concours-terre-960.webp": 81360
+    },
+    "media": "c.media({ nom: 'concours-terre', alt: \"École en terre aux voûtes en chaînette, concours pour la Tanzanie\", cadrage: '50% 55%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "concours-karatu": {
+    "nom": "concours-karatu",
+    "source": "recu/ewa-design-recu/unknown-1.jpg",
+    "role": "vignette",
+    "alt": "Maisons à dômes sous un acacia, maison de la famille Jorejick à Karatu",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "8a6f64f16b5bc399",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 62%",
+    "sujet": {
+      "x": 20.4,
+      "y": 48.5,
+      "l": 55.5,
+      "h": 27.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 197,
+      "top": 0,
+      "width": 732,
+      "height": 549,
+      "source": [
+        1024,
+        549
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1024 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,09 fois (source de 732 px après recadrage)"
+    ],
+    "fichiers": [
+      "concours-karatu-480.webp",
+      "concours-karatu-800.webp"
+    ],
+    "poids": {
+      "concours-karatu-480.webp": 48124,
+      "concours-karatu-800.webp": 107170
+    },
+    "media": "c.media({ nom: 'concours-karatu', alt: \"Maisons à dômes sous un acacia, maison de la famille Jorejick à Karatu\", cadrage: '50% 62%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "concours-makoko": {
+    "nom": "concours-makoko",
+    "source": "recu/ewa-design-recu/unknown-2.jpg",
+    "role": "vignette",
+    "alt": "Habitat flottant sur la lagune de Makoko à Lagos",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "6b49ccdcfef8ff5d",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 40%",
+    "sujet": {
+      "x": 18.5,
+      "y": 7.4,
+      "l": 63.8,
+      "h": 64.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 136,
+      "top": 0,
+      "width": 732,
+      "height": 549,
+      "source": [
+        1024,
+        549
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1024 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,09 fois (source de 732 px après recadrage)"
+    ],
+    "fichiers": [
+      "concours-makoko-480.webp",
+      "concours-makoko-800.webp"
+    ],
+    "poids": {
+      "concours-makoko-480.webp": 46838,
+      "concours-makoko-800.webp": 107916
+    },
+    "media": "c.media({ nom: 'concours-makoko', alt: \"Habitat flottant sur la lagune de Makoko à Lagos\", cadrage: '50% 40%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "concours-martinique": {
+    "nom": "concours-martinique",
+    "source": "recu/ewa-design-recu/concours-ewa-design-16.png",
+    "role": "vignette",
+    "alt": "Presqu'île de La Pointe du Bout en Martinique, site du concours d'hôtel",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e24450bffc851c7b",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 37%",
+    "sujet": {
+      "x": 18.4,
+      "y": 17.6,
+      "l": 66.2,
+      "h": 39.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.5,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 230,
+      "top": 0,
+      "width": 1221,
+      "height": 916,
+      "source": [
+        1716,
+        916
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "concours-martinique-480.webp",
+      "concours-martinique-960.webp"
+    ],
+    "poids": {
+      "concours-martinique-480.webp": 38692,
+      "concours-martinique-960.webp": 138278
+    },
+    "media": "c.media({ nom: 'concours-martinique', alt: \"Presqu'île de La Pointe du Bout en Martinique, site du concours d'hôtel\", cadrage: '50% 37%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "concours-iep": {
+    "nom": "concours-iep",
+    "source": "recu/ewa-design-recu/concours-1-b.jpg",
+    "role": "vignette",
+    "alt": "Plan du concours de l'Institut d'études politiques de Bordeaux",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "9b89b8555cb088c3",
+    "ratio": "4:3",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 26.5,
+      "l": 100,
+      "h": 68.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 137,
+      "top": 0,
+      "width": 667,
+      "height": 500,
+      "source": [
+        980,
+        500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "980 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "concours-iep-480.webp"
+    ],
+    "poids": {
+      "concours-iep-480.webp": 18676
+    },
+    "media": "c.media({ nom: 'concours-iep', alt: \"Plan du concours de l'Institut d'études politiques de Bordeaux\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "concours-tampere": {
+    "nom": "concours-tampere",
+    "source": "recu/ewa-design-recu/tampere-2-3.jpg",
+    "role": "vignette",
+    "alt": "Maquette du quartier écologique EUROPAN 10 à Tampere",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "0d10a02fa9012586",
+    "ratio": "4:3",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "50% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 12.4,
+      "l": 100,
+      "h": 76.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 147,
+      "top": 0,
+      "width": 667,
+      "height": 500,
+      "source": [
+        980,
+        500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "980 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "concours-tampere-480.webp"
+    ],
+    "poids": {
+      "concours-tampere-480.webp": 11202
+    },
+    "media": "c.media({ nom: 'concours-tampere', alt: \"Maquette du quartier écologique EUROPAN 10 à Tampere\", cadrage: '50% 45%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "concours-glace": {
+    "nom": "concours-glace",
+    "source": "recu/ewa-design-recu/hut-1-fichier-images.jpg",
+    "role": "vignette",
+    "alt": "Labyrinthe de cylindres de glace teintée, Warming Huts 2021",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "5ec5f64533a4b2d6",
+    "ratio": "4:3",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "50% 57%",
+    "sujet": {
+      "x": 16,
+      "y": 40.7,
+      "l": 46,
+      "h": 24.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 19,
+      "top": 0,
+      "width": 667,
+      "height": 500,
+      "source": [
+        980,
+        500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "980 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "concours-glace-480.webp"
+    ],
+    "poids": {
+      "concours-glace-480.webp": 34638
+    },
+    "media": "c.media({ nom: 'concours-glace', alt: \"Labyrinthe de cylindres de glace teintée, Warming Huts 2021\", cadrage: '50% 57%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "concours-chanchan": {
+    "nom": "concours-chanchan",
+    "source": "recu/ewa-design-recu/dteee.png",
+    "role": "vignette",
+    "alt": "Perspective du concours de Chan Chan au Pérou",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "dc0df68c36376efc",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 40%",
+    "sujet": {
+      "x": 0,
+      "y": 8.8,
+      "l": 100,
+      "h": 69.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 124,
+      "top": 0,
+      "width": 1225,
+      "height": 919,
+      "source": [
+        1712,
+        919
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "concours-chanchan-480.webp",
+      "concours-chanchan-960.webp"
+    ],
+    "poids": {
+      "concours-chanchan-480.webp": 32678,
+      "concours-chanchan-960.webp": 103512
+    },
+    "media": "c.media({ nom: 'concours-chanchan', alt: \"Perspective du concours de Chan Chan au Pérou\", cadrage: '50% 40%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "kiosque-1": {
+    "nom": "kiosque-1",
+    "source": "recu/ewa-design-recu/design-commercial-ewa-design-3.png",
+    "role": "galerie",
+    "alt": "Kiosque The Crêpe Café en noir et jaune dans une galerie marchande",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a1d270bb3556fd93",
+    "ratio": "16:10",
+    "largeurs": [
+      640,
+      1280,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "51% 36%",
+    "sujet": {
+      "x": 9.1,
+      "y": 20.6,
+      "l": 69.4,
+      "h": 32.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 74,
+      "top": 0,
+      "width": 1550,
+      "height": 969,
+      "source": [
+        1624,
+        969
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "kiosque-1-640.webp",
+      "kiosque-1-1280.webp",
+      "kiosque-1-1600.webp"
+    ],
+    "poids": {
+      "kiosque-1-640.webp": 34932,
+      "kiosque-1-1280.webp": 104046,
+      "kiosque-1-1600.webp": 134016
+    },
+    "media": "c.media({ nom: 'kiosque-1', alt: \"Kiosque The Crêpe Café en noir et jaune dans une galerie marchande\", cadrage: '51% 36%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 10' })"
+  },
+  "kiosque-2": {
+    "nom": "kiosque-2",
+    "source": "recu/ewa-design-recu/design-commercial-ewa-design-2.png",
+    "role": "galerie",
+    "alt": "Comptoir du kiosque The Crêpe Café et sa zone de consommation",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "3d7c63c86fdb201e",
+    "ratio": "16:10",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "28% 33%",
+    "sujet": {
+      "x": 12.3,
+      "y": 23.5,
+      "l": 32.2,
+      "h": 19.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.44,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1555,
+      "height": 972,
+      "source": [
+        1619,
+        972
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "kiosque-2-640.webp",
+      "kiosque-2-1280.webp"
+    ],
+    "poids": {
+      "kiosque-2-640.webp": 25142,
+      "kiosque-2-1280.webp": 68272
+    },
+    "media": "c.media({ nom: 'kiosque-2', alt: \"Comptoir du kiosque The Crêpe Café et sa zone de consommation\", cadrage: '28% 33%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 10' })"
+  },
+  "kiosque-3": {
+    "nom": "kiosque-3",
+    "source": "recu/ewa-design-recu/design-commercial-ewa-design-4.png",
+    "role": "galerie",
+    "alt": "Vue plongeante sur la cuisine et le comptoir d'un kiosque",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c74c63f894fba261",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 39%",
+    "sujet": {
+      "x": 0,
+      "y": 0.2,
+      "l": 100,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 156,
+      "top": 0,
+      "width": 954,
+      "height": 1193,
+      "source": [
+        1319,
+        1193
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "kiosque-3-480.webp",
+      "kiosque-3-960.webp"
+    ],
+    "poids": {
+      "kiosque-3-480.webp": 33192,
+      "kiosque-3-960.webp": 88226
+    },
+    "media": "c.media({ nom: 'kiosque-3', alt: \"Vue plongeante sur la cuisine et le comptoir d'un kiosque\", cadrage: '50% 39%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "interieur-salon": {
+    "nom": "interieur-salon",
+    "source": "recu/ewa-design-recu/design-interieur-ewa-design-11.jpg",
+    "role": "galerie",
+    "alt": "Salon aux formes organiques sous un grand plafond courbe",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "44150be00d27879d",
+    "ratio": "16:10",
+    "largeurs": [
+      640,
+      1280,
+      1536
+    ],
+    "mobile": null,
+    "cadrage": "53% 39%",
+    "sujet": {
+      "x": 36,
+      "y": 11.6,
+      "l": 34.2,
+      "h": 43.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 960,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "interieur-salon-640.webp",
+      "interieur-salon-1280.webp",
+      "interieur-salon-1536.webp"
+    ],
+    "poids": {
+      "interieur-salon-640.webp": 53314,
+      "interieur-salon-1280.webp": 176402,
+      "interieur-salon-1536.webp": 229118
+    },
+    "media": "c.media({ nom: 'interieur-salon', alt: \"Salon aux formes organiques sous un grand plafond courbe\", cadrage: '53% 39%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 10' })"
+  },
+  "interieur-banquette": {
+    "nom": "interieur-banquette",
+    "source": "recu/ewa-design-recu/design-interieur-ewa-design-7.png",
+    "role": "galerie",
+    "alt": "Banquette blanche organique éclairée par le bas",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b97e374b7b4ce89c",
+    "ratio": "16:10",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "47% 49%",
+    "sujet": {
+      "x": 0.3,
+      "y": 17.9,
+      "l": 84.1,
+      "h": 69.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1581,
+      "height": 988,
+      "source": [
+        1581,
+        995
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "interieur-banquette-640.webp",
+      "interieur-banquette-1280.webp"
+    ],
+    "poids": {
+      "interieur-banquette-640.webp": 29122,
+      "interieur-banquette-1280.webp": 83974
+    },
+    "media": "c.media({ nom: 'interieur-banquette', alt: \"Banquette blanche organique éclairée par le bas\", cadrage: '47% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 10' })"
+  },
+  "interieur-sombre": {
+    "nom": "interieur-sombre",
+    "source": "recu/ewa-design-recu/design-interieur-ewa-design-10.png",
+    "role": "galerie",
+    "alt": "Salle de bain sombre aux niches lumineuses et baignoire noire",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "db480f203631f64a",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "50% 57%",
+    "sujet": {
+      "x": 6.4,
+      "y": 38.2,
+      "l": 93.6,
+      "h": 36.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.61,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.47,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.46,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.41,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 221,
+      "top": 0,
+      "width": 1229,
+      "height": 922,
+      "source": [
+        1706,
+        922
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "interieur-sombre-640.webp",
+      "interieur-sombre-1280.webp"
+    ],
+    "poids": {
+      "interieur-sombre-640.webp": 13854,
+      "interieur-sombre-1280.webp": 42896
+    },
+    "media": "c.media({ nom: 'interieur-sombre', alt: \"Salle de bain sombre aux niches lumineuses et baignoire noire\", cadrage: '50% 57%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "interieur-riad": {
+    "nom": "interieur-riad",
+    "source": "recu/ewa-design-recu/design-interieur-ewa-design-4.png",
+    "role": "galerie",
+    "alt": "Lanterne de laiton sous une coupole de plâtre sculpté",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f36c3ec3d9613374",
+    "ratio": "16:10",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 40.5,
+      "y": 32.4,
+      "l": 18.4,
+      "h": 41.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.59,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.44,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.43,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 117,
+      "top": 0,
+      "width": 1490,
+      "height": 931,
+      "source": [
+        1690,
+        931
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "interieur-riad-640.webp",
+      "interieur-riad-1280.webp"
+    ],
+    "poids": {
+      "interieur-riad-640.webp": 46336,
+      "interieur-riad-1280.webp": 163190
+    },
+    "media": "c.media({ nom: 'interieur-riad', alt: \"Lanterne de laiton sous une coupole de plâtre sculpté\", cadrage: '50% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 10' })"
+  },
+  "lustre-verre": {
+    "nom": "lustre-verre",
+    "source": "recu/agrandi/lustre-verre-suspendu-lobby.png",
+    "role": "ouverture",
+    "alt": "Lustre de plaques de verre colorées suspendu dans un hall",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "e7e4aa821f1b6852",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      960,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "46% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1382,
+      "height": 1728,
+      "source": [
+        1440,
+        1728
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "lustre-verre-480.webp",
+      "lustre-verre-960.webp",
+      "lustre-verre-1280.webp"
+    ],
+    "poids": {
+      "lustre-verre-480.webp": 70438,
+      "lustre-verre-960.webp": 221160,
+      "lustre-verre-1280.webp": 265320
+    },
+    "media": "c.media({ nom: 'lustre-verre', alt: \"Lustre de plaques de verre colorées suspendu dans un hall\", cadrage: '46% 53%', sizes: '100vw', priorite: true })"
+  },
+  "installation-lumiere": {
+    "nom": "installation-lumiere",
+    "source": "recu/ewa-design-recu/installation-abstraite-lumineuse-hall.jpg",
+    "role": "galerie",
+    "alt": "Installation murale lumineuse de verre coloré dans un hall",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "1fc65625f58bc1b4",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1199
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 28,
+      "y": 25,
+      "l": 45.1,
+      "h": 42.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 70,
+      "top": 0,
+      "width": 1199,
+      "height": 1199,
+      "source": [
+        1312,
+        1199
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "installation-lumiere-480.webp",
+      "installation-lumiere-960.webp",
+      "installation-lumiere-1199.webp"
+    ],
+    "poids": {
+      "installation-lumiere-480.webp": 54360,
+      "installation-lumiere-960.webp": 173426,
+      "installation-lumiere-1199.webp": 241424
+    },
+    "media": "c.media({ nom: 'installation-lumiere', alt: \"Installation murale lumineuse de verre coloré dans un hall\", cadrage: '50% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "sculpture-corten": {
+    "nom": "sculpture-corten",
+    "source": "recu/ewa-design-recu/sculpture-abstraite-acier-rouille.png",
+    "role": "section-fond",
+    "alt": "Sculpture d'acier Corten aux ailes effilées sur un rond-point planté",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "c66d173a4e5374eb",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1536
+    ],
+    "mobile": null,
+    "cadrage": "53% 43%",
+    "sujet": {
+      "x": 16,
+      "y": 18.2,
+      "l": 72.9,
+      "h": 36.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.28,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculpture-corten-640.webp",
+      "sculpture-corten-1280.webp",
+      "sculpture-corten-1536.webp"
+    ],
+    "poids": {
+      "sculpture-corten-640.webp": 57652,
+      "sculpture-corten-1280.webp": 195840,
+      "sculpture-corten-1536.webp": 264900
+    },
+    "media": "c.media({ nom: 'sculpture-corten', alt: \"Sculpture d'acier Corten aux ailes effilées sur un rond-point planté\", cadrage: '53% 43%', sizes: '100vw' })"
+  },
+  "sculpture-corten-2": {
+    "nom": "sculpture-corten-2",
+    "source": "recu/ewa-design-recu/sculpture-acier-corten-rond.png",
+    "role": "galerie",
+    "alt": "Sculpture d'acier Corten en rubans tendus",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "043db88f2c79aa32",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "61% 43%",
+    "sujet": {
+      "x": 44.8,
+      "y": 12.4,
+      "l": 49.7,
+      "h": 57.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.31,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculpture-corten-2-640.webp",
+      "sculpture-corten-2-1280.webp"
+    ],
+    "poids": {
+      "sculpture-corten-2-640.webp": 53544,
+      "sculpture-corten-2-1280.webp": 187256
+    },
+    "media": "c.media({ nom: 'sculpture-corten-2', alt: \"Sculpture d'acier Corten en rubans tendus\", cadrage: '61% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "lum-ondoring": {
+    "nom": "lum-ondoring",
+    "source": "recu/ewa-design-recu/affiche-ondoring-design-organique.png",
+    "role": "vignette",
+    "alt": "Planche Ondoring : luminaire organique en anneaux lumineux",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "37c02a07f09f03c5",
+    "ratio": "1199:1312",
+    "largeurs": [
+      480,
+      960,
+      1536
+    ],
+    "mobile": null,
+    "cadrage": "51% 36%",
+    "sujet": {
+      "x": 20,
+      "y": 8,
+      "l": 78.9,
+      "h": 50.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1199,
+      "height": 1312,
+      "source": [
+        1199,
+        1312
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1199 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1199 px après recadrage)"
+    ],
+    "fichiers": [
+      "lum-ondoring-480.webp",
+      "lum-ondoring-960.webp",
+      "lum-ondoring-1536.webp"
+    ],
+    "poids": {
+      "lum-ondoring-480.webp": 46602,
+      "lum-ondoring-960.webp": 133042,
+      "lum-ondoring-1536.webp": 232500
+    },
+    "media": "c.media({ nom: 'lum-ondoring', alt: \"Planche Ondoring : luminaire organique en anneaux lumineux\", cadrage: '51% 36%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1199 / 1312' })"
+  },
+  "lum-toroflux": {
+    "nom": "lum-toroflux",
+    "source": "recu/ewa-design-recu/ewa-design-toroflux-sculpture.png",
+    "role": "vignette",
+    "alt": "Planche Toroflux : sculpture lumineuse en tore",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "4fb3fcd1ab081227",
+    "ratio": "1199:1312",
+    "largeurs": [
+      480,
+      960,
+      1536
+    ],
+    "mobile": null,
+    "cadrage": "55% 35%",
+    "sujet": {
+      "x": 33.3,
+      "y": 7.2,
+      "l": 63.4,
+      "h": 63.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1199,
+      "height": 1312,
+      "source": [
+        1199,
+        1312
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1199 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1199 px après recadrage)"
+    ],
+    "fichiers": [
+      "lum-toroflux-480.webp",
+      "lum-toroflux-960.webp",
+      "lum-toroflux-1536.webp"
+    ],
+    "poids": {
+      "lum-toroflux-480.webp": 58012,
+      "lum-toroflux-960.webp": 178596,
+      "lum-toroflux-1536.webp": 258388
+    },
+    "media": "c.media({ nom: 'lum-toroflux', alt: \"Planche Toroflux : sculpture lumineuse en tore\", cadrage: '55% 35%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1199 / 1312' })"
+  },
+  "lum-saddeflux": {
+    "nom": "lum-saddeflux",
+    "source": "recu/ewa-design-recu/affiche-ewa-design-selle.png",
+    "role": "vignette",
+    "alt": "Planche Saddeflux : lumière structurelle en selle",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "eb9f0aaf6a53eee0",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      960,
+      1536
+    ],
+    "mobile": null,
+    "cadrage": "47% 43%",
+    "sujet": {
+      "x": 5.9,
+      "y": 8.8,
+      "l": 77.9,
+      "h": 75
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "lum-saddeflux-480.webp",
+      "lum-saddeflux-960.webp",
+      "lum-saddeflux-1536.webp"
+    ],
+    "poids": {
+      "lum-saddeflux-480.webp": 33718,
+      "lum-saddeflux-960.webp": 107530,
+      "lum-saddeflux-1536.webp": 223336
+    },
+    "media": "c.media({ nom: 'lum-saddeflux', alt: \"Planche Saddeflux : lumière structurelle en selle\", cadrage: '47% 43%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "lum-strates": {
+    "nom": "lum-strates",
+    "source": "recu/ewa-design-recu/planche-design-strates-bambou.png",
+    "role": "vignette",
+    "alt": "Planche Strates : lampe en lamelles de bambou",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "065e4fa72bfbb4fe",
+    "ratio": "1312:1199",
+    "largeurs": [
+      480,
+      960,
+      1536
+    ],
+    "mobile": null,
+    "cadrage": "26% 33%",
+    "sujet": {
+      "x": 17.1,
+      "y": 4.9,
+      "l": 28.5,
+      "h": 40.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.11,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1312,
+      "height": 1199,
+      "source": [
+        1312,
+        1199
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1312 px après recadrage)"
+    ],
+    "fichiers": [
+      "lum-strates-480.webp",
+      "lum-strates-960.webp",
+      "lum-strates-1536.webp"
+    ],
+    "poids": {
+      "lum-strates-480.webp": 43572,
+      "lum-strates-960.webp": 128744,
+      "lum-strates-1536.webp": 232792
+    },
+    "media": "c.media({ nom: 'lum-strates', alt: \"Planche Strates : lampe en lamelles de bambou\", cadrage: '26% 33%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1312 / 1199' })"
+  },
+  "lum-blob": {
+    "nom": "lum-blob",
+    "source": "recu/ewa-design-recu/planche-design-lampe-blob.jpg",
+    "role": "vignette",
+    "alt": "Planche de la lampe Blob",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "e7e5d149d501b391",
+    "ratio": "1312:1199",
+    "largeurs": [
+      480,
+      960,
+      1536
+    ],
+    "mobile": null,
+    "cadrage": "53% 37%",
+    "sujet": {
+      "x": 6.6,
+      "y": 5.7,
+      "l": 88.2,
+      "h": 63.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1312,
+      "height": 1199,
+      "source": [
+        1312,
+        1199
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1312 px après recadrage)"
+    ],
+    "fichiers": [
+      "lum-blob-480.webp",
+      "lum-blob-960.webp",
+      "lum-blob-1536.webp"
+    ],
+    "poids": {
+      "lum-blob-480.webp": 43940,
+      "lum-blob-960.webp": 133190,
+      "lum-blob-1536.webp": 239390
+    },
+    "media": "c.media({ nom: 'lum-blob', alt: \"Planche de la lampe Blob\", cadrage: '53% 37%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1312 / 1199' })"
+  },
+  "lum-blue-note": {
+    "nom": "lum-blue-note",
+    "source": "recu/ewa-design-recu/planche-design-blue-note.png",
+    "role": "vignette",
+    "alt": "Planche Blue Note : lampe sculpture lumineuse",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "ea8f24aab6513d62",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      960,
+      1536
+    ],
+    "mobile": null,
+    "cadrage": "33% 23%",
+    "sujet": {
+      "x": 25.5,
+      "y": 10.6,
+      "l": 14.3,
+      "h": 28.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "lum-blue-note-480.webp",
+      "lum-blue-note-960.webp",
+      "lum-blue-note-1536.webp"
+    ],
+    "poids": {
+      "lum-blue-note-480.webp": 39356,
+      "lum-blue-note-960.webp": 123938,
+      "lum-blue-note-1536.webp": 259866
+    },
+    "media": "c.media({ nom: 'lum-blue-note', alt: \"Planche Blue Note : lampe sculpture lumineuse\", cadrage: '33% 23%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "lum-cube": {
+    "nom": "lum-cube",
+    "source": "recu/ewa-design-recu/presentation-technique-cube-plexiglass.png",
+    "role": "vignette",
+    "alt": "Planche technique du cube lumineux en plexiglas",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d82f07b9ae65bde6",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      960,
+      1536
+    ],
+    "mobile": null,
+    "cadrage": "38% 27%",
+    "sujet": {
+      "x": 4.1,
+      "y": 4,
+      "l": 56.9,
+      "h": 43.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.02,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "lum-cube-480.webp",
+      "lum-cube-960.webp",
+      "lum-cube-1536.webp"
+    ],
+    "poids": {
+      "lum-cube-480.webp": 33252,
+      "lum-cube-960.webp": 118816,
+      "lum-cube-1536.webp": 261374
+    },
+    "media": "c.media({ nom: 'lum-cube', alt: \"Planche technique du cube lumineux en plexiglas\", cadrage: '38% 27%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "lum-lave": {
+    "nom": "lum-lave",
+    "source": "recu/ewa-design-recu/lave-suspension-lampe-sculpture.jpg",
+    "role": "vignette",
+    "alt": "Planche Lave en suspension : lampe en matière volcanique",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "37e62477f6875052",
+    "ratio": "1312:1199",
+    "largeurs": [
+      480,
+      960,
+      1536
+    ],
+    "mobile": null,
+    "cadrage": "34% 34%",
+    "sujet": {
+      "x": 1.5,
+      "y": 1.5,
+      "l": 76.5,
+      "h": 64.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1312,
+      "height": 1199,
+      "source": [
+        1312,
+        1199
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1312 px après recadrage)"
+    ],
+    "fichiers": [
+      "lum-lave-480.webp",
+      "lum-lave-960.webp",
+      "lum-lave-1536.webp"
+    ],
+    "poids": {
+      "lum-lave-480.webp": 44220,
+      "lum-lave-960.webp": 136606,
+      "lum-lave-1536.webp": 251626
+    },
+    "media": "c.media({ nom: 'lum-lave', alt: \"Planche Lave en suspension : lampe en matière volcanique\", cadrage: '34% 34%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1312 / 1199' })"
+  },
+  "chez-vente-4": {
+    "nom": "chez-vente-4",
+    "source": "recu/ewa-design-recu/vente-4.jpg",
+    "role": "vignette",
+    "alt": "Estampe aux couleurs vives accrochée au-dessus d'un buffet chez un collectionneur",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "9c3eb248f27c9426",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "58% 40%",
+    "sujet": {
+      "x": 47.4,
+      "y": 10.2,
+      "l": 45.1,
+      "h": 45.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.43,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.33,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 271,
+      "top": 0,
+      "width": 1729,
+      "height": 1297,
+      "source": [
+        2000,
+        1297
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chez-vente-4-480.webp",
+      "chez-vente-4-960.webp"
+    ],
+    "poids": {
+      "chez-vente-4-480.webp": 14444,
+      "chez-vente-4-960.webp": 39662
+    },
+    "media": "c.media({ nom: 'chez-vente-4', alt: \"Estampe aux couleurs vives accrochée au-dessus d'un buffet chez un collectionneur\", cadrage: '58% 40%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "chez-vente-6": {
+    "nom": "chez-vente-6",
+    "source": "recu/ewa-design-recu/vente-6.jpg",
+    "role": "vignette",
+    "alt": "Six estampes Splash posées au sol, un chien assis devant",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "fa3bdc7f0dcec744",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "29% 63%",
+    "sujet": {
+      "x": 13.6,
+      "y": 50,
+      "l": 24.3,
+      "h": 40.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.72,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.63,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.54,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chez-vente-6-480.webp",
+      "chez-vente-6-960.webp"
+    ],
+    "poids": {
+      "chez-vente-6-480.webp": 17030,
+      "chez-vente-6-960.webp": 52254
+    },
+    "media": "c.media({ nom: 'chez-vente-6', alt: \"Six estampes Splash posées au sol, un chien assis devant\", cadrage: '29% 63%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "chez-vente-3": {
+    "nom": "chez-vente-3",
+    "source": "recu/ewa-design-recu/vente-3.jpg",
+    "role": "vignette",
+    "alt": "Estampe encadrée posée dans un salon",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f67d72b0d664c425",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "49% 40%",
+    "sujet": {
+      "x": 32,
+      "y": 11.7,
+      "l": 34.3,
+      "h": 59.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.58,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.38,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.36,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1799,
+      "height": 1349,
+      "source": [
+        1799,
+        1349
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chez-vente-3-480.webp",
+      "chez-vente-3-960.webp"
+    ],
+    "poids": {
+      "chez-vente-3-480.webp": 12286,
+      "chez-vente-3-960.webp": 49726
+    },
+    "media": "c.media({ nom: 'chez-vente-3', alt: \"Estampe encadrée posée dans un salon\", cadrage: '49% 40%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "chez-vente-8": {
+    "nom": "chez-vente-8",
+    "source": "recu/ewa-design-recu/vente-8.jpg",
+    "role": "vignette",
+    "alt": "Tirage sur aluminium brossé posé contre un mur",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "2c1b205375db6761",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "51% 48%",
+    "sujet": {
+      "x": 10.9,
+      "y": 15.1,
+      "l": 78.1,
+      "h": 71.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.37,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1626
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chez-vente-8-480.webp",
+      "chez-vente-8-960.webp"
+    ],
+    "poids": {
+      "chez-vente-8-480.webp": 33266,
+      "chez-vente-8-960.webp": 120734
+    },
+    "media": "c.media({ nom: 'chez-vente-8', alt: \"Tirage sur aluminium brossé posé contre un mur\", cadrage: '51% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "chez-vente-7": {
+    "nom": "chez-vente-7",
+    "source": "recu/ewa-design-recu/vente-7.png",
+    "role": "vignette",
+    "alt": "Estampes encadrées accrochées dans un espace d'exposition",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "5ef5ab9e58240860",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "41% 49%",
+    "sujet": {
+      "x": 10.3,
+      "y": 35.4,
+      "l": 64.7,
+      "h": 28
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.57,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1754,
+      "height": 1316,
+      "source": [
+        1754,
+        1320
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chez-vente-7-480.webp",
+      "chez-vente-7-960.webp"
+    ],
+    "poids": {
+      "chez-vente-7-480.webp": 20504,
+      "chez-vente-7-960.webp": 62960
+    },
+    "media": "c.media({ nom: 'chez-vente-7', alt: \"Estampes encadrées accrochées dans un espace d'exposition\", cadrage: '41% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "chez-bor-2": {
+    "nom": "chez-bor-2",
+    "source": "recu/ewa-design-recu/bor-2.jpg",
+    "role": "vignette",
+    "alt": "Estampe encadrée au-dessus d'une étagère, à Bordeaux",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "3fc8f27d0fce2f88",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "55% 49%",
+    "sujet": {
+      "x": 32.4,
+      "y": 32.4,
+      "l": 50,
+      "h": 36.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.74,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.47,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chez-bor-2-480.webp",
+      "chez-bor-2-960.webp"
+    ],
+    "poids": {
+      "chez-bor-2-480.webp": 13184,
+      "chez-bor-2-960.webp": 37340
+    },
+    "media": "c.media({ nom: 'chez-bor-2', alt: \"Estampe encadrée au-dessus d'une étagère, à Bordeaux\", cadrage: '55% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "presse-accrochages": {
+    "nom": "presse-accrochages",
+    "source": "recu/ewa-design-recu/e-w-design-france.jpg",
+    "role": "vignette",
+    "alt": "Couverture du magazine Accrochages n° 274",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d9e8c76c679564fb",
+    "ratio": "1567:2000",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "55% 35%",
+    "sujet": {
+      "x": 41.2,
+      "y": 17.1,
+      "l": 35.7,
+      "h": 56.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1567,
+      "height": 2000,
+      "source": [
+        1567,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "presse-accrochages-480.webp",
+      "presse-accrochages-960.webp"
+    ],
+    "poids": {
+      "presse-accrochages-480.webp": 88848,
+      "presse-accrochages-960.webp": 297588
+    },
+    "media": "c.media({ nom: 'presse-accrochages', alt: \"Couverture du magazine Accrochages n° 274\", cadrage: '55% 35%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1567 / 2000' })"
+  },
+  "presse-nogent": {
+    "nom": "presse-nogent",
+    "source": "recu/ewa-design-recu/magazine-nogent-marne-ewa-6.png",
+    "role": "vignette",
+    "alt": "Couverture du magazine de Nogent-sur-Marne",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0139cb4a776ce725",
+    "ratio": "745:973",
+    "largeurs": [
+      480,
+      745
+    ],
+    "mobile": null,
+    "cadrage": "42% 35%",
+    "sujet": {
+      "x": 4.4,
+      "y": 20.9,
+      "l": 27.9,
+      "h": 45.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.16,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 745,
+      "height": 973,
+      "source": [
+        745,
+        973
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "745 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "presse-nogent-480.webp",
+      "presse-nogent-745.webp"
+    ],
+    "poids": {
+      "presse-nogent-480.webp": 49888,
+      "presse-nogent-745.webp": 91052
+    },
+    "media": "c.media({ nom: 'presse-nogent', alt: \"Couverture du magazine de Nogent-sur-Marne\", cadrage: '42% 35%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '745 / 973' })"
+  },
+  "presse-caue": {
+    "nom": "presse-caue",
+    "source": "recu/ewa-design-recu/habitat-leger-2.jpg",
+    "role": "vignette",
+    "alt": "Affiche Petites Machines à Habiter, CAUE de la Sarthe",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "db0ebfd0c6941914",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      600
+    ],
+    "mobile": null,
+    "cadrage": "49% 54%",
+    "sujet": {
+      "x": 4.9,
+      "y": 2.8,
+      "l": 90.1,
+      "h": 84.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 600,
+      "height": 600,
+      "source": [
+        600,
+        600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "600 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "presse-caue-480.webp",
+      "presse-caue-600.webp"
+    ],
+    "poids": {
+      "presse-caue-480.webp": 24038,
+      "presse-caue-600.webp": 35378
+    },
+    "media": "c.media({ nom: 'presse-caue', alt: \"Affiche Petites Machines à Habiter, CAUE de la Sarthe\", cadrage: '49% 54%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "expo-luxembourg": {
+    "nom": "expo-luxembourg",
+    "source": "recu/ewa-design-recu/luxembourg-art-prize-ewa.png",
+    "role": "vignette",
+    "alt": "Certificat de mérite artistique du Luxembourg Art Prize",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "8c78dfbaf917d7b6",
+    "ratio": "400:273",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "48% 46%",
+    "sujet": {
+      "x": 6,
+      "y": 9.9,
+      "l": 89,
+      "h": 86.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1365,
+      "source": [
+        2000,
+        1365
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "expo-luxembourg-480.webp",
+      "expo-luxembourg-960.webp"
+    ],
+    "poids": {
+      "expo-luxembourg-480.webp": 26468,
+      "expo-luxembourg-960.webp": 89646
+    },
+    "media": "c.media({ nom: 'expo-luxembourg', alt: \"Certificat de mérite artistique du Luxembourg Art Prize\", cadrage: '48% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '400 / 273' })"
+  },
+  "expo-malaquais": {
+    "nom": "expo-malaquais",
+    "source": "recu/ewa-design-recu/paris-malaquais-ewa-design-2.png",
+    "role": "vignette",
+    "alt": "Affiche de l'exposition Villes indiennes, école d'architecture Paris-Malaquais, 2005",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "7628f5fbfaf58d82",
+    "ratio": "1387:2000",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "36% 38%",
+    "sujet": {
+      "x": 8.8,
+      "y": 2.9,
+      "l": 55.9,
+      "h": 80.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.41,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.02,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1387,
+      "height": 2000,
+      "source": [
+        1387,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "expo-malaquais-480.webp",
+      "expo-malaquais-960.webp"
+    ],
+    "poids": {
+      "expo-malaquais-480.webp": 39258,
+      "expo-malaquais-960.webp": 115862
+    },
+    "media": "c.media({ nom: 'expo-malaquais', alt: \"Affiche de l'exposition Villes indiennes, école d'architecture Paris-Malaquais, 2005\", cadrage: '36% 38%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1387 / 2000' })"
+  },
+  "galerie-swiss-art-expo": {
+    "nom": "galerie-swiss-art-expo",
+    "source": "recu/ewa-design-recu/contact-ewa-design.png",
+    "role": "vignette",
+    "alt": "Swiss Art Expo",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "1b8ed5c4611b8c5e",
+    "ratio": "1667:2000",
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": "42% 28%",
+    "sujet": {
+      "x": 16.2,
+      "y": 5.9,
+      "l": 48.5,
+      "h": 48.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.08,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1667,
+      "height": 2000,
+      "source": [
+        1667,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "galerie-swiss-art-expo-240.webp",
+      "galerie-swiss-art-expo-480.webp"
+    ],
+    "poids": {
+      "galerie-swiss-art-expo-240.webp": 26934,
+      "galerie-swiss-art-expo-480.webp": 56092
+    },
+    "media": "c.media({ nom: 'galerie-swiss-art-expo', alt: \"Swiss Art Expo\", cadrage: '42% 28%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1667 / 2000' })"
+  },
+  "galerie-cipriarte": {
+    "nom": "galerie-cipriarte",
+    "source": "recu/ewa-design-recu/contact-ewa-design-5.png",
+    "role": "vignette",
+    "alt": "Cipriarte Venezia",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "7a112e2acd9dcde9",
+    "ratio": "489:446",
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": "48% 49%",
+    "sujet": {
+      "x": 9.3,
+      "y": 14,
+      "l": 82.3,
+      "h": 79.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 489,
+      "height": 446,
+      "source": [
+        489,
+        446
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "489 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "galerie-cipriarte-240.webp",
+      "galerie-cipriarte-480.webp"
+    ],
+    "poids": {
+      "galerie-cipriarte-240.webp": 6502,
+      "galerie-cipriarte-480.webp": 15906
+    },
+    "media": "c.media({ nom: 'galerie-cipriarte', alt: \"Cipriarte Venezia\", cadrage: '48% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '489 / 446' })"
+  },
+  "galerie-andie-art": {
+    "nom": "galerie-andie-art",
+    "source": "recu/ewa-design-recu/contact-ewa-design-6.png",
+    "role": "vignette",
+    "alt": "Andie Art",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "508aae7748722790",
+    "ratio": "497:411",
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": "47% 45%",
+    "sujet": {
+      "x": 32.3,
+      "y": 6.9,
+      "l": 36.9,
+      "h": 56.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.46,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.44,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 497,
+      "height": 411,
+      "source": [
+        497,
+        411
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "497 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "galerie-andie-art-240.webp",
+      "galerie-andie-art-480.webp"
+    ],
+    "poids": {
+      "galerie-andie-art-240.webp": 3260,
+      "galerie-andie-art-480.webp": 5832
+    },
+    "media": "c.media({ nom: 'galerie-andie-art', alt: \"Andie Art\", cadrage: '47% 45%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '497 / 411' })"
+  },
+  "galerie-spectrum": {
+    "nom": "galerie-spectrum",
+    "source": "recu/ewa-design-recu/contact-ewa-design-8.png",
+    "role": "vignette",
+    "alt": "Spectrum Miami",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "907c453ece29a229",
+    "ratio": "71:69",
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": "48% 39%",
+    "sujet": {
+      "x": 23.7,
+      "y": 6.7,
+      "l": 49.5,
+      "h": 42.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.65,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.43,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 426,
+      "height": 414,
+      "source": [
+        426,
+        414
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "426 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,13 fois (source de 426 px après recadrage)"
+    ],
+    "fichiers": [
+      "galerie-spectrum-240.webp",
+      "galerie-spectrum-480.webp"
+    ],
+    "poids": {
+      "galerie-spectrum-240.webp": 3418,
+      "galerie-spectrum-480.webp": 5898
+    },
+    "media": "c.media({ nom: 'galerie-spectrum', alt: \"Spectrum Miami\", cadrage: '48% 39%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '71 / 69' })"
+  },
+  "galerie-thomson": {
+    "nom": "galerie-thomson",
+    "source": "recu/ewa-design-recu/contact-ewa-design-10.png",
+    "role": "vignette",
+    "alt": "Thomson Gallery",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "89731ff7edfaf4dc",
+    "ratio": "607:245",
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": "49% 52%",
+    "sujet": {
+      "x": 28.1,
+      "y": 29.5,
+      "l": 44.3,
+      "h": 43.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.83,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.74,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.62,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.62,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 607,
+      "height": 245,
+      "source": [
+        607,
+        245
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "607 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "galerie-thomson-240.webp",
+      "galerie-thomson-480.webp"
+    ],
+    "poids": {
+      "galerie-thomson-240.webp": 2246,
+      "galerie-thomson-480.webp": 4866
+    },
+    "media": "c.media({ nom: 'galerie-thomson', alt: \"Thomson Gallery\", cadrage: '49% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '607 / 245' })"
+  },
+  "galerie-andakulova": {
+    "nom": "galerie-andakulova",
+    "source": "recu/ewa-design-recu/contact-ewa-design-12.png",
+    "role": "vignette",
+    "alt": "Andakulova Gallery",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "614c031a0b8c7b45",
+    "ratio": "298:105",
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": "45% 52%",
+    "sujet": {
+      "x": 35.2,
+      "y": 41.2,
+      "l": 37.3,
+      "h": 26.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.69,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 596,
+      "height": 210,
+      "source": [
+        596,
+        210
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "596 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "galerie-andakulova-240.webp",
+      "galerie-andakulova-480.webp"
+    ],
+    "poids": {
+      "galerie-andakulova-240.webp": 1710,
+      "galerie-andakulova-480.webp": 3060
+    },
+    "media": "c.media({ nom: 'galerie-andakulova', alt: \"Andakulova Gallery\", cadrage: '45% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '298 / 105' })"
+  },
+  "galerie-nicoleta": {
+    "nom": "galerie-nicoleta",
+    "source": "recu/ewa-design-recu/contact-ewa-design-13.png",
+    "role": "vignette",
+    "alt": "Nicoleta Gallery Berlin",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "3a331a7d3865e981",
+    "ratio": "514:239",
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": "43% 63%",
+    "sujet": {
+      "x": 29.1,
+      "y": 42.7,
+      "l": 30.5,
+      "h": 26.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.43,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 514,
+      "height": 239,
+      "source": [
+        514,
+        239
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "514 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "galerie-nicoleta-240.webp",
+      "galerie-nicoleta-480.webp"
+    ],
+    "poids": {
+      "galerie-nicoleta-240.webp": 3112,
+      "galerie-nicoleta-480.webp": 5786
+    },
+    "media": "c.media({ nom: 'galerie-nicoleta', alt: \"Nicoleta Gallery Berlin\", cadrage: '43% 63%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '514 / 239' })"
+  },
+  "galerie-artboxy": {
+    "nom": "galerie-artboxy",
+    "source": "recu/ewa-design-recu/contact-ewa-design-14.jpg",
+    "role": "vignette",
+    "alt": "ARTBOXY",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "71f9801a55086642",
+    "ratio": "891:130",
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": "47% 57%",
+    "sujet": {
+      "x": 41.7,
+      "y": 46.3,
+      "l": 20.7,
+      "h": 42.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.15,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 891,
+      "height": 130,
+      "source": [
+        891,
+        130
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "891 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "galerie-artboxy-240.webp",
+      "galerie-artboxy-480.webp"
+    ],
+    "poids": {
+      "galerie-artboxy-240.webp": 2176,
+      "galerie-artboxy-480.webp": 4620
+    },
+    "media": "c.media({ nom: 'galerie-artboxy', alt: \"ARTBOXY\", cadrage: '47% 57%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '891 / 130' })"
+  },
+  "galerie-artexpo": {
+    "nom": "galerie-artexpo",
+    "source": "recu/ewa-design-recu/contact-ewa-design-18.png",
+    "role": "vignette",
+    "alt": "Artexpo New York",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "4193263e56aa4e2c",
+    "ratio": "509:208",
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": "44% 52%",
+    "sujet": {
+      "x": 27.6,
+      "y": 35.5,
+      "l": 43.4,
+      "h": 42.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.41,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 509,
+      "height": 208,
+      "source": [
+        509,
+        208
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "509 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "galerie-artexpo-240.webp",
+      "galerie-artexpo-480.webp"
+    ],
+    "poids": {
+      "galerie-artexpo-240.webp": 2970,
+      "galerie-artexpo-480.webp": 5536
+    },
+    "media": "c.media({ nom: 'galerie-artexpo', alt: \"Artexpo New York\", cadrage: '44% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '509 / 208' })"
+  },
+  "grok/atelier-tirage": {
+    "nom": "grok/atelier-tirage",
+    "source": "recu/grok-agrandi/atelier-tirage.png",
+    "role": "section-fond",
+    "alt": "Imprimante grand format d'où sort une feuille de papier coton encore vierge",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "551328d876436869",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "68% 50%",
+    "sujet": {
+      "x": 43.8,
+      "y": 35.1,
+      "l": 56.2,
+      "h": 48.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.77,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.63,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.38,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.38,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 173,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/atelier-tirage-640.webp",
+      "grok/atelier-tirage-1280.webp",
+      "grok/atelier-tirage-1920.webp"
+    ],
+    "poids": {
+      "grok/atelier-tirage-640.webp": 9228,
+      "grok/atelier-tirage-1280.webp": 28500,
+      "grok/atelier-tirage-1920.webp": 48268
+    },
+    "media": "c.media({ nom: 'grok/atelier-tirage', alt: \"Imprimante grand format d'où sort une feuille de papier coton encore vierge\", cadrage: '68% 50%', sizes: '100vw' })"
+  },
+  "grok/atelier-table": {
+    "nom": "grok/atelier-table",
+    "source": "recu/grok-agrandi/atelier-table.png",
+    "role": "ouverture",
+    "alt": "Table d'atelier d'architecte : maquettes de maisons modulaires en bois, calques, aquarelles",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "8fb9ba2671bb8ae3",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "57% 66%",
+    "sujet": {
+      "x": 21.9,
+      "y": 39.6,
+      "l": 56.3,
+      "h": 54.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.79,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.64,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.45,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 83,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/atelier-table-640.webp",
+      "grok/atelier-table-1280.webp",
+      "grok/atelier-table-1920.webp"
+    ],
+    "poids": {
+      "grok/atelier-table-640.webp": 11776,
+      "grok/atelier-table-1280.webp": 38370,
+      "grok/atelier-table-1920.webp": 65794
+    },
+    "media": "c.media({ nom: 'grok/atelier-table', alt: \"Table d'atelier d'architecte : maquettes de maisons modulaires en bois, calques, aquarelles\", cadrage: '57% 66%', sizes: '100vw', priorite: true })"
+  },
+  "grok/support-plexi": {
+    "nom": "grok/support-plexi",
+    "source": "recu/grok-agrandi/support-plexi.png",
+    "role": "vignette",
+    "alt": "Plaque de plexiglas brillant, support de tirage",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "8171057249343ef7",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "37% 66%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.41,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1074,
+      "height": 1074,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/support-plexi-480.webp",
+      "grok/support-plexi-960.webp"
+    ],
+    "poids": {
+      "grok/support-plexi-480.webp": 8640,
+      "grok/support-plexi-960.webp": 25272
+    },
+    "media": "c.media({ nom: 'grok/support-plexi', alt: \"Plaque de plexiglas brillant, support de tirage\", cadrage: '37% 66%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "grok/support-alu": {
+    "nom": "grok/support-alu",
+    "source": "recu/grok-agrandi/support-alu.png",
+    "role": "vignette",
+    "alt": "Plaque d'aluminium brossé (Alu Dibond), support de tirage",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "a85342be335175fe",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 66%",
+    "sujet": {
+      "x": 0,
+      "y": 22.7,
+      "l": 100,
+      "h": 63.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.62,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.44,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.26,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 311,
+      "top": 0,
+      "width": 1074,
+      "height": 1074,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/support-alu-480.webp",
+      "grok/support-alu-960.webp"
+    ],
+    "poids": {
+      "grok/support-alu-480.webp": 9418,
+      "grok/support-alu-960.webp": 39148
+    },
+    "media": "c.media({ nom: 'grok/support-alu', alt: \"Plaque d'aluminium brossé (Alu Dibond), support de tirage\", cadrage: '50% 66%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "grok/support-toile": {
+    "nom": "grok/support-toile",
+    "source": "recu/grok-agrandi/support-toile.png",
+    "role": "vignette",
+    "alt": "Toile mate tendue sur châssis, support de tirage",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "7f7e3eee7508623c",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "76% 63%",
+    "sujet": {
+      "x": 0,
+      "y": 18.2,
+      "l": 100,
+      "h": 77.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.58,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.36,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.26,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 526,
+      "top": 0,
+      "width": 1074,
+      "height": 1074,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/support-toile-480.webp",
+      "grok/support-toile-960.webp"
+    ],
+    "poids": {
+      "grok/support-toile-480.webp": 13508,
+      "grok/support-toile-960.webp": 66706
+    },
+    "media": "c.media({ nom: 'grok/support-toile', alt: \"Toile mate tendue sur châssis, support de tirage\", cadrage: '76% 63%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "grok/support-papier": {
+    "nom": "grok/support-papier",
+    "source": "recu/grok-agrandi/support-papier.png",
+    "role": "vignette",
+    "alt": "Papier coton Fine Art, support de tirage",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "afd64c3922cbade6",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "51% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.3,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 526,
+      "top": 0,
+      "width": 1074,
+      "height": 1074,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/support-papier-480.webp",
+      "grok/support-papier-960.webp"
+    ],
+    "poids": {
+      "grok/support-papier-480.webp": 12174,
+      "grok/support-papier-960.webp": 37602
+    },
+    "media": "c.media({ nom: 'grok/support-papier', alt: \"Papier coton Fine Art, support de tirage\", cadrage: '51% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  }
+}

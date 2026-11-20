@@ -1,0 +1,16 @@
+{
+ "id": "20261120-220628-standard-cible-partiel",
+ "date": "2026-11-20T22:08:24.667Z",
+ "niveau": "standard",
+ "pages": "/,/404,/architecture,/atelier,/estampes",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 2,
+ "aRegarder": 5,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

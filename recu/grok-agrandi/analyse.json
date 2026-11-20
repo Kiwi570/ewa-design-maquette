@@ -1,0 +1,450 @@
+{
+  "dossier": "/home/claude/ewa-design-maquette/recu/grok-agrandi",
+  "date": "2026-11-20T21:35:02.767Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "atelier-table.png",
+      "nom": "atelier-table",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1365187,
+      "transparence": false,
+      "sujet": {
+        "x": 21.9,
+        "y": 40.9,
+        "l": 56.3,
+        "h": 45.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        63
+      ],
+      "cadrage_css": "57% 63%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.79,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "gauche",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "bas",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 24.6,
+        "bruit": 0.51,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "303030688607c33a",
+      "drapeaux": [
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "atelier-tirage.png",
+      "nom": "atelier-tirage",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1271125,
+      "transparence": false,
+      "sujet": {
+        "x": 43.8,
+        "y": 45.5,
+        "l": 56.3,
+        "h": 40.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        68,
+        58
+      ],
+      "cadrage_css": "68% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "bas",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 34.3,
+        "bruit": 0.4,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c0c0c0c3cbda9002",
+      "drapeaux": [
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "planche.png",
+      "nom": "planche",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 645,
+      "ratio": "2.48",
+      "ratio_valeur": 2.481,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 587971,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 7.7,
+        "l": 90.6,
+        "h": 76.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        37
+      ],
+      "cadrage_css": "45% 37%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.77
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        }
+      ],
+      "qualite": {
+        "nettete": 61.1,
+        "bruit": 0.35,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "25435ba9626060c0",
+      "drapeaux": []
+    },
+    {
+      "fichier": "support-alu.png",
+      "nom": "support-alu",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1531007,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 22.7,
+        "l": 100,
+        "h": 63.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        66
+      ],
+      "cadrage_css": "53% 66%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "droite",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "gauche",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        }
+      ],
+      "qualite": {
+        "nettete": 18.7,
+        "bruit": 0.55,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "6072727373f32060",
+      "drapeaux": []
+    },
+    {
+      "fichier": "support-papier.png",
+      "nom": "support-papier",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1401927,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        67,
+        46
+      ],
+      "cadrage_css": "67% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 17.4,
+        "bruit": 0.49,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "646460e061390002",
+      "drapeaux": []
+    },
+    {
+      "fichier": "support-plexi.png",
+      "nom": "support-plexi",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1293399,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.5,
+        "l": 100,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        25,
+        66
+      ],
+      "cadrage_css": "25% 66%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "haut",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 21.5,
+        "bruit": 0.41,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "60434343c3524260",
+      "drapeaux": []
+    },
+    {
+      "fichier": "support-toile.png",
+      "nom": "support-toile",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1443019,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 18.2,
+        "l": 96.9,
+        "h": 77.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        84,
+        63
+      ],
+      "cadrage_css": "84% 63%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "gauche",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.77
+        },
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 21.8,
+        "bruit": 0.96,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "706263626060c0f8",
+      "drapeaux": []
+    }
+  ]
+}

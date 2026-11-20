@@ -1,0 +1,27 @@
+{
+  "commun": "Série limitée à 30 exemplaires · certificat d'authenticité · 300 ppp",
+  "series": [
+    { "cle": "impulsions", "nom": "Impulsions", "annee": "2026", "format": "90 × 90 cm", "formats": ["30 × 30 cm", "60 × 60 cm", "90 × 90 cm"], "texte": "Dix-neuf estampes carrées : des bleus turquoise traversés d'éclats orange, ou des ocres dorés. Tirées en 90 × 90 cm, ou en 60 et 30 cm de côté.", "nombre": "19 estampes",
+      "oeuvres": [ ["impulsions-i-a", "I-A"], ["impulsions-f", "F"], ["impulsions-i-b", "I-B"], ["impulsions-ja", "JA"], ["impulsions-d-2-bis", "D-2 bis"], ["impulsions-g", "G"], ["impulsions-jc", "JC"], ["impulsions-k1", "K1"], ["impulsions-a", "A"], ["impulsions-l1", "L1"], ["impulsions-k3-bis", "K3 bis"], ["impulsions-l2", "L2"] ] },
+    { "cle": "combo", "nom": "Combo", "annee": "2026", "format": "90 × 90 cm", "formats": ["90 × 90 cm"], "texte": "Des trames serrées de jaune, de bleu et de noir, comme des tissages vus de très près.", "nombre": "15 estampes",
+      "oeuvres": [ ["combo-e", "E"], ["combo-c", "C"], ["combo-b", "B"], ["combo-d", "D"], ["combo-f", "F"], ["combo-l", "L"], ["combo-j", "J"], ["combo-n", "N"] ] },
+    { "cle": "empreintes", "nom": "Empreintes", "annee": "2025", "format": "Format sur demande", "formats": ["Format sur demande"], "texte": "Bleus glacier, gris et blancs : des couches posées les unes sur les autres, comme des traces sur la neige.", "nombre": "15 estampes",
+      "oeuvres": [ ["empreintes-a", "A"], ["empreintes-b", "B"], ["empreintes-c", "C"], ["empreintes-h", "H"], ["empreintes-i", "I"], ["empreintes-j", "J"] ] },
+    { "cle": "splash", "nom": "Splash", "annee": "", "format": "105 × 70 cm", "formats": ["105 × 70 cm"], "texte": "Des rubans noirs lancés sur le blanc, en mouvement d'un bord à l'autre.", "nombre": "15 estampes",
+      "oeuvres": [ ["splash-a", "A"], ["splash-b", "B"], ["splash-e", "E"], ["splash-f", "F"], ["splash-h", "H"], ["splash-k", "K"] ] },
+    { "cle": "vibration", "nom": "Vibration nature", "annee": "2025", "format": "50 × 115 cm", "formats": ["50 × 115 cm"], "texte": "Des verticales en ocres et en olive, au format très élancé de 50 × 115 cm.", "nombre": "9 estampes",
+      "oeuvres": [ ["vibration-a1", "A1"], ["vibration-b1", "B1"], ["vibration-g1", "G1"], ["vibration-j1", "J1"], ["vibration-k1", "K1"], ["vibration-n1", "N1"] ] }
+  ],
+  "supports": [
+    { "cle": "plexi", "image": "grok/support-plexi", "nom": "Plexiglas", "texte": "Tirage photo ou pigmentaire Fine Art sous verre acrylique brillant, monté sur Dibond." },
+    { "cle": "alu", "image": "grok/support-alu", "nom": "Alu Dibond", "texte": "Impression directe sur aluminium brossé, avec ou sans cadre noir mat de 20 mm." },
+    { "cle": "toile", "image": "grok/support-toile", "nom": "Toile", "texte": "Toile mate tendue sur châssis, prête à accrocher." },
+    { "cle": "papier", "image": "grok/support-papier", "nom": "Papier Fine Art", "texte": "Tirage pigmentaire sur papier local, recyclé ou certifié FSC, au choix." }
+  ],
+  "ventes": [
+    { "image": "chez-vente-3", "lieu": "Lacanau-Océan", "annee": "2020", "texte": "Client privé" },
+    { "image": "chez-bor-2", "lieu": "Bordeaux", "annee": "2021", "texte": "Client privé" },
+    { "image": "chez-vente-6", "lieu": "France", "annee": "2022", "texte": "Série Splash tirée pour une exposition" },
+    { "image": "chez-vente-4", "lieu": "La Réunion", "annee": "2023", "texte": "Client privé" }
+  ]
+}

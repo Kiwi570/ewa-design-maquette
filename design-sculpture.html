@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Design et sculpture : kiosques, intérieurs, luminaires, EWA Design</title>
+<meta name="description" content="Charte design de kiosques aux Émirats, intérieurs organiques, luminaires de la Collection 2027 et sculptures en acier Corten.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://ewa-design-maquette.vercel.app/design-sculpture">
+<style>:root{--fond:#f5f3ef;--texte:#141414;--voile-fond:#141414;--ouverture-fond:#f5f3ef;--menu-fond:#141414}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f5f3ef">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EWA Design">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Design et sculpture : kiosques, intérieurs, luminaires, EWA Design">
+<meta property="og:description" content="Charte design de kiosques aux Émirats, intérieurs organiques, luminaires de la Collection 2027 et sculptures en acier Corten.">
+<meta property="og:url" content="https://ewa-design-maquette.vercel.app/design-sculpture">
+<meta property="og:image" content="https://ewa-design-maquette.vercel.app/assets/partage/design-sculpture-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Design et sculpture EWA Design : un lustre de verre coloré">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"EWA Design","alternateName":"Eco Workshop Art","url":"https://ewa-design-maquette.vercel.app/","email":"ewa_design@yahoo.com","foundingDate":"2012","address":{"@type":"PostalAddress","addressLocality":"Bordeaux","addressCountry":"FR"},"description":"Atelier bordelais d'architecture, de design, d'art et de sculpture : estampes numériques en édition limitée à 30 exemplaires, tirées à la demande."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="barre" aria-hidden="true"><span class="voile-barre"></span><div class="voile-contenu"><img src="/assets/images/logo-clair-480.webp" alt="" width="480" height="149"><span data-voile-libelle>Design &amp; sculpture</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <p class="ouv-ewa">EWA <span>design</span></p>
+  <p class="ouv-mots"><span class="ouv-mot ouv-art">Art</span><span class="ouv-barre" data-ouverture-objet></span><span class="ouv-mot ouv-chi">chitecture</span></p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="EWA Design, accueil" data-libelle="Accueil">
+      <img src="/assets/images/logo-480.webp" alt="" width="480" height="149">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/estampes" data-libelle="Estampes">Estampes</a></li><li><a href="/architecture" data-libelle="Architecture">Architecture</a></li><li><a href="/design-sculpture" data-libelle="Design &amp; sculpture" aria-current="page">Design &amp; sculpture</a></li><li><a href="/atelier" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/estampes" class="menu-lien" data-libelle="Estampes">Estampes</a></li><li style="--i:2"><a href="/architecture" class="menu-lien" data-libelle="Architecture">Architecture</a></li><li style="--i:3"><a href="/design-sculpture" class="menu-lien" data-libelle="Design &amp; sculpture" aria-current="page">Design &amp; sculpture</a></li><li style="--i:4"><a href="/atelier" class="menu-lien" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-contact"><a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a><span class="menu-email">ewa_design@yahoo.com</span></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-portrait ecran" id="debut">
+  <figure class="media portrait-media ouv-media-rideau" data-iris-centre data-effet="portrait" style="--cadrage:50% 45%">
+  <picture>
+    <img src="/assets/images/lustre-verre-1280.webp" srcset="/assets/images/lustre-verre-480.webp 480w, /assets/images/lustre-verre-960.webp 960w, /assets/images/lustre-verre-1280.webp 1280w" sizes="(max-width: 760px) 80vw, 40vw" alt="Lustre de plaques de verre colorées suspendu dans un hall" width="1280" height="1600" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+  <div>
+    <p class="surtitre ouv-entree">Design &amp; sculpture</p>
+    <h1><span class="t-masque l"><span class="t-mot">La forme</span></span><span class="t-masque l"><span class="t-mot">et la lumière</span></span></h1>
+    <p class="chapeau ouv-entree masque-ecran-bas">Des kiosques pensés comme une charte, des intérieurs aux courbes douces, des luminaires sculptés dans le bambou, le verre ou la pierre de lave.</p>
+    <p class="split-actions ouv-entree"><a href="/contact?sujet=design#demande" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Parler d&#39;un projet</a></p>
+    <p class="ouv-entree"><span class="split-info" data-info-cle>5 kiosques aux Émirats · Collection 2027</span></p>
+  </div>
+</section>
+<section class="section section--pierre" id="commercial">
+  <div class="conteneur">
+    <div class="tete-section">
+      <div>
+        <p class="surtitre">Design commercial</p>
+        <h2 class="titre-section" data-anime="lignes">The Crêpe Café, cinq kiosques</h2>
+      </div>
+      <p class="chapeau" data-anime>Le « fast casual », entre le restaurant et la vente à emporter, mise sur les détails : on voit préparer son plat, on compose sa recette. Pour BFC Retail Groupe, l&#39;atelier a dessiné une charte déclinable et mené chaque kiosque de l&#39;esquisse à l&#39;exécution.</p>
+    </div>
+    <div class="kiosques-grille">
+      <div>
+        <figure class="media kiosque-grand" data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/kiosque-1-1280.webp" srcset="/assets/images/kiosque-1-640.webp 640w, /assets/images/kiosque-1-1280.webp 1280w, /assets/images/kiosque-1-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 60vw" alt="Kiosque The Crêpe Café en noir et jaune dans une galerie marchande" width="1280" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="kiosque-paire">
+          <figure class="media " data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/kiosque-2-1280.webp" srcset="/assets/images/kiosque-2-640.webp 640w, /assets/images/kiosque-2-1280.webp 1280w" sizes="(max-width: 860px) 60vw, 35vw" alt="Comptoir du kiosque The Crêpe Café et sa zone de consommation" width="1280" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <figure class="media " data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/kiosque-3-960.webp" srcset="/assets/images/kiosque-3-480.webp 480w, /assets/images/kiosque-3-960.webp 960w" sizes="(max-width: 860px) 40vw, 22vw" alt="Vue plongeante sur la cuisine et le comptoir d&#39;un kiosque" width="960" height="1201" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        </div>
+      </div>
+      <table class="kiosques-table" data-anime>
+        <thead><tr><th scope="col">Galerie</th><th scope="col">Surface totale</th><th scope="col">Kiosque</th></tr></thead>
+        <tbody><tr><th scope="row">Stars Avenue Mall</th><td><span data-compteur="170">170</span> <small>m²</small></td><td><span data-compteur="45">45</span> <small>m²</small></td></tr><tr><th scope="row">Roshana Mall</th><td><span data-compteur="250">250</span> <small>m²</small></td><td><span data-compteur="45">45</span> <small>m²</small></td></tr><tr><th scope="row">Riyadh Mall</th><td><span data-compteur="110">110</span> <small>m²</small></td><td><span data-compteur="35">35</span> <small>m²</small></td></tr><tr><th scope="row">Free zone Kuwait</th><td><span data-compteur="280">280</span> <small>m²</small></td><td><span data-compteur="50">50</span> <small>m²</small></td></tr><tr><th scope="row">Corall Mall</th><td><span data-compteur="185">185</span> <small>m²</small></td><td><span data-compteur="55">55</span> <small>m²</small></td></tr></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<section class="section" id="interieur">
+  <div class="conteneur">
+    <div class="tete-section">
+      <div>
+        <p class="surtitre">Design intérieur</p>
+        <h2 class="titre-section" data-anime="lignes">Des pièces qui s&#39;arrondissent</h2>
+      </div>
+      <p class="chapeau" data-anime>Banquettes moulées, plafonds courbes, lanternes de laiton : des intérieurs dessinés comme des sculptures.</p>
+    </div>
+    <div class="interieurs">
+      <figure class="media " data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/interieur-salon-1280.webp" srcset="/assets/images/interieur-salon-640.webp 640w, /assets/images/interieur-salon-1280.webp 1280w, /assets/images/interieur-salon-1536.webp 1536w" sizes="(max-width: 760px) 100vw, 60vw" alt="Salon aux formes organiques sous un grand plafond courbe" width="1280" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/interieur-banquette-1280.webp" srcset="/assets/images/interieur-banquette-640.webp 640w, /assets/images/interieur-banquette-1280.webp 1280w" sizes="(max-width: 760px) 100vw, 40vw" alt="Banquette blanche organique éclairée par le bas" width="1280" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/interieur-riad-1280.webp" srcset="/assets/images/interieur-riad-640.webp 640w, /assets/images/interieur-riad-1280.webp 1280w" sizes="(max-width: 760px) 100vw, 40vw" alt="Lanterne de laiton sous une coupole de plâtre sculpté" width="1280" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+  </div>
+</section>
+<section class="section section--pierre" id="luminaires">
+  <div class="conteneur">
+    <div class="tete-section">
+      <div>
+        <p class="surtitre">Luminaires</p>
+        <h2 class="titre-section" data-anime="lignes">Collection 2027</h2>
+      </div>
+      <p class="chapeau" data-anime>Huit planches de recherche : formes, matières et principes d&#39;éclairage. Ouvrez-les en grand.</p>
+    </div>
+    <ul class="planches" data-anime="cascade">
+      <li><button type="button" class="planche-bouton" data-planche data-image="/assets/images/lum-ondoring-1536.webp" data-titre="Ondoring" data-texte="Luminaire organique en anneaux" aria-haspopup="dialog" aria-label="Ouvrir la planche Ondoring">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/lum-ondoring-1536.webp" srcset="/assets/images/lum-ondoring-480.webp 480w, /assets/images/lum-ondoring-960.webp 960w, /assets/images/lum-ondoring-1536.webp 1536w" sizes="(max-width: 860px) 50vw, 25vw" alt="" width="1536" height="1681" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <b>Ondoring</b><span>Luminaire organique en anneaux</span>
+      </button></li><li><button type="button" class="planche-bouton" data-planche data-image="/assets/images/lum-toroflux-1536.webp" data-titre="Toroflux" data-texte="Sculpture lumineuse en tore" aria-haspopup="dialog" aria-label="Ouvrir la planche Toroflux">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/lum-toroflux-1536.webp" srcset="/assets/images/lum-toroflux-480.webp 480w, /assets/images/lum-toroflux-960.webp 960w, /assets/images/lum-toroflux-1536.webp 1536w" sizes="(max-width: 860px) 50vw, 25vw" alt="" width="1536" height="1681" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <b>Toroflux</b><span>Sculpture lumineuse en tore</span>
+      </button></li><li><button type="button" class="planche-bouton" data-planche data-image="/assets/images/lum-saddeflux-1536.webp" data-titre="Saddeflux" data-texte="Lumière structurelle en selle" aria-haspopup="dialog" aria-label="Ouvrir la planche Saddeflux">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/lum-saddeflux-1536.webp" srcset="/assets/images/lum-saddeflux-480.webp 480w, /assets/images/lum-saddeflux-960.webp 960w, /assets/images/lum-saddeflux-1536.webp 1536w" sizes="(max-width: 860px) 50vw, 25vw" alt="" width="1536" height="1024" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <b>Saddeflux</b><span>Lumière structurelle en selle</span>
+      </button></li><li><button type="button" class="planche-bouton" data-planche data-image="/assets/images/lum-strates-1536.webp" data-titre="Strates" data-texte="Lampe en lamelles de bambou" aria-haspopup="dialog" aria-label="Ouvrir la planche Strates">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/lum-strates-1536.webp" srcset="/assets/images/lum-strates-480.webp 480w, /assets/images/lum-strates-960.webp 960w, /assets/images/lum-strates-1536.webp 1536w" sizes="(max-width: 860px) 50vw, 25vw" alt="" width="1536" height="1404" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <b>Strates</b><span>Lampe en lamelles de bambou</span>
+      </button></li><li><button type="button" class="planche-bouton" data-planche data-image="/assets/images/lum-blob-1536.webp" data-titre="Blob" data-texte="Lampe aux formes molles" aria-haspopup="dialog" aria-label="Ouvrir la planche Blob">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/lum-blob-1536.webp" srcset="/assets/images/lum-blob-480.webp 480w, /assets/images/lum-blob-960.webp 960w, /assets/images/lum-blob-1536.webp 1536w" sizes="(max-width: 860px) 50vw, 25vw" alt="" width="1536" height="1404" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <b>Blob</b><span>Lampe aux formes molles</span>
+      </button></li><li><button type="button" class="planche-bouton" data-planche data-image="/assets/images/lum-blue-note-1536.webp" data-titre="Blue Note" data-texte="Lampe sculpture lumineuse" aria-haspopup="dialog" aria-label="Ouvrir la planche Blue Note">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/lum-blue-note-1536.webp" srcset="/assets/images/lum-blue-note-480.webp 480w, /assets/images/lum-blue-note-960.webp 960w, /assets/images/lum-blue-note-1536.webp 1536w" sizes="(max-width: 860px) 50vw, 25vw" alt="" width="1536" height="1024" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <b>Blue Note</b><span>Lampe sculpture lumineuse</span>
+      </button></li><li><button type="button" class="planche-bouton" data-planche data-image="/assets/images/lum-cube-1536.webp" data-titre="Cube" data-texte="Cube lumineux en plexiglas" aria-haspopup="dialog" aria-label="Ouvrir la planche Cube">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/lum-cube-1536.webp" srcset="/assets/images/lum-cube-480.webp 480w, /assets/images/lum-cube-960.webp 960w, /assets/images/lum-cube-1536.webp 1536w" sizes="(max-width: 860px) 50vw, 25vw" alt="" width="1536" height="1024" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <b>Cube</b><span>Cube lumineux en plexiglas</span>
+      </button></li><li><button type="button" class="planche-bouton" data-planche data-image="/assets/images/lum-lave-1536.webp" data-titre="Lave en suspension" data-texte="Suspension en matière volcanique" aria-haspopup="dialog" aria-label="Ouvrir la planche Lave en suspension">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/lum-lave-1536.webp" srcset="/assets/images/lum-lave-480.webp 480w, /assets/images/lum-lave-960.webp 960w, /assets/images/lum-lave-1536.webp 1536w" sizes="(max-width: 860px) 50vw, 25vw" alt="" width="1536" height="1404" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <b>Lave en suspension</b><span>Suspension en matière volcanique</span>
+      </button></li>
+    </ul>
+  </div>
+</section>
+<div class="visionneuse" data-visionneuse role="dialog" aria-modal="true" aria-label="Visionneuse" data-recouvrement hidden>
+  <div class="vis-commandes">
+    <button type="button" data-vis-prec aria-label="Précédente">←</button>
+    <button type="button" data-vis-suiv aria-label="Suivante">→</button>
+    <button type="button" class="vis-fermer" data-vis-fermer>Fermer</button>
+  </div>
+  <div class="vis-boite">
+    <div class="vis-image"><img data-vis-img src="/assets/images/lum-ondoring-960.webp" alt="" width="1199" height="1312"></div>
+    <div class="vis-infos"><h2 data-vis-titre tabindex="-1">Ondoring</h2><p data-vis-texte></p>
+      <a class="bouton" href="/contact?sujet=design#demande" data-libelle="Contact">Parler d&#39;un projet</a></div>
+  </div>
+</div>
+<section class="section" id="sculptures">
+  <div class="conteneur">
+    <div class="tete-section">
+      <div>
+        <p class="surtitre">Sculptures</p>
+        <h2 class="titre-section" data-anime="lignes">L&#39;acier qui se tend</h2>
+      </div>
+      <p class="chapeau" data-anime>Des sculptures d&#39;extérieur en acier Corten, aux ailes effilées, et des installations de verre coloré pour les halls.</p>
+    </div>
+    <div class="sculptures-grille">
+      <figure style="margin:0"><figure class="media sculpture-grand" data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/sculpture-corten-1280.webp" srcset="/assets/images/sculpture-corten-640.webp 640w, /assets/images/sculpture-corten-1280.webp 1280w, /assets/images/sculpture-corten-1536.webp 1536w" sizes="(max-width: 760px) 100vw, 62vw" alt="Sculpture d&#39;acier Corten aux ailes effilées sur un rond-point planté" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure><figcaption class="legende">Acier Corten</figcaption></figure>
+      <div class="sculpture-col">
+        <figure class="media " data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/sculpture-corten-2-1280.webp" srcset="/assets/images/sculpture-corten-2-640.webp 640w, /assets/images/sculpture-corten-2-1280.webp 1280w" sizes="(max-width: 760px) 100vw, 34vw" alt="Sculpture d&#39;acier Corten en rubans tendus" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <figure style="margin:0"><figure class="media " data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/installation-lumiere-1199.webp" srcset="/assets/images/installation-lumiere-480.webp 480w, /assets/images/installation-lumiere-960.webp 960w, /assets/images/installation-lumiere-1199.webp 1199w" sizes="(max-width: 760px) 100vw, 34vw" alt="Installation murale lumineuse de verre coloré dans un hall" width="1199" height="1199" loading="lazy" decoding="async">
+  </picture>
+</figure><figcaption class="legende">Installation de verre</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="appel" id="fin">
+  <div class="conteneur appel-grille">
+    <figure class="media appel-media" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/interieur-sombre-1280.webp" srcset="/assets/images/interieur-sombre-640.webp 640w, /assets/images/interieur-sombre-1280.webp 1280w" sizes="(max-width: 860px) 100vw, 50vw" alt="Salle de bain sombre aux niches lumineuses et baignoire noire" width="1280" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div>
+      <h2 class="titre-section" data-anime="lignes">Un kiosque, un intérieur, un luminaire ?</h2>
+      <p data-anime>Parlez-nous de votre lieu : l&#39;atelier vous répond par e-mail.</p>
+      <p class="appel-actions" data-anime><a href="/contact?sujet=design#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Parler d&#39;un projet</a></p>
+      <span class="appel-email">ewa_design@yahoo.com</span>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-480.webp" alt="EWA Design, Art | chitecture" width="480" height="149" loading="lazy">
+      <p>Atelier d&#39;architecture, de design et d&#39;art, à Bordeaux depuis 2012. Estampes numériques en 30 exemplaires, tirées à la demande.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Écrire à l&#39;atelier</p>
+      <p><a class="pied-email" href="mailto:ewa_design@yahoo.com">ewa_design@yahoo.com</a><br>Bordeaux, France</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/estampes" data-libelle="Estampes">Estampes</a></li><li><a href="/architecture" data-libelle="Architecture">Architecture</a></li><li><a href="/design-sculpture" data-libelle="Design &amp; sculpture" aria-current="page">Design &amp; sculpture</a></li><li><a href="/atelier" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Informations</p>
+      <ul class="pied-legal">
+        <li>Mentions légales <span>· à compléter</span></li>
+        <li>Politique de confidentialité <span>· à compléter</span></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de présentation : formulaires et demandes simulés, rien n&#39;est envoyé.</p><p>© EWA Design, 2026</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="/contact" data-libelle="Contact">Écrire à l&#39;atelier</a>
+  <a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+{
+  "dossier": "/home/claude/ewa-design-maquette/recu/agrandi",
+  "date": "2026-11-20T20:45:54.977Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "lustre-verre-suspendu-lobby.png",
+      "nom": "lustre-verre-suspendu-lobby",
+      "drapeau": null,
+      "largeur": 1440,
+      "hauteur": 1728,
+      "ratio": "0.83",
+      "ratio_valeur": 0.833,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 3974907,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 96.3,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        53
+      ],
+      "cadrage_css": "44% 53%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 71.4,
+        "bruit": 1.45,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "d89834e494949e92",
+      "drapeaux": []
+    }
+  ]
+}

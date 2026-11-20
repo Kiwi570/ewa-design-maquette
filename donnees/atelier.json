@@ -1,0 +1,29 @@
+{
+  "parcours": [
+    { "annee": "2005", "titre": "Villes indiennes", "texte": "Exposition du séminaire « Villes comparées » à l'école d'architecture de Paris-Malaquais." },
+    { "annee": "2007", "titre": "Diplôme d'architecte DPLG", "texte": "Bac + 6, après une école préparatoire aux arts appliqués à Rueil-Malmaison et un premier cycle en Interior Design validé par équivalence à l'Academy of Art University de San Francisco." },
+    { "annee": "2012", "titre": "Création d'EWA Design", "texte": "Une SARL de design à Bordeaux, et la marque Eco Workshop Art déposée à l'INPI." },
+    { "annee": "2022", "titre": "Luxembourg Art Prize", "texte": "Certificat de mérite artistique." },
+    { "annee": "2023 – 2025", "titre": "Expositions ARTBOXY", "texte": "Des œuvres présentées lors des éditions de Palma, Zurich, Bâle, Venise et Miami." },
+    { "annee": "2024 – 2025", "titre": "Formateur à MJM Graphic Design", "texte": "Interior Design, en première année de cycle supérieur, sur le campus de Bordeaux." },
+    { "annee": "2025", "titre": "Luxembourg Art Prize", "texte": "Un second certificat de mérite artistique." }
+  ],
+  "metiers": [
+    { "nom": "Architecture", "texte": "Concours, habitat autonome, éco-quartiers", "page": "architecture" },
+    { "nom": "Design", "texte": "Kiosques commerciaux, intérieurs", "page": "design-sculpture" },
+    { "nom": "Estampes", "texte": "Séries numériques en 30 exemplaires", "page": "estampes" },
+    { "nom": "Sculpture", "texte": "Luminaires, acier Corten, verre", "page": "design-sculpture", "ancre": "sculptures" }
+  ],
+  "editions": ["Palma 2.0", "Palma 3.0", "Zürich 6.0", "Zürich 7.0", "Basel 3.0", "Venezia 2.0", "Miami 4.0"],
+  "galeries": [
+    ["galerie-swiss-art-expo", "Swiss Art Expo"], ["galerie-cipriarte", "Cipriarte Venezia"], ["galerie-nicoleta", "Nicoleta Gallery Berlin"], ["galerie-andakulova", "Andakulova Gallery"],
+    ["galerie-thomson", "Thomson Gallery"], ["galerie-spectrum", "Spectrum Miami"], ["galerie-artexpo", "Artexpo New York"], ["galerie-andie-art", "Andie Art"], ["galerie-artboxy", "ARTBOXY"]
+  ],
+  "presse": [
+    { "image": "presse-accrochages", "titre": "Accrochages", "texte": "Magazine suisse d'art et de musique, pages « Galerie d'artistes »" },
+    { "image": "presse-nogent", "titre": "Magazine de Nogent-sur-Marne", "texte": "Le magazine de la ville" },
+    { "image": "presse-caue", "titre": "CAUE de la Sarthe", "texte": "Petites Machines à Habiter, habitat léger" },
+    { "image": "expo-luxembourg", "titre": "Luxembourg Art Prize", "texte": "Certificat de mérite artistique" },
+    { "image": "expo-malaquais", "titre": "Paris-Malaquais", "texte": "Affiche de l'exposition Villes indiennes, 2005" }
+  ]
+}

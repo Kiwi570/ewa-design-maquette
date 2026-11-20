@@ -1,0 +1,415 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Autre langue",
+    "actionEntete": "Choisir une estampe",
+    "ecrire": "Écrire à l'atelier",
+    "sommaire": "Sommaire",
+    "informations": "Informations",
+    "mentions": "Mentions légales",
+    "confidentialite": "Politique de confidentialité",
+    "aCompleter": "à compléter",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de présentation : formulaires et demandes simulés, rien n'est envoyé.",
+    "annee": "2026",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Art et architecture",
+    "logoLien": "EWA Design, accueil",
+    "logoAlt": "EWA Design, Art | chitecture",
+    "piedTexte": "Atelier d'architecture, de design et d'art, à Bordeaux depuis 2012. Estampes numériques en 30 exemplaires, tirées à la demande.",
+    "suivant": "Suivante",
+    "precedent": "Précédente",
+    "visionneuse": "Visionneuse"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "EWA Design : estampes numériques, architecture et design à Bordeaux",
+      "description": "Estampes numériques en édition limitée à 30 exemplaires, tirées à la demande ; architecture, design et sculpture. Atelier EWA Design, Bordeaux.",
+      "nav": "Accueil",
+      "partageAlt": "EWA Design : une estampe Impulsions et le titre Art | chitecture",
+      "accroche": "Art | chitecture : estampes 1/30 et architecture"
+    },
+    "estampes": {
+      "titre": "Estampes numériques en 30 exemplaires : EWA Design",
+      "description": "Impulsions, Combo, Empreintes, Splash, Vibration nature : estampes numériques signées, certificat d'authenticité, tirées à la demande sur le support de votre choix.",
+      "nav": "Estampes",
+      "partageAlt": "Estampes EWA Design : une estampe Impulsions orange et grise",
+      "accroche": "Estampes numériques en 30 exemplaires"
+    },
+    "architecture": {
+      "titre": "Architecture : concours, habitat autonome et éco-quartiers, EWA Design",
+      "description": "Concours de Bordeaux à Chan Chan, habitat autonome en bois sur le littoral girondin, éco-quartiers et villes sur l'eau.",
+      "nav": "Architecture",
+      "partageAlt": "Architecture EWA Design : croquis d'un complexe côtier en rubans",
+      "accroche": "Dessiner pour un climat"
+    },
+    "design-sculpture": {
+      "titre": "Design et sculpture : kiosques, intérieurs, luminaires, EWA Design",
+      "description": "Charte design de kiosques aux Émirats, intérieurs organiques, luminaires de la Collection 2027 et sculptures en acier Corten.",
+      "nav": "Design & sculpture",
+      "partageAlt": "Design et sculpture EWA Design : un lustre de verre coloré",
+      "accroche": "La forme et la lumière"
+    },
+    "atelier": {
+      "titre": "L'atelier : parcours, expositions et presse, EWA Design",
+      "description": "Eco Workshop Art, atelier bordelais créé en 2012 : démarche, parcours, expositions ARTBOXY et Luxembourg Art Prize, presse.",
+      "nav": "L'atelier",
+      "partageAlt": "L'atelier EWA Design : table de travail et maquettes en bois",
+      "accroche": "Eco Workshop Art, à Bordeaux depuis 2012"
+    },
+    "contact": {
+      "titre": "Contact : écrire à l'atelier EWA Design",
+      "description": "Une estampe, un projet d'architecture, un luminaire, une exposition : écrivez à l'atelier EWA Design, à Bordeaux.",
+      "nav": "Contact",
+      "partageAlt": "Contact EWA Design : une estampe Splash en noir et blanc",
+      "accroche": "Écrire à l'atelier"
+    },
+    "404": {
+      "titre": "Page introuvable : EWA Design",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "ouv": {
+      "surtitre": "EWA Design · Bordeaux",
+      "art": "Art",
+      "chi": "chitecture",
+      "texte": "Des estampes numériques en 30 exemplaires, tirées à la demande. Et des lieux dessinés, du Pérou à la Finlande.",
+      "action": "Choisir une estampe",
+      "second": "Voir l'architecture",
+      "info": "Estampes 1/30 · certificat d'authenticité",
+      "legendeArt": "Impulsions 2026 I-A · 90 × 90 cm",
+      "legendeChi": "Chan Chan, Pérou · croquis de concours"
+    },
+    "demarche": {
+      "surtitre": "Eco Workshop Art",
+      "titre": "Pas de stock, pas de déchets",
+      "texte": "L'art comme une fête de la création, qui respecte la planète : chaque estampe existe d'abord en fichier, et n'est imprimée que lorsqu'on la choisit.",
+      "e1t": "Tirée à la demande",
+      "e1": "Aucune surproduction : on imprime seulement ce que l'on aime.",
+      "e2t": "Un papier choisi",
+      "e2": "Papier local, recyclé ou certifié FSC : le collectionneur décide.",
+      "e3t": "Un fichier pour la vie",
+      "e3": "Le fichier reste disponible et se réimprime sans rien produire de plus.",
+      "alt": "Imprimante grand format d'où sort une feuille de papier coton encore vierge"
+    },
+    "series": {
+      "surtitre": "Les estampes",
+      "titre": "Cinq séries, une seule règle : 30 exemplaires",
+      "texte": "Chaque œuvre est signée, numérotée et livrée avec son certificat d'authenticité.",
+      "voir": "Voir la série",
+      "tout": "Tout le catalogue",
+      "region": "Séries d'estampes, défilement horizontal"
+    },
+    "formats": {
+      "surtitre": "Du fichier au mur",
+      "titre": "30, 60 ou 90 centimètres de côté",
+      "texte": "La même estampe Impulsions change d'échelle sans perdre un détail : le fichier est préparé à 300 ppp. Une silhouette de 1,70 m donne la mesure.",
+      "choix": "Choisir un format",
+      "silhouette": "1,70 m",
+      "supports": "Quatre supports, avec ou sans cadre",
+      "lien": "Composer ma demande",
+      "schema": "Schéma : trois carrés emboîtés de 30, 60 et 90 cm à côté d'une silhouette de 1,70 m"
+    },
+    "archi": {
+      "mot1": "Du Pérou",
+      "mot2": "à la Finlande",
+      "titre": "L'architecture d'EWA",
+      "texte": "Concours internationaux, habitat autonome en bois, éco-quartiers, villes sur l'eau : des lieux dessinés pour leur climat.",
+      "lien": "Voir l'architecture"
+    },
+    "trame": {
+      "surtitre": "Habitat autonome · littoral de Gironde",
+      "titre": "Une maison qui grandit, module après module",
+      "texte": "Une trame de 4 × 4 m, en bois, que l'on agrandit avec la famille : des maisons autonomes en énergie et en légumes, montées sur le terrain en une journée.",
+      "modeles": "Les cinq modèles",
+      "occupants": "Occupants",
+      "surface": "Surface",
+      "panneaux": "Panneaux solaires",
+      "production": "Production",
+      "legumes": "Rendement en légumes",
+      "schema": "Schéma indicatif de la trame : chaque case fait 4 × 4 m.",
+      "lien": "L'habitat autonome en détail"
+    },
+    "design": {
+      "surtitre": "Design & sculpture",
+      "titre": "Du kiosque au luminaire",
+      "kiosqueT": "The Crêpe Café",
+      "kiosque": "Une charte « fast casual » déclinée en cinq kiosques, dans les galeries marchandes des Émirats.",
+      "sculptureT": "Acier, verre et lumière",
+      "sculpture": "Sculptures en acier Corten, lustres de verre et luminaires de la Collection 2027.",
+      "lien": "Voir le design et la sculpture"
+    },
+    "expos": {
+      "surtitre": "Expositions",
+      "titre": "Montrées de Zurich à Miami",
+      "texte": "Les estampes d'EWA voyagent avec le programme ARTBOXY et ses galeries partenaires.",
+      "l1": "ARTBOXY · Palma, Zurich, Bâle, Venise, Miami",
+      "a1": "2023 – 2025",
+      "l2": "Luxembourg Art Prize · certificat de mérite",
+      "a2": "2022 · 2025",
+      "l3": "Villes indiennes · Paris-Malaquais",
+      "a3": "2005",
+      "galeries": "Galeries partenaires du programme ARTBOXY",
+      "lien": "Parcours et presse"
+    },
+    "fin": {
+      "titre": "Une estampe, un projet ?",
+      "texte": "Choisissez une œuvre et son support, ou racontez votre projet : l'atelier répond par e-mail.",
+      "estampe": "Choisir une estampe",
+      "projet": "Parler d'un projet",
+      "alt": "Impulsions 2026 F, estampe aux éclats orange et rouges"
+    }
+  },
+  "estampes": {
+    "ouv": {
+      "surtitre": "Estampes numériques",
+      "titre1": "Signées,",
+      "titre2": "numérotées,",
+      "titre3": "tirées pour vous",
+      "edition": "1/30",
+      "editionTexte": "exemplaires par œuvre",
+      "texte": "Impulsions, Combo, Empreintes, Splash, Vibration nature : chaque œuvre est imprimée à la demande, sur le support que vous choisissez.",
+      "action": "Voir le catalogue",
+      "info": "Prix sur demande · certificat d'authenticité",
+      "legende": "Impulsions 2026 F · 90 × 90 cm"
+    },
+    "principe": {
+      "surtitre": "Comment ça se passe",
+      "titre": "Trois choix, puis l'impression",
+      "e1t": "L'œuvre",
+      "e1": "Choisissez une estampe dans le catalogue et ouvrez sa fiche.",
+      "e2t": "Le format et le support",
+      "e2": "Plexiglas, aluminium brossé, toile ou papier Fine Art, avec ou sans cadre.",
+      "e3t": "Le tirage",
+      "e3": "L'estampe est imprimée à la demande, numérotée sur 30, avec son certificat.",
+      "alt": "Tirage sur aluminium brossé posé contre un mur"
+    },
+    "catalogue": {
+      "surtitre": "Le catalogue",
+      "titre": "Choisir une estampe",
+      "texte": "Une sélection de chaque série. Ouvrez une œuvre pour l'agrandir et demander son tirage.",
+      "filtres": "Filtrer par série",
+      "toutes": "Toutes",
+      "ouvrir": "Agrandir",
+      "formats": "Formats",
+      "supports": "Supports",
+      "supportsListe": "Plexiglas, Alu Dibond, toile, papier Fine Art",
+      "edition": "Édition",
+      "editionValeur": "30 exemplaires, certificat d'authenticité",
+      "prix": "Prix",
+      "prixValeur": "Sur demande",
+      "demander": "Demander ce tirage",
+      "fermer": "Fermer"
+    },
+    "supports": {
+      "surtitre": "Les supports",
+      "titre": "Brillant, brossé, mat ou pigmentaire",
+      "texte": "Les tirages sont réalisés par un laboratoire Fine Art, emballés et livrés avec soin."
+    },
+    "ventes": {
+      "surtitre": "Déjà accrochées",
+      "titre": "Chez ceux qui les ont choisies",
+      "texte": "Des clients privés à Lacanau, Bordeaux ou La Réunion, et une commande en série pour une collection à Lima, au Pérou, en 2021."
+    },
+    "fin": {
+      "titre": "Une œuvre vous a retenu ?",
+      "texte": "Dites-nous laquelle, le format et le support : l'atelier vous répond avec le prix et le délai.",
+      "action": "Demander un tirage",
+      "alt": "Impulsions 2026 I-B, estampe en bleus et éclats orange"
+    }
+  },
+  "architecture": {
+    "ouv": {
+      "surtitre": "Architecture · concours et habitat",
+      "titre1": "Dessiner",
+      "titre2": "pour un climat",
+      "texte": "Chaque projet commence par le climat du lieu : la pluie de Bordeaux, le vent d'Essaouira, l'hiver de Tampere.",
+      "action": "Parler d'un projet",
+      "info": "Lauréat · Institut d'études politiques de Bordeaux",
+      "alt": "Croquis d'un complexe côtier en rubans au bord de l'eau"
+    },
+    "concours": {
+      "surtitre": "Les concours",
+      "titre": "Sept escales, quatre continents",
+      "texte": "Une sélection des concours de l'atelier, menés seul ou avec Baggio-Piechaud, Hafid El Awad Architectes et Damien Lachaud.",
+      "ensemble": "Vue d'ensemble",
+      "etape": "Escale",
+      "region": "Étapes des concours sur le globe"
+    },
+    "habitat": {
+      "surtitre": "Habitat autonome · Gironde",
+      "titre": "Des maisons qui se suffisent",
+      "texte": "Avec Damien Lachaud (permaculture), le bureau d'études bois Denis Capo et l'atelier bois du groupe Meison : une charte de maisons autonomes en bois pour un maître d'ouvrage privé, sur le littoral girondin.",
+      "coupe": "Coupe d'un module : serre verticale, eau de pluie, géothermie",
+      "tableau": "Les cinq modèles",
+      "modele": "Modèle",
+      "occupants": "Occupants",
+      "surface": "Surface",
+      "energie": "Solaire",
+      "legumes": "Légumes",
+      "note": "Surfaces et rendements repris du tableau du site actuel."
+    },
+    "urba": {
+      "surtitre": "Éco-quartiers",
+      "titre": "Habiter l'eau et la terre",
+      "texte": "Quartiers flottants, îles-jardins, villages en terre : des recherches pour des villes plus sobres."
+    },
+    "esquisse": {
+      "surtitre": "Un parti pris",
+      "titre": "Le non-photoréalisme",
+      "texte": "Encre, lavis, couleurs d'estampe : ces images ne cherchent pas à faire vrai. Elles montrent les volumes, la lumière et les liens entre les espaces, et laissent une place à l'imagination, au moment où le projet se décide.",
+      "l1": "Couleurs d'estampe",
+      "l2": "Encre et lumière"
+    },
+    "fin": {
+      "titre": "Un terrain, un programme, un concours ?",
+      "texte": "Décrivez votre projet : l'atelier vous répond par e-mail.",
+      "action": "Parler d'un projet",
+      "alt": "Croquis aquarellé d'un ensemble de rubans de béton et de verre"
+    }
+  },
+  "design": {
+    "ouv": {
+      "surtitre": "Design & sculpture",
+      "titre1": "La forme",
+      "titre2": "et la lumière",
+      "texte": "Des kiosques pensés comme une charte, des intérieurs aux courbes douces, des luminaires sculptés dans le bambou, le verre ou la pierre de lave.",
+      "action": "Parler d'un projet",
+      "info": "5 kiosques aux Émirats · Collection 2027"
+    },
+    "commercial": {
+      "surtitre": "Design commercial",
+      "titre": "The Crêpe Café, cinq kiosques",
+      "texte": "Le « fast casual », entre le restaurant et la vente à emporter, mise sur les détails : on voit préparer son plat, on compose sa recette. Pour BFC Retail Groupe, l'atelier a dessiné une charte déclinable et mené chaque kiosque de l'esquisse à l'exécution.",
+      "mall": "Galerie",
+      "total": "Surface totale",
+      "kiosque": "Kiosque",
+      "m2": "m²"
+    },
+    "interieur": {
+      "surtitre": "Design intérieur",
+      "titre": "Des pièces qui s'arrondissent",
+      "texte": "Banquettes moulées, plafonds courbes, lanternes de laiton : des intérieurs dessinés comme des sculptures."
+    },
+    "luminaires": {
+      "surtitre": "Luminaires",
+      "titre": "Collection 2027",
+      "texte": "Huit planches de recherche : formes, matières et principes d'éclairage. Ouvrez-les en grand.",
+      "ouvrir": "Ouvrir la planche"
+    },
+    "sculptures": {
+      "surtitre": "Sculptures",
+      "titre": "L'acier qui se tend",
+      "texte": "Des sculptures d'extérieur en acier Corten, aux ailes effilées, et des installations de verre coloré pour les halls.",
+      "l1": "Acier Corten",
+      "l2": "Installation de verre"
+    },
+    "fin": {
+      "titre": "Un kiosque, un intérieur, un luminaire ?",
+      "texte": "Parlez-nous de votre lieu : l'atelier vous répond par e-mail.",
+      "action": "Parler d'un projet"
+    }
+  },
+  "atelier": {
+    "ouv": {
+      "surtitre": "L'atelier EWA",
+      "annee": "2012",
+      "titre": "Eco Workshop Art, à Bordeaux",
+      "texte": "Une SARL de design fondée en 2012 par un architecte DPLG, qui réunit l'architecture, le design, la sculpture et l'estampe numérique.",
+      "action": "Écrire à l'atelier",
+      "info": "Prestataire de formation en cycles supérieurs",
+      "alt": "Table d'atelier d'architecte : maquettes de maisons modulaires en bois, calques, aquarelles"
+    },
+    "metiers": {
+      "surtitre": "Un atelier, quatre métiers",
+      "titre": "Ce que l'on peut demander à EWA"
+    },
+    "parcours": {
+      "surtitre": "Le parcours",
+      "titre": "De Paris-Malaquais à Bordeaux",
+      "collab": "Collaborations : Baggio-Piechaud Architecture à Bordeaux, Hafid El Awad Architectes à Casablanca."
+    },
+    "expos": {
+      "surtitre": "Expositions",
+      "titre": "Les éditions ARTBOXY",
+      "texte": "Le programme ARTBOXY présente les œuvres sur grands écrans haute définition ou dans ses galeries partenaires.",
+      "galeries": "Galeries partenaires du programme"
+    },
+    "presse": {
+      "surtitre": "Presse et distinctions",
+      "titre": "Ils en ont parlé",
+      "ouvrir": "Agrandir"
+    },
+    "fin": {
+      "titre": "Une exposition, un article, une collaboration ?",
+      "texte": "L'atelier répond à toutes les demandes par e-mail.",
+      "action": "Écrire à l'atelier"
+    }
+  },
+  "contact": {
+    "ouv": {
+      "surtitre": "Contact",
+      "titre": "Écrire à l'atelier",
+      "texte": "Une estampe, un projet d'architecture, un luminaire, une exposition : dites-nous tout, l'atelier répond par e-mail.",
+      "email": "Adresse e-mail",
+      "ville": "Atelier",
+      "action": "Préparer ma demande",
+      "info": "Réponse par e-mail",
+      "alt": "Splash A, estampe en noir et blanc"
+    },
+    "form": {
+      "surtitre": "Votre demande",
+      "titre": "En quatre étapes",
+      "texte": "Le formulaire est une démonstration : rien n'est envoyé.",
+      "etape1": "Votre demande",
+      "q1": "De quoi s'agit-il ?",
+      "o1": "Une estampe",
+      "o1t": "Un tirage d'une œuvre du catalogue",
+      "o2": "Un projet d'architecture",
+      "o2t": "Concours, maison, éco-quartier",
+      "o3": "Design ou luminaire",
+      "o3t": "Kiosque, intérieur, sculpture",
+      "o4": "Exposition ou presse",
+      "o4t": "Galerie, article, collaboration",
+      "etape2": "Les détails",
+      "q2": "Dites-nous en plus",
+      "oeuvre": "Œuvre (si vous en avez choisi une)",
+      "format": "Format souhaité",
+      "formatChoix": "À préciser",
+      "support": "Support souhaité",
+      "supportChoix": "À préciser",
+      "message": "Votre message",
+      "etape3": "Coordonnées",
+      "q3": "Comment vous répondre ?",
+      "nom": "Nom",
+      "email": "E-mail",
+      "telephone": "Téléphone (facultatif)",
+      "etape4": "Récapitulatif",
+      "q4": "Tout est juste ?",
+      "rgpd": "Vos coordonnées servent seulement à répondre à votre demande. Politique de confidentialité : à compléter.",
+      "accord": "J'accepte que l'atelier utilise ces informations pour me répondre.",
+      "retour": "Retour",
+      "continuer": "Continuer",
+      "envoyer": "Envoyer la demande",
+      "merci": "Demande prête",
+      "simule": "Démonstration : rien n'a été envoyé. Sur le site réel, votre demande partira vers l'atelier.",
+      "nouvelle": "Nouvelle demande"
+    }
+  },
+  "page404": {
+    "surtitre": "Erreur 404",
+    "titre": "Cette pièce n'est pas encore construite",
+    "texte": "La page demandée n'existe pas ou plus. Les estampes, l'architecture et l'atelier sont à un clic.",
+    "accueil": "Retour à l'accueil",
+    "alt": "Coupe d'un module d'habitat autonome : serre verticale, eau de pluie, géothermie"
+  }
+}

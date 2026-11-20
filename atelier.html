@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>L&#39;atelier : parcours, expositions et presse, EWA Design</title>
+<meta name="description" content="Eco Workshop Art, atelier bordelais créé en 2012 : démarche, parcours, expositions ARTBOXY et Luxembourg Art Prize, presse.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://ewa-design-maquette.vercel.app/atelier">
+<style>:root{--fond:#f5f3ef;--texte:#141414;--voile-fond:#141414;--ouverture-fond:#f5f3ef;--menu-fond:#141414}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f5f3ef">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EWA Design">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="L&#39;atelier : parcours, expositions et presse, EWA Design">
+<meta property="og:description" content="Eco Workshop Art, atelier bordelais créé en 2012 : démarche, parcours, expositions ARTBOXY et Luxembourg Art Prize, presse.">
+<meta property="og:url" content="https://ewa-design-maquette.vercel.app/atelier">
+<meta property="og:image" content="https://ewa-design-maquette.vercel.app/assets/partage/atelier-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="L&#39;atelier EWA Design : table de travail et maquettes en bois">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"EWA Design","alternateName":"Eco Workshop Art","url":"https://ewa-design-maquette.vercel.app/","email":"ewa_design@yahoo.com","foundingDate":"2012","address":{"@type":"PostalAddress","addressLocality":"Bordeaux","addressCountry":"FR"},"description":"Atelier bordelais d'architecture, de design, d'art et de sculpture : estampes numériques en édition limitée à 30 exemplaires, tirées à la demande."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="barre" aria-hidden="true"><span class="voile-barre"></span><div class="voile-contenu"><img src="/assets/images/logo-clair-480.webp" alt="" width="480" height="149"><span data-voile-libelle>L&#39;atelier</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <p class="ouv-ewa">EWA <span>design</span></p>
+  <p class="ouv-mots"><span class="ouv-mot ouv-art">Art</span><span class="ouv-barre" data-ouverture-objet></span><span class="ouv-mot ouv-chi">chitecture</span></p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="EWA Design, accueil" data-libelle="Accueil">
+      <img src="/assets/images/logo-480.webp" alt="" width="480" height="149">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/estampes" data-libelle="Estampes">Estampes</a></li><li><a href="/architecture" data-libelle="Architecture">Architecture</a></li><li><a href="/design-sculpture" data-libelle="Design &amp; sculpture">Design &amp; sculpture</a></li><li><a href="/atelier" data-libelle="L&#39;atelier" aria-current="page">L&#39;atelier</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/estampes" class="menu-lien" data-libelle="Estampes">Estampes</a></li><li style="--i:2"><a href="/architecture" class="menu-lien" data-libelle="Architecture">Architecture</a></li><li style="--i:3"><a href="/design-sculpture" class="menu-lien" data-libelle="Design &amp; sculpture">Design &amp; sculpture</a></li><li style="--i:4"><a href="/atelier" class="menu-lien" data-libelle="L&#39;atelier" aria-current="page">L&#39;atelier</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-contact"><a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a><span class="menu-email">ewa_design@yahoo.com</span></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-annee ecran" id="debut">
+  <p class="annee-grand" aria-hidden="true"><span class="t-masque"><span class="t-mot" data-annee>2012</span></span></p>
+  <div class="annee-texte">
+    <p class="surtitre ouv-entree">L&#39;atelier EWA</p>
+    <h1 class="ouv-entree">Eco Workshop Art, à Bordeaux</h1>
+    <p class="chapeau ouv-entree masque-ecran-bas">Une SARL de design fondée en 2012 par un architecte DPLG, qui réunit l&#39;architecture, le design, la sculpture et l&#39;estampe numérique.</p>
+    <p class="split-actions ouv-entree"><a href="/contact?sujet=exposition#demande" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Écrire à l&#39;atelier</a></p>
+    <p class="ouv-entree"><span class="split-info" data-info-cle>Prestataire de formation en cycles supérieurs</span></p>
+  </div>
+  <figure class="media annee-media ouv-media-rideau" data-grok data-iris-centre data-effet="table" style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/grok/atelier-table-1280.webp" srcset="/assets/images/grok/atelier-table-640.webp 640w, /assets/images/grok/atelier-table-1280.webp 1280w, /assets/images/grok/atelier-table-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 50vw" alt="Table d&#39;atelier d&#39;architecte : maquettes de maisons modulaires en bois, calques, aquarelles" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+</section>
+<section class="section section--encre" id="metiers">
+  <div class="conteneur">
+    <p class="surtitre">Un atelier, quatre métiers</p>
+    <h2 class="titre-section" data-anime="lignes">Ce que l&#39;on peut demander à EWA</h2>
+    <ul class="metiers-liste" data-anime="cascade">
+      <li><a href="/architecture" data-libelle="Architecture"><b>Architecture</b><span>Concours, habitat autonome, éco-quartiers</span><i aria-hidden="true">→</i></a></li><li><a href="/design-sculpture" data-libelle="Design &amp; sculpture"><b>Design</b><span>Kiosques commerciaux, intérieurs</span><i aria-hidden="true">→</i></a></li><li><a href="/estampes" data-libelle="Estampes"><b>Estampes</b><span>Séries numériques en 30 exemplaires</span><i aria-hidden="true">→</i></a></li><li><a href="/design-sculpture#sculptures" data-libelle="Design &amp; sculpture"><b>Sculpture</b><span>Luminaires, acier Corten, verre</span><i aria-hidden="true">→</i></a></li>
+    </ul>
+  </div>
+</section>
+<section class="section" id="parcours">
+  <div class="conteneur">
+    <div class="tete-section">
+      <div>
+        <p class="surtitre">Le parcours</p>
+        <h2 class="titre-section" data-anime="lignes">De Paris-Malaquais à Bordeaux</h2>
+      </div>
+      <p class="chapeau" data-anime>Collaborations : Baggio-Piechaud Architecture à Bordeaux, Hafid El Awad Architectes à Casablanca.</p>
+    </div>
+    <ol class="frise" data-effet="frise" data-anime="cascade">
+      <li><span class="annee">2005</span><div><h3>Villes indiennes</h3><p>Exposition du séminaire « Villes comparées » à l&#39;école d&#39;architecture de Paris-Malaquais.</p></div></li><li><span class="annee">2007</span><div><h3>Diplôme d&#39;architecte DPLG</h3><p>Bac + 6, après une école préparatoire aux arts appliqués à Rueil-Malmaison et un premier cycle en Interior Design validé par équivalence à l&#39;Academy of Art University de San Francisco.</p></div></li><li><span class="annee">2012</span><div><h3>Création d&#39;EWA Design</h3><p>Une SARL de design à Bordeaux, et la marque Eco Workshop Art déposée à l&#39;INPI.</p></div></li><li><span class="annee">2022</span><div><h3>Luxembourg Art Prize</h3><p>Certificat de mérite artistique.</p></div></li><li><span class="annee">2023 – 2025</span><div><h3>Expositions ARTBOXY</h3><p>Des œuvres présentées lors des éditions de Palma, Zurich, Bâle, Venise et Miami.</p></div></li><li><span class="annee">2024 – 2025</span><div><h3>Formateur à MJM Graphic Design</h3><p>Interior Design, en première année de cycle supérieur, sur le campus de Bordeaux.</p></div></li><li><span class="annee">2025</span><div><h3>Luxembourg Art Prize</h3><p>Un second certificat de mérite artistique.</p></div></li>
+    </ol>
+  </div>
+</section>
+<section class="section section--pierre" id="expositions">
+  <div class="conteneur">
+    <div class="tete-section">
+      <div>
+        <p class="surtitre">Expositions</p>
+        <h2 class="titre-section" data-anime="lignes">Les éditions ARTBOXY</h2>
+      </div>
+      <p class="chapeau" data-anime>Le programme ARTBOXY présente les œuvres sur grands écrans haute définition ou dans ses galeries partenaires.</p>
+    </div>
+    <ul class="editions" data-anime="cascade"><li>Palma 2.0</li><li>Palma 3.0</li><li>Zürich 6.0</li><li>Zürich 7.0</li><li>Basel 3.0</li><li>Venezia 2.0</li><li>Miami 4.0</li></ul>
+    <p class="galeries-titre" style="color:var(--texte-doux);margin-top:clamp(36px,5vw,64px)">Galeries partenaires du programme</p>
+    <div class="galeries" style="margin-top:0">
+      <div class="galeries-ruban" id="ruban-galeries-atelier" data-boucle-css data-ruban>
+        <div class="galeries-piste"><span class="logo-galerie"><img src="/assets/images/galerie-swiss-art-expo-240.webp" alt="Swiss Art Expo" width="240" height="288" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-cipriarte-240.webp" alt="Cipriarte Venezia" width="240" height="219" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-nicoleta-240.webp" alt="Nicoleta Gallery Berlin" width="240" height="112" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-andakulova-240.webp" alt="Andakulova Gallery" width="240" height="85" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-thomson-240.webp" alt="Thomson Gallery" width="240" height="97" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-spectrum-240.webp" alt="Spectrum Miami" width="240" height="233" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-artexpo-240.webp" alt="Artexpo New York" width="240" height="98" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-andie-art-240.webp" alt="Andie Art" width="240" height="198" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-artboxy-240.webp" alt="ARTBOXY" width="240" height="35" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-swiss-art-expo-240.webp" alt="" width="240" height="288" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-cipriarte-240.webp" alt="" width="240" height="219" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-nicoleta-240.webp" alt="" width="240" height="112" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-andakulova-240.webp" alt="" width="240" height="85" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-thomson-240.webp" alt="" width="240" height="97" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-spectrum-240.webp" alt="" width="240" height="233" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-artexpo-240.webp" alt="" width="240" height="98" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-andie-art-240.webp" alt="" width="240" height="198" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-artboxy-240.webp" alt="" width="240" height="35" loading="lazy" decoding="async"></span></div>
+      </div>
+      <button type="button" class="ruban-pause" data-pause-pour="ruban-galeries-atelier" data-libelle-pause="Pause" data-libelle-lecture="Lecture"><span data-libelle-bouton>Pause</span></button>
+    </div>
+  </div>
+</section>
+<section class="section" id="presse">
+  <div class="conteneur">
+    <p class="surtitre">Presse et distinctions</p>
+    <h2 class="titre-section" data-anime="lignes">Ils en ont parlé</h2>
+    <ul class="presse-grille" data-anime="cascade">
+      <li><button type="button" class="planche-bouton" data-planche data-image="/assets/images/presse-accrochages-960.webp" data-titre="Accrochages" data-texte="Magazine suisse d&#39;art et de musique, pages « Galerie d&#39;artistes »" aria-haspopup="dialog" aria-label="Agrandir : Accrochages">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/presse-accrochages-960.webp" srcset="/assets/images/presse-accrochages-480.webp 480w, /assets/images/presse-accrochages-960.webp 960w" sizes="(max-width: 960px) 45vw, 20vw" alt="" width="960" height="1225" loading="lazy" decoding="async">
+  </picture>
+</figure><b>Accrochages</b><span>Magazine suisse d&#39;art et de musique, pages « Galerie d&#39;artistes »</span></button></li><li><button type="button" class="planche-bouton" data-planche data-image="/assets/images/presse-nogent-745.webp" data-titre="Magazine de Nogent-sur-Marne" data-texte="Le magazine de la ville" aria-haspopup="dialog" aria-label="Agrandir : Magazine de Nogent-sur-Marne">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/presse-nogent-745.webp" srcset="/assets/images/presse-nogent-480.webp 480w, /assets/images/presse-nogent-745.webp 745w" sizes="(max-width: 960px) 45vw, 20vw" alt="" width="745" height="973" loading="lazy" decoding="async">
+  </picture>
+</figure><b>Magazine de Nogent-sur-Marne</b><span>Le magazine de la ville</span></button></li><li><button type="button" class="planche-bouton" data-planche data-image="/assets/images/presse-caue-600.webp" data-titre="CAUE de la Sarthe" data-texte="Petites Machines à Habiter, habitat léger" aria-haspopup="dialog" aria-label="Agrandir : CAUE de la Sarthe">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/presse-caue-600.webp" srcset="/assets/images/presse-caue-480.webp 480w, /assets/images/presse-caue-600.webp 600w" sizes="(max-width: 960px) 45vw, 20vw" alt="" width="600" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure><b>CAUE de la Sarthe</b><span>Petites Machines à Habiter, habitat léger</span></button></li><li><button type="button" class="planche-bouton" data-planche data-image="/assets/images/expo-luxembourg-960.webp" data-titre="Luxembourg Art Prize" data-texte="Certificat de mérite artistique" aria-haspopup="dialog" aria-label="Agrandir : Luxembourg Art Prize">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/expo-luxembourg-960.webp" srcset="/assets/images/expo-luxembourg-480.webp 480w, /assets/images/expo-luxembourg-960.webp 960w" sizes="(max-width: 960px) 45vw, 20vw" alt="" width="960" height="655" loading="lazy" decoding="async">
+  </picture>
+</figure><b>Luxembourg Art Prize</b><span>Certificat de mérite artistique</span></button></li><li><button type="button" class="planche-bouton" data-planche data-image="/assets/images/expo-malaquais-960.webp" data-titre="Paris-Malaquais" data-texte="Affiche de l&#39;exposition Villes indiennes, 2005" aria-haspopup="dialog" aria-label="Agrandir : Paris-Malaquais">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/expo-malaquais-960.webp" srcset="/assets/images/expo-malaquais-480.webp 480w, /assets/images/expo-malaquais-960.webp 960w" sizes="(max-width: 960px) 45vw, 20vw" alt="" width="960" height="1384" loading="lazy" decoding="async">
+  </picture>
+</figure><b>Paris-Malaquais</b><span>Affiche de l&#39;exposition Villes indiennes, 2005</span></button></li>
+    </ul>
+  </div>
+</section>
+<div class="visionneuse" data-visionneuse role="dialog" aria-modal="true" aria-label="Visionneuse" data-recouvrement hidden>
+  <div class="vis-commandes">
+    <button type="button" data-vis-prec aria-label="Précédente">←</button>
+    <button type="button" data-vis-suiv aria-label="Suivante">→</button>
+    <button type="button" class="vis-fermer" data-vis-fermer>Fermer</button>
+  </div>
+  <div class="vis-boite">
+    <div class="vis-image"><img data-vis-img src="/assets/images/presse-accrochages-960.webp" alt="" width="960" height="1225"></div>
+    <div class="vis-infos"><h2 data-vis-titre tabindex="-1">Accrochages</h2><p data-vis-texte></p></div>
+  </div>
+</div>
+<section class="appel" id="fin">
+  <div class="conteneur appel-grille">
+    <figure class="media estampe appel-media" data-tirage style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/splash-b-1600.webp" srcset="/assets/images/splash-b-480.webp 480w, /assets/images/splash-b-960.webp 960w, /assets/images/splash-b-1600.webp 1600w" sizes="(max-width: 860px) 70vw, 520px" alt="Splash B, estampe en noir et blanc" width="1600" height="1066" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div>
+      <h2 class="titre-section" data-anime="lignes">Une exposition, un article, une collaboration ?</h2>
+      <p data-anime>L&#39;atelier répond à toutes les demandes par e-mail.</p>
+      <p class="appel-actions" data-anime><a href="/contact?sujet=exposition#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Écrire à l&#39;atelier</a></p>
+      <span class="appel-email">ewa_design@yahoo.com</span>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-480.webp" alt="EWA Design, Art | chitecture" width="480" height="149" loading="lazy">
+      <p>Atelier d&#39;architecture, de design et d&#39;art, à Bordeaux depuis 2012. Estampes numériques en 30 exemplaires, tirées à la demande.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Écrire à l&#39;atelier</p>
+      <p><a class="pied-email" href="mailto:ewa_design@yahoo.com">ewa_design@yahoo.com</a><br>Bordeaux, France</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/estampes" data-libelle="Estampes">Estampes</a></li><li><a href="/architecture" data-libelle="Architecture">Architecture</a></li><li><a href="/design-sculpture" data-libelle="Design &amp; sculpture">Design &amp; sculpture</a></li><li><a href="/atelier" data-libelle="L&#39;atelier" aria-current="page">L&#39;atelier</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Informations</p>
+      <ul class="pied-legal">
+        <li>Mentions légales <span>· à compléter</span></li>
+        <li>Politique de confidentialité <span>· à compléter</span></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de présentation : formulaires et demandes simulés, rien n&#39;est envoyé.</p><p>© EWA Design, 2026</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="/contact" data-libelle="Contact">Écrire à l&#39;atelier</a>
+  <a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a>
+</div>
+</body>
+</html>

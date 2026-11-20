@@ -1,0 +1,16 @@
+{
+ "id": "20261120-220213-standard-cible-partiel",
+ "date": "2026-11-20T22:04:51.457Z",
+ "niveau": "standard",
+ "pages": "/,/404,/architecture,/atelier,/contact,/design-sculpture,/estampes",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 14,
+ "aRegarder": 6,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

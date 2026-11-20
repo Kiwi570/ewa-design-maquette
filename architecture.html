@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Architecture : concours, habitat autonome et éco-quartiers, EWA Design</title>
+<meta name="description" content="Concours de Bordeaux à Chan Chan, habitat autonome en bois sur le littoral girondin, éco-quartiers et villes sur l&#39;eau.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://ewa-design-maquette.vercel.app/architecture">
+<style>:root{--fond:#f5f3ef;--texte:#141414;--voile-fond:#141414;--ouverture-fond:#f5f3ef;--menu-fond:#141414}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules/globe.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f5f3ef">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EWA Design">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Architecture : concours, habitat autonome et éco-quartiers, EWA Design">
+<meta property="og:description" content="Concours de Bordeaux à Chan Chan, habitat autonome en bois sur le littoral girondin, éco-quartiers et villes sur l&#39;eau.">
+<meta property="og:url" content="https://ewa-design-maquette.vercel.app/architecture">
+<meta property="og:image" content="https://ewa-design-maquette.vercel.app/assets/partage/architecture-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Architecture EWA Design : croquis d&#39;un complexe côtier en rubans">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"EWA Design","alternateName":"Eco Workshop Art","url":"https://ewa-design-maquette.vercel.app/","email":"ewa_design@yahoo.com","foundingDate":"2012","address":{"@type":"PostalAddress","addressLocality":"Bordeaux","addressCountry":"FR"},"description":"Atelier bordelais d'architecture, de design, d'art et de sculpture : estampes numériques en édition limitée à 30 exemplaires, tirées à la demande."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="barre" aria-hidden="true"><span class="voile-barre"></span><div class="voile-contenu"><img src="/assets/images/logo-clair-480.webp" alt="" width="480" height="149"><span data-voile-libelle>Architecture</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <p class="ouv-ewa">EWA <span>design</span></p>
+  <p class="ouv-mots"><span class="ouv-mot ouv-art">Art</span><span class="ouv-barre" data-ouverture-objet></span><span class="ouv-mot ouv-chi">chitecture</span></p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="EWA Design, accueil" data-libelle="Accueil">
+      <img src="/assets/images/logo-480.webp" alt="" width="480" height="149">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/estampes" data-libelle="Estampes">Estampes</a></li><li><a href="/architecture" data-libelle="Architecture" aria-current="page">Architecture</a></li><li><a href="/design-sculpture" data-libelle="Design &amp; sculpture">Design &amp; sculpture</a></li><li><a href="/atelier" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/estampes" class="menu-lien" data-libelle="Estampes">Estampes</a></li><li style="--i:2"><a href="/architecture" class="menu-lien" data-libelle="Architecture" aria-current="page">Architecture</a></li><li style="--i:3"><a href="/design-sculpture" class="menu-lien" data-libelle="Design &amp; sculpture">Design &amp; sculpture</a></li><li style="--i:4"><a href="/atelier" class="menu-lien" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-contact"><a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a><span class="menu-email">ewa_design@yahoo.com</span></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-bande ecran conteneur" id="debut">
+  <div class="bande-tete">
+    <div>
+      <p class="surtitre ouv-entree">Architecture · concours et habitat</p>
+      <h1><span class="t-masque l"><span class="t-mot">Dessiner</span></span><span class="t-masque l"><span class="t-mot">pour un climat</span></span></h1>
+    </div>
+    <div>
+      <p class="ouv-entree masque-ecran-bas">Chaque projet commence par le climat du lieu : la pluie de Bordeaux, le vent d&#39;Essaouira, l&#39;hiver de Tampere.</p>
+      <p class="bande-actions ouv-entree">
+        <a href="/contact?sujet=architecture#demande" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Parler d&#39;un projet</a>
+        <span class="split-info" data-info-cle>Lauréat · Institut d&#39;études politiques de Bordeaux</span>
+      </p>
+    </div>
+  </div>
+  <figure class="media bande-media ouv-media-rideau" data-iris-centre data-effet="bande" style="--cadrage:54% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/archi-cotier-mobile-640.webp 640w, /assets/images/archi-cotier-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/archi-cotier-1280.webp" srcset="/assets/images/archi-cotier-640.webp 640w, /assets/images/archi-cotier-1280.webp 1280w, /assets/images/archi-cotier-1536.webp 1536w" sizes="100vw" alt="Croquis d&#39;un complexe côtier en rubans au bord de l&#39;eau" width="1280" height="548" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+</section>
+<section class="gi section section--pierre" id="concours" data-module="globe-itineraire">
+  <div class="gi__tete conteneur">
+    <p class="surtitre">Les concours</p>
+    <h2 class="gi__titre titre-section" data-anime="lignes">Sept escales, quatre continents</h2>
+    <p class="gi__intro chapeau">Une sélection des concours de l&#39;atelier, menés seul ou avec Baggio-Piechaud, Hafid El Awad Architectes et Damien Lachaud.</p>
+  </div>
+  <div class="gi__corps conteneur">
+    <div class="gi__scene" data-effet="globe">
+      <div class="gi__globe">
+        <canvas class="gi__toile" aria-hidden="true"></canvas>
+        <p class="gi__compteur" aria-hidden="true">Escale <b data-gi-n>1</b> / <span data-gi-total>7</span></p>
+      </div>
+      <nav class="gi__nav" aria-label="Étapes des concours sur le globe"></nav>
+    </div>
+    <ol class="gi__etapes" aria-label="Étapes des concours sur le globe">
+      <li class="gi__etape" id="concours-1" data-lat="44.81" data-lon="-0.6">
+        <p class="gi__n"><b>01</b><span>Bordeaux · France</span></p>
+        <h3>Institut d&#39;études politiques <span class="gi-statut">Lauréat</span></h3>
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/concours-iep-480.webp" srcset="/assets/images/concours-iep-480.webp 480w" sizes="(max-width: 900px) 90vw, 420px" alt="Institut d&#39;études politiques" width="480" height="360" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p>Lauréat du concours de Sciences Po Bordeaux, campus de Pessac : plus de 2 100 élèves. Mission d&#39;assistant chef de projet chez Baggio-Piechaud.</p>
+      </li><li class="gi__etape" id="concours-2" data-lat="61.5" data-lon="23.79">
+        <p class="gi__n"><b>02</b><span>Tampere · Finlande</span></p>
+        <h3>EUROPAN 10, un éco-quartier</h3>
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/concours-tampere-480.webp" srcset="/assets/images/concours-tampere-480.webp 480w" sizes="(max-width: 900px) 90vw, 420px" alt="EUROPAN 10, un éco-quartier" width="480" height="360" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p>Un quartier écologique pensé pour un climat subarctique : 4,4 °C de moyenne annuelle.</p>
+      </li><li class="gi__etape" id="concours-3" data-lat="31.51" data-lon="-9.77">
+        <p class="gi__n"><b>03</b><span>Essaouira · Maroc</span></p>
+        <h3>Villas de la station Mogador</h3>
+        <p>Trois types de villas de 250 à 350 m², toutes tournées vers la mer, en pierre d&#39;Essaouira et en bois. Avec Hafid El Awad Architectes.</p>
+      </li><li class="gi__etape" id="concours-4" data-lat="6.5" data-lon="3.39">
+        <p class="gi__n"><b>04</b><span>Lagos · Nigeria</span></p>
+        <h3>Makoko, la Venise flottante</h3>
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/concours-makoko-800.webp" srcset="/assets/images/concours-makoko-480.webp 480w, /assets/images/concours-makoko-800.webp 800w" sizes="(max-width: 900px) 90vw, 420px" alt="Makoko, la Venise flottante" width="800" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p>Un habitat flottant pour un quartier de 150 000 habitants menacé d&#39;expulsion, présenté au prix de la Fondation Jacques Rougerie sur la montée des océans.</p>
+      </li><li class="gi__etape" id="concours-5" data-lat="-3.34" data-lon="35.67">
+        <p class="gi__n"><b>05</b><span>Karatu · Tanzanie</span></p>
+        <h3>Une maison pour la famille Jorejick</h3>
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/concours-karatu-800.webp" srcset="/assets/images/concours-karatu-480.webp 480w, /assets/images/concours-karatu-800.webp 800w" sizes="(max-width: 900px) 90vw, 420px" alt="Une maison pour la famille Jorejick" width="800" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p>Briques de terre, toits en dôme et ventilation naturelle, pour une maison à construire soi-même, transformable ensuite en lodges.</p>
+      </li><li class="gi__etape" id="concours-6" data-lat="14.56" data-lon="-61.05">
+        <p class="gi__n"><b>06</b><span>La Pointe du Bout · Martinique</span></p>
+        <h3>Un hôtel 5 étoiles et sa permaculture <span class="gi-statut">Non retenu</span></h3>
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/concours-martinique-960.webp" srcset="/assets/images/concours-martinique-480.webp 480w, /assets/images/concours-martinique-960.webp 960w" sizes="(max-width: 900px) 90vw, 420px" alt="Un hôtel 5 étoiles et sa permaculture" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p>Un hôtel de luxe nourri par ses jardins, avec le designer en permaculture Damien Lachaud.</p>
+      </li><li class="gi__etape" id="concours-7" data-lat="-8.11" data-lon="-79.07">
+        <p class="gi__n"><b>07</b><span>Chan Chan · Pérou</span></p>
+        <h3>Concours international ARQUITECTUM</h3>
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/concours-chanchan-960.webp" srcset="/assets/images/concours-chanchan-480.webp 480w, /assets/images/concours-chanchan-960.webp 960w" sizes="(max-width: 900px) 90vw, 420px" alt="Concours international ARQUITECTUM" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p>Un complexe en rubans fluides près de Chan Chan, capitale du royaume Chimor de 900 à 1470, la plus grande ville précolombienne d&#39;Amérique du Sud.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+<section class="section" id="habitat">
+  <div class="conteneur">
+    <div class="habitat-grille">
+      <div>
+        <p class="surtitre">Habitat autonome · Gironde</p>
+        <h2 class="titre-section" data-anime="lignes">Des maisons qui se suffisent</h2>
+        <p class="chapeau" data-anime>Avec Damien Lachaud (permaculture), le bureau d&#39;études bois Denis Capo et l&#39;atelier bois du groupe Meison : une charte de maisons autonomes en bois pour un maître d&#39;ouvrage privé, sur le littoral girondin.</p>
+        <ul class="principes" data-anime="cascade">
+          <li><h3>Bois et trame de 4 × 4 m</h3><p>Structure et bardage en bois ; une trame modulaire qui se monte sur le terrain en une journée.</p></li><li><h3>Paille et chanvre</h3><p>Isolation en paille pour les murs nord, en chanvre pour les autres façades.</p></li><li><h3>Une serre au centre</h3><p>Serre de permaculture au cœur du logement, bassins d&#39;aquaponie remplis par l&#39;eau de pluie.</p></li><li><h3>Géothermie et air naturel</h3><p>Régulation thermique par géothermie, cheminées et ventilation naturelle des toitures.</p></li>
+        </ul>
+      </div>
+      <figure class="habitat-figure" style="margin:0">
+        <figure class="media habitat-coupe" data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/habitat-coupe-1280.webp" srcset="/assets/images/habitat-coupe-480.webp 480w, /assets/images/habitat-coupe-960.webp 960w, /assets/images/habitat-coupe-1280.webp 1280w" sizes="(max-width: 860px) 100vw, 50vw" alt="Coupe d&#39;un module : serre verticale, eau de pluie, géothermie" width="1280" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <figcaption class="legende">Coupe d&#39;un module : serre verticale, eau de pluie, géothermie</figcaption>
+      </figure>
+    </div>
+    <div class="habitat-galerie">
+      <figure class="media " data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/habitat-lisiere-1280.webp" srcset="/assets/images/habitat-lisiere-640.webp 640w, /assets/images/habitat-lisiere-1280.webp 1280w" sizes="(max-width: 760px) 100vw, 50vw" alt="Habitat autonome en bois en lisière de forêt" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media " data-fx="parallaxe" data-fx-force="14" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/habitat-groupe-1280.webp" srcset="/assets/images/habitat-groupe-640.webp 640w, /assets/images/habitat-groupe-1280.webp 1280w" sizes="(max-width: 760px) 100vw, 50vw" alt="Trois modules d&#39;habitat autonome reliés par une serre" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="tableau-cadre" tabindex="0" role="region" aria-label="Les cinq modèles">
+      <table class="tableau-modeles" data-anime>
+        <caption>Les cinq modèles</caption>
+        <thead><tr><th scope="col">Modèle</th><th scope="col">Occupants</th><th scope="col">Surface</th><th scope="col">Solaire</th><th scope="col">Légumes</th></tr></thead>
+        <tbody><tr><th scope="row">M 001</th><td>1 à 2</td><td>80 m²</td><td>10 m² · 1 200 kWh</td><td>170 kg</td></tr><tr><th scope="row">M 004</th><td>3</td><td>135 m²</td><td>30 m² · 3 600 kWh</td><td>450 kg</td></tr><tr><th scope="row">M 007</th><td>3</td><td>135 m²</td><td>35 m² · 4 000 kWh</td><td>450 kg</td></tr><tr><th scope="row">M 008</th><td>4</td><td>230 m²</td><td>60 m² · 7 200 kWh</td><td>600 kg</td></tr><tr><th scope="row">M 009</th><td>6</td><td>300 m²</td><td>60 m² · 7 200 kWh</td><td>900 kg</td></tr></tbody>
+      </table>
+    </div>
+    <p class="trame-note">Surfaces et rendements repris du tableau du site actuel.</p>
+  </div>
+</section>
+<section class="section section--pierre" id="urbanisme">
+  <div class="conteneur">
+    <div class="tete-section">
+      <div>
+        <p class="surtitre">Éco-quartiers</p>
+        <h2 class="titre-section" data-anime="lignes">Habiter l&#39;eau et la terre</h2>
+      </div>
+      <p class="chapeau" data-anime>Quartiers flottants, îles-jardins, villages en terre : des recherches pour des villes plus sobres.</p>
+    </div>
+    <ul class="urba-grille" data-anime="cascade">
+      <li><figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/eco-flottant-1280.webp" srcset="/assets/images/eco-flottant-640.webp 640w, /assets/images/eco-flottant-1280.webp 1280w" sizes="(max-width: 860px) 100vw, 40vw" alt="Maisons sur l&#39;eau" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure><h3>Maisons sur l&#39;eau</h3><p>Des maisons sur pilotis au bord d&#39;un lac, reliées par des pontons.</p></li><li><figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/eco-anneau-1280.webp" srcset="/assets/images/eco-anneau-640.webp 640w, /assets/images/eco-anneau-1280.webp 1280w" sizes="(max-width: 860px) 100vw, 40vw" alt="Une île en anneau" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure><h3>Une île en anneau</h3><p>Une île-jardin circulaire au large d&#39;une ville côtière.</p></li><li><figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/urb-plan-960.webp" srcset="/assets/images/urb-plan-480.webp 480w, /assets/images/urb-plan-960.webp 960w" sizes="(max-width: 860px) 100vw, 40vw" alt="Une ville en étoile" width="960" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure><h3>Une ville en étoile</h3><p>Plan masse d&#39;un quartier flottant, ses jardins et ses quais.</p></li>
+    </ul>
+  </div>
+</section>
+<section class="section" id="esquisse">
+  <div class="conteneur esquisse-grille">
+    <div>
+      <p class="surtitre">Un parti pris</p>
+      <h2 class="titre-section" data-anime="lignes">Le non-photoréalisme</h2>
+      <p class="chapeau" data-anime>Encre, lavis, couleurs d&#39;estampe : ces images ne cherchent pas à faire vrai. Elles montrent les volumes, la lumière et les liens entre les espaces, et laissent une place à l&#39;imagination, au moment où le projet se décide.</p>
+    </div>
+    <div>
+      <figure class="media esquisse-grand" data-fx="onde" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/croquis-villa-couleurs-1280.webp" srcset="/assets/images/croquis-villa-couleurs-640.webp 640w, /assets/images/croquis-villa-couleurs-1280.webp 1280w, /assets/images/croquis-villa-couleurs-1536.webp 1536w" sizes="(max-width: 860px) 100vw, 55vw" alt="Villa contemporaine au bord d&#39;une piscine, croquis aux couleurs d&#39;estampe" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <div class="esquisse-paire">
+        <figure style="margin:0"><figure class="media " data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/croquis-villa-encre-1280.webp" srcset="/assets/images/croquis-villa-encre-640.webp 640w, /assets/images/croquis-villa-encre-1280.webp 1280w" sizes="(max-width: 860px) 50vw, 27vw" alt="Villa contemporaine dessinée à l&#39;encre, en noir et blanc" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure><figcaption class="legende">Encre et lumière</figcaption></figure>
+        <figure style="margin:0"><figure class="media " data-anime="rideau" style="--cadrage:50% 45%">
+  <picture>
+    <img src="/assets/images/archi-rubans-1440.webp" srcset="/assets/images/archi-rubans-640.webp 640w, /assets/images/archi-rubans-960.webp 960w, /assets/images/archi-rubans-1440.webp 1440w" sizes="(max-width: 860px) 50vw, 27vw" alt="Croquis aquarellé d&#39;un complexe sportif en rubans fluides" width="1440" height="1080" loading="lazy" decoding="async">
+  </picture>
+</figure><figcaption class="legende">Couleurs d&#39;estampe</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="appel" id="fin">
+  <div class="conteneur appel-grille">
+    <figure class="media appel-media" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/croquis-art-chitecture-1280.webp" srcset="/assets/images/croquis-art-chitecture-640.webp 640w, /assets/images/croquis-art-chitecture-1280.webp 1280w, /assets/images/croquis-art-chitecture-1536.webp 1536w" sizes="(max-width: 860px) 100vw, 50vw" alt="Croquis aquarellé d&#39;un ensemble de rubans de béton et de verre" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div>
+      <h2 class="titre-section" data-anime="lignes">Un terrain, un programme, un concours ?</h2>
+      <p data-anime>Décrivez votre projet : l&#39;atelier vous répond par e-mail.</p>
+      <p class="appel-actions" data-anime><a href="/contact?sujet=architecture#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Parler d&#39;un projet</a></p>
+      <span class="appel-email">ewa_design@yahoo.com</span>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-480.webp" alt="EWA Design, Art | chitecture" width="480" height="149" loading="lazy">
+      <p>Atelier d&#39;architecture, de design et d&#39;art, à Bordeaux depuis 2012. Estampes numériques en 30 exemplaires, tirées à la demande.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Écrire à l&#39;atelier</p>
+      <p><a class="pied-email" href="mailto:ewa_design@yahoo.com">ewa_design@yahoo.com</a><br>Bordeaux, France</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/estampes" data-libelle="Estampes">Estampes</a></li><li><a href="/architecture" data-libelle="Architecture" aria-current="page">Architecture</a></li><li><a href="/design-sculpture" data-libelle="Design &amp; sculpture">Design &amp; sculpture</a></li><li><a href="/atelier" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Informations</p>
+      <ul class="pied-legal">
+        <li>Mentions légales <span>· à compléter</span></li>
+        <li>Politique de confidentialité <span>· à compléter</span></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de présentation : formulaires et demandes simulés, rien n&#39;est envoyé.</p><p>© EWA Design, 2026</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="/contact" data-libelle="Contact">Écrire à l&#39;atelier</a>
+  <a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a>
+</div>
+</body>
+</html>

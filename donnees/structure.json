@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "EWA Design",
+  "alternateName": "Eco Workshop Art",
+  "url": "https://ewa-design-maquette.vercel.app/",
+  "email": "ewa_design@yahoo.com",
+  "foundingDate": "2012",
+  "address": { "@type": "PostalAddress", "addressLocality": "Bordeaux", "addressCountry": "FR" },
+  "description": "Atelier bordelais d'architecture, de design, d'art et de sculpture : estampes numériques en édition limitée à 30 exemplaires, tirées à la demande."
+}

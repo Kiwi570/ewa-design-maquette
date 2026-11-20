@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EWA Design : estampes numériques, architecture et design à Bordeaux</title>
+<meta name="description" content="Estampes numériques en édition limitée à 30 exemplaires, tirées à la demande ; architecture, design et sculpture. Atelier EWA Design, Bordeaux.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://ewa-design-maquette.vercel.app/">
+<style>:root{--fond:#f5f3ef;--texte:#141414;--voile-fond:#141414;--ouverture-fond:#f5f3ef;--menu-fond:#141414}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f5f3ef">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EWA Design">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="EWA Design : estampes numériques, architecture et design à Bordeaux">
+<meta property="og:description" content="Estampes numériques en édition limitée à 30 exemplaires, tirées à la demande ; architecture, design et sculpture. Atelier EWA Design, Bordeaux.">
+<meta property="og:url" content="https://ewa-design-maquette.vercel.app/">
+<meta property="og:image" content="https://ewa-design-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="EWA Design : une estampe Impulsions et le titre Art | chitecture">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"EWA Design","alternateName":"Eco Workshop Art","url":"https://ewa-design-maquette.vercel.app/","email":"ewa_design@yahoo.com","foundingDate":"2012","address":{"@type":"PostalAddress","addressLocality":"Bordeaux","addressCountry":"FR"},"description":"Atelier bordelais d'architecture, de design, d'art et de sculpture : estampes numériques en édition limitée à 30 exemplaires, tirées à la demande."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="barre" aria-hidden="true"><span class="voile-barre"></span><div class="voile-contenu"><img src="/assets/images/logo-clair-480.webp" alt="" width="480" height="149"><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <p class="ouv-ewa">EWA <span>design</span></p>
+  <p class="ouv-mots"><span class="ouv-mot ouv-art">Art</span><span class="ouv-barre" data-ouverture-objet></span><span class="ouv-mot ouv-chi">chitecture</span></p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="EWA Design, accueil" data-libelle="Accueil" aria-current="page">
+      <img src="/assets/images/logo-480.webp" alt="" width="480" height="149">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/estampes" data-libelle="Estampes">Estampes</a></li><li><a href="/architecture" data-libelle="Architecture">Architecture</a></li><li><a href="/design-sculpture" data-libelle="Design &amp; sculpture">Design &amp; sculpture</a></li><li><a href="/atelier" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/estampes" class="menu-lien" data-libelle="Estampes">Estampes</a></li><li style="--i:2"><a href="/architecture" class="menu-lien" data-libelle="Architecture">Architecture</a></li><li style="--i:3"><a href="/design-sculpture" class="menu-lien" data-libelle="Design &amp; sculpture">Design &amp; sculpture</a></li><li style="--i:4"><a href="/atelier" class="menu-lien" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-contact"><a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a><span class="menu-email">ewa_design@yahoo.com</span></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-split ecran" id="debut">
+  <div class="split-art">
+    <figure class="media estampe " data-iris-centre data-tirage data-effet="tirage-ouverture" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/impulsions-i-a-1600.webp" srcset="/assets/images/impulsions-i-a-480.webp 480w, /assets/images/impulsions-i-a-960.webp 960w, /assets/images/impulsions-i-a-1600.webp 1600w" sizes="(max-width: 760px) 46vw, 520px" alt="Impulsions 2026 I-A · 90 × 90 cm" width="1600" height="1600" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+    <p class="legende masque-ecran-bas">Impulsions 2026 I-A · 90 × 90 cm</p>
+  </div>
+  <span class="split-barre" data-effet="barre" aria-hidden="true"></span>
+  <div class="split-chi">
+    <figure class="media ouv-media-rideau" data-effet="split-chi" data-boucle-css style="--cadrage:50% 45%">
+  <picture>
+    <img src="/assets/images/archi-rubans-1440.webp" srcset="/assets/images/archi-rubans-640.webp 640w, /assets/images/archi-rubans-960.webp 960w, /assets/images/archi-rubans-1440.webp 1440w" sizes="(max-width: 760px) 46vw, 56vw" alt="Chan Chan, Pérou · croquis de concours" width="1440" height="1080" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <p class="legende masque-ecran-bas">Chan Chan, Pérou · croquis de concours</p>
+  </div>
+  <div class="split-titre">
+    <p class="surtitre ouv-entree masque-ecran-tres-bas">EWA Design · Bordeaux</p>
+    <h1 class="titre-split"><span class="t-masque"><span class="t-mot t-art">Art</span></span><span class="t-barre" aria-hidden="true"></span><span class="t-masque"><span class="t-mot">chitecture</span></span></h1>
+  </div>
+  <div class="split-texte">
+    <p class="ouv-entree masque-ecran-petit">Des estampes numériques en 30 exemplaires, tirées à la demande. Et des lieux dessinés, du Pérou à la Finlande.</p>
+    <p class="split-actions ouv-entree">
+      <a href="/estampes#catalogue" class="bouton" data-libelle="Estampes" data-action-principale data-survol="magnetique">Choisir une estampe</a>
+      <a href="/architecture" class="bouton bouton--contour masque-ecran-tres-bas" data-libelle="Architecture">Voir l&#39;architecture</a>
+    </p>
+    <p class="split-info-ligne ouv-entree"><span class="split-info" data-info-cle>Estampes 1/30 · certificat d&#39;authenticité</span></p>
+  </div>
+</section>
+<section class="section" id="demarche">
+  <div class="conteneur demarche-grille">
+    <div>
+      <p class="surtitre">Eco Workshop Art</p>
+      <h2 class="titre-section" data-anime="lignes">Pas de stock, pas de déchets</h2>
+      <p class="chapeau" data-anime>L&#39;art comme une fête de la création, qui respecte la planète : chaque estampe existe d&#39;abord en fichier, et n&#39;est imprimée que lorsqu&#39;on la choisit.</p>
+      <ol class="engagements" data-anime="cascade">
+        <li><span class="n">01</span><h3>Tirée à la demande</h3><p>Aucune surproduction : on imprime seulement ce que l&#39;on aime.</p></li><li><span class="n">02</span><h3>Un papier choisi</h3><p>Papier local, recyclé ou certifié FSC : le collectionneur décide.</p></li><li><span class="n">03</span><h3>Un fichier pour la vie</h3><p>Le fichier reste disponible et se réimprime sans rien produire de plus.</p></li>
+      </ol>
+    </div>
+    <figure class="media demarche-media" data-grok data-fx="parallaxe" style="--cadrage:55% 50%">
+  <picture>
+    <img src="/assets/images/grok/atelier-tirage-1280.webp" srcset="/assets/images/grok/atelier-tirage-640.webp 640w, /assets/images/grok/atelier-tirage-1280.webp 1280w, /assets/images/grok/atelier-tirage-1920.webp 1920w" sizes="(max-width: 860px) 100vw, 45vw" alt="Imprimante grand format d&#39;où sort une feuille de papier coton encore vierge" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="section section--pierre series" id="series" data-effet="series">
+  <div class="conteneur tete-section">
+    <div>
+      <p class="surtitre">Les estampes</p>
+      <h2 class="titre-section" data-anime="lignes">Cinq séries, une seule règle : 30 exemplaires</h2>
+    </div>
+    <p class="chapeau" data-anime>Chaque œuvre est signée, numérotée et livrée avec son certificat d&#39;authenticité.<br><b>Série limitée à 30 exemplaires · certificat d&#39;authenticité · 300 ppp</b></p>
+  </div>
+  <div class="series-fenetre" tabindex="0" role="region" aria-label="Séries d&#39;estampes, défilement horizontal">
+    <ul class="series-piste" data-series-piste data-galerie>
+      <li class="serie-carte">
+        <figure class="media estampe " data-tirage style="--delai:0s" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/impulsions-g-1600.webp" srcset="/assets/images/impulsions-g-480.webp 480w, /assets/images/impulsions-g-960.webp 960w, /assets/images/impulsions-g-1600.webp 1600w" sizes="(max-width: 760px) 74vw, 380px" alt="Impulsions 2026" width="1600" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <h3>Impulsions <span>2026</span></h3>
+        <p>19 estampes · 90 × 90 cm</p>
+        <a href="/estampes?serie=impulsions#catalogue" class="lien-fleche" data-libelle="Estampes">Voir la série</a>
+      </li><li class="serie-carte">
+        <figure class="media estampe " data-tirage style="--delai:0.12s" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/combo-e-1600.webp" srcset="/assets/images/combo-e-480.webp 480w, /assets/images/combo-e-960.webp 960w, /assets/images/combo-e-1600.webp 1600w" sizes="(max-width: 760px) 74vw, 380px" alt="Combo 2026" width="1600" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <h3>Combo <span>2026</span></h3>
+        <p>15 estampes · 90 × 90 cm</p>
+        <a href="/estampes?serie=combo#catalogue" class="lien-fleche" data-libelle="Estampes">Voir la série</a>
+      </li><li class="serie-carte">
+        <figure class="media estampe " data-tirage style="--delai:0.24s" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/empreintes-a-1600.webp" srcset="/assets/images/empreintes-a-480.webp 480w, /assets/images/empreintes-a-960.webp 960w, /assets/images/empreintes-a-1600.webp 1600w" sizes="(max-width: 760px) 74vw, 380px" alt="Empreintes 2025" width="1600" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <h3>Empreintes <span>2025</span></h3>
+        <p>15 estampes · Format sur demande</p>
+        <a href="/estampes?serie=empreintes#catalogue" class="lien-fleche" data-libelle="Estampes">Voir la série</a>
+      </li><li class="serie-carte">
+        <figure class="media estampe " data-tirage style="--delai:0s" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/splash-a-1600.webp" srcset="/assets/images/splash-a-480.webp 480w, /assets/images/splash-a-960.webp 960w, /assets/images/splash-a-1600.webp 1600w" sizes="(max-width: 760px) 74vw, 380px" alt="Splash " width="1600" height="1066" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <h3>Splash <span></span></h3>
+        <p>15 estampes · 105 × 70 cm</p>
+        <a href="/estampes?serie=splash#catalogue" class="lien-fleche" data-libelle="Estampes">Voir la série</a>
+      </li><li class="serie-carte">
+        <figure class="media estampe " data-tirage style="--delai:0.12s" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/vibration-a1-800.webp" srcset="/assets/images/vibration-a1-400.webp 400w, /assets/images/vibration-a1-800.webp 800w" sizes="(max-width: 760px) 74vw, 380px" alt="Vibration nature 2025" width="800" height="1829" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <h3>Vibration nature <span>2025</span></h3>
+        <p>9 estampes · 50 × 115 cm</p>
+        <a href="/estampes?serie=vibration#catalogue" class="lien-fleche" data-libelle="Estampes">Voir la série</a>
+      </li>
+    </ul>
+  </div>
+  <p class="conteneur series-pied"><a href="/estampes#catalogue" class="bouton" data-libelle="Estampes">Tout le catalogue</a></p>
+</section>
+<section class="section" id="formats">
+  <div class="conteneur formats-grille">
+    <div class="gig-scene" data-effet="gigogne" role="img" aria-label="Schéma : trois carrés emboîtés de 30, 60 et 90 cm à côté d&#39;une silhouette de 1,70 m">
+      <span class="gig-mur"></span><span class="gig-sol"></span>
+      <span class="gig-cote"><span>1,70 m</span></span>
+      <svg class="gig-silhouette" viewBox="0 0 44 170" aria-hidden="true"><circle cx="22" cy="11" r="10" fill="currentColor"/><path fill="currentColor" d="M9 25h26c3.3 0 6 2.7 6 6v46c0 2.2-1.8 4-4 4s-4-1.8-4-4V40h-1v124c0 3.3-2.7 6-6 6s-5-2.7-5-6V96h-2v68c0 3.3-2.2 6-5 6s-6-2.7-6-6V40h-1v37c0 2.2-1.8 4-4 4s-4-1.8-4-4V31c0-3.3 2.7-6 6-6z"/></svg>
+      <div class="gig-cadre">
+        <span class="gig-repere gig-r90"><span>90</span></span>
+        <span class="gig-repere gig-r60"><span>60</span></span>
+        <span class="gig-repere gig-r30"><span>30</span></span>
+        <div class="gig-oeuvre" data-gig-oeuvre>
+          <img src="/assets/images/impulsions-g-960.webp" alt="" width="960" height="960" loading="lazy" decoding="async">
+        </div>
+      </div>
+      <p class="gig-taille" aria-hidden="true"><b data-gig-taille>90</b> × <span data-gig-taille2>90</span> cm</p>
+    </div>
+    <div>
+      <p class="surtitre">Du fichier au mur</p>
+      <h2 class="titre-section" data-anime="lignes">30, 60 ou 90 centimètres de côté</h2>
+      <p class="chapeau" data-anime>La même estampe Impulsions change d&#39;échelle sans perdre un détail : le fichier est préparé à 300 ppp. Une silhouette de 1,70 m donne la mesure.</p>
+      <div class="choix-formats" role="group" aria-label="Choisir un format">
+        <button type="button" data-gig-choix="30" aria-pressed="false">30 × 30 cm</button><button type="button" data-gig-choix="60" aria-pressed="false">60 × 60 cm</button><button type="button" data-gig-choix="90" aria-pressed="true">90 × 90 cm</button>
+      </div>
+      <p><b>Quatre supports, avec ou sans cadre</b></p>
+      <ul class="supports-mini" data-anime="cascade">
+        <li><figure class="media " data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/support-plexi-960.webp" srcset="/assets/images/grok/support-plexi-480.webp 480w, /assets/images/grok/support-plexi-960.webp 960w" sizes="120px" alt="Plexiglas" width="960" height="960" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>Plexiglas</li><li><figure class="media " data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/support-alu-960.webp" srcset="/assets/images/grok/support-alu-480.webp 480w, /assets/images/grok/support-alu-960.webp 960w" sizes="120px" alt="Alu Dibond" width="960" height="960" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>Alu Dibond</li><li><figure class="media " data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/support-toile-960.webp" srcset="/assets/images/grok/support-toile-480.webp 480w, /assets/images/grok/support-toile-960.webp 960w" sizes="120px" alt="Toile" width="960" height="960" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>Toile</li><li><figure class="media " data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/support-papier-960.webp" srcset="/assets/images/grok/support-papier-480.webp 480w, /assets/images/grok/support-papier-960.webp 960w" sizes="120px" alt="Papier Fine Art" width="960" height="960" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>Papier Fine Art</li>
+      </ul>
+      <a href="/contact?sujet=estampe#demande" class="lien-fleche" data-libelle="Contact">Composer ma demande</a>
+    </div>
+  </div>
+</section>
+<section class="archi-plein" id="architecture" data-fx="plein-ecran" data-fx-depart="inset(22% 26% 22% 26% round 0px)">
+  <div data-collant>
+    <figure class="media " data-fx-cible style="--cadrage:54% 48%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/archi-cotier-mobile-640.webp 640w, /assets/images/archi-cotier-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/archi-cotier-1280.webp" srcset="/assets/images/archi-cotier-640.webp 640w, /assets/images/archi-cotier-1280.webp 1280w, /assets/images/archi-cotier-1536.webp 1536w" sizes="100vw" alt="Croquis d&#39;un complexe côtier en rubans au bord de l&#39;eau" width="1280" height="548" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <p class="archi-mots" aria-hidden="true"><span data-fx-ecarte="g">Du Pérou</span><span data-fx-ecarte="d">à la Finlande</span></p>
+    <div class="archi-apres" data-fx-apres>
+      <h2 class="titre-section">L&#39;architecture d&#39;EWA</h2>
+      <p>Concours internationaux, habitat autonome en bois, éco-quartiers, villes sur l&#39;eau : des lieux dessinés pour leur climat.</p>
+      <a href="/architecture" class="lien-fleche" data-libelle="Architecture">Voir l&#39;architecture</a>
+    </div>
+  </div>
+</section>
+<section class="section section--pierre" id="trame">
+  <div class="conteneur trame-grille">
+    <div>
+      <p class="surtitre">Habitat autonome · littoral de Gironde</p>
+      <h2 class="titre-section" data-anime="lignes">Une maison qui grandit, module après module</h2>
+      <p class="chapeau" data-anime>Une trame de 4 × 4 m, en bois, que l&#39;on agrandit avec la famille : des maisons autonomes en énergie et en légumes, montées sur le terrain en une journée.</p>
+      <figure class="media trame-media" data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/habitat-prairie-1280.webp" srcset="/assets/images/habitat-prairie-640.webp 640w, /assets/images/habitat-prairie-1280.webp 1280w, /assets/images/habitat-prairie-1689.webp 1689w" sizes="(max-width: 860px) 100vw, 45vw" alt="Habitat autonome en bois avec serre et panneaux solaires, dans une prairie avec des moutons" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div data-trame data-modeles="[{&quot;nom&quot;:&quot;M 001&quot;,&quot;occupants&quot;:&quot;1 à 2&quot;,&quot;surface&quot;:80,&quot;panneaux&quot;:10,&quot;kwh&quot;:&quot;1 200&quot;,&quot;legumes&quot;:&quot;170 kg&quot;,&quot;cases&quot;:5},{&quot;nom&quot;:&quot;M 004&quot;,&quot;occupants&quot;:&quot;3&quot;,&quot;surface&quot;:135,&quot;panneaux&quot;:30,&quot;kwh&quot;:&quot;3 600&quot;,&quot;legumes&quot;:&quot;450 kg&quot;,&quot;cases&quot;:8},{&quot;nom&quot;:&quot;M 007&quot;,&quot;occupants&quot;:&quot;3&quot;,&quot;surface&quot;:135,&quot;panneaux&quot;:35,&quot;kwh&quot;:&quot;4 000&quot;,&quot;legumes&quot;:&quot;450 kg&quot;,&quot;cases&quot;:8},{&quot;nom&quot;:&quot;M 008&quot;,&quot;occupants&quot;:&quot;4&quot;,&quot;surface&quot;:230,&quot;panneaux&quot;:60,&quot;kwh&quot;:&quot;7 200&quot;,&quot;legumes&quot;:&quot;600 kg&quot;,&quot;cases&quot;:14},{&quot;nom&quot;:&quot;M 009&quot;,&quot;occupants&quot;:&quot;6&quot;,&quot;surface&quot;:300,&quot;panneaux&quot;:60,&quot;kwh&quot;:&quot;7 200&quot;,&quot;legumes&quot;:&quot;900 kg&quot;,&quot;cases&quot;:19}]">
+      <p><b>Les cinq modèles</b></p>
+      <div class="trame-onglets" role="group" aria-label="Les cinq modèles">
+        <button type="button" data-trame-choix="0" aria-pressed="false">M 001</button><button type="button" data-trame-choix="1" aria-pressed="false">M 004</button><button type="button" data-trame-choix="2" aria-pressed="false">M 007</button><button type="button" data-trame-choix="3" aria-pressed="false">M 008</button><button type="button" data-trame-choix="4" aria-pressed="true">M 009</button>
+      </div>
+      <div class="trame-plan" data-effet="trame">
+        <svg viewBox="-2 -2 104 84" role="img" aria-label="Schéma indicatif de la trame : chaque case fait 4 × 4 m.">
+          <rect class="case" x="0" y="0" width="20" height="20"/><rect class="case" x="20" y="0" width="20" height="20"/><rect class="case" x="40" y="0" width="20" height="20"/><rect class="case" x="60" y="0" width="20" height="20"/><rect class="case" x="80" y="0" width="20" height="20"/><rect class="case" x="0" y="20" width="20" height="20"/><rect class="case" x="20" y="20" width="20" height="20"/><rect class="case" x="40" y="20" width="20" height="20"/><rect class="case" x="60" y="20" width="20" height="20"/><rect class="case" x="80" y="20" width="20" height="20"/><rect class="case" x="0" y="40" width="20" height="20"/><rect class="case" x="20" y="40" width="20" height="20"/><rect class="case" x="40" y="40" width="20" height="20"/><rect class="case" x="60" y="40" width="20" height="20"/><rect class="case" x="80" y="40" width="20" height="20"/><rect class="case" x="0" y="60" width="20" height="20"/><rect class="case" x="20" y="60" width="20" height="20"/><rect class="case" x="40" y="60" width="20" height="20"/><rect class="case" x="60" y="60" width="20" height="20"/><rect class="case" x="80" y="60" width="20" height="20"/>
+          <rect class="module allume" data-rang="16" x="1" y="1" width="18" height="18"/><rect class="module allume" data-rang="7" x="21" y="1" width="18" height="18"/><rect class="module allume" data-rang="4" x="41" y="1" width="18" height="18"/><rect class="module allume" data-rang="8" x="61" y="1" width="18" height="18"/><rect class="module allume" data-rang="17" x="81" y="1" width="18" height="18"/><rect class="module allume" data-rang="12" x="1" y="21" width="18" height="18"/><rect class="module allume" data-rang="1" x="21" y="21" width="18" height="18"/><rect class="module allume serre" data-rang="0" x="41" y="21" width="18" height="18"/><rect class="module allume" data-rang="2" x="61" y="21" width="18" height="18"/><rect class="module allume" data-rang="13" x="81" y="21" width="18" height="18"/><rect class="module allume" data-rang="14" x="1" y="41" width="18" height="18"/><rect class="module allume" data-rang="5" x="21" y="41" width="18" height="18"/><rect class="module allume" data-rang="3" x="41" y="41" width="18" height="18"/><rect class="module allume" data-rang="6" x="61" y="41" width="18" height="18"/><rect class="module allume" data-rang="15" x="81" y="41" width="18" height="18"/><rect class="module allume" data-rang="18" x="1" y="61" width="18" height="18"/><rect class="module allume" data-rang="10" x="21" y="61" width="18" height="18"/><rect class="module allume" data-rang="9" x="41" y="61" width="18" height="18"/><rect class="module allume" data-rang="11" x="61" y="61" width="18" height="18"/><rect class="module" data-rang="19" x="81" y="61" width="18" height="18"/>
+        </svg>
+      </div>
+      <dl class="trame-donnees">
+        <div><dt>Occupants</dt><dd data-trame-val="occupants">6</dd></div>
+        <div><dt>Surface</dt><dd><span data-trame-val="surface">300</span> <small>m²</small></dd></div>
+        <div><dt>Panneaux solaires</dt><dd><span data-trame-val="panneaux">60</span> <small>m²</small></dd></div>
+        <div><dt>Production</dt><dd><span data-trame-val="kwh">7 200</span> <small>kWh</small></dd></div>
+        <div><dt>Rendement en légumes</dt><dd data-trame-val="legumes">900 kg</dd></div>
+      </dl>
+      <p class="trame-note">Schéma indicatif de la trame : chaque case fait 4 × 4 m.</p>
+      <a href="/architecture#habitat" class="lien-fleche" data-libelle="Architecture">L&#39;habitat autonome en détail</a>
+    </div>
+  </div>
+</section>
+<section class="section" id="design">
+  <div class="conteneur">
+    <p class="surtitre">Design &amp; sculpture</p>
+    <h2 class="titre-section" data-anime="lignes">Du kiosque au luminaire</h2>
+    <div class="duo">
+      <article class="duo-carte">
+        <figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/kiosque-1-1280.webp" srcset="/assets/images/kiosque-1-640.webp 640w, /assets/images/kiosque-1-1280.webp 1280w, /assets/images/kiosque-1-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 55vw" alt="Kiosque The Crêpe Café en noir et jaune dans une galerie marchande" width="1280" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <h3>The Crêpe Café</h3>
+        <p>Une charte « fast casual » déclinée en cinq kiosques, dans les galeries marchandes des Émirats.</p>
+      </article>
+      <article class="duo-carte">
+        <figure class="media " data-fx="parallaxe" style="--cadrage:50% 40%">
+  <picture>
+    <img src="/assets/images/lustre-verre-1280.webp" srcset="/assets/images/lustre-verre-480.webp 480w, /assets/images/lustre-verre-960.webp 960w, /assets/images/lustre-verre-1280.webp 1280w" sizes="(max-width: 760px) 100vw, 40vw" alt="Lustre de plaques de verre colorées suspendu dans un hall" width="1280" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <h3>Acier, verre et lumière</h3>
+        <p>Sculptures en acier Corten, lustres de verre et luminaires de la Collection 2027.</p>
+        <a href="/design-sculpture" class="lien-fleche" data-libelle="Design &amp; sculpture">Voir le design et la sculpture</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="section section--pierre" id="expositions">
+  <div class="conteneur">
+    <div class="tete-section">
+      <div>
+        <p class="surtitre">Expositions</p>
+        <h2 class="titre-section" data-anime="lignes">Montrées de Zurich à Miami</h2>
+      </div>
+      <p class="chapeau" data-anime>Les estampes d&#39;EWA voyagent avec le programme ARTBOXY et ses galeries partenaires.</p>
+    </div>
+    <ul class="expos-liste" data-anime="cascade">
+      <li><span class="lieu">ARTBOXY · Palma, Zurich, Bâle, Venise, Miami</span><span class="annee">2023 – 2025</span></li><li><span class="lieu">Luxembourg Art Prize · certificat de mérite</span><span class="annee">2022 · 2025</span></li><li><span class="lieu">Villes indiennes · Paris-Malaquais</span><span class="annee">2005</span></li>
+    </ul>
+    <p class="galeries-titre" style="margin-top:clamp(36px,5vw,64px)">Galeries partenaires du programme ARTBOXY</p>
+    <div class="galeries" style="margin-top:0">
+      <div class="galeries-ruban" id="ruban-galeries" data-boucle-css data-ruban>
+        <div class="galeries-piste">
+          <span class="logo-galerie"><img src="/assets/images/galerie-swiss-art-expo-240.webp" alt="Swiss Art Expo" width="240" height="288" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-cipriarte-240.webp" alt="Cipriarte Venezia" width="240" height="219" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-nicoleta-240.webp" alt="Nicoleta Gallery Berlin" width="240" height="112" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-andakulova-240.webp" alt="Andakulova Gallery" width="240" height="85" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-thomson-240.webp" alt="Thomson Gallery" width="240" height="97" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-spectrum-240.webp" alt="Spectrum Miami" width="240" height="233" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-artexpo-240.webp" alt="Artexpo New York" width="240" height="98" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-andie-art-240.webp" alt="Andie Art" width="240" height="198" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-artboxy-240.webp" alt="ARTBOXY" width="240" height="35" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-swiss-art-expo-240.webp" alt="" width="240" height="288" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-cipriarte-240.webp" alt="" width="240" height="219" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-nicoleta-240.webp" alt="" width="240" height="112" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-andakulova-240.webp" alt="" width="240" height="85" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-thomson-240.webp" alt="" width="240" height="97" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-spectrum-240.webp" alt="" width="240" height="233" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-artexpo-240.webp" alt="" width="240" height="98" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-andie-art-240.webp" alt="" width="240" height="198" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-artboxy-240.webp" alt="" width="240" height="35" loading="lazy" decoding="async"></span>
+        </div>
+      </div>
+      <button type="button" class="ruban-pause" data-pause-pour="ruban-galeries" data-libelle-pause="Pause" data-libelle-lecture="Lecture"><span data-libelle-bouton>Pause</span></button>
+    </div>
+    <p style="margin-top:32px"><a href="/atelier#expositions" class="lien-fleche" data-libelle="L&#39;atelier">Parcours et presse</a></p>
+  </div>
+</section>
+<section class="appel" id="fin">
+  <div class="conteneur appel-grille">
+    <figure class="media estampe appel-media" data-tirage style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/impulsions-f-1600.webp" srcset="/assets/images/impulsions-f-480.webp 480w, /assets/images/impulsions-f-960.webp 960w, /assets/images/impulsions-f-1600.webp 1600w" sizes="(max-width: 860px) 70vw, 520px" alt="Impulsions 2026 F, estampe aux éclats orange et rouges" width="1600" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div>
+      <h2 class="titre-section" data-anime="lignes">Une estampe, un projet ?</h2>
+      <p data-anime>Choisissez une œuvre et son support, ou racontez votre projet : l&#39;atelier répond par e-mail.</p>
+      <p class="appel-actions" data-anime><a href="/estampes#catalogue" class="bouton" data-libelle="Estampes" data-survol="magnetique">Choisir une estampe</a><a href="/contact?sujet=architecture#demande" class="bouton bouton--contour" data-libelle="Contact">Parler d&#39;un projet</a></p>
+      <span class="appel-email">ewa_design@yahoo.com</span>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-480.webp" alt="EWA Design, Art | chitecture" width="480" height="149" loading="lazy">
+      <p>Atelier d&#39;architecture, de design et d&#39;art, à Bordeaux depuis 2012. Estampes numériques en 30 exemplaires, tirées à la demande.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Écrire à l&#39;atelier</p>
+      <p><a class="pied-email" href="mailto:ewa_design@yahoo.com">ewa_design@yahoo.com</a><br>Bordeaux, France</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/estampes" data-libelle="Estampes">Estampes</a></li><li><a href="/architecture" data-libelle="Architecture">Architecture</a></li><li><a href="/design-sculpture" data-libelle="Design &amp; sculpture">Design &amp; sculpture</a></li><li><a href="/atelier" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Informations</p>
+      <ul class="pied-legal">
+        <li>Mentions légales <span>· à compléter</span></li>
+        <li>Politique de confidentialité <span>· à compléter</span></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de présentation : formulaires et demandes simulés, rien n&#39;est envoyé.</p><p>© EWA Design, 2026</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="/contact" data-libelle="Contact">Écrire à l&#39;atelier</a>
+  <a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a>
+</div>
+</body>
+</html>

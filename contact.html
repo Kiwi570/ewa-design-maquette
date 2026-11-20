@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact : écrire à l&#39;atelier EWA Design</title>
+<meta name="description" content="Une estampe, un projet d&#39;architecture, un luminaire, une exposition : écrivez à l&#39;atelier EWA Design, à Bordeaux.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://ewa-design-maquette.vercel.app/contact">
+<style>:root{--fond:#f5f3ef;--texte:#141414;--voile-fond:#141414;--ouverture-fond:#f5f3ef;--menu-fond:#141414}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules/formulaire.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f5f3ef">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EWA Design">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Contact : écrire à l&#39;atelier EWA Design">
+<meta property="og:description" content="Une estampe, un projet d&#39;architecture, un luminaire, une exposition : écrivez à l&#39;atelier EWA Design, à Bordeaux.">
+<meta property="og:url" content="https://ewa-design-maquette.vercel.app/contact">
+<meta property="og:image" content="https://ewa-design-maquette.vercel.app/assets/partage/contact-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Contact EWA Design : une estampe Splash en noir et blanc">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"EWA Design","alternateName":"Eco Workshop Art","url":"https://ewa-design-maquette.vercel.app/","email":"ewa_design@yahoo.com","foundingDate":"2012","address":{"@type":"PostalAddress","addressLocality":"Bordeaux","addressCountry":"FR"},"description":"Atelier bordelais d'architecture, de design, d'art et de sculpture : estampes numériques en édition limitée à 30 exemplaires, tirées à la demande."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="barre" aria-hidden="true"><span class="voile-barre"></span><div class="voile-contenu"><img src="/assets/images/logo-clair-480.webp" alt="" width="480" height="149"><span data-voile-libelle>Contact</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <p class="ouv-ewa">EWA <span>design</span></p>
+  <p class="ouv-mots"><span class="ouv-mot ouv-art">Art</span><span class="ouv-barre" data-ouverture-objet></span><span class="ouv-mot ouv-chi">chitecture</span></p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="EWA Design, accueil" data-libelle="Accueil">
+      <img src="/assets/images/logo-480.webp" alt="" width="480" height="149">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/estampes" data-libelle="Estampes">Estampes</a></li><li><a href="/architecture" data-libelle="Architecture">Architecture</a></li><li><a href="/design-sculpture" data-libelle="Design &amp; sculpture">Design &amp; sculpture</a></li><li><a href="/atelier" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/estampes" class="menu-lien" data-libelle="Estampes">Estampes</a></li><li style="--i:2"><a href="/architecture" class="menu-lien" data-libelle="Architecture">Architecture</a></li><li style="--i:3"><a href="/design-sculpture" class="menu-lien" data-libelle="Design &amp; sculpture">Design &amp; sculpture</a></li><li style="--i:4"><a href="/atelier" class="menu-lien" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+  <p class="menu-contact"><a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a><span class="menu-email">ewa_design@yahoo.com</span></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-lettre ecran" id="debut">
+  <div>
+    <p class="surtitre ouv-entree">Contact</p>
+    <h1><span class="t-masque l"><span class="t-mot">Écrire à l&#39;atelier</span></span></h1>
+    <p class="chapeau ouv-entree masque-ecran-bas">Une estampe, un projet d&#39;architecture, un luminaire, une exposition : dites-nous tout, l&#39;atelier répond par e-mail.</p>
+    <a class="lettre-email ouv-entree" href="mailto:ewa_design@yahoo.com" data-info-cle>ewa_design@yahoo.com</a>
+    <span class="lettre-email-ligne" aria-hidden="true"></span>
+    <dl class="lettre-infos ouv-entree">
+      <div><dt>Atelier</dt><dd>Bordeaux, France</dd></div>
+      <div><dt>Réponse par e-mail</dt><dd>ewa_design@yahoo.com</dd></div>
+    </dl>
+    <p class="split-actions ouv-entree"><a class="bouton" href="#demande" data-action-principale data-sans-transition>Préparer ma demande</a></p>
+  </div>
+  <figure class="media estampe lettre-oeuvre" data-iris-centre data-tirage data-effet="tirage-ouverture" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/splash-a-1600.webp" srcset="/assets/images/splash-a-480.webp 480w, /assets/images/splash-a-960.webp 960w, /assets/images/splash-a-1600.webp 1600w" sizes="(max-width: 760px) 240px, 460px" alt="Splash A, estampe en noir et blanc" width="1600" height="1066" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+</section>
+<section class="section section--pierre fpe" id="demande" data-module="formulaire-par-etapes">
+  <div class="conteneur form-grille">
+    <div>
+      <p class="surtitre">Votre demande</p>
+      <h2 class="titre-section" data-anime="lignes">En quatre étapes</h2>
+      <p class="chapeau" data-anime>Le formulaire est une démonstration : rien n&#39;est envoyé.</p>
+    </div>
+    <div class="fpe__carton" data-anime>
+      <form class="fpe__form" action="#" method="post" novalidate>
+        <div class="fpe__progression">
+          <ol class="fpe__reperes" aria-label="Progression"></ol>
+          <div class="fpe__barre" aria-hidden="true"><span></span></div>
+          <p class="fpe__etat" aria-live="polite"></p>
+        </div>
+        <fieldset class="fpe__etape" data-etape="Votre demande">
+          <legend class="fpe__legende"><h3 class="fpe__titre">De quoi s&#39;agit-il ?</h3></legend>
+          <div class="fpe__groupe fpe__cartes" data-libelle="Objet">
+            <label class="fpe__carte"><input type="radio" name="objet" value="estampe" required>
+              <svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><rect x="7" y="7" width="18" height="18"/><path d="M7 21l6-6 4 4 3-3 5 5"/></svg>
+              <span class="fpe__carte-titre">Une estampe</span><span class="fpe__carte-texte">Un tirage d&#39;une œuvre du catalogue</span></label><label class="fpe__carte"><input type="radio" name="objet" value="architecture">
+              <svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 26h22M8 26V12l8-6 8 6v14M13 26v-7h6v7"/></svg>
+              <span class="fpe__carte-titre">Un projet d&#39;architecture</span><span class="fpe__carte-texte">Concours, maison, éco-quartier</span></label><label class="fpe__carte"><input type="radio" name="objet" value="design">
+              <svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4v6M10 10h12l-3 9h-6z"/><path d="M13 23h6M16 19v4"/></svg>
+              <span class="fpe__carte-titre">Design ou luminaire</span><span class="fpe__carte-texte">Kiosque, intérieur, sculpture</span></label><label class="fpe__carte"><input type="radio" name="objet" value="exposition">
+              <svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="6" width="22" height="16"/><path d="M11 26h10M16 22v4"/></svg>
+              <span class="fpe__carte-titre">Exposition ou presse</span><span class="fpe__carte-texte">Galerie, article, collaboration</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="fpe__etape" data-etape="Les détails">
+          <legend class="fpe__legende"><h3 class="fpe__titre">Dites-nous en plus</h3></legend>
+          <div class="fpe__champ"><label for="f-oeuvre">Œuvre (si vous en avez choisi une)</label><input id="f-oeuvre" name="oeuvre" data-libelle="Œuvre"></div>
+          <div class="fpe__grille">
+            <div class="fpe__champ"><label for="f-format">Format souhaité</label><select id="f-format" name="format" data-libelle="Format"><option value="">À préciser</option><option>30 × 30 cm</option><option>60 × 60 cm</option><option>90 × 90 cm</option><option>105 × 70 cm</option><option>50 × 115 cm</option></select></div>
+            <div class="fpe__champ"><label for="f-support">Support souhaité</label><select id="f-support" name="support" data-libelle="Support"><option value="">À préciser</option><option>Plexiglas</option><option>Alu Dibond</option><option>Toile</option><option>Papier Fine Art</option></select></div>
+          </div>
+          <div class="fpe__champ"><label for="f-message">Votre message <i aria-hidden="true">*</i></label><textarea id="f-message" name="message" rows="5" minlength="10" required data-libelle="Message"></textarea></div>
+        </fieldset>
+        <fieldset class="fpe__etape" data-etape="Coordonnées">
+          <legend class="fpe__legende"><h3 class="fpe__titre">Comment vous répondre ?</h3></legend>
+          <div class="fpe__grille">
+            <div class="fpe__champ"><label for="f-nom">Nom <i aria-hidden="true">*</i></label><input id="f-nom" name="nom" autocomplete="name" required data-libelle="Nom"></div>
+            <div class="fpe__champ"><label for="f-email">E-mail <i aria-hidden="true">*</i></label><input id="f-email" name="email" type="email" autocomplete="email" required data-libelle="E-mail"></div>
+            <div class="fpe__champ"><label for="f-tel">Téléphone (facultatif)</label><input id="f-tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" pattern="[0-9 +().\-]{8,20}" data-libelle="Téléphone"></div>
+          </div>
+          <label class="fpe__case"><input type="checkbox" name="accord" value="oui" required data-libelle="Accord" data-hors-recap><span class="fpe__choix-texte">J&#39;accepte que l&#39;atelier utilise ces informations pour me répondre. <i aria-hidden="true">*</i></span></label>
+          <p class="mention-donnees">Vos coordonnées servent seulement à répondre à votre demande. Politique de confidentialité : à compléter.</p>
+        </fieldset>
+        <fieldset class="fpe__etape" data-etape="Récapitulatif" data-recap>
+          <legend class="fpe__legende"><h3 class="fpe__titre">Tout est juste ?</h3></legend>
+          <div class="fpe__recap"><p>…</p></div>
+        </fieldset>
+        <div class="fpe__nav">
+          <button class="fpe__bouton fpe__bouton--ligne" type="button" data-precedent>Retour</button>
+          <button class="fpe__bouton" type="button" data-suivant data-retour="Tout est juste ?">Continuer</button>
+          <button class="fpe__bouton" type="submit">Envoyer la demande</button>
+        </div>
+      </form>
+      <div class="fpe__fin" hidden>
+        <svg class="fpe__coche" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28"/><path d="M20 33l8 8 16-17"/></svg>
+        <h3>Demande prête</h3>
+        <p data-resume></p>
+        <p data-message-envoi>Démonstration : rien n&#39;a été envoyé. Sur le site réel, votre demande partira vers l&#39;atelier.</p>
+        <div class="fpe__fin-actions">
+          <a class="fpe__bouton" href="mailto:ewa_design@yahoo.com" data-mailto hidden>E-mail</a>
+          <button class="fpe__bouton fpe__bouton--ligne" type="button" data-recommencer>Nouvelle demande</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-480.webp" alt="EWA Design, Art | chitecture" width="480" height="149" loading="lazy">
+      <p>Atelier d&#39;architecture, de design et d&#39;art, à Bordeaux depuis 2012. Estampes numériques en 30 exemplaires, tirées à la demande.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Écrire à l&#39;atelier</p>
+      <p><a class="pied-email" href="mailto:ewa_design@yahoo.com">ewa_design@yahoo.com</a><br>Bordeaux, France</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/estampes" data-libelle="Estampes">Estampes</a></li><li><a href="/architecture" data-libelle="Architecture">Architecture</a></li><li><a href="/design-sculpture" data-libelle="Design &amp; sculpture">Design &amp; sculpture</a></li><li><a href="/atelier" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Informations</p>
+      <ul class="pied-legal">
+        <li>Mentions légales <span>· à compléter</span></li>
+        <li>Politique de confidentialité <span>· à compléter</span></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de présentation : formulaires et demandes simulés, rien n&#39;est envoyé.</p><p>© EWA Design, 2026</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="/contact" data-libelle="Contact">Écrire à l&#39;atelier</a>
+  <a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a>
+</div>
+</body>
+</html>

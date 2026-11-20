@@ -1,0 +1,19 @@
+{
+  "kiosques": [
+    { "nom": "Stars Avenue Mall", "total": 170, "kiosque": 45 },
+    { "nom": "Roshana Mall", "total": 250, "kiosque": 45 },
+    { "nom": "Riyadh Mall", "total": 110, "kiosque": 35 },
+    { "nom": "Free zone Kuwait", "total": 280, "kiosque": 50 },
+    { "nom": "Corall Mall", "total": 185, "kiosque": 55 }
+  ],
+  "luminaires": [
+    { "image": "lum-ondoring", "nom": "Ondoring", "texte": "Luminaire organique en anneaux" },
+    { "image": "lum-toroflux", "nom": "Toroflux", "texte": "Sculpture lumineuse en tore" },
+    { "image": "lum-saddeflux", "nom": "Saddeflux", "texte": "Lumière structurelle en selle" },
+    { "image": "lum-strates", "nom": "Strates", "texte": "Lampe en lamelles de bambou" },
+    { "image": "lum-blob", "nom": "Blob", "texte": "Lampe aux formes molles" },
+    { "image": "lum-blue-note", "nom": "Blue Note", "texte": "Lampe sculpture lumineuse" },
+    { "image": "lum-cube", "nom": "Cube", "texte": "Cube lumineux en plexiglas" },
+    { "image": "lum-lave", "nom": "Lave en suspension", "texte": "Suspension en matière volcanique" }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "client": "EWA Design",
+  "activite": "culture",
+  "direction": "Art | chitecture",
+  "date": "2026-11-20T20:44:03.985Z",
+  "images": [
+    {
+      "nom": "atelier-tirage",
+      "fichier": "atelier-tirage.png",
+      "page": "accueil et estampes",
+      "emplacement": "Manifeste « Pas de stock, pas de déchets » (accueil) et « Comment ça marche » (estampes)",
+      "role": "section-fond",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A large-format fine-art inkjet printer in a calm, bright print studio, a long blank sheet of thick white cotton paper slowly coming out of it, a roll of natural recycled paper on a pale oak table beside it, nothing printed on the paper, wide composition with calm empty space on the left third. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Quiet contemporary fine-art photograph, like a plate in a museum exhibition catalogue, calm, bright and precise mood, palette of warm off-white, pale stone grey, soft charcoal and a single small touch of burnt orange, soft diffuse daylight from a tall window on the left, tactile pale oak, white plaster, cotton paper and brushed metal, set in a contemporary design studio in a south-west French city on a clear winter morning, restrained colours so that the real artworks shown nearby will stand out, subtle film grain, generous negative space, photorealistic, no CGI look. No artwork, no painting, no drawing, no sculpture, no framed picture, no poster, no imitation of the artist's style, no people, no hands, nothing hanging on the walls. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "atelier-table",
+      "fichier": "atelier-table.png",
+      "page": "atelier",
+      "emplacement": "Ouverture de la page L'atelier",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "An architect's work table seen from above at a gentle angle, pale wooden scale models of simple modular timber houses, loose rolls of tracing paper, a steel ruler, a small tin of watercolour pans and pencils, soft daylight from a tall window on the left, no drawings visible on the paper, no people, no hands, calm empty space in the upper part of the frame. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Quiet contemporary fine-art photograph, like a plate in a museum exhibition catalogue, calm, bright and precise mood, palette of warm off-white, pale stone grey, soft charcoal and a single small touch of burnt orange, soft diffuse daylight from a tall window on the left, tactile pale oak, white plaster, cotton paper and brushed metal, set in a contemporary design studio in a south-west French city on a clear winter morning, restrained colours so that the real artworks shown nearby will stand out, subtle film grain, generous negative space, photorealistic, no CGI look. No artwork, no painting, no drawing, no sculpture, no framed picture, no poster, no imitation of the artist's style, no people, no hands, nothing hanging on the walls. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "support-plexi",
+      "fichier": "support-plexi.png",
+      "page": "accueil et estampes",
+      "emplacement": "Les quatre supports (section « Du fichier au mur » et page Estampes)",
+      "role": "vignette",
+      "format": "1:1",
+      "grok": "1168×784",
+      "priorite": "conseillée",
+      "gabarit": "texture",
+      "pieges": [],
+      "consigne": "A blank sheet of thick glossy clear acrylic glass leaning against a pale plaster wall, crisp reflections on its polished edge, completely blank surface with nothing printed on it, minimal still life, soft daylight, no people, no hands. Square composition, aspect ratio 1:1, subject centered, main subject well inside the central area with generous margins on every side, so the image can be cropped. Quiet contemporary fine-art photograph, like a plate in a museum exhibition catalogue, calm, bright and precise mood, palette of warm off-white, pale stone grey, soft charcoal and a single small touch of burnt orange, soft diffuse daylight from a tall window on the left, tactile pale oak, white plaster, cotton paper and brushed metal, set in a contemporary design studio in a south-west French city on a clear winter morning, restrained colours so that the real artworks shown nearby will stand out, subtle film grain, generous negative space, photorealistic, no CGI look. No artwork, no painting, no drawing, no sculpture, no framed picture, no poster, no imitation of the artist's style, no people, no hands, nothing hanging on the walls. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "support-alu",
+      "fichier": "support-alu.png",
+      "page": "accueil et estampes",
+      "emplacement": "Les quatre supports (section « Du fichier au mur » et page Estampes)",
+      "role": "vignette",
+      "format": "1:1",
+      "grok": "1168×784",
+      "priorite": "conseillée",
+      "gabarit": "texture",
+      "pieges": [],
+      "consigne": "A blank sheet of brushed aluminium composite panel leaning against a pale plaster wall, fine horizontal brushing catching the light, completely blank surface with nothing printed on it, minimal still life, soft daylight, no people, no hands. Square composition, aspect ratio 1:1, subject centered, main subject well inside the central area with generous margins on every side, so the image can be cropped. Quiet contemporary fine-art photograph, like a plate in a museum exhibition catalogue, calm, bright and precise mood, palette of warm off-white, pale stone grey, soft charcoal and a single small touch of burnt orange, soft diffuse daylight from a tall window on the left, tactile pale oak, white plaster, cotton paper and brushed metal, set in a contemporary design studio in a south-west French city on a clear winter morning, restrained colours so that the real artworks shown nearby will stand out, subtle film grain, generous negative space, photorealistic, no CGI look. No artwork, no painting, no drawing, no sculpture, no framed picture, no poster, no imitation of the artist's style, no people, no hands, nothing hanging on the walls. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "support-toile",
+      "fichier": "support-toile.png",
+      "page": "accueil et estampes",
+      "emplacement": "Les quatre supports (section « Du fichier au mur » et page Estampes)",
+      "role": "vignette",
+      "format": "1:1",
+      "grok": "1168×784",
+      "priorite": "conseillée",
+      "gabarit": "texture",
+      "pieges": [],
+      "consigne": "A blank stretched canvas of matte natural linen on a wooden stretcher frame, seen slightly from the side so the stapled edge is visible, completely blank surface with nothing printed on it, minimal still life, soft daylight, no people, no hands. Square composition, aspect ratio 1:1, subject centered, main subject well inside the central area with generous margins on every side, so the image can be cropped. Quiet contemporary fine-art photograph, like a plate in a museum exhibition catalogue, calm, bright and precise mood, palette of warm off-white, pale stone grey, soft charcoal and a single small touch of burnt orange, soft diffuse daylight from a tall window on the left, tactile pale oak, white plaster, cotton paper and brushed metal, set in a contemporary design studio in a south-west French city on a clear winter morning, restrained colours so that the real artworks shown nearby will stand out, subtle film grain, generous negative space, photorealistic, no CGI look. No artwork, no painting, no drawing, no sculpture, no framed picture, no poster, no imitation of the artist's style, no people, no hands, nothing hanging on the walls. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "support-papier",
+      "fichier": "support-papier.png",
+      "page": "accueil et estampes",
+      "emplacement": "Les quatre supports (section « Du fichier au mur » et page Estampes)",
+      "role": "vignette",
+      "format": "1:1",
+      "grok": "1168×784",
+      "priorite": "conseillée",
+      "gabarit": "texture",
+      "pieges": [],
+      "consigne": "A stack of thick blank white cotton fine-art paper sheets with soft deckled edges on a pale oak table, macro detail of the paper grain, completely blank surface with nothing printed on it, minimal still life, soft daylight, no people, no hands. Square composition, aspect ratio 1:1, subject centered, main subject well inside the central area with generous margins on every side, so the image can be cropped. Quiet contemporary fine-art photograph, like a plate in a museum exhibition catalogue, calm, bright and precise mood, palette of warm off-white, pale stone grey, soft charcoal and a single small touch of burnt orange, soft diffuse daylight from a tall window on the left, tactile pale oak, white plaster, cotton paper and brushed metal, set in a contemporary design studio in a south-west French city on a clear winter morning, restrained colours so that the real artworks shown nearby will stand out, subtle film grain, generous negative space, photorealistic, no CGI look. No artwork, no painting, no drawing, no sculpture, no framed picture, no poster, no imitation of the artist's style, no people, no hands, nothing hanging on the walls. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

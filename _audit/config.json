@@ -1,0 +1,6 @@
+{
+  "siteActuel": "www.ewa-design.org",
+  "pagesTypes": ["/", "/estampes", "/architecture", "/design-sculpture", "/atelier", "/contact"],
+  "effets": ["barre", "tirage", "tirage-ouverture", "series", "gigogne", "trame", "globe", "frise", "split-chi", "bande", "portrait", "table", "coupe"],
+  "grille": { "dispenses": {} }
+}

@@ -1,0 +1,29 @@
+{
+  "concours": [
+    { "lat": 44.81, "lon": -0.60, "lieu": "Bordeaux · France", "titre": "Institut d'études politiques", "texte": "Lauréat du concours de Sciences Po Bordeaux, campus de Pessac : plus de 2 100 élèves. Mission d'assistant chef de projet chez Baggio-Piechaud.", "image": "concours-iep", "statut": "Lauréat" },
+    { "lat": 61.50, "lon": 23.79, "lieu": "Tampere · Finlande", "titre": "EUROPAN 10, un éco-quartier", "texte": "Un quartier écologique pensé pour un climat subarctique : 4,4 °C de moyenne annuelle.", "image": "concours-tampere" },
+    { "lat": 31.51, "lon": -9.77, "lieu": "Essaouira · Maroc", "titre": "Villas de la station Mogador", "texte": "Trois types de villas de 250 à 350 m², toutes tournées vers la mer, en pierre d'Essaouira et en bois. Avec Hafid El Awad Architectes." },
+    { "lat": 6.50, "lon": 3.39, "lieu": "Lagos · Nigeria", "titre": "Makoko, la Venise flottante", "texte": "Un habitat flottant pour un quartier de 150 000 habitants menacé d'expulsion, présenté au prix de la Fondation Jacques Rougerie sur la montée des océans.", "image": "concours-makoko" },
+    { "lat": -3.34, "lon": 35.67, "lieu": "Karatu · Tanzanie", "titre": "Une maison pour la famille Jorejick", "texte": "Briques de terre, toits en dôme et ventilation naturelle, pour une maison à construire soi-même, transformable ensuite en lodges.", "image": "concours-karatu" },
+    { "lat": 14.56, "lon": -61.05, "lieu": "La Pointe du Bout · Martinique", "titre": "Un hôtel 5 étoiles et sa permaculture", "texte": "Un hôtel de luxe nourri par ses jardins, avec le designer en permaculture Damien Lachaud.", "image": "concours-martinique", "statut": "Non retenu" },
+    { "lat": -8.11, "lon": -79.07, "lieu": "Chan Chan · Pérou", "titre": "Concours international ARQUITECTUM", "texte": "Un complexe en rubans fluides près de Chan Chan, capitale du royaume Chimor de 900 à 1470, la plus grande ville précolombienne d'Amérique du Sud.", "image": "concours-chanchan" }
+  ],
+  "modeles": [
+    { "nom": "M 001", "occupants": "1 à 2", "surface": 80, "panneaux": 10, "kwh": "1 200", "legumes": "170 kg", "cases": 5 },
+    { "nom": "M 004", "occupants": "3", "surface": 135, "panneaux": 30, "kwh": "3 600", "legumes": "450 kg", "cases": 8 },
+    { "nom": "M 007", "occupants": "3", "surface": 135, "panneaux": 35, "kwh": "4 000", "legumes": "450 kg", "cases": 8 },
+    { "nom": "M 008", "occupants": "4", "surface": 230, "panneaux": 60, "kwh": "7 200", "legumes": "600 kg", "cases": 14 },
+    { "nom": "M 009", "occupants": "6", "surface": 300, "panneaux": 60, "kwh": "7 200", "legumes": "900 kg", "cases": 19 }
+  ],
+  "principes": [
+    { "titre": "Bois et trame de 4 × 4 m", "texte": "Structure et bardage en bois ; une trame modulaire qui se monte sur le terrain en une journée." },
+    { "titre": "Paille et chanvre", "texte": "Isolation en paille pour les murs nord, en chanvre pour les autres façades." },
+    { "titre": "Une serre au centre", "texte": "Serre de permaculture au cœur du logement, bassins d'aquaponie remplis par l'eau de pluie." },
+    { "titre": "Géothermie et air naturel", "texte": "Régulation thermique par géothermie, cheminées et ventilation naturelle des toitures." }
+  ],
+  "urbanisme": [
+    { "image": "eco-flottant", "titre": "Maisons sur l'eau", "texte": "Des maisons sur pilotis au bord d'un lac, reliées par des pontons." },
+    { "image": "eco-anneau", "titre": "Une île en anneau", "texte": "Une île-jardin circulaire au large d'une ville côtière." },
+    { "image": "urb-plan", "titre": "Une ville en étoile", "texte": "Plan masse d'un quartier flottant, ses jardins et ses quais." }
+  ]
+}

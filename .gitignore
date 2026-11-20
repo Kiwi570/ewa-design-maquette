@@ -1,0 +1,6 @@
+.vercel
+.DS_Store
+node_modules
+_biblio/
+assemblages/
+recu/ewa-design-recu/

@@ -1,0 +1,1516 @@
+[
+ {
+  "source": "recu/logos/logo-encre.png",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "EWA Design, Art | chitecture",
+  "largeurs": [
+   240,
+   480
+  ]
+ },
+ {
+  "source": "recu/logos/logo-clair.png",
+  "nom": "logo-clair",
+  "role": "logo",
+  "alt": "EWA Design, Art | chitecture",
+  "largeurs": [
+   240,
+   480
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-2.jpg",
+  "nom": "impulsions-a",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Impulsions 2026 A, estampe numérique abstraite carrée",
+  "beaute": 5,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026.jpg",
+  "nom": "impulsions-g",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Impulsions 2026 G, estampe numérique abstraite carrée",
+  "beaute": 5,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-3.jpg",
+  "nom": "impulsions-i-a",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Impulsions 2026 I-A, estampe numérique abstraite carrée",
+  "beaute": 5,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-4.jpg",
+  "nom": "impulsions-i-b",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Impulsions 2026 I-B, estampe numérique abstraite carrée",
+  "beaute": 5,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-6.jpg",
+  "nom": "impulsions-ja",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Impulsions 2026 JA, estampe numérique abstraite carrée",
+  "beaute": 5,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-8.jpg",
+  "nom": "impulsions-jc",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Impulsions 2026 JC, estampe numérique abstraite carrée",
+  "beaute": 5,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-10.jpg",
+  "nom": "impulsions-k1",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Impulsions 2026 K1, estampe numérique abstraite carrée",
+  "beaute": 5,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-12.jpg",
+  "nom": "impulsions-k3-bis",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Impulsions 2026 K3 bis, estampe numérique abstraite carrée",
+  "beaute": 5,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-11.jpg",
+  "nom": "impulsions-l1",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Impulsions 2026 L1, estampe numérique abstraite carrée",
+  "beaute": 5,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-13.jpg",
+  "nom": "impulsions-l2",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Impulsions 2026 L2, estampe numérique abstraite carrée",
+  "beaute": 5,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-17.jpg",
+  "nom": "impulsions-d-2-bis",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Impulsions 2026 D-2 bis, estampe numérique abstraite carrée",
+  "beaute": 5,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-impulsions-90x90-2026-18.jpg",
+  "nom": "impulsions-f",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Impulsions 2026 F, estampe numérique abstraite carrée",
+  "beaute": 5,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-combo-small-90x90.jpg",
+  "nom": "combo-e",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Combo 2026 E, estampe numérique abstraite carrée",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-combo-small-90x90-2.jpg",
+  "nom": "combo-c",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Combo 2026 C, estampe numérique abstraite carrée",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-combo-small-90x90-3.jpg",
+  "nom": "combo-b",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Combo 2026 B, estampe numérique abstraite carrée",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-combo-small-90x90-4.jpg",
+  "nom": "combo-d",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Combo 2026 D, estampe numérique abstraite carrée",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-combo-small-90x90-6.jpg",
+  "nom": "combo-f",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Combo 2026 F, estampe numérique abstraite carrée",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-combo-small-90x90-7.jpg",
+  "nom": "combo-l",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Combo 2026 L, estampe numérique abstraite carrée",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-combo-small-90x90-8.jpg",
+  "nom": "combo-j",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Combo 2026 J, estampe numérique abstraite carrée",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-combo-small-90x90-11.jpg",
+  "nom": "combo-n",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Combo 2026 N, estampe numérique abstraite carrée",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-empreintes-2025-2.jpg",
+  "nom": "empreintes-a",
+  "role": "galerie",
+  "ratio": "5:4",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Empreintes 2025 A, estampe numérique en bleus glacier",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-empreintes-2025-b.jpg",
+  "nom": "empreintes-b",
+  "role": "galerie",
+  "ratio": "5:4",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Empreintes 2025 B, estampe numérique en bleus glacier",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-empreintes-2025-c.jpg",
+  "nom": "empreintes-c",
+  "role": "galerie",
+  "ratio": "5:4",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Empreintes 2025 C, estampe numérique en bleus glacier",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-empreintes-2025-h.jpg",
+  "nom": "empreintes-h",
+  "role": "galerie",
+  "ratio": "5:4",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Empreintes 2025 H, estampe numérique en bleus glacier",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-empreintes-2025-i.jpg",
+  "nom": "empreintes-i",
+  "role": "galerie",
+  "ratio": "5:4",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Empreintes 2025 I, estampe numérique en bleus glacier",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-empreintes-2025-j.jpg",
+  "nom": "empreintes-j",
+  "role": "galerie",
+  "ratio": "5:4",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Empreintes 2025 J, estampe numérique en bleus glacier",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/splash-105x70-web.jpg",
+  "nom": "splash-a",
+  "role": "galerie",
+  "ratio": "2000:1333",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Splash A, estampe numérique en noir et blanc, 105 × 70 cm",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/splash-b-105x70-web.jpg",
+  "nom": "splash-b",
+  "role": "galerie",
+  "ratio": "2000:1333",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Splash B, estampe numérique en noir et blanc, 105 × 70 cm",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/splash-e-105x70-web.jpg",
+  "nom": "splash-e",
+  "role": "galerie",
+  "ratio": "2000:1333",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Splash E, estampe numérique en noir et blanc, 105 × 70 cm",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/splash-f-105x70-web.jpg",
+  "nom": "splash-f",
+  "role": "galerie",
+  "ratio": "2000:1333",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Splash F, estampe numérique en noir et blanc, 105 × 70 cm",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/splash-h-105x70-web.jpg",
+  "nom": "splash-h",
+  "role": "galerie",
+  "ratio": "2000:1333",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Splash H, estampe numérique en noir et blanc, 105 × 70 cm",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/splash-k-105x70-web.jpg",
+  "nom": "splash-k",
+  "role": "galerie",
+  "ratio": "2000:1333",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "Splash K, estampe numérique en noir et blanc, 105 × 70 cm",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-vibration-nature-2025-9.jpg",
+  "nom": "vibration-a1",
+  "role": "galerie",
+  "ratio": "7:16",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Vibration nature 2025 A1, estampe verticale en ocres et olive",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-vibration-nature-2025.jpg",
+  "nom": "vibration-b1",
+  "role": "galerie",
+  "ratio": "7:16",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Vibration nature 2025 B1, estampe verticale en ocres et olive",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-vibration-nature-2025-6.jpg",
+  "nom": "vibration-g1",
+  "role": "galerie",
+  "ratio": "7:16",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Vibration nature 2025 G1, estampe verticale en ocres et olive",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-vibration-nature-2025-7.jpg",
+  "nom": "vibration-j1",
+  "role": "galerie",
+  "ratio": "7:16",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Vibration nature 2025 J1, estampe verticale en ocres et olive",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-vibration-nature-2025-3.jpg",
+  "nom": "vibration-k1",
+  "role": "galerie",
+  "ratio": "7:16",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Vibration nature 2025 K1, estampe verticale en ocres et olive",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/serie-vibration-nature-2025-2.jpg",
+  "nom": "vibration-n1",
+  "role": "galerie",
+  "ratio": "7:16",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Vibration nature 2025 N1, estampe verticale en ocres et olive",
+  "beaute": 4,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/complexe-sportif-futuriste-rubans.png",
+  "nom": "archi-rubans",
+  "role": "ouverture",
+  "alt": "Croquis aquarellé d'un complexe sportif en rubans fluides, concours de Chan Chan au Pérou",
+  "beaute": 5,
+  "mobile": false,
+  "ratio": "4:3",
+  "largeurs": [
+   640,
+   960,
+   1440
+  ],
+  "cadrage": [
+   50,
+   45
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/complexe-cotier-futuriste-rubans.png",
+  "nom": "archi-cotier",
+  "role": "ouverture",
+  "alt": "Croquis d'un complexe côtier en rubans au bord de l'eau",
+  "beaute": 5,
+  "mobile": "4:3",
+  "ratio": "21:9",
+  "largeurs": [
+   640,
+   1280,
+   1536
+  ],
+  "cadrage": [
+   54,
+   48
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/habitat-autonome-ewa-design-5.png",
+  "nom": "habitat-prairie",
+  "role": "section-fond",
+  "alt": "Habitat autonome en bois avec serre et panneaux solaires, dans une prairie avec des moutons",
+  "beaute": 5,
+  "mobile": false,
+  "ratio": "16:9",
+  "largeurs": [
+   640,
+   1280,
+   1689
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/habitat-autonome-ewa-design-4.png",
+  "nom": "habitat-lisiere",
+  "role": "galerie",
+  "alt": "Habitat autonome en bois en lisière de forêt",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "16:9",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/habitat-autonome-ewa-design-6.png",
+  "nom": "habitat-groupe",
+  "role": "galerie",
+  "alt": "Trois modules d'habitat autonome reliés par une serre",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "16:9",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/habitat-autonome-ewa-design-3.png",
+  "nom": "habitat-coupe",
+  "role": "galerie",
+  "alt": "Coupe d'un module d'habitat autonome : serre verticale, récupération de l'eau de pluie, géothermie",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1280
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/eco-quartier-ewa-design-5.png",
+  "nom": "eco-flottant",
+  "role": "galerie",
+  "alt": "Maisons sur pilotis au bord d'un lac, quartier écologique",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "16:9",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/eco-quartier-ewa-design-3.png",
+  "nom": "eco-anneau",
+  "role": "galerie",
+  "alt": "Île-jardin en anneau au large d'une ville côtière",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "16:9",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/urb-4.jpg",
+  "nom": "urb-plan",
+  "role": "vignette",
+  "alt": "Plan masse d'un quartier flottant en étoile sur la mer",
+  "beaute": 3,
+  "mobile": false,
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/art-chitecture.png",
+  "nom": "croquis-art-chitecture",
+  "role": "galerie",
+  "alt": "Croquis aquarellé non photoréaliste d'un ensemble de rubans de béton et de verre",
+  "beaute": 5,
+  "mobile": false,
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280,
+   1536
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/villa-contemporaine-couleurs-abstraites.png",
+  "nom": "croquis-villa-couleurs",
+  "role": "galerie",
+  "alt": "Villa contemporaine au bord d'une piscine, croquis aux couleurs d'estampe",
+  "beaute": 5,
+  "mobile": false,
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280,
+   1536
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/villa-contemporaine-encre-lumiere.png",
+  "nom": "croquis-villa-encre",
+  "role": "galerie",
+  "alt": "Villa contemporaine dessinée à l'encre, en noir et blanc",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/sthr.png",
+  "nom": "concours-terre",
+  "role": "vignette",
+  "alt": "École en terre aux voûtes en chaînette, concours pour la Tanzanie",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/unknown-1.jpg",
+  "nom": "concours-karatu",
+  "role": "vignette",
+  "alt": "Maisons à dômes sous un acacia, maison de la famille Jorejick à Karatu",
+  "beaute": 3,
+  "mobile": false,
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/unknown-2.jpg",
+  "nom": "concours-makoko",
+  "role": "vignette",
+  "alt": "Habitat flottant sur la lagune de Makoko à Lagos",
+  "beaute": 3,
+  "mobile": false,
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/concours-ewa-design-16.png",
+  "nom": "concours-martinique",
+  "role": "vignette",
+  "alt": "Presqu'île de La Pointe du Bout en Martinique, site du concours d'hôtel",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/concours-1-b.jpg",
+  "nom": "concours-iep",
+  "role": "vignette",
+  "alt": "Plan du concours de l'Institut d'études politiques de Bordeaux",
+  "beaute": 2,
+  "mobile": false,
+  "ratio": "4:3",
+  "largeurs": [
+   480
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/tampere-2-3.jpg",
+  "nom": "concours-tampere",
+  "role": "vignette",
+  "alt": "Maquette du quartier écologique EUROPAN 10 à Tampere",
+  "beaute": 2,
+  "mobile": false,
+  "ratio": "4:3",
+  "largeurs": [
+   480
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/hut-1-fichier-images.jpg",
+  "nom": "concours-glace",
+  "role": "vignette",
+  "alt": "Labyrinthe de cylindres de glace teintée, Warming Huts 2021",
+  "beaute": 2,
+  "mobile": false,
+  "ratio": "4:3",
+  "largeurs": [
+   480
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/dteee.png",
+  "nom": "concours-chanchan",
+  "role": "vignette",
+  "alt": "Perspective du concours de Chan Chan au Pérou",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/design-commercial-ewa-design-3.png",
+  "nom": "kiosque-1",
+  "role": "galerie",
+  "alt": "Kiosque The Crêpe Café en noir et jaune dans une galerie marchande",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "16:10",
+  "largeurs": [
+   640,
+   1280,
+   1600
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/design-commercial-ewa-design-2.png",
+  "nom": "kiosque-2",
+  "role": "galerie",
+  "alt": "Comptoir du kiosque The Crêpe Café et sa zone de consommation",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "16:10",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/design-commercial-ewa-design-4.png",
+  "nom": "kiosque-3",
+  "role": "galerie",
+  "alt": "Vue plongeante sur la cuisine et le comptoir d'un kiosque",
+  "beaute": 3,
+  "mobile": false,
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/design-interieur-ewa-design-11.jpg",
+  "nom": "interieur-salon",
+  "role": "galerie",
+  "alt": "Salon aux formes organiques sous un grand plafond courbe",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "16:10",
+  "largeurs": [
+   640,
+   1280,
+   1536
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/design-interieur-ewa-design-7.png",
+  "nom": "interieur-banquette",
+  "role": "galerie",
+  "alt": "Banquette blanche organique éclairée par le bas",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "16:10",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/design-interieur-ewa-design-10.png",
+  "nom": "interieur-sombre",
+  "role": "galerie",
+  "alt": "Salle de bain sombre aux niches lumineuses et baignoire noire",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "4:3",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/design-interieur-ewa-design-4.png",
+  "nom": "interieur-riad",
+  "role": "galerie",
+  "alt": "Lanterne de laiton sous une coupole de plâtre sculpté",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "16:10",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/agrandi/lustre-verre-suspendu-lobby.png",
+  "nom": "lustre-verre",
+  "mobile": false,
+  "role": "ouverture",
+  "alt": "Lustre de plaques de verre colorées suspendu dans un hall",
+  "beaute": 5,
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   960,
+   1280
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/installation-abstraite-lumineuse-hall.jpg",
+  "nom": "installation-lumiere",
+  "role": "galerie",
+  "alt": "Installation murale lumineuse de verre coloré dans un hall",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1199
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/sculpture-abstraite-acier-rouille.png",
+  "nom": "sculpture-corten",
+  "role": "section-fond",
+  "alt": "Sculpture d'acier Corten aux ailes effilées sur un rond-point planté",
+  "beaute": 5,
+  "mobile": false,
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280,
+   1536
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/sculpture-acier-corten-rond.png",
+  "nom": "sculpture-corten-2",
+  "role": "galerie",
+  "alt": "Sculpture d'acier Corten en rubans tendus",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/affiche-ondoring-design-organique.png",
+  "nom": "lum-ondoring",
+  "role": "vignette",
+  "ratio": "1199:1312",
+  "largeurs": [
+   480,
+   960,
+   1536
+  ],
+  "alt": "Planche Ondoring : luminaire organique en anneaux lumineux",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/ewa-design-toroflux-sculpture.png",
+  "nom": "lum-toroflux",
+  "role": "vignette",
+  "ratio": "1199:1312",
+  "largeurs": [
+   480,
+   960,
+   1536
+  ],
+  "alt": "Planche Toroflux : sculpture lumineuse en tore",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/affiche-ewa-design-selle.png",
+  "nom": "lum-saddeflux",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   960,
+   1536
+  ],
+  "alt": "Planche Saddeflux : lumière structurelle en selle",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/planche-design-strates-bambou.png",
+  "nom": "lum-strates",
+  "role": "vignette",
+  "ratio": "1312:1199",
+  "largeurs": [
+   480,
+   960,
+   1536
+  ],
+  "alt": "Planche Strates : lampe en lamelles de bambou",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/planche-design-lampe-blob.jpg",
+  "nom": "lum-blob",
+  "role": "vignette",
+  "ratio": "1312:1199",
+  "largeurs": [
+   480,
+   960,
+   1536
+  ],
+  "alt": "Planche de la lampe Blob",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/planche-design-blue-note.png",
+  "nom": "lum-blue-note",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   960,
+   1536
+  ],
+  "alt": "Planche Blue Note : lampe sculpture lumineuse",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/presentation-technique-cube-plexiglass.png",
+  "nom": "lum-cube",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   960,
+   1536
+  ],
+  "alt": "Planche technique du cube lumineux en plexiglas",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/lave-suspension-lampe-sculpture.jpg",
+  "nom": "lum-lave",
+  "role": "vignette",
+  "ratio": "1312:1199",
+  "largeurs": [
+   480,
+   960,
+   1536
+  ],
+  "alt": "Planche Lave en suspension : lampe en matière volcanique",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/vente-4.jpg",
+  "nom": "chez-vente-4",
+  "role": "vignette",
+  "alt": "Estampe aux couleurs vives accrochée au-dessus d'un buffet chez un collectionneur",
+  "beaute": 3,
+  "mobile": false,
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/vente-6.jpg",
+  "nom": "chez-vente-6",
+  "role": "vignette",
+  "alt": "Six estampes Splash posées au sol, un chien assis devant",
+  "beaute": 3,
+  "mobile": false,
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/vente-3.jpg",
+  "nom": "chez-vente-3",
+  "role": "vignette",
+  "alt": "Estampe encadrée posée dans un salon",
+  "beaute": 3,
+  "mobile": false,
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/vente-8.jpg",
+  "nom": "chez-vente-8",
+  "role": "vignette",
+  "alt": "Tirage sur aluminium brossé posé contre un mur",
+  "beaute": 3,
+  "mobile": false,
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/vente-7.png",
+  "nom": "chez-vente-7",
+  "role": "vignette",
+  "alt": "Estampes encadrées accrochées dans un espace d'exposition",
+  "beaute": 3,
+  "mobile": false,
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/bor-2.jpg",
+  "nom": "chez-bor-2",
+  "role": "vignette",
+  "alt": "Estampe encadrée au-dessus d'une étagère, à Bordeaux",
+  "beaute": 3,
+  "mobile": false,
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/e-w-design-france.jpg",
+  "nom": "presse-accrochages",
+  "role": "vignette",
+  "alt": "Couverture du magazine Accrochages n° 274",
+  "beaute": 4,
+  "mobile": false,
+  "ratio": "1567:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "recadrer": false
+ },
+ {
+  "source": "recu/ewa-design-recu/magazine-nogent-marne-ewa-6.png",
+  "nom": "presse-nogent",
+  "role": "vignette",
+  "alt": "Couverture du magazine de Nogent-sur-Marne",
+  "beaute": 3,
+  "mobile": false,
+  "ratio": "745:973",
+  "largeurs": [
+   480,
+   745
+  ],
+  "recadrer": false
+ },
+ {
+  "source": "recu/ewa-design-recu/habitat-leger-2.jpg",
+  "nom": "presse-caue",
+  "role": "vignette",
+  "alt": "Affiche Petites Machines à Habiter, CAUE de la Sarthe",
+  "beaute": 2,
+  "mobile": false,
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   600
+  ],
+  "recadrer": false
+ },
+ {
+  "source": "recu/ewa-design-recu/luxembourg-art-prize-ewa.png",
+  "nom": "expo-luxembourg",
+  "role": "vignette",
+  "alt": "Certificat de mérite artistique du Luxembourg Art Prize",
+  "beaute": 3,
+  "mobile": false,
+  "ratio": "400:273",
+  "largeurs": [
+   480,
+   960
+  ],
+  "recadrer": false
+ },
+ {
+  "source": "recu/ewa-design-recu/paris-malaquais-ewa-design-2.png",
+  "nom": "expo-malaquais",
+  "role": "vignette",
+  "alt": "Affiche de l'exposition Villes indiennes, école d'architecture Paris-Malaquais, 2005",
+  "beaute": 3,
+  "mobile": false,
+  "ratio": "1387:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "recadrer": false
+ },
+ {
+  "source": "recu/ewa-design-recu/contact-ewa-design.png",
+  "nom": "galerie-swiss-art-expo",
+  "role": "vignette",
+  "ratio": "1667:2000",
+  "alt": "Swiss Art Expo",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false,
+  "largeurs": [
+   240,
+   480
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/contact-ewa-design-5.png",
+  "nom": "galerie-cipriarte",
+  "role": "vignette",
+  "ratio": "489:446",
+  "alt": "Cipriarte Venezia",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false,
+  "largeurs": [
+   240,
+   480
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/contact-ewa-design-6.png",
+  "nom": "galerie-andie-art",
+  "role": "vignette",
+  "ratio": "497:411",
+  "alt": "Andie Art",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false,
+  "largeurs": [
+   240,
+   480
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/contact-ewa-design-8.png",
+  "nom": "galerie-spectrum",
+  "role": "vignette",
+  "ratio": "71:69",
+  "alt": "Spectrum Miami",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false,
+  "largeurs": [
+   240,
+   480
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/contact-ewa-design-10.png",
+  "nom": "galerie-thomson",
+  "role": "vignette",
+  "ratio": "607:245",
+  "alt": "Thomson Gallery",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false,
+  "largeurs": [
+   240,
+   480
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/contact-ewa-design-12.png",
+  "nom": "galerie-andakulova",
+  "role": "vignette",
+  "ratio": "298:105",
+  "alt": "Andakulova Gallery",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false,
+  "largeurs": [
+   240,
+   480
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/contact-ewa-design-13.png",
+  "nom": "galerie-nicoleta",
+  "role": "vignette",
+  "ratio": "514:239",
+  "alt": "Nicoleta Gallery Berlin",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false,
+  "largeurs": [
+   240,
+   480
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/contact-ewa-design-14.jpg",
+  "nom": "galerie-artboxy",
+  "role": "vignette",
+  "ratio": "891:130",
+  "alt": "ARTBOXY",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false,
+  "largeurs": [
+   240,
+   480
+  ]
+ },
+ {
+  "source": "recu/ewa-design-recu/contact-ewa-design-18.png",
+  "nom": "galerie-artexpo",
+  "role": "vignette",
+  "ratio": "509:208",
+  "alt": "Artexpo New York",
+  "beaute": 3,
+  "recadrer": false,
+  "mobile": false,
+  "largeurs": [
+   240,
+   480
+  ]
+ },
+ {
+  "source": "recu/grok-agrandi/atelier-tirage.png",
+  "nom": "grok/atelier-tirage",
+  "role": "section-fond",
+  "ratio": "16:9",
+  "largeurs": [
+   640,
+   1280,
+   1920
+  ],
+  "page": "accueil et estampes",
+  "emplacement": "Manifeste « Pas de stock, pas de déchets » (accueil) et « Comment ça marche » (estampes)",
+  "priorite": "indispensable",
+  "scene": "a large-format fine-art inkjet printer in a calm, bright print studio, a long blank sheet of thick white cotton paper slowly coming out of it, a roll of natural recycled paper beside it, nothing printed on the paper",
+  "alt": "Imprimante grand format d'où sort une feuille de papier coton encore vierge",
+  "beaute": 4,
+  "mobile": false,
+  "gabarit": "scene-metier",
+  "consigne_scene": "A large-format fine-art inkjet printer in a calm, bright print studio, a long blank sheet of thick white cotton paper slowly coming out of it, a roll of natural recycled paper on a pale oak table beside it, nothing printed on the paper, wide composition with calm empty space on the left third."
+ },
+ {
+  "source": "recu/grok-agrandi/atelier-table.png",
+  "nom": "grok/atelier-table",
+  "role": "ouverture",
+  "ratio": "16:9",
+  "largeurs": [
+   640,
+   1280,
+   1920
+  ],
+  "page": "atelier",
+  "emplacement": "Ouverture de la page L'atelier",
+  "priorite": "indispensable",
+  "scene": "an architect's work table seen from above at an angle, pale wooden scale models of simple modular houses, rolls of tracing paper, a steel ruler, watercolour pans and pencils, soft daylight from a tall window",
+  "alt": "Table d'atelier d'architecte : maquettes de maisons modulaires en bois, calques, aquarelles",
+  "beaute": 4,
+  "mobile": false,
+  "gabarit": "scene-metier",
+  "consigne_scene": "An architect's work table seen from above at a gentle angle, pale wooden scale models of simple modular timber houses, loose rolls of tracing paper, a steel ruler, a small tin of watercolour pans and pencils, soft daylight from a tall window on the left, no drawings visible on the paper, no people, no hands, calm empty space in the upper part of the frame.",
+  "zone_texte": "haut"
+ },
+ {
+  "source": "recu/grok-agrandi/support-plexi.png",
+  "nom": "grok/support-plexi",
+  "role": "vignette",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960
+  ],
+  "page": "accueil et estampes",
+  "emplacement": "Les quatre supports (section « Du fichier au mur » et page Estampes)",
+  "priorite": "conseillée",
+  "scene": "a blank sheet of thick glossy clear acrylic glass leaning against a pale plaster wall, crisp reflections on its polished edge",
+  "alt": "Plaque de plexiglas brillant, support de tirage",
+  "beaute": 4,
+  "mobile": false,
+  "gabarit": "texture",
+  "consigne_scene": "A blank sheet of thick glossy clear acrylic glass leaning against a pale plaster wall, crisp reflections on its polished edge, completely blank surface with nothing printed on it, minimal still life, soft daylight, no people, no hands."
+ },
+ {
+  "source": "recu/grok-agrandi/support-alu.png",
+  "nom": "grok/support-alu",
+  "role": "vignette",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960
+  ],
+  "page": "accueil et estampes",
+  "emplacement": "Les quatre supports (section « Du fichier au mur » et page Estampes)",
+  "priorite": "conseillée",
+  "scene": "a blank sheet of brushed aluminium composite panel leaning against a pale plaster wall, fine horizontal brushing catching the light",
+  "alt": "Plaque d'aluminium brossé (Alu Dibond), support de tirage",
+  "beaute": 4,
+  "mobile": false,
+  "gabarit": "texture",
+  "consigne_scene": "A blank sheet of brushed aluminium composite panel leaning against a pale plaster wall, fine horizontal brushing catching the light, completely blank surface with nothing printed on it, minimal still life, soft daylight, no people, no hands."
+ },
+ {
+  "source": "recu/grok-agrandi/support-toile.png",
+  "nom": "grok/support-toile",
+  "role": "vignette",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960
+  ],
+  "page": "accueil et estampes",
+  "emplacement": "Les quatre supports (section « Du fichier au mur » et page Estampes)",
+  "priorite": "conseillée",
+  "scene": "a blank stretched canvas of matte natural linen on a wooden stretcher frame, seen slightly from the side so the stapled edge is visible",
+  "alt": "Toile mate tendue sur châssis, support de tirage",
+  "beaute": 4,
+  "mobile": false,
+  "gabarit": "texture",
+  "consigne_scene": "A blank stretched canvas of matte natural linen on a wooden stretcher frame, seen slightly from the side so the stapled edge is visible, completely blank surface with nothing printed on it, minimal still life, soft daylight, no people, no hands."
+ },
+ {
+  "source": "recu/grok-agrandi/support-papier.png",
+  "nom": "grok/support-papier",
+  "role": "vignette",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960
+  ],
+  "page": "accueil et estampes",
+  "emplacement": "Les quatre supports (section « Du fichier au mur » et page Estampes)",
+  "priorite": "conseillée",
+  "scene": "a stack of thick blank white cotton fine-art paper sheets with soft deckled edges on a pale oak table, macro detail of the paper grain",
+  "alt": "Papier coton Fine Art, support de tirage",
+  "beaute": 4,
+  "mobile": false,
+  "gabarit": "texture",
+  "consigne_scene": "A stack of thick blank white cotton fine-art paper sheets with soft deckled edges on a pale oak table, macro detail of the paper grain, completely blank surface with nothing printed on it, minimal still life, soft daylight, no people, no hands."
+ }
+]

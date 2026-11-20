@@ -1,0 +1,233 @@
+{
+  "avertissements": [],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "archi-rubans-1440.webp",
+      "poids": 151657,
+      "sujet": {
+        "x": 600,
+        "y": 102,
+        "l": 600,
+        "h": 297
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "architecture",
+      "langue": "fr",
+      "fichier": "assets/partage/architecture-fr.jpg",
+      "gabarit": "droite",
+      "image": "archi-cotier-1280.webp",
+      "poids": 125706,
+      "sujet": {
+        "x": 600,
+        "y": 32,
+        "l": 600,
+        "h": 447
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "atelier",
+      "langue": "fr",
+      "fichier": "assets/partage/atelier-fr.jpg",
+      "gabarit": "droite",
+      "image": "croquis-villa-couleurs-1280.webp",
+      "poids": 152329,
+      "sujet": {
+        "x": 685,
+        "y": 167,
+        "l": 431,
+        "h": 260
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 76,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "fr",
+      "fichier": "assets/partage/contact-fr.jpg",
+      "gabarit": "droite",
+      "image": "chez-vente-3-960.webp",
+      "poids": 54764,
+      "sujet": {
+        "x": 756,
+        "y": 74,
+        "l": 288,
+        "h": 372
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "design-sculpture",
+      "langue": "fr",
+      "fichier": "assets/partage/design-sculpture-fr.jpg",
+      "gabarit": "droite",
+      "image": "lustre-verre-1280.webp",
+      "poids": 112708,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "estampes",
+      "langue": "fr",
+      "fichier": "assets/partage/estampes-fr.jpg",
+      "gabarit": "droite",
+      "image": "chez-vente-4-960.webp",
+      "poids": 55580,
+      "sujet": {
+        "x": 758,
+        "y": 64,
+        "l": 379,
+        "h": 289
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

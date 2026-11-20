@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>Directions EWA Design</title>
+<style>
+@font-face{font-family:Jost;src:url(polices/jost-latin-300-normal.woff2);font-weight:300}
+@font-face{font-family:Jost;src:url(polices/jost-latin-500-normal.woff2);font-weight:500}
+@font-face{font-family:Jost;src:url(polices/jost-latin-400-italic.woff2);font-style:italic}
+@font-face{font-family:'DM Sans';src:url(polices/dm-sans-latin-400-normal.woff2)}
+@font-face{font-family:'DM Serif Display';src:url(polices/dm-serif-display-latin-400-normal.woff2)}
+@font-face{font-family:'DM Serif Display';src:url(polices/dm-serif-display-latin-400-italic.woff2);font-style:italic}
+@font-face{font-family:Spectral;src:url(polices/spectral-latin-300-normal.woff2);font-weight:300}
+@font-face{font-family:Spectral;src:url(polices/spectral-latin-400-italic.woff2);font-style:italic}
+@font-face{font-family:'IBM Plex Sans';src:url(polices/ibm-plex-sans-latin-400-normal.woff2)}
+*{box-sizing:border-box;margin:0}
+body{width:1600px;background:#2b2b2b;font-family:'DM Sans',sans-serif;color:#222;padding:28px}
+h1{color:#fff;font:500 26px Jost;letter-spacing:.04em;margin-bottom:6px}
+.sous{color:#bbb;font-size:15px;margin-bottom:22px}
+.dir{display:grid;grid-template-columns:960px 1fr;gap:26px;background:#fff;border-radius:6px;padding:22px;margin-bottom:22px}
+.etiq{font:500 13px Jost;letter-spacing:.18em;text-transform:uppercase;color:#777;margin-bottom:6px}
+.nom{font:500 30px Jost;margin-bottom:12px}
+.ecran{position:relative;width:960px;height:540px;overflow:hidden;border-radius:4px}
+.ent{position:absolute;top:0;left:0;right:0;height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 30px;font-size:13px}
+.ent nav{display:flex;gap:22px}
+.bt{display:inline-block;padding:12px 20px;border-radius:2px;font-size:14px}
+.pal{display:flex;gap:8px;margin:6px 0 16px}
+.sw{flex:1;height:86px;border-radius:4px;display:flex;align-items:flex-end;padding:7px;font:500 11px 'DM Sans';border:1px solid #0001}
+.typo{border-top:1px solid #eee;padding-top:14px}
+.idee{font-size:14px;line-height:1.45;color:#444;margin-top:12px}
+/* A */
+.a{background:#F5F3EF;color:#141414}
+.a .logo{height:44px}
+.a .gauche{position:absolute;left:48px;top:96px;width:330px;height:330px;background:#fff;padding:14px;box-shadow:0 20px 40px #0002}
+.a .gauche img{width:100%;height:100%;object-fit:cover}
+.a .barre{position:absolute;left:478px;top:70px;bottom:40px;width:3px;background:#E0582A}
+.a .droite{position:absolute;left:520px;top:96px;right:0;height:300px}
+.a .droite img{width:100%;height:100%;object-fit:cover}
+.a h2{position:absolute;left:520px;top:404px;font:300 52px/1 Jost;text-transform:uppercase;letter-spacing:.02em}
+.a h2 i{font-style:normal;color:#E0582A}
+.a .bas{position:absolute;left:48px;top:450px;font-size:13px;color:#5e5750;width:330px}
+.a .bas .bt{background:#141414;color:#fff;margin-top:10px}
+/* B */
+.b{background:#14110E;color:#F1ECE3}
+.b img.fond{position:absolute;right:0;top:0;width:58%;height:100%;object-fit:cover}
+.b .voile{position:absolute;inset:0;background:linear-gradient(90deg,#14110E 42%,#14110E00 70%)}
+.b h2{position:absolute;left:44px;top:150px;width:520px;font:400 68px/1.02 'DM Serif Display'}
+.b h2 i{color:#F2A541}
+.b p{position:absolute;left:46px;top:330px;width:400px;font-size:15px;color:#cfc6b8;line-height:1.5}
+.b .bt{position:absolute;left:46px;top:420px;background:#F2A541;color:#14110E}
+/* C */
+.c{background:#F1EDE4;color:#1C2633}
+.c img.f{position:absolute;right:28px;top:76px;width:560px;height:420px;object-fit:cover}
+.c h2{position:absolute;left:44px;top:120px;width:300px;font:300 64px/1.02 Spectral}
+.c h2 i{color:#C2522D}
+.c p{position:absolute;left:46px;top:340px;width:330px;font:15px/1.5 'IBM Plex Sans';color:#3d4652}
+.c .bt{position:absolute;left:46px;top:430px;background:#1C2633;color:#F1ECE3;font-family:'IBM Plex Sans'}
+.c .trait{position:absolute;right:28px;top:76px;width:560px;height:420px;border:1px solid #1C2633}
+</style></head><body>
+<h1>EWA Design · trois directions</h1>
+<p class="sous">Premier écran de l'accueil (esquisse au rendu final, images réelles du client), palette et typographies. Les œuvres ne sont jamais recadrées ni recolorées.</p>
+
+<div class="dir">
+  <div>
+    <div class="etiq">Direction A · recommandée</div>
+    <div class="ecran a">
+      <div class="ent"><img class="logo" src="img/logo.jpg" alt=""><nav><span>Estampes</span><span>Architecture</span><span>Design &amp; sculpture</span><span>L'atelier</span><span>Contact</span></nav></div>
+      <div class="gauche"><img src="img/serie-impulsions-90x90-2026-3.jpg" alt=""></div>
+      <div class="barre"></div>
+      <div class="droite"><img src="img/complexe-sportif-futuriste-rubans.jpg" alt=""></div>
+      <h2>Art <i>|</i> chitecture</h2>
+      <div class="bas">Estampes numériques en 30 exemplaires, tirées à la demande. Architecture et design, Bordeaux.<br><span class="bt">Choisir une estampe</span></div>
+    </div>
+  </div>
+  <div>
+    <div class="nom">« Art | chitecture »</div>
+    <div class="etiq">Palette</div>
+    <div class="pal">
+      <div class="sw" style="background:#F5F3EF">#F5F3EF<br>fond</div>
+      <div class="sw" style="background:#E8E4DC">#E8E4DC<br>pierre</div>
+      <div class="sw" style="background:#141414;color:#fff">#141414<br>encre</div>
+      <div class="sw" style="background:#8B8179;color:#fff">#8B8179<br>taupe</div>
+      <div class="sw" style="background:#E0582A;color:#fff">#E0582A<br>accent</div>
+    </div>
+    <div class="typo"><div class="etiq">Titres · Jost 300 en capitales</div><div style="font:300 44px/1 Jost;text-transform:uppercase">Impulsions <span style="color:#E0582A">2026</span></div>
+    <div class="etiq" style="margin-top:12px">Texte · DM Sans</div><div style="font-size:16px;line-height:1.5">Série limitée à 30 exemplaires, certificat d'authenticité, 300 ppp.</div></div>
+    <p class="idee">La barre du logo sépare et relie l'art et l'architecture. Galerie blanche : les estampes très colorées sont les stars.</p>
+  </div>
+</div>
+
+<div class="dir">
+  <div>
+    <div class="etiq">Direction B</div>
+    <div class="ecran b">
+      <img class="fond" src="img/lustre-verre-suspendu-lobby.jpg" alt=""><div class="voile"></div>
+      <div class="ent" style="color:#F1ECE3"><b style="font:500 18px Jost;letter-spacing:.2em">EWA</b><nav><span>Estampes</span><span>Architecture</span><span>Design &amp; sculpture</span><span>L'atelier</span></nav></div>
+      <h2>La couleur qui <i>s'allume</i></h2>
+      <p>Estampes, luminaires et architecture : un atelier bordelais qui travaille la lumière.</p>
+      <span class="bt">Voir les œuvres</span>
+    </div>
+  </div>
+  <div>
+    <div class="nom">« Lumière d'atelier »</div>
+    <div class="etiq">Palette</div>
+    <div class="pal">
+      <div class="sw" style="background:#14110E;color:#fff">#14110E<br>nuit</div>
+      <div class="sw" style="background:#221C16;color:#fff">#221C16<br>brun</div>
+      <div class="sw" style="background:#F1ECE3">#F1ECE3<br>ivoire</div>
+      <div class="sw" style="background:#F2A541">#F2A541<br>ambre</div>
+      <div class="sw" style="background:#1FA6C9;color:#fff">#1FA6C9<br>cyan</div>
+    </div>
+    <div class="typo"><div class="etiq">Titres · DM Serif Display</div><div style="font:400 46px/1 'DM Serif Display'">Collection <i style="color:#c97f16">2027</i></div>
+    <div class="etiq" style="margin-top:12px">Texte · DM Sans</div><div style="font-size:16px;line-height:1.5">Luminaires sculpturaux en bambou, verre et matière volcanique.</div></div>
+    <p class="idee">Fond de nuit, les luminaires et les œuvres s'allument au passage. Deux sections claires (estampes, contact) pour respirer.</p>
+  </div>
+</div>
+
+<div class="dir">
+  <div>
+    <div class="etiq">Direction C</div>
+    <div class="ecran c">
+      <div class="ent"><b style="font:400 18px Spectral;letter-spacing:.2em">EWA</b><nav style="font-family:'IBM Plex Sans'"><span>Estampes</span><span>Architecture</span><span>Design</span><span>L'atelier</span></nav></div>
+      <img class="f" src="img/art-chitecture.jpg" alt=""><div class="trait"></div>
+      <h2>Du trait <i>à la couleur</i></h2>
+      <p>Le non-photoréalisme comme parti pris : des lieux esquissés, des estampes en couches.</p>
+      <span class="bt">Voir les projets</span>
+    </div>
+  </div>
+  <div>
+    <div class="nom">« Carnet d'esquisses »</div>
+    <div class="etiq">Palette</div>
+    <div class="pal">
+      <div class="sw" style="background:#F1EDE4">#F1EDE4<br>papier</div>
+      <div class="sw" style="background:#E2E5E1">#E2E5E1<br>calque</div>
+      <div class="sw" style="background:#1C2633;color:#fff">#1C2633<br>encre</div>
+      <div class="sw" style="background:#C2522D;color:#fff">#C2522D<br>terre</div>
+      <div class="sw" style="background:#8FA9B8">#8FA9B8<br>lavis</div>
+    </div>
+    <div class="typo"><div class="etiq">Titres · Spectral léger et italique</div><div style="font:300 46px/1 Spectral">Habitat <i style="color:#C2522D">autonome</i></div>
+    <div class="etiq" style="margin-top:12px">Texte · IBM Plex Sans</div><div style="font:16px/1.5 'IBM Plex Sans'">Trame de 4 × 4 m, montage en une journée, serre au centre.</div></div>
+    <p class="idee">Carnet d'architecte : chaque image arrive en trait puis prend sa couleur au défilement (rendus d'architecture seulement, jamais les œuvres).</p>
+  </div>
+</div>
+</body></html>
