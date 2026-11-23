@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,15 +35,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="stylesheet" href="/assets/css/modules/globe.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="stylesheet" href="/assets/css/modules/globe.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#f5f3ef">
 <link rel="icon" href="/assets/images/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -104,11 +104,12 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <p class="menu-contact"><a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a><span class="menu-email">ewa_design@yahoo.com</span></p>
 </div>
 <main id="contenu" tabindex="-1">
+<div class="fil" data-grille="fil" aria-hidden="true"><span class="fil-n" data-fil-n>01</span><span class="fil-trait"><span class="fil-plein" data-fil-plein></span></span></div>
 <section class="ouv-bande ecran conteneur" id="debut">
   <div class="bande-tete">
     <div>
       <p class="surtitre ouv-entree">Architecture · concours et habitat</p>
-      <h1><span class="t-masque l"><span class="t-mot">Dessiner</span></span><span class="t-masque l"><span class="t-mot">pour un climat</span></span></h1>
+      <h1 data-grille="typo"><span class="t-masque l"><span class="t-mot">Dessiner</span></span><span class="t-masque l"><span class="t-mot">pour un climat</span></span></h1>
     </div>
     <div>
       <p class="ouv-entree masque-ecran-bas">Chaque projet commence par le climat du lieu : la pluie de Bordeaux, le vent d&#39;Essaouira, l&#39;hiver de Tampere.</p>
@@ -127,7 +128,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="gi section section--pierre" id="concours" data-module="globe-itineraire">
   <div class="gi__tete conteneur">
     <p class="surtitre">Les concours</p>
-    <h2 class="gi__titre titre-section" data-anime="lignes">Sept escales, quatre continents</h2>
+    <h2 class="gi__titre titre-section" data-anime="lignes">Sept escales, <em>quatre continents</em></h2>
     <p class="gi__intro chapeau">Une sélection des concours de l&#39;atelier, menés seul ou avec Baggio-Piechaud, Hafid El Awad Architectes et Damien Lachaud.</p>
   </div>
   <div class="gi__corps conteneur">
@@ -206,7 +207,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="habitat-grille">
       <div>
         <p class="surtitre">Habitat autonome · Gironde</p>
-        <h2 class="titre-section" data-anime="lignes">Des maisons qui se suffisent</h2>
+        <h2 class="titre-section" data-anime="lignes">Des maisons <em>qui se suffisent</em></h2>
         <p class="chapeau" data-anime>Avec Damien Lachaud (permaculture), le bureau d&#39;études bois Denis Capo et l&#39;atelier bois du groupe Meison : une charte de maisons autonomes en bois pour un maître d&#39;ouvrage privé, sur le littoral girondin.</p>
         <ul class="principes" data-anime="cascade">
           <li><h3>Bois et trame de 4 × 4 m</h3><p>Structure et bardage en bois ; une trame modulaire qui se monte sur le terrain en une journée.</p></li><li><h3>Paille et chanvre</h3><p>Isolation en paille pour les murs nord, en chanvre pour les autres façades.</p></li><li><h3>Une serre au centre</h3><p>Serre de permaculture au cœur du logement, bassins d&#39;aquaponie remplis par l&#39;eau de pluie.</p></li><li><h3>Géothermie et air naturel</h3><p>Régulation thermique par géothermie, cheminées et ventilation naturelle des toitures.</p></li>
@@ -248,7 +249,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="tete-section">
       <div>
         <p class="surtitre">Éco-quartiers</p>
-        <h2 class="titre-section" data-anime="lignes">Habiter l&#39;eau et la terre</h2>
+        <h2 class="titre-section" data-anime="lignes">Habiter l'eau <em>et la terre</em></h2>
       </div>
       <p class="chapeau" data-anime>Quartiers flottants, îles-jardins, villages en terre : des recherches pour des villes plus sobres.</p>
     </div>
@@ -272,8 +273,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="section" id="esquisse">
   <div class="conteneur esquisse-grille">
     <div>
-      <p class="surtitre">Un parti pris</p>
-      <h2 class="titre-section" data-anime="lignes">Le non-photoréalisme</h2>
+      <p class="surtitre">Esquisses</p>
+      <h2 class="titre-section" data-anime="lignes">Le parti pris <em>du non-photoréalisme</em></h2>
       <p class="chapeau" data-anime>Encre, lavis, couleurs d&#39;estampe : ces images ne cherchent pas à faire vrai. Elles montrent les volumes, la lumière et les liens entre les espaces, et laissent une place à l&#39;imagination, au moment où le projet se décide.</p>
     </div>
     <div>
@@ -305,7 +306,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </picture>
 </figure>
     <div>
-      <h2 class="titre-section" data-anime="lignes">Un terrain, un programme, un concours ?</h2>
+      <h2 class="titre-section" data-anime="lignes">Un terrain, un programme, <em>un concours</em> ?</h2>
       <p data-anime>Décrivez votre projet : l&#39;atelier vous répond par e-mail.</p>
       <p class="appel-actions" data-anime><a href="/contact?sujet=architecture#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Parler d&#39;un projet</a></p>
       <span class="appel-email">ewa_design@yahoo.com</span>

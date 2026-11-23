@@ -102,6 +102,65 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "Temps : voir etapes ; attentes a part. Safari non lance (WebKit indisponible ici)."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1",
+      "perimetre": [
+        "accueil",
+        "estampes",
+        "architecture",
+        "design-sculpture",
+        "atelier",
+        "contact",
+        "404"
+      ],
+      "etapes": [
+        {
+          "etape": "revue complète du site",
+          "budget": 20,
+          "debut": "2026-11-23T13:22:51.389Z",
+          "fin": "2026-11-23T13:28:00.000Z"
+        },
+        {
+          "etape": "améliorations v2",
+          "budget": 60,
+          "debut": "2026-11-23T13:28:00.000Z",
+          "fin": "2026-11-23T13:34:56.000Z"
+        },
+        {
+          "etape": "audit complet et corrections",
+          "budget": 60,
+          "debut": "2026-11-23T13:34:56.000Z",
+          "fin": "2026-11-23T14:43:08.000Z"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-23T14:43:08.000Z",
+          "fin": ""
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "modules": [
+        "globe-itineraire",
+        "formulaire-par-etapes"
+      ],
+      "audit": {
+        "niveau": "complet",
+        "echecsPremierPassage": 0,
+        "relances": 1,
+        "corrections": [
+          "« à compléter » retiré du formulaire de contact",
+          "grille : coin des formats à tirer (manipuler), fil dans la marge (fil), titre d'ouverture écrit par la barre (typo), confirmation imprimée (retour)",
+          "grille : point 2 dispensé, l'intro propre finit sur la barre d'ouverture",
+          "planches de luminaires montrées entières"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Demande : dernier audit complet, analyse de tout le site et améliorations pour une version optimale, ludique et de haut niveau."
     }
   ]
 }

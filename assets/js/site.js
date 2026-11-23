@@ -4,7 +4,7 @@
    la barre de l'accueil, le tirage des estampes, les séries qui glissent, les carrés gigognes, la trame de l'habitat,
    la frise, les filtres et la visionneuse du catalogue, le globe des concours et le formulaire par étapes.
    Chaque effet propre porte data-effet="nom-du-plan". */
-import { demarrer, quand, suivre, lacher, rafraichir, bloquerDefilement, debloquerDefilement } from './socle/index.js?v=1';
+import { demarrer, quand, suivre, lacher, rafraichir, bloquerDefilement, debloquerDefilement } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;
@@ -22,9 +22,27 @@ function centreX() {
 }
 const pans = (x, d, W) => `polygon(0px 0px, ${Math.max(0, x - d)}px 0px, ${Math.max(0, x - d)}px 100%, ${Math.min(W, x + d)}px 100%, ${Math.min(W, x + d)}px 0px, ${W}px 0px, ${W}px 100%, 0px 100%)`;
 
+/* Titre qui fait l'événement : sur les pages intérieures, la barre du logo passe sur la dernière ligne du titre
+   d'ouverture et l'écrit derrière elle (sur l'accueil, la barre coupe déjà ART | CHITECTURE). */
+function balayage() {
+  const h = $('#debut [data-grille~="typo"]:not(.titre-split)');
+  const m = h && $$('.t-masque', h).pop();
+  const mot = m && $('.t-mot', m);
+  if (!mot) return null;
+  let trait = $('.t-trait', m);
+  if (!trait) { trait = document.createElement('span'); trait.className = 't-trait'; trait.setAttribute('aria-hidden', 'true'); m.append(trait); }
+  return { mot, trait };
+}
+
 /* Entrée du premier écran, partagée par l'intro et l'arrivée sous le voile. */
 function entree(tl, t) {
-  const mots = $$('#debut .t-mot');
+  const bal = balayage();
+  if (bal) {
+    tl.fromTo(bal.mot, { y: 0, yPercent: 0, clipPath: 'inset(-0.2em 100% -0.25em -0.1em)' }, { clipPath: 'inset(-0.2em -0.1em -0.25em -0.1em)', duration: 0.7, ease: 'power3.inOut' }, t + 0.15)
+      .fromTo(bal.trait, { x: () => bal.mot.offsetLeft, opacity: 1 }, { x: () => bal.mot.offsetLeft + bal.mot.offsetWidth, duration: 0.7, ease: 'power3.inOut' }, t + 0.15)
+      .to(bal.trait, { opacity: 0, duration: 0.25 }, t + 0.85);
+  }
+  const mots = $$('#debut .t-mot').filter((m) => !bal || m !== bal.mot);
   if (mots.length) tl.fromTo(mots, { y: 0, yPercent: 105 }, { y: 0, yPercent: 0, duration: 0.75, stagger: 0.08, ease: 'power3.out' }, t);
   const barre = $('.split-barre');
   if (barre) tl.fromTo(barre, { scaleY: 0 }, { scaleY: 1, duration: 0.7, ease: 'power3.inOut' }, Math.max(0, t - 0.1));
@@ -73,7 +91,8 @@ function arrivee() {
 
 function etatFinal() {
   if (!gsap) return;
-  gsap.set('#debut .t-mot', { y: 0, yPercent: 0 });
+  gsap.set('#debut .t-mot', { y: 0, yPercent: 0, clipPath: 'none' });
+  gsap.set('#debut .t-trait', { opacity: 0 });
   gsap.set('.split-barre', { scaleY: 1 });
   gsap.set('#debut .ouv-media-rideau', { clipPath: 'inset(0 0% 0 0)' });
   gsap.set('#debut .ouv-entree', { opacity: 1, y: 0 });
@@ -157,8 +176,8 @@ function initGigogne() {
   /* L'étiquette ne montre que les vrais formats (30, 60, 90), jamais une taille intermédiaire. */
   const poser = () => {
     const s = etat.s < 45 ? 30 : etat.s < 75 ? 60 : 90;
-    oeuvre.style.setProperty('--gig-echelle', (etat.s / 90).toFixed(4));
-    if (t1.textContent !== String(s)) { t1.textContent = s; t2.textContent = s; }
+    oeuvre.parentElement.style.setProperty('--gig-echelle', (etat.s / 90).toFixed(4));
+    if (t1.textContent !== String(s)) { t1.textContent = s; t2.textContent = s; $$('[data-gig-cote]', scene).forEach((x) => { x.textContent = s; }); }
   };
   const presser = (v) => boutons.forEach((b) => b.setAttribute('aria-pressed', String(+b.dataset.gigChoix === v)));
   let auto = null;
@@ -173,6 +192,60 @@ function initGigogne() {
     if (auto) auto.kill();
     const v = +b.dataset.gigChoix; presser(v); vers(v);
   }));
+  /* Effet signature qui se manipule : on tire le coin orange (ou l'œuvre, à la souris) ; au lâcher, l'œuvre
+     se pose sur le format réel le plus proche. Les boutons restent la voie du clavier. */
+  const cadre = oeuvre.parentElement, poignee = $('[data-gig-poignee]', scene);
+  const proche = (x) => (x < 45 ? 30 : x < 75 ? 60 : 90);
+  let prise = null;
+  const prendre = (e) => {
+    if (e.button > 0) return;
+    if (auto) auto.kill();
+    gsap.killTweensOf(etat);
+    const r = cadre.getBoundingClientRect();
+    prise = { cx: r.left + r.width / 2, cy: r.top + r.height / 2, demi: r.width / 2, id: e.pointerId, el: e.currentTarget };
+    try { e.currentTarget.setPointerCapture(e.pointerId); } catch {}
+    scene.classList.add('gig-prise');
+    e.preventDefault();
+  };
+  const tirerCoin = (e) => {
+    if (!prise || e.pointerId !== prise.id) return;
+    const d = Math.max(Math.abs(e.clientX - prise.cx), Math.abs(e.clientY - prise.cy));
+    etat.s = Math.min(96, Math.max(22, (d / prise.demi) * 90));
+    poser(); presser(proche(etat.s));
+  };
+  const lacherCoin = () => {
+    if (!prise) return;
+    prise = null; scene.classList.remove('gig-prise');
+    const v = proche(etat.s); presser(v); vers(v, 0.45);
+  };
+  [poignee, oeuvre].forEach((el) => {
+    if (!el) return;
+    el.addEventListener('pointerdown', (e) => { if (el === oeuvre && e.pointerType !== 'mouse') return; prendre(e); });
+    el.addEventListener('pointermove', tirerCoin);
+    el.addEventListener('pointerup', lacherCoin);
+    el.addEventListener('pointercancel', lacherCoin);
+    el.addEventListener('lostpointercapture', lacherCoin);
+  });
+}
+
+/* ---------- Fil dans la marge : la barre du logo descend avec la lecture, le folio donne la section ---------- */
+function initFil() {
+  const fil = $('[data-grille~="fil"]'), plein = $('[data-fil-plein]'), n = $('[data-fil-n]');
+  if (!fil || !plein) return;
+  const sections = $$('#contenu > section');
+  let dernier = '';
+  const maj = () => {
+    const H = document.documentElement.scrollHeight - innerHeight;
+    plein.style.transform = `scaleY(${H > 0 ? Math.min(1, Math.max(0, scrollY / H)).toFixed(4) : 0})`;
+    let i = 0;
+    sections.forEach((s, k) => { if (s.getBoundingClientRect().top < innerHeight * 0.5) i = k; });
+    const t = String(i + 1).padStart(2, '0');
+    if (t !== dernier) { dernier = t; n.textContent = t; }
+    fil.classList.toggle('fil-sombre', !!(sections[i] && sections[i].matches('.section--encre, .appel')));
+  };
+  addEventListener('scroll', maj, { passive: true });
+  addEventListener('resize', maj);
+  maj();
 }
 
 /* ---------- Trame : la maison grandit, de M 001 à M 009 ---------- */
@@ -271,12 +344,46 @@ function initVisionneuse() {
   };
   const fermer = () => {
     if (v.hidden) return;
+    sansLoupe();
     v.classList.remove('ouverte');
     const u = new URL(location.href); if (u.searchParams.has('oeuvre')) { u.searchParams.delete('oeuvre'); history.replaceState(history.state, '', u); }
     setTimeout(() => { v.hidden = true; lacher(v); debloquerDefilement('visionneuse'); }, 300);
     if (retour && retour.focus) retour.focus({ preventScroll: true });
   };
-  const pas = (d) => { const l = items(); const i = l.indexOf(courant); if (i < 0) return; remplir(l[(i + d + l.length) % l.length]); };
+  /* Loupe : un clic sur l'image (ou le bouton) l'agrandit 2,6 fois sous le pointeur ; on explore en déplaçant la souris ou le doigt. */
+  const boutonLoupe = $('[data-vis-loupe]', v), zone = $('.vis-image', v);
+  let loupe = null;
+  const viser = (x, y) => {
+    if (!loupe) return;
+    const r = loupe.getBoundingClientRect();
+    const px = Math.min(1, Math.max(0, (x - r.left) / r.width)), py = Math.min(1, Math.max(0, (y - r.top) / r.height));
+    loupe.style.backgroundPosition = `${(px * 100).toFixed(2)}% ${(py * 100).toFixed(2)}%`;
+  };
+  const sansLoupe = () => {
+    if (!loupe) return;
+    loupe.remove(); loupe = null;
+    if (boutonLoupe) boutonLoupe.setAttribute('aria-pressed', 'false');
+    v.classList.remove('loupe-active');
+  };
+  const avecLoupe = (x, y) => {
+    sansLoupe();
+    loupe = document.createElement('div');
+    loupe.className = 'vis-loupe'; loupe.setAttribute('aria-hidden', 'true');
+    /* Grossissement réglé sur la vraie définition du fichier (jamais plus de 2,6 fois) pour rester net. */
+    const f = Math.max(1.6, Math.min(2.6, (img.naturalWidth || 1600) / Math.max(1, img.offsetWidth)));
+    Object.assign(loupe.style, { left: `${img.offsetLeft}px`, top: `${img.offsetTop}px`, width: `${img.offsetWidth}px`, height: `${img.offsetHeight}px`, backgroundImage: `url("${img.currentSrc || img.src}")`, backgroundSize: `${(f * 100).toFixed(0)}% ${(f * 100).toFixed(0)}%` });
+    zone.append(loupe);
+    loupe.addEventListener('pointermove', (e) => viser(e.clientX, e.clientY));
+    loupe.addEventListener('click', sansLoupe);
+    if (boutonLoupe) boutonLoupe.setAttribute('aria-pressed', 'true');
+    v.classList.add('loupe-active');
+    if (x == null) loupe.style.backgroundPosition = '50% 50%'; else viser(x, y);
+  };
+  if (zone) zone.style.position = 'relative';
+  img.addEventListener('click', (e) => avecLoupe(e.clientX, e.clientY));
+  if (boutonLoupe) boutonLoupe.addEventListener('click', () => (loupe ? sansLoupe() : avecLoupe()));
+  addEventListener('resize', sansLoupe);
+  const pas = (d) => { sansLoupe(); const l = items(); const i = l.indexOf(courant); if (i < 0) return; remplir(l[(i + d + l.length) % l.length]); };
   $$('[data-oeuvre], [data-planche]').forEach((b) => b.addEventListener('click', () => ouvrir(b)));
   $('[data-vis-fermer]', v).addEventListener('click', fermer);
   $('[data-vis-prec]', v).addEventListener('click', () => pas(-1));
@@ -284,7 +391,7 @@ function initVisionneuse() {
   v.addEventListener('click', (e) => { if (e.target === v || e.target.classList.contains('vis-boite')) fermer(); });
   document.addEventListener('keydown', (e) => {
     if (v.hidden) return;
-    if (e.key === 'Escape') { e.preventDefault(); fermer(); }
+    if (e.key === 'Escape') { e.preventDefault(); if (loupe) sansLoupe(); else fermer(); }
     else if (e.key === 'ArrowRight') pas(1);
     else if (e.key === 'ArrowLeft') pas(-1);
     else if (e.key === 'Tab') {
@@ -299,10 +406,41 @@ function initVisionneuse() {
   if (p) quand('pret', () => { const b = $(`[data-oeuvre="${CSS.escape(p)}"]`); if (b) ouvrir(b); });
 }
 
+/* ---------- Souris : l'ouverture répond au pointeur (ordinateur seulement) ---------- */
+const sourisFine = () => matchMedia('(hover: hover) and (pointer: fine)').matches;
+/* Chaque plan glisse d'une amplitude propre (propriété « translate », distincte des transformations de GSAP).
+   Quand la souris s'arrête, le mouvement s'amortit puis la boucle s'éteint : rien ne bouge au repos. */
+function initSouris() {
+  const debut = $('#debut.ouv-split');
+  if (!debut || !sourisFine()) return;
+  const plans = [
+    [$('.split-art .estampe', debut), -16, -12],
+    [$('.split-chi .media img', debut), 14, 10],
+    [$('.titre-split', debut), 7, 5],
+    [$('.split-texte', debut), -4, -3],
+  ].filter(([el]) => el);
+  const chi = $('.split-chi .media img', debut);
+  if (chi) chi.style.scale = '1.06';
+  const cible = { x: 0, y: 0 }, pos = { x: 0, y: 0 };
+  let tourne = false;
+  const pas = () => {
+    pos.x += (cible.x - pos.x) * 0.08; pos.y += (cible.y - pos.y) * 0.08;
+    plans.forEach(([el, ax, ay]) => { el.style.translate = `${(pos.x * ax).toFixed(2)}px ${(pos.y * ay).toFixed(2)}px`; });
+    if (Math.abs(cible.x - pos.x) + Math.abs(cible.y - pos.y) > 0.002) requestAnimationFrame(pas); else tourne = false;
+  };
+  const lancer = () => { if (!tourne) { tourne = true; requestAnimationFrame(pas); } };
+  debut.addEventListener('pointermove', (e) => {
+    const r = debut.getBoundingClientRect();
+    cible.x = ((e.clientX - r.left) / r.width - 0.5) * 2; cible.y = ((e.clientY - r.top) / r.height - 0.5) * 2;
+    lancer();
+  });
+  debut.addEventListener('pointerleave', () => { cible.x = 0; cible.y = 0; lancer(); });
+}
+
 /* ---------- Modules : globe des concours, formulaire par étapes ---------- */
 function initModules() {
   const globe = $('[data-module="globe-itineraire"]');
-  if (globe) quand('pret', () => import('./modules/globe/module.js?v=1').then((m) => m.init(globe, { lecture: 0.5 })).then(() => rafraichir && rafraichir()).catch((e) => console.warn('[globe]', e)));
+  if (globe) quand('pret', () => import('./modules/globe/module.js?v=2').then((m) => m.init(globe, { lecture: 0.5 })).then(() => rafraichir && rafraichir()).catch((e) => console.warn('[globe]', e)));
   const form = $('[data-module="formulaire-par-etapes"]');
   if (form) {
     /* Préremplissage depuis l'adresse : ?sujet=estampe&oeuvre=… (boutons des autres pages et de la visionneuse). */
@@ -310,7 +448,8 @@ function initModules() {
     const sujet = p.get('sujet'), oeuvre = p.get('oeuvre');
     if (sujet) { const r = $(`input[name="objet"][value="${CSS.escape(sujet)}"]`, form); if (r) r.checked = true; }
     if (oeuvre) { const c = $('#f-oeuvre', form); if (c) c.value = oeuvre; }
-    import('./modules/formulaire/module.js?v=1').then((m) => m.init(form, { mailto: '' })).catch((e) => console.warn('[formulaire]', e));
+    import('./modules/formulaire/module.js?v=2').then((m) => m.init(form, { mailto: '' })).catch((e) => console.warn('[formulaire]', e));
+    form.addEventListener('formulaire:envoye', () => { const f = $('.fpe__fin', form); if (f) f.classList.add('fpe__fin--imprime'); });
     form.addEventListener('formulaire:envoye', () => setTimeout(() => { const f = $('.fpe__fin', form); if (f) f.scrollIntoView({ block: 'center' }); }, 120));
   }
 }
@@ -327,6 +466,8 @@ demarrer({
     initFiltres();
     initVisionneuse();
     initModules();
+    initSouris();
+    initFil();
   },
   jouer,
   etatFinal,

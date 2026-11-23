@@ -1,12 +1,12 @@
 {
- "id": "20261120-222132-standard",
- "date": "2026-11-20T22:44:47.975Z",
- "niveau": "standard",
+ "id": "20261123-141320-complet",
+ "date": "2026-11-23T14:42:08.654Z",
+ "niveau": "complet",
  "pages": "toutes",
  "etapes": "toutes",
- "version": "1",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 14,
+ "aRegarder": 4,
  "nonLances": 1,
  "manquants": 0,
  "statut": "complet"

@@ -1,6 +1,31 @@
 {
   "siteActuel": "www.ewa-design.org",
-  "pagesTypes": ["/", "/estampes", "/architecture", "/design-sculpture", "/atelier", "/contact"],
-  "effets": ["barre", "tirage", "tirage-ouverture", "series", "gigogne", "trame", "globe", "frise", "split-chi", "bande", "portrait", "table", "coupe"],
-  "grille": { "dispenses": {} }
+  "pagesTypes": [
+    "/",
+    "/estampes",
+    "/architecture",
+    "/design-sculpture",
+    "/atelier",
+    "/contact"
+  ],
+  "effets": [
+    "barre",
+    "tirage",
+    "tirage-ouverture",
+    "series",
+    "gigogne",
+    "trame",
+    "globe",
+    "frise",
+    "split-chi",
+    "bande",
+    "portrait",
+    "table",
+    "coupe"
+  ],
+  "grille": {
+    "dispenses": {
+      "intro": "L'intro finit déjà sur la page sans versObjet : la barre du logo monte, glisse jusqu'à la barre d'ouverture (accueil) ou l'objet data-iris-centre, puis le panneau s'ouvre de part et d'autre d'elle (jouer() dans assets/js/site.js)."
+    }
+  }
 }

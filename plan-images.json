@@ -1397,6 +1397,162 @@
   ]
  },
  {
+  "source": "recu/expos/e-w-design-france-35.png",
+  "nom": "expo-paris-2025",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "alt": "Estampe d'EWA sur écran dans la salle d'exposition du Carrousel du Louvre, à Paris",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/expos/e-w-design-france-57.png",
+  "nom": "expo-new-york-2025",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "alt": "Estampe d'EWA exposée à Artexpo New York, entre deux œuvres d'autres artistes",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/expos/e-w-design-france-43.png",
+  "nom": "expo-cologne-2025",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "alt": "Estampe d'EWA sur un mur de palettes à Cologne Art Unframed",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/expos/nicoletta.png",
+  "nom": "expo-berlin-2025",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "alt": "Estampe verticale d'EWA dans la Nicoleta Gallery, à Berlin",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/expos/e-w-design-france-24.png",
+  "nom": "expo-venise-2024",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "alt": "Estampe d'EWA sur écran à la galerie Cipriarte, à Venise",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/expos/re-draw-02-4.png",
+  "nom": "expo-zurich-2023",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "alt": "Stand de la Swiss Art Expo à Zurich, avec une estampe d'EWA",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/expos/e-w-design-france-46.png",
+  "nom": "expo-dubai-2025",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "alt": "Estampe d'EWA dans le hall de l'Andakulova Gallery, à Dubaï",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/expos/e-w-design-france-38.png",
+  "nom": "expo-zoug-2025",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "alt": "Estampe d'EWA dans un espace de la Thomson Gallery, à Zoug",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/expos/e-w-design-france-40.png",
+  "nom": "expo-grenade-2025",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "alt": "Estampe verticale d'EWA entre deux toiles à l'Art Bar Gallery, à la Grenade",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/expos/e-w-design-france-49.png",
+  "nom": "expo-palma-2025",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "alt": "Estampe d'EWA près d'un mur de pierre à la Casa del Arte, à Palma",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/expos/re-draw-02-3.png",
+  "nom": "expo-miami-2023",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "alt": "Accrochage au Spectrum Miami Art Show avec une estampe d'EWA",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/ewa-design-recu/exposition-mne-bordeaux-ewa.jpg",
+  "nom": "expo-mne-bordeaux",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "alt": "Public assis devant des estampes d'EWA à la Maison de la Nature et de l'Environnement de Bordeaux",
+  "beaute": 3,
+  "mobile": false
+ },
+ {
   "source": "recu/grok-agrandi/atelier-tirage.png",
   "nom": "grok/atelier-tirage",
   "role": "section-fond",

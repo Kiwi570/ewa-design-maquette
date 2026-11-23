@@ -1,0 +1,700 @@
+{
+  "dossier": "/home/claude/ewa-design-maquette/recu/expos",
+  "date": "2026-11-23T13:24:55.211Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "e-w-design-france-24.png",
+      "nom": "e-w-design-france-24",
+      "drapeau": null,
+      "largeur": 2000,
+      "hauteur": 1252,
+      "ratio": "16:10",
+      "ratio_valeur": 1.597,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2138685,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.9,
+        "h": 75,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        32
+      ],
+      "cadrage_css": "49% 32%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 37.3,
+        "bruit": 0.67,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "5ffcc03034311180",
+      "drapeaux": []
+    },
+    {
+      "fichier": "e-w-design-france-35.png",
+      "nom": "e-w-design-france-35",
+      "drapeau": null,
+      "largeur": 2000,
+      "hauteur": 1252,
+      "ratio": "16:10",
+      "ratio_valeur": 1.597,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2093969,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 80,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        42
+      ],
+      "cadrage_css": "53% 42%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 59.1,
+        "bruit": 0.5,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "07036979713971e0",
+      "drapeaux": []
+    },
+    {
+      "fichier": "e-w-design-france-38.png",
+      "nom": "e-w-design-france-38",
+      "drapeau": null,
+      "largeur": 2000,
+      "hauteur": 1252,
+      "ratio": "16:10",
+      "ratio_valeur": 1.597,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1728614,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 30,
+        "l": 93.8,
+        "h": 55,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        55
+      ],
+      "cadrage_css": "50% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "bas",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        }
+      ],
+      "qualite": {
+        "nettete": 44.9,
+        "bruit": 0.4,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f0e0f1b4b4b1f9fe",
+      "drapeaux": [
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "e-w-design-france-40.png",
+      "nom": "e-w-design-france-40",
+      "drapeau": null,
+      "largeur": 2000,
+      "hauteur": 1252,
+      "ratio": "16:10",
+      "ratio_valeur": 1.597,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1571698,
+      "transparence": false,
+      "sujet": {
+        "x": 12.5,
+        "y": 25,
+        "l": 87.5,
+        "h": 60,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        52
+      ],
+      "cadrage_css": "53% 52%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.6
+        }
+      ],
+      "qualite": {
+        "nettete": 50.1,
+        "bruit": 0.48,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "8e0624242466c6f6",
+      "drapeaux": []
+    },
+    {
+      "fichier": "e-w-design-france-43.png",
+      "nom": "e-w-design-france-43",
+      "drapeau": null,
+      "largeur": 2000,
+      "hauteur": 1252,
+      "ratio": "16:10",
+      "ratio_valeur": 1.597,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 3104305,
+      "transparence": false,
+      "sujet": {
+        "x": 12.5,
+        "y": 0,
+        "l": 84.4,
+        "h": 85,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        47
+      ],
+      "cadrage_css": "52% 47%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "gauche",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 50.7,
+        "bruit": 1.09,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "4c98b3b3b333c6e7",
+      "drapeaux": []
+    },
+    {
+      "fichier": "e-w-design-france-46.png",
+      "nom": "e-w-design-france-46",
+      "drapeau": null,
+      "largeur": 2000,
+      "hauteur": 1252,
+      "ratio": "16:10",
+      "ratio_valeur": 1.597,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2721851,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 25,
+        "l": 96.9,
+        "h": 75,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        54
+      ],
+      "cadrage_css": "48% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        }
+      ],
+      "qualite": {
+        "nettete": 51.2,
+        "bruit": 0.78,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "1094f27372d430b2",
+      "drapeaux": []
+    },
+    {
+      "fichier": "e-w-design-france-49.png",
+      "nom": "e-w-design-france-49",
+      "drapeau": null,
+      "largeur": 2000,
+      "hauteur": 1252,
+      "ratio": "16:10",
+      "ratio_valeur": 1.597,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 3072661,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 25,
+        "l": 96.9,
+        "h": 75,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        63,
+        56
+      ],
+      "cadrage_css": "63% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "gauche",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 50.3,
+        "bruit": 0.91,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "73c9b8687879a9aa",
+      "drapeaux": []
+    },
+    {
+      "fichier": "e-w-design-france-57.png",
+      "nom": "e-w-design-france-57",
+      "drapeau": null,
+      "largeur": 1547,
+      "hauteur": 941,
+      "ratio": "1.64",
+      "ratio_valeur": 1.644,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1544601,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 35,
+        "l": 100,
+        "h": 60,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        74
+      ],
+      "cadrage_css": "44% 74%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "droite",
+          "score": 0.02,
+          "ton": "clair",
+          "recouvre_sujet": 0.6
+        }
+      ],
+      "qualite": {
+        "nettete": 49.3,
+        "bruit": 0.98,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e8a581d991b49899",
+      "drapeaux": [
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "nicoletta.png",
+      "nom": "nicoletta",
+      "drapeau": null,
+      "largeur": 2000,
+      "hauteur": 1252,
+      "ratio": "16:10",
+      "ratio_valeur": 1.597,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2124857,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 5,
+        "l": 96.9,
+        "h": 95,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        58
+      ],
+      "cadrage_css": "55% 58%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.95
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.83
+        }
+      ],
+      "qualite": {
+        "nettete": 48.5,
+        "bruit": 0.53,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f00c0d8d95313330",
+      "drapeaux": []
+    },
+    {
+      "fichier": "re-draw-02-3.png",
+      "nom": "re-draw-02-3",
+      "drapeau": null,
+      "largeur": 2000,
+      "hauteur": 1252,
+      "ratio": "16:10",
+      "ratio_valeur": 1.597,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1515604,
+      "transparence": false,
+      "sujet": {
+        "x": 18.8,
+        "y": 30,
+        "l": 75,
+        "h": 45,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        55
+      ],
+      "cadrage_css": "56% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "gauche",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "bas",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "droite",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        }
+      ],
+      "qualite": {
+        "nettete": 44,
+        "bruit": 0.61,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "ccc66e4c4c6e0e86",
+      "drapeaux": [
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "re-draw-02-4.png",
+      "nom": "re-draw-02-4",
+      "drapeau": null,
+      "largeur": 2000,
+      "hauteur": 1214,
+      "ratio": "1.65",
+      "ratio_valeur": 1.647,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2756829,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 95,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        48
+      ],
+      "cadrage_css": "47% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.95
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 61.8,
+        "bruit": 0.9,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "da7a2a28282c6c67",
+      "drapeaux": []
+    }
+  ]
+}

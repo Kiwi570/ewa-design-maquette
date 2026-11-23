@@ -149,6 +149,7 @@ ${voile(c)}
 <a class="evitement" href="#contenu">${c.t('commun.evitement')}</a>
 ${entete(c)}
 <main id="contenu" tabindex="-1"${c.page.sansAction ? brut(' data-sans-action') : ''}${c.page.sansEffet ? brut(' data-sans-effet') : ''}>
+<div class="fil" data-grille="fil" aria-hidden="true"><span class="fil-n" data-fil-n>01</span><span class="fil-trait"><span class="fil-plein" data-fil-plein></span></span></div>
 ${contenu}
 </main>
 ${pied(c)}

@@ -6882,6 +6882,822 @@
     },
     "media": "c.media({ nom: 'galerie-artexpo', alt: \"Artexpo New York\", cadrage: '44% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '509 / 208' })"
   },
+  "expo-paris-2025": {
+    "nom": "expo-paris-2025",
+    "source": "recu/expos/e-w-design-france-35.png",
+    "role": "galerie",
+    "alt": "Estampe d'EWA sur écran dans la salle d'exposition du Carrousel du Louvre, à Paris",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "3d352bd62e6b04c7",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "50% 42%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 80
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 121,
+      "top": 0,
+      "width": 1878,
+      "height": 1252,
+      "source": [
+        2000,
+        1252
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "expo-paris-2025-640.webp",
+      "expo-paris-2025-1280.webp"
+    ],
+    "poids": {
+      "expo-paris-2025-640.webp": 30162,
+      "expo-paris-2025-1280.webp": 87618
+    },
+    "media": "c.media({ nom: 'expo-paris-2025', alt: \"Estampe d'EWA sur écran dans la salle d'exposition du Carrousel du Louvre, à Paris\", cadrage: '50% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "expo-new-york-2025": {
+    "nom": "expo-new-york-2025",
+    "source": "recu/expos/e-w-design-france-57.png",
+    "role": "galerie",
+    "alt": "Estampe d'EWA exposée à Artexpo New York, entre deux œuvres d'autres artistes",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f11c5e7e1ad51c06",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "48% 74%",
+    "sujet": {
+      "x": 0,
+      "y": 35,
+      "l": 100,
+      "h": 60
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.66,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1412,
+      "height": 941,
+      "source": [
+        1547,
+        941
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "expo-new-york-2025-640.webp",
+      "expo-new-york-2025-1280.webp"
+    ],
+    "poids": {
+      "expo-new-york-2025-640.webp": 24866,
+      "expo-new-york-2025-1280.webp": 84890
+    },
+    "media": "c.media({ nom: 'expo-new-york-2025', alt: \"Estampe d'EWA exposée à Artexpo New York, entre deux œuvres d'autres artistes\", cadrage: '48% 74%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "expo-cologne-2025": {
+    "nom": "expo-cologne-2025",
+    "source": "recu/expos/e-w-design-france-43.png",
+    "role": "galerie",
+    "alt": "Estampe d'EWA sur un mur de palettes à Cologne Art Unframed",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5bb71328a16c4b68",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "50% 47%",
+    "sujet": {
+      "x": 7.9,
+      "y": 0,
+      "l": 89.9,
+      "h": 85
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 101,
+      "top": 0,
+      "width": 1878,
+      "height": 1252,
+      "source": [
+        2000,
+        1252
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "expo-cologne-2025-640.webp",
+      "expo-cologne-2025-1280.webp"
+    ],
+    "poids": {
+      "expo-cologne-2025-640.webp": 43236,
+      "expo-cologne-2025-1280.webp": 129716
+    },
+    "media": "c.media({ nom: 'expo-cologne-2025', alt: \"Estampe d'EWA sur un mur de palettes à Cologne Art Unframed\", cadrage: '50% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "expo-berlin-2025": {
+    "nom": "expo-berlin-2025",
+    "source": "recu/expos/nicoletta.png",
+    "role": "galerie",
+    "alt": "Estampe verticale d'EWA dans la Nicoleta Gallery, à Berlin",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d141708b8ba4b5f4",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "52% 58%",
+    "sujet": {
+      "x": 0,
+      "y": 5,
+      "l": 100,
+      "h": 95
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 122,
+      "top": 0,
+      "width": 1878,
+      "height": 1252,
+      "source": [
+        2000,
+        1252
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "expo-berlin-2025-640.webp",
+      "expo-berlin-2025-1280.webp"
+    ],
+    "poids": {
+      "expo-berlin-2025-640.webp": 34832,
+      "expo-berlin-2025-1280.webp": 96522
+    },
+    "media": "c.media({ nom: 'expo-berlin-2025', alt: \"Estampe verticale d'EWA dans la Nicoleta Gallery, à Berlin\", cadrage: '52% 58%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "expo-venise-2024": {
+    "nom": "expo-venise-2024",
+    "source": "recu/expos/e-w-design-france-24.png",
+    "role": "galerie",
+    "alt": "Estampe d'EWA sur écran à la galerie Cipriarte, à Venise",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "3edf12402594218d",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "50% 32%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 75
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.38,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 41,
+      "top": 0,
+      "width": 1878,
+      "height": 1252,
+      "source": [
+        2000,
+        1252
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "expo-venise-2024-640.webp",
+      "expo-venise-2024-1280.webp"
+    ],
+    "poids": {
+      "expo-venise-2024-640.webp": 25724,
+      "expo-venise-2024-1280.webp": 79970
+    },
+    "media": "c.media({ nom: 'expo-venise-2024', alt: \"Estampe d'EWA sur écran à la galerie Cipriarte, à Venise\", cadrage: '50% 32%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "expo-zurich-2023": {
+    "nom": "expo-zurich-2023",
+    "source": "recu/expos/re-draw-02-4.png",
+    "role": "galerie",
+    "alt": "Stand de la Swiss Art Expo à Zurich, avec une estampe d'EWA",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7e3d8c323485e97d",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 1.8,
+      "y": 0,
+      "l": 98.2,
+      "h": 95
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 30,
+      "top": 0,
+      "width": 1821,
+      "height": 1214,
+      "source": [
+        2000,
+        1214
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "expo-zurich-2023-640.webp",
+      "expo-zurich-2023-1280.webp"
+    ],
+    "poids": {
+      "expo-zurich-2023-640.webp": 37692,
+      "expo-zurich-2023-1280.webp": 133756
+    },
+    "media": "c.media({ nom: 'expo-zurich-2023', alt: \"Stand de la Swiss Art Expo à Zurich, avec une estampe d'EWA\", cadrage: '50% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "expo-dubai-2025": {
+    "nom": "expo-dubai-2025",
+    "source": "recu/expos/e-w-design-france-46.png",
+    "role": "galerie",
+    "alt": "Estampe d'EWA dans le hall de l'Andakulova Gallery, à Dubaï",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2c413b0524873205",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "50% 54%",
+    "sujet": {
+      "x": 2.2,
+      "y": 25,
+      "l": 97.8,
+      "h": 75
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.52,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 21,
+      "top": 0,
+      "width": 1878,
+      "height": 1252,
+      "source": [
+        2000,
+        1252
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "expo-dubai-2025-640.webp",
+      "expo-dubai-2025-1280.webp"
+    ],
+    "poids": {
+      "expo-dubai-2025-640.webp": 25126,
+      "expo-dubai-2025-1280.webp": 94432
+    },
+    "media": "c.media({ nom: 'expo-dubai-2025', alt: \"Estampe d'EWA dans le hall de l'Andakulova Gallery, à Dubaï\", cadrage: '50% 54%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "expo-zoug-2025": {
+    "nom": "expo-zoug-2025",
+    "source": "recu/expos/e-w-design-france-38.png",
+    "role": "galerie",
+    "alt": "Estampe d'EWA dans un espace de la Thomson Gallery, à Zoug",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "3d53f6e4cf09b9ce",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "53% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 30,
+      "l": 99.9,
+      "h": 55
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.67,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1878,
+      "height": 1252,
+      "source": [
+        2000,
+        1252
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "expo-zoug-2025-640.webp",
+      "expo-zoug-2025-1280.webp"
+    ],
+    "poids": {
+      "expo-zoug-2025-640.webp": 18126,
+      "expo-zoug-2025-1280.webp": 55130
+    },
+    "media": "c.media({ nom: 'expo-zoug-2025', alt: \"Estampe d'EWA dans un espace de la Thomson Gallery, à Zoug\", cadrage: '53% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "expo-grenade-2025": {
+    "nom": "expo-grenade-2025",
+    "source": "recu/expos/e-w-design-france-40.png",
+    "role": "galerie",
+    "alt": "Estampe verticale d'EWA entre deux toiles à l'Art Bar Gallery, à la Grenade",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b72dacfac43efa8f",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 6.8,
+      "y": 25,
+      "l": 93.2,
+      "h": 60
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.34,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.31,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 122,
+      "top": 0,
+      "width": 1878,
+      "height": 1252,
+      "source": [
+        2000,
+        1252
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "expo-grenade-2025-640.webp",
+      "expo-grenade-2025-1280.webp"
+    ],
+    "poids": {
+      "expo-grenade-2025-640.webp": 22010,
+      "expo-grenade-2025-1280.webp": 71132
+    },
+    "media": "c.media({ nom: 'expo-grenade-2025', alt: \"Estampe verticale d'EWA entre deux toiles à l'Art Bar Gallery, à la Grenade\", cadrage: '50% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "expo-palma-2025": {
+    "nom": "expo-palma-2025",
+    "source": "recu/expos/e-w-design-france-49.png",
+    "role": "galerie",
+    "alt": "Estampe d'EWA près d'un mur de pierre à la Casa del Arte, à Palma",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c7cf26222847bda7",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "61% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 25,
+      "l": 96.7,
+      "h": 75
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.37,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 122,
+      "top": 0,
+      "width": 1878,
+      "height": 1252,
+      "source": [
+        2000,
+        1252
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "expo-palma-2025-640.webp",
+      "expo-palma-2025-1280.webp"
+    ],
+    "poids": {
+      "expo-palma-2025-640.webp": 29088,
+      "expo-palma-2025-1280.webp": 127044
+    },
+    "media": "c.media({ nom: 'expo-palma-2025', alt: \"Estampe d'EWA près d'un mur de pierre à la Casa del Arte, à Palma\", cadrage: '61% 56%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "expo-miami-2023": {
+    "nom": "expo-miami-2023",
+    "source": "recu/expos/re-draw-02-3.png",
+    "role": "galerie",
+    "alt": "Accrochage au Spectrum Miami Art Show avec une estampe d'EWA",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "70312f35c3376572",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "53% 55%",
+    "sujet": {
+      "x": 13.5,
+      "y": 30,
+      "l": 79.9,
+      "h": 45
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.7,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.55,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.38,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 122,
+      "top": 0,
+      "width": 1878,
+      "height": 1252,
+      "source": [
+        2000,
+        1252
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "expo-miami-2023-640.webp",
+      "expo-miami-2023-1280.webp"
+    ],
+    "poids": {
+      "expo-miami-2023-640.webp": 16272,
+      "expo-miami-2023-1280.webp": 51130
+    },
+    "media": "c.media({ nom: 'expo-miami-2023', alt: \"Accrochage au Spectrum Miami Art Show avec une estampe d'EWA\", cadrage: '53% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "expo-mne-bordeaux": {
+    "nom": "expo-mne-bordeaux",
+    "source": "recu/ewa-design-recu/exposition-mne-bordeaux-ewa.jpg",
+    "role": "galerie",
+    "alt": "Public assis devant des estampes d'EWA à la Maison de la Nature et de l'Environnement de Bordeaux",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "65bf21fa3408aca3",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "51% 50%",
+    "sujet": {
+      "x": 10.3,
+      "y": 30.7,
+      "l": 80.9,
+      "h": 41.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.35,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 9,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "expo-mne-bordeaux-640.webp",
+      "expo-mne-bordeaux-1280.webp"
+    ],
+    "poids": {
+      "expo-mne-bordeaux-640.webp": 57474,
+      "expo-mne-bordeaux-1280.webp": 178926
+    },
+    "media": "c.media({ nom: 'expo-mne-bordeaux', alt: \"Public assis devant des estampes d'EWA à la Maison de la Nature et de l'Environnement de Bordeaux\", cadrage: '51% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
   "grok/atelier-tirage": {
     "nom": "grok/atelier-tirage",
     "source": "recu/grok-agrandi/atelier-tirage.png",

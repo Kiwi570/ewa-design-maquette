@@ -24,7 +24,7 @@ export default (c) => {
   </div>
   <div class="split-titre">
     <p class="surtitre ouv-entree masque-ecran-tres-bas">${c.t('accueil.ouv.surtitre')}</p>
-    <h1 class="titre-split"><span class="t-masque"><span class="t-mot t-art">${c.t('accueil.ouv.art')}</span></span><span class="t-barre" aria-hidden="true"></span><span class="t-masque"><span class="t-mot">${c.t('accueil.ouv.chi')}</span></span></h1>
+    <h1 class="titre-split" data-grille="typo"><span class="t-masque"><span class="t-mot t-art">${c.t('accueil.ouv.art')}</span></span><span class="t-barre" aria-hidden="true"></span><span class="t-masque"><span class="t-mot">${c.t('accueil.ouv.chi')}</span></span></h1>
   </div>
   <div class="split-texte">
     <p class="ouv-entree masque-ecran-petit">${c.t('accueil.ouv.texte')}</p>
@@ -40,7 +40,7 @@ export default (c) => {
   <div class="conteneur demarche-grille">
     <div>
       <p class="surtitre">${c.t('accueil.demarche.surtitre')}</p>
-      <h2 class="titre-section" data-anime="lignes">${c.t('accueil.demarche.titre')}</h2>
+      <h2 class="titre-section" data-anime="lignes">${c.tb('accueil.demarche.titre')}</h2>
       <p class="chapeau" data-anime>${c.t('accueil.demarche.texte')}</p>
       <ol class="engagements" data-anime="cascade">
         ${[1, 2, 3].map((n) => html`<li><span class="n">0${n}</span><h3>${c.t(`accueil.demarche.e${n}t`)}</h3><p>${c.t(`accueil.demarche.e${n}`)}</p></li>`)}
@@ -54,7 +54,7 @@ export default (c) => {
   <div class="conteneur tete-section">
     <div>
       <p class="surtitre">${c.t('accueil.series.surtitre')}</p>
-      <h2 class="titre-section" data-anime="lignes">${c.t('accueil.series.titre')}</h2>
+      <h2 class="titre-section" data-anime="lignes">${c.tb('accueil.series.titre')}</h2>
     </div>
     <p class="chapeau" data-anime>${c.t('accueil.series.texte')}<br><b>${E.commun}</b></p>
   </div>
@@ -73,7 +73,7 @@ export default (c) => {
 
 <section class="section" id="formats">
   <div class="conteneur formats-grille">
-    <div class="gig-scene" data-effet="gigogne" role="img" aria-label="${c.s('accueil.formats.schema')}">
+    <div class="gig-scene" data-effet="gigogne" data-grille="manipuler" role="img" aria-label="${c.s('accueil.formats.schema')}">
       <span class="gig-mur"></span><span class="gig-sol"></span>
       <span class="gig-cote"><span>${c.t('accueil.formats.silhouette')}</span></span>
       <svg class="gig-silhouette" viewBox="0 0 44 170" aria-hidden="true"><circle cx="22" cy="11" r="10" fill="currentColor"/><path fill="currentColor" d="M9 25h26c3.3 0 6 2.7 6 6v46c0 2.2-1.8 4-4 4s-4-1.8-4-4V40h-1v124c0 3.3-2.7 6-6 6s-5-2.7-5-6V96h-2v68c0 3.3-2.2 6-5 6s-6-2.7-6-6V40h-1v37c0 2.2-1.8 4-4 4s-4-1.8-4-4V31c0-3.3 2.7-6 6-6z"/></svg>
@@ -81,6 +81,9 @@ export default (c) => {
         <span class="gig-repere gig-r90"><span>90</span></span>
         <span class="gig-repere gig-r60"><span>60</span></span>
         <span class="gig-repere gig-r30"><span>30</span></span>
+        <span class="gig-cote-h" aria-hidden="true"><span><b data-gig-cote>90</b> cm</span></span>
+        <span class="gig-cote-v" aria-hidden="true"><span><b data-gig-cote>90</b></span></span>
+        <span class="gig-poignee" data-gig-poignee aria-hidden="true"></span>
         <div class="gig-oeuvre" data-gig-oeuvre>
           <img src="/assets/images/impulsions-g-960.webp" alt="" width="960" height="960" loading="lazy" decoding="async">
         </div>
@@ -89,11 +92,12 @@ export default (c) => {
     </div>
     <div>
       <p class="surtitre">${c.t('accueil.formats.surtitre')}</p>
-      <h2 class="titre-section" data-anime="lignes">${c.t('accueil.formats.titre')}</h2>
+      <h2 class="titre-section" data-anime="lignes">${c.tb('accueil.formats.titre')}</h2>
       <p class="chapeau" data-anime>${c.t('accueil.formats.texte')}</p>
       <div class="choix-formats" role="group" aria-label="${c.s('accueil.formats.choix')}">
         ${[30, 60, 90].map((t) => html`<button type="button" data-gig-choix="${t}" aria-pressed="${t === 90 ? 'true' : 'false'}">${t} × ${t} cm</button>`)}
       </div>
+      <p class="gig-astuce" aria-hidden="true">${c.t('accueil.formats.astuce')}</p>
       <p><b>${c.t('accueil.formats.supports')}</b></p>
       <ul class="supports-mini" data-anime="cascade">
         ${E.supports.map((s) => html`<li>${c.media({ nom: s.image, alt: s.nom, sizes: '120px' })}${s.nom}</li>`)}
@@ -119,7 +123,7 @@ export default (c) => {
   <div class="conteneur trame-grille">
     <div>
       <p class="surtitre">${c.t('accueil.trame.surtitre')}</p>
-      <h2 class="titre-section" data-anime="lignes">${c.t('accueil.trame.titre')}</h2>
+      <h2 class="titre-section" data-anime="lignes">${c.tb('accueil.trame.titre')}</h2>
       <p class="chapeau" data-anime>${c.t('accueil.trame.texte')}</p>
       ${c.media({ nom: 'habitat-prairie', alt: 'Habitat autonome en bois avec serre et panneaux solaires, dans une prairie avec des moutons', classe: 'trame-media', sizes: '(max-width: 860px) 100vw, 45vw', attrs: 'data-fx="zoom"' })}
     </div>
@@ -150,12 +154,16 @@ export default (c) => {
 <section class="section" id="design">
   <div class="conteneur">
     <p class="surtitre">${c.t('accueil.design.surtitre')}</p>
-    <h2 class="titre-section" data-anime="lignes">${c.t('accueil.design.titre')}</h2>
+    <h2 class="titre-section" data-anime="lignes">${c.tb('accueil.design.titre')}</h2>
     <div class="duo">
       <article class="duo-carte">
         ${c.media({ nom: 'kiosque-1', alt: 'Kiosque The Crêpe Café en noir et jaune dans une galerie marchande', sizes: '(max-width: 760px) 100vw, 55vw', attrs: 'data-fx="vitesse"' })}
         <h3>${c.t('accueil.design.kiosqueT')}</h3>
         <p>${c.t('accueil.design.kiosque')}</p>
+        <p class="duo-planches-titre"><b>${c.t('accueil.design.planchesT')}</b></p>
+        <ul class="duo-planches" data-anime="cascade">
+          ${c.donnees.design.luminaires.slice(0, 4).map((l) => html`<li>${c.lien('design-sculpture', { ancre: 'luminaires', texte: html`${c.media({ nom: l.image, alt: '', sizes: '140px' })}<span>${l.nom}</span>` })}</li>`)}
+        </ul>
       </article>
       <article class="duo-carte">
         ${c.media({ nom: 'lustre-verre', alt: 'Lustre de plaques de verre colorées suspendu dans un hall', sizes: '(max-width: 760px) 100vw, 40vw', cadrage: '50% 40%', attrs: 'data-fx="parallaxe"' })}
@@ -172,12 +180,15 @@ export default (c) => {
     <div class="tete-section">
       <div>
         <p class="surtitre">${c.t('accueil.expos.surtitre')}</p>
-        <h2 class="titre-section" data-anime="lignes">${c.t('accueil.expos.titre')}</h2>
+        <h2 class="titre-section" data-anime="lignes">${c.tb('accueil.expos.titre')}</h2>
       </div>
       <p class="chapeau" data-anime>${c.t('accueil.expos.texte')}</p>
     </div>
-    <ul class="expos-liste" data-anime="cascade">
-      ${[1, 2, 3].map((n) => html`<li><span class="lieu">${c.t(`accueil.expos.l${n}`)}</span><span class="annee">${c.t(`accueil.expos.a${n}`)}</span></li>`)}
+    <ul class="accrochages" data-anime="cascade">
+      ${AT.accrochages.map((a) => html`<li class="accrochage">
+        ${c.media({ nom: a.image, alt: (c.donnees.images[a.image] || {}).alt || `Exposition à ${a.ville}`, sizes: '(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw', attrs: 'data-fx="vitesse"' })}
+        <p><b>${a.ville}</b> · ${a.lieu}<span>${a.dates}</span></p>
+      </li>`)}
     </ul>
     <p class="galeries-titre" style="margin-top:clamp(36px,5vw,64px)">${c.t('accueil.expos.galeries')}</p>
     <div class="galeries" style="margin-top:0">
@@ -193,7 +204,7 @@ export default (c) => {
 </section>
 
 ${appel(c, {
-  id: 'fin', image: 'impulsions-f', alt: c.s('accueil.fin.alt'), titre: c.t('accueil.fin.titre'), texte: c.t('accueil.fin.texte'),
+  id: 'fin', image: 'impulsions-f', alt: c.s('accueil.fin.alt'), titre: c.tb('accueil.fin.titre'), texte: c.t('accueil.fin.texte'),
   actions: [
     c.lien('estampes', { ancre: 'catalogue', classe: 'bouton', texte: c.t('accueil.fin.estampe'), attrs: 'data-survol="magnetique"' }),
     c.lien('contact', { ancre: 'demande', params: 'sujet=architecture', classe: 'bouton bouton--contour', texte: c.t('accueil.fin.projet') }),

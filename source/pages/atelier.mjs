@@ -1,4 +1,4 @@
-/* L'atelier : « 2012 » en très grand, les métiers, le parcours en frise, les éditions ARTBOXY, la presse. */
+/* L'atelier : « 2012 » en très grand, les métiers, le parcours en frise, les accrochages en photos et l'agenda, la presse. */
 import { html } from '../../outils/gabarit.mjs';
 import { appel, logo, plusGrande } from '../gabarits/composants.mjs';
 
@@ -8,7 +8,7 @@ export default (c) => {
   const T = c.donnees.atelier;
   return html`
 <section class="ouv-annee ecran" id="debut">
-  <p class="annee-grand" aria-hidden="true"><span class="t-masque"><span class="t-mot" data-annee>2012</span></span></p>
+  <p class="annee-grand" aria-hidden="true" data-grille="typo"><span class="t-masque"><span class="t-mot" data-annee>2012</span></span></p>
   <div class="annee-texte">
     <p class="surtitre ouv-entree">${c.t('atelier.ouv.surtitre')}</p>
     <h1 class="ouv-entree">${c.t('atelier.ouv.titre')}</h1>
@@ -22,9 +22,9 @@ export default (c) => {
 <section class="section section--encre" id="metiers">
   <div class="conteneur">
     <p class="surtitre">${c.t('atelier.metiers.surtitre')}</p>
-    <h2 class="titre-section" data-anime="lignes">${c.t('atelier.metiers.titre')}</h2>
+    <h2 class="titre-section" data-anime="lignes">${c.tb('atelier.metiers.titre')}</h2>
     <ul class="metiers-liste" data-anime="cascade">
-      ${T.metiers.map((m) => html`<li>${c.lien(m.page, { ancre: m.ancre || '', texte: html`<b>${m.nom}</b><span>${m.texte}</span><i aria-hidden="true">→</i>` })}</li>`)}
+      ${T.metiers.map((m) => html`<li>${c.lien(m.page, { ancre: m.ancre || '', texte: html`${c.media({ nom: m.image, alt: '', classe: 'metier-vignette', cadrage: (c.donnees.images[m.image] || {}).cadrage || '50% 50%', sizes: '160px' })}<b>${m.nom}</b><span>${m.texte}</span><i aria-hidden="true">→</i>` })}</li>`)}
     </ul>
   </div>
 </section>
@@ -34,7 +34,7 @@ export default (c) => {
     <div class="tete-section">
       <div>
         <p class="surtitre">${c.t('atelier.parcours.surtitre')}</p>
-        <h2 class="titre-section" data-anime="lignes">${c.t('atelier.parcours.titre')}</h2>
+        <h2 class="titre-section" data-anime="lignes">${c.tb('atelier.parcours.titre')}</h2>
       </div>
       <p class="chapeau" data-anime>${c.t('atelier.parcours.collab')}</p>
     </div>
@@ -49,12 +49,21 @@ export default (c) => {
     <div class="tete-section">
       <div>
         <p class="surtitre">${c.t('atelier.expos.surtitre')}</p>
-        <h2 class="titre-section" data-anime="lignes">${c.t('atelier.expos.titre')}</h2>
+        <h2 class="titre-section" data-anime="lignes">${c.tb('atelier.expos.titre')}</h2>
       </div>
       <p class="chapeau" data-anime>${c.t('atelier.expos.texte')}</p>
     </div>
-    <ul class="editions" data-anime="cascade">${T.editions.map((e) => html`<li>${e}</li>`)}</ul>
-    <p class="galeries-titre" style="color:var(--texte-doux);margin-top:clamp(36px,5vw,64px)">${c.t('atelier.expos.galeries')}</p>
+    <ul class="accrochages" data-anime="cascade">
+      ${T.accrochagesAtelier.map((a) => html`<li class="accrochage">
+        ${c.media({ nom: a.image, alt: (c.donnees.images[a.image] || {}).alt || a.ville, sizes: '(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw', attrs: 'data-fx="vitesse"' })}
+        <p><b>${a.ville}</b> · ${a.lieu}<span>${a.dates}</span></p>
+      </li>`)}
+    </ul>
+    <p class="agenda-titre"><b>${c.t('atelier.expos.agenda')}</b></p>
+    <div class="agenda" data-anime="cascade">
+      ${T.agenda.map((g) => html`<div class="agenda-annee"><p class="agenda-a">${g.annee}</p><ul>${g.lignes.map((l) => html`<li>${l}</li>`)}</ul></div>`)}
+    </div>
+    <p class="galeries-titre" style="margin-top:clamp(36px,5vw,64px)">${c.t('atelier.expos.galeries')}</p>
     <div class="galeries" style="margin-top:0">
       <div class="galeries-ruban" id="ruban-galeries-atelier" data-boucle-css data-ruban>
         <div class="galeries-piste">${[...T.galeries, ...T.galeries].map(([n, a], i) => logo(c, n, a, i >= T.galeries.length))}</div>
@@ -67,7 +76,7 @@ export default (c) => {
 <section class="section" id="presse">
   <div class="conteneur">
     <p class="surtitre">${c.t('atelier.presse.surtitre')}</p>
-    <h2 class="titre-section" data-anime="lignes">${c.t('atelier.presse.titre')}</h2>
+    <h2 class="titre-section" data-anime="lignes">${c.tb('atelier.presse.titre')}</h2>
     <ul class="presse-grille" data-anime="cascade">
       ${T.presse.map((p) => html`<li><button type="button" class="planche-bouton" data-planche data-image="${plusGrande(p.image)}" data-titre="${p.titre}" data-texte="${p.texte}" aria-haspopup="dialog" aria-label="${c.s('atelier.presse.ouvrir')} : ${p.titre}">
         ${c.media({ nom: p.image, alt: '', sizes: '(max-width: 960px) 45vw, 20vw' })}<b>${p.titre}</b><span>${p.texte}</span></button></li>`)}
@@ -79,6 +88,7 @@ export default (c) => {
   <div class="vis-commandes">
     <button type="button" data-vis-prec aria-label="${c.s('commun.precedent')}">←</button>
     <button type="button" data-vis-suiv aria-label="${c.s('commun.suivant')}">→</button>
+    <button type="button" class="vis-loupe-bouton" data-vis-loupe aria-pressed="false">${c.t('commun.loupe')}</button>
     <button type="button" class="vis-fermer" data-vis-fermer>${c.t('commun.fermer')}</button>
   </div>
   <div class="vis-boite">
@@ -88,7 +98,7 @@ export default (c) => {
 </div>
 
 ${appel(c, {
-  image: 'splash-b', alt: 'Splash B, estampe en noir et blanc', titre: c.t('atelier.fin.titre'), texte: c.t('atelier.fin.texte'),
+  image: 'splash-b', alt: 'Splash B, estampe en noir et blanc', titre: c.tb('atelier.fin.titre'), texte: c.t('atelier.fin.texte'),
   actions: [c.lien('contact', { ancre: 'demande', params: 'sujet=exposition', classe: 'bouton', texte: c.t('atelier.fin.action'), attrs: 'data-survol="magnetique"' })],
 })}
 `;

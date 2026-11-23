@@ -24,7 +24,8 @@
     "piedTexte": "Atelier d'architecture, de design et d'art, à Bordeaux depuis 2012. Estampes numériques en 30 exemplaires, tirées à la demande.",
     "suivant": "Suivante",
     "precedent": "Précédente",
-    "visionneuse": "Visionneuse"
+    "visionneuse": "Visionneuse",
+    "loupe": "Loupe"
   },
   "pages": {
     "accueil": {
@@ -91,7 +92,7 @@
     },
     "demarche": {
       "surtitre": "Eco Workshop Art",
-      "titre": "Pas de stock, pas de déchets",
+      "titre": "Pas de stock, <em>pas de déchets</em>",
       "texte": "L'art comme une fête de la création, qui respecte la planète : chaque estampe existe d'abord en fichier, et n'est imprimée que lorsqu'on la choisit.",
       "e1t": "Tirée à la demande",
       "e1": "Aucune surproduction : on imprime seulement ce que l'on aime.",
@@ -103,7 +104,7 @@
     },
     "series": {
       "surtitre": "Les estampes",
-      "titre": "Cinq séries, une seule règle : 30 exemplaires",
+      "titre": "Cinq séries, une seule règle : <em>30 exemplaires</em>",
       "texte": "Chaque œuvre est signée, numérotée et livrée avec son certificat d'authenticité.",
       "voir": "Voir la série",
       "tout": "Tout le catalogue",
@@ -111,13 +112,14 @@
     },
     "formats": {
       "surtitre": "Du fichier au mur",
-      "titre": "30, 60 ou 90 centimètres de côté",
+      "titre": "30, 60 ou 90 <em>centimètres</em> de côté",
       "texte": "La même estampe Impulsions change d'échelle sans perdre un détail : le fichier est préparé à 300 ppp. Une silhouette de 1,70 m donne la mesure.",
       "choix": "Choisir un format",
       "silhouette": "1,70 m",
       "supports": "Quatre supports, avec ou sans cadre",
       "lien": "Composer ma demande",
-      "schema": "Schéma : trois carrés emboîtés de 30, 60 et 90 cm à côté d'une silhouette de 1,70 m"
+      "schema": "Schéma : trois carrés emboîtés de 30, 60 et 90 cm à côté d'une silhouette de 1,70 m",
+      "astuce": "Ou tirez le coin orange de l'œuvre."
     },
     "archi": {
       "mot1": "Du Pérou",
@@ -128,7 +130,7 @@
     },
     "trame": {
       "surtitre": "Habitat autonome · littoral de Gironde",
-      "titre": "Une maison qui grandit, module après module",
+      "titre": "Une maison qui grandit, <em>module après module</em>",
       "texte": "Une trame de 4 × 4 m, en bois, que l'on agrandit avec la famille : des maisons autonomes en énergie et en légumes, montées sur le terrain en une journée.",
       "modeles": "Les cinq modèles",
       "occupants": "Occupants",
@@ -141,28 +143,23 @@
     },
     "design": {
       "surtitre": "Design & sculpture",
-      "titre": "Du kiosque au luminaire",
+      "titre": "Du kiosque <em>au luminaire</em>",
       "kiosqueT": "The Crêpe Café",
       "kiosque": "Une charte « fast casual » déclinée en cinq kiosques, dans les galeries marchandes des Émirats.",
       "sculptureT": "Acier, verre et lumière",
       "sculpture": "Sculptures en acier Corten, lustres de verre et luminaires de la Collection 2027.",
-      "lien": "Voir le design et la sculpture"
+      "lien": "Voir le design et la sculpture",
+      "planchesT": "Collection 2027 : huit planches de luminaires"
     },
     "expos": {
       "surtitre": "Expositions",
-      "titre": "Montrées de Zurich à Miami",
-      "texte": "Les estampes d'EWA voyagent avec le programme ARTBOXY et ses galeries partenaires.",
-      "l1": "ARTBOXY · Palma, Zurich, Bâle, Venise, Miami",
-      "a1": "2023 – 2025",
-      "l2": "Luxembourg Art Prize · certificat de mérite",
-      "a2": "2022 · 2025",
-      "l3": "Villes indiennes · Paris-Malaquais",
-      "a3": "2005",
+      "titre": "Exposées de Paris <em>à New York</em>",
+      "texte": "Depuis 2023, les estampes d'EWA voyagent avec le programme ARTBOXY : galeries, salons et grands écrans, de Zurich à Dubaï. Le Luxembourg Art Prize leur a décerné deux certificats de mérite, en 2022 et en 2025.",
       "galeries": "Galeries partenaires du programme ARTBOXY",
-      "lien": "Parcours et presse"
+      "lien": "Toutes les expositions"
     },
     "fin": {
-      "titre": "Une estampe, un projet ?",
+      "titre": "Une estampe, <em>un projet</em> ?",
       "texte": "Choisissez une œuvre et son support, ou racontez votre projet : l'atelier répond par e-mail.",
       "estampe": "Choisir une estampe",
       "projet": "Parler d'un projet",
@@ -184,7 +181,7 @@
     },
     "principe": {
       "surtitre": "Comment ça se passe",
-      "titre": "Trois choix, puis l'impression",
+      "titre": "Trois choix, <em>puis l'impression</em>",
       "e1t": "L'œuvre",
       "e1": "Choisissez une estampe dans le catalogue et ouvrez sa fiche.",
       "e2t": "Le format et le support",
@@ -195,7 +192,7 @@
     },
     "catalogue": {
       "surtitre": "Le catalogue",
-      "titre": "Choisir une estampe",
+      "titre": "Choisir <em>une estampe</em>",
       "texte": "Une sélection de chaque série. Ouvrez une œuvre pour l'agrandir et demander son tirage.",
       "filtres": "Filtrer par série",
       "toutes": "Toutes",
@@ -208,20 +205,21 @@
       "prix": "Prix",
       "prixValeur": "Sur demande",
       "demander": "Demander ce tirage",
-      "fermer": "Fermer"
+      "fermer": "Fermer",
+      "loupe": "Cliquez sur l'œuvre pour l'explorer à la loupe. Le tirage, lui, part d'un fichier préparé à 300 ppp."
     },
     "supports": {
       "surtitre": "Les supports",
-      "titre": "Brillant, brossé, mat ou pigmentaire",
+      "titre": "Brillant, brossé, <em>mat ou pigmentaire</em>",
       "texte": "Les tirages sont réalisés par un laboratoire Fine Art, emballés et livrés avec soin."
     },
     "ventes": {
       "surtitre": "Déjà accrochées",
-      "titre": "Chez ceux qui les ont choisies",
+      "titre": "Chez ceux qui <em>les ont choisies</em>",
       "texte": "Des clients privés à Lacanau, Bordeaux ou La Réunion, et une commande en série pour une collection à Lima, au Pérou, en 2021."
     },
     "fin": {
-      "titre": "Une œuvre vous a retenu ?",
+      "titre": "Une œuvre <em>vous a retenu</em> ?",
       "texte": "Dites-nous laquelle, le format et le support : l'atelier vous répond avec le prix et le délai.",
       "action": "Demander un tirage",
       "alt": "Impulsions 2026 I-B, estampe en bleus et éclats orange"
@@ -239,7 +237,7 @@
     },
     "concours": {
       "surtitre": "Les concours",
-      "titre": "Sept escales, quatre continents",
+      "titre": "Sept escales, <em>quatre continents</em>",
       "texte": "Une sélection des concours de l'atelier, menés seul ou avec Baggio-Piechaud, Hafid El Awad Architectes et Damien Lachaud.",
       "ensemble": "Vue d'ensemble",
       "etape": "Escale",
@@ -247,7 +245,7 @@
     },
     "habitat": {
       "surtitre": "Habitat autonome · Gironde",
-      "titre": "Des maisons qui se suffisent",
+      "titre": "Des maisons <em>qui se suffisent</em>",
       "texte": "Avec Damien Lachaud (permaculture), le bureau d'études bois Denis Capo et l'atelier bois du groupe Meison : une charte de maisons autonomes en bois pour un maître d'ouvrage privé, sur le littoral girondin.",
       "coupe": "Coupe d'un module : serre verticale, eau de pluie, géothermie",
       "tableau": "Les cinq modèles",
@@ -260,18 +258,18 @@
     },
     "urba": {
       "surtitre": "Éco-quartiers",
-      "titre": "Habiter l'eau et la terre",
+      "titre": "Habiter l'eau <em>et la terre</em>",
       "texte": "Quartiers flottants, îles-jardins, villages en terre : des recherches pour des villes plus sobres."
     },
     "esquisse": {
-      "surtitre": "Un parti pris",
-      "titre": "Le non-photoréalisme",
+      "surtitre": "Esquisses",
+      "titre": "Le parti pris <em>du non-photoréalisme</em>",
       "texte": "Encre, lavis, couleurs d'estampe : ces images ne cherchent pas à faire vrai. Elles montrent les volumes, la lumière et les liens entre les espaces, et laissent une place à l'imagination, au moment où le projet se décide.",
       "l1": "Couleurs d'estampe",
       "l2": "Encre et lumière"
     },
     "fin": {
-      "titre": "Un terrain, un programme, un concours ?",
+      "titre": "Un terrain, un programme, <em>un concours</em> ?",
       "texte": "Décrivez votre projet : l'atelier vous répond par e-mail.",
       "action": "Parler d'un projet",
       "alt": "Croquis aquarellé d'un ensemble de rubans de béton et de verre"
@@ -288,7 +286,7 @@
     },
     "commercial": {
       "surtitre": "Design commercial",
-      "titre": "The Crêpe Café, cinq kiosques",
+      "titre": "The Crêpe Café, <em>cinq kiosques</em>",
       "texte": "Le « fast casual », entre le restaurant et la vente à emporter, mise sur les détails : on voit préparer son plat, on compose sa recette. Pour BFC Retail Groupe, l'atelier a dessiné une charte déclinable et mené chaque kiosque de l'esquisse à l'exécution.",
       "mall": "Galerie",
       "total": "Surface totale",
@@ -297,24 +295,24 @@
     },
     "interieur": {
       "surtitre": "Design intérieur",
-      "titre": "Des pièces qui s'arrondissent",
+      "titre": "Des pièces <em>qui s'arrondissent</em>",
       "texte": "Banquettes moulées, plafonds courbes, lanternes de laiton : des intérieurs dessinés comme des sculptures."
     },
     "luminaires": {
       "surtitre": "Luminaires",
-      "titre": "Collection 2027",
+      "titre": "Collection <em>2027</em>",
       "texte": "Huit planches de recherche : formes, matières et principes d'éclairage. Ouvrez-les en grand.",
       "ouvrir": "Ouvrir la planche"
     },
     "sculptures": {
       "surtitre": "Sculptures",
-      "titre": "L'acier qui se tend",
+      "titre": "L'acier <em>qui se tend</em>",
       "texte": "Des sculptures d'extérieur en acier Corten, aux ailes effilées, et des installations de verre coloré pour les halls.",
       "l1": "Acier Corten",
       "l2": "Installation de verre"
     },
     "fin": {
-      "titre": "Un kiosque, un intérieur, un luminaire ?",
+      "titre": "Un kiosque, un intérieur, <em>un luminaire</em> ?",
       "texte": "Parlez-nous de votre lieu : l'atelier vous répond par e-mail.",
       "action": "Parler d'un projet"
     }
@@ -331,26 +329,27 @@
     },
     "metiers": {
       "surtitre": "Un atelier, quatre métiers",
-      "titre": "Ce que l'on peut demander à EWA"
+      "titre": "Ce que l'on peut <em>demander à EWA</em>"
     },
     "parcours": {
       "surtitre": "Le parcours",
-      "titre": "De Paris-Malaquais à Bordeaux",
+      "titre": "De Paris-Malaquais <em>à Bordeaux</em>",
       "collab": "Collaborations : Baggio-Piechaud Architecture à Bordeaux, Hafid El Awad Architectes à Casablanca."
     },
     "expos": {
       "surtitre": "Expositions",
-      "titre": "Les éditions ARTBOXY",
-      "texte": "Le programme ARTBOXY présente les œuvres sur grands écrans haute définition ou dans ses galeries partenaires.",
+      "titre": "Les accrochages, <em>2023 – 2025</em>",
+      "texte": "Une sélection des expositions du programme ARTBOXY, qui présente les œuvres sur grands écrans haute définition, dans ses galeries partenaires et sur les salons.",
+      "agenda": "Une sélection, année par année",
       "galeries": "Galeries partenaires du programme"
     },
     "presse": {
       "surtitre": "Presse et distinctions",
-      "titre": "Ils en ont parlé",
+      "titre": "Ils <em>en ont parlé</em>",
       "ouvrir": "Agrandir"
     },
     "fin": {
-      "titre": "Une exposition, un article, une collaboration ?",
+      "titre": "Une exposition, un article, <em>une collaboration</em> ?",
       "texte": "L'atelier répond à toutes les demandes par e-mail.",
       "action": "Écrire à l'atelier"
     }
@@ -368,7 +367,7 @@
     },
     "form": {
       "surtitre": "Votre demande",
-      "titre": "En quatre étapes",
+      "titre": "En <em>quatre étapes</em>",
       "texte": "Le formulaire est une démonstration : rien n'est envoyé.",
       "etape1": "Votre demande",
       "q1": "De quoi s'agit-il ?",
@@ -395,7 +394,7 @@
       "telephone": "Téléphone (facultatif)",
       "etape4": "Récapitulatif",
       "q4": "Tout est juste ?",
-      "rgpd": "Vos coordonnées servent seulement à répondre à votre demande. Politique de confidentialité : à compléter.",
+      "rgpd": "Vos coordonnées servent seulement à répondre à votre demande.",
       "accord": "J'accepte que l'atelier utilise ces informations pour me répondre.",
       "retour": "Retour",
       "continuer": "Continuer",

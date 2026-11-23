@@ -12,7 +12,7 @@ export default (c) => {
   <div class="bande-tete">
     <div>
       <p class="surtitre ouv-entree">${c.t('architecture.ouv.surtitre')}</p>
-      <h1><span class="t-masque l"><span class="t-mot">${c.t('architecture.ouv.titre1')}</span></span><span class="t-masque l"><span class="t-mot">${c.t('architecture.ouv.titre2')}</span></span></h1>
+      <h1 data-grille="typo"><span class="t-masque l"><span class="t-mot">${c.t('architecture.ouv.titre1')}</span></span><span class="t-masque l"><span class="t-mot">${c.t('architecture.ouv.titre2')}</span></span></h1>
     </div>
     <div>
       <p class="ouv-entree masque-ecran-bas">${c.t('architecture.ouv.texte')}</p>
@@ -28,7 +28,7 @@ export default (c) => {
 <section class="gi section section--pierre" id="concours" data-module="globe-itineraire">
   <div class="gi__tete conteneur">
     <p class="surtitre">${c.t('architecture.concours.surtitre')}</p>
-    <h2 class="gi__titre titre-section" data-anime="lignes">${c.t('architecture.concours.titre')}</h2>
+    <h2 class="gi__titre titre-section" data-anime="lignes">${c.tb('architecture.concours.titre')}</h2>
     <p class="gi__intro chapeau">${c.t('architecture.concours.texte')}</p>
   </div>
   <div class="gi__corps conteneur">
@@ -55,7 +55,7 @@ export default (c) => {
     <div class="habitat-grille">
       <div>
         <p class="surtitre">${c.t('architecture.habitat.surtitre')}</p>
-        <h2 class="titre-section" data-anime="lignes">${c.t('architecture.habitat.titre')}</h2>
+        <h2 class="titre-section" data-anime="lignes">${c.tb('architecture.habitat.titre')}</h2>
         <p class="chapeau" data-anime>${c.t('architecture.habitat.texte')}</p>
         <ul class="principes" data-anime="cascade">
           ${A.principes.map((p) => html`<li><h3>${p.titre}</h3><p>${p.texte}</p></li>`)}
@@ -86,7 +86,7 @@ export default (c) => {
     <div class="tete-section">
       <div>
         <p class="surtitre">${c.t('architecture.urba.surtitre')}</p>
-        <h2 class="titre-section" data-anime="lignes">${c.t('architecture.urba.titre')}</h2>
+        <h2 class="titre-section" data-anime="lignes">${c.tb('architecture.urba.titre')}</h2>
       </div>
       <p class="chapeau" data-anime>${c.t('architecture.urba.texte')}</p>
     </div>
@@ -100,7 +100,7 @@ export default (c) => {
   <div class="conteneur esquisse-grille">
     <div>
       <p class="surtitre">${c.t('architecture.esquisse.surtitre')}</p>
-      <h2 class="titre-section" data-anime="lignes">${c.t('architecture.esquisse.titre')}</h2>
+      <h2 class="titre-section" data-anime="lignes">${c.tb('architecture.esquisse.titre')}</h2>
       <p class="chapeau" data-anime>${c.t('architecture.esquisse.texte')}</p>
     </div>
     <div>
@@ -114,7 +114,7 @@ export default (c) => {
 </section>
 
 ${appel(c, {
-  image: 'croquis-art-chitecture', alt: c.s('architecture.fin.alt'), titre: c.t('architecture.fin.titre'), texte: c.t('architecture.fin.texte'), estampeImage: false,
+  image: 'croquis-art-chitecture', alt: c.s('architecture.fin.alt'), titre: c.tb('architecture.fin.titre'), texte: c.t('architecture.fin.texte'), estampeImage: false,
   actions: [c.lien('contact', { ancre: 'demande', params: 'sujet=architecture', classe: 'bouton', texte: c.t('architecture.fin.action'), attrs: 'data-survol="magnetique"' })],
 })}
 `;

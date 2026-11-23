@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,15 +35,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="stylesheet" href="/assets/css/modules/formulaire.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="stylesheet" href="/assets/css/modules/formulaire.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#f5f3ef">
 <link rel="icon" href="/assets/images/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -104,10 +104,11 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <p class="menu-contact"><a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a><span class="menu-email">ewa_design@yahoo.com</span></p>
 </div>
 <main id="contenu" tabindex="-1">
+<div class="fil" data-grille="fil" aria-hidden="true"><span class="fil-n" data-fil-n>01</span><span class="fil-trait"><span class="fil-plein" data-fil-plein></span></span></div>
 <section class="ouv-lettre ecran" id="debut">
   <div>
     <p class="surtitre ouv-entree">Contact</p>
-    <h1><span class="t-masque l"><span class="t-mot">Écrire à l&#39;atelier</span></span></h1>
+    <h1 data-grille="typo"><span class="t-masque l"><span class="t-mot">Écrire à l&#39;atelier</span></span></h1>
     <p class="chapeau ouv-entree masque-ecran-bas">Une estampe, un projet d&#39;architecture, un luminaire, une exposition : dites-nous tout, l&#39;atelier répond par e-mail.</p>
     <a class="lettre-email ouv-entree" href="mailto:ewa_design@yahoo.com" data-info-cle>ewa_design@yahoo.com</a>
     <span class="lettre-email-ligne" aria-hidden="true"></span>
@@ -127,7 +128,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="conteneur form-grille">
     <div>
       <p class="surtitre">Votre demande</p>
-      <h2 class="titre-section" data-anime="lignes">En quatre étapes</h2>
+      <h2 class="titre-section" data-anime="lignes">En <em>quatre étapes</em></h2>
       <p class="chapeau" data-anime>Le formulaire est une démonstration : rien n&#39;est envoyé.</p>
     </div>
     <div class="fpe__carton" data-anime>
@@ -168,7 +169,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
             <div class="fpe__champ"><label for="f-tel">Téléphone (facultatif)</label><input id="f-tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" pattern="[0-9 +().\-]{8,20}" data-libelle="Téléphone"></div>
           </div>
           <label class="fpe__case"><input type="checkbox" name="accord" value="oui" required data-libelle="Accord" data-hors-recap><span class="fpe__choix-texte">J&#39;accepte que l&#39;atelier utilise ces informations pour me répondre. <i aria-hidden="true">*</i></span></label>
-          <p class="mention-donnees">Vos coordonnées servent seulement à répondre à votre demande. Politique de confidentialité : à compléter.</p>
+          <p class="mention-donnees">Vos coordonnées servent seulement à répondre à votre demande.</p>
         </fieldset>
         <fieldset class="fpe__etape" data-etape="Récapitulatif" data-recap>
           <legend class="fpe__legende"><h3 class="fpe__titre">Tout est juste ?</h3></legend>
@@ -180,7 +181,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <button class="fpe__bouton" type="submit">Envoyer la demande</button>
         </div>
       </form>
-      <div class="fpe__fin" hidden>
+      <div class="fpe__fin" data-grille="retour" hidden>
         <svg class="fpe__coche" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28"/><path d="M20 33l8 8 16-17"/></svg>
         <h3>Demande prête</h3>
         <p data-resume></p>

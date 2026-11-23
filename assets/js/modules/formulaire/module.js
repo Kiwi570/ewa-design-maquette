@@ -4,7 +4,7 @@
 // aucun envoi réel, un événement « formulaire:envoye » porte les données, et un lien mailto: de repli est possible.
 // Sans JavaScript : toutes les étapes sont visibles et le formulaire reste un formulaire HTML ordinaire.
 /* Adapté au socle de la skill : GSAP chargé par la page, pas de mode calme. */
-import { rafraichir } from '../../socle/index.js?v=1';
+import { rafraichir } from '../../socle/index.js?v=2';
 
 const MESSAGES = {
   obligatoire: 'Ce champ est obligatoire.',

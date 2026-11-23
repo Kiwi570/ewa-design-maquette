@@ -11,7 +11,7 @@ export default (c) => {
 <section class="ouv-majeste ecran" id="debut">
   <div class="majeste-texte">
     <p class="surtitre ouv-entree">${c.t('estampes.ouv.surtitre')}</p>
-    <h1><span class="t-masque l"><span class="t-mot">${c.t('estampes.ouv.titre1')}</span></span><span class="t-masque l"><span class="t-mot">${c.t('estampes.ouv.titre2')}</span></span><span class="t-masque l"><span class="t-mot">${c.t('estampes.ouv.titre3')}</span></span></h1>
+    <h1 data-grille="typo"><span class="t-masque l"><span class="t-mot">${c.t('estampes.ouv.titre1')}</span></span><span class="t-masque l"><span class="t-mot">${c.t('estampes.ouv.titre2')}</span></span><span class="t-masque l"><span class="t-mot">${c.t('estampes.ouv.titre3')}</span></span></h1>
     <p class="majeste-edition ouv-entree masque-ecran-tres-bas"><b>${c.t('estampes.ouv.edition')}</b><span>${c.t('estampes.ouv.editionTexte')}</span></p>
     <p class="ouv-entree masque-ecran-bas">${c.t('estampes.ouv.texte')}</p>
     <p class="split-actions ouv-entree"><a class="bouton" href="#catalogue" data-action-principale data-sans-transition data-survol="magnetique">${c.t('estampes.ouv.action')}</a></p>
@@ -27,7 +27,7 @@ export default (c) => {
   <div class="conteneur principe-grille">
     <div>
       <p class="surtitre">${c.t('estampes.principe.surtitre')}</p>
-      <h2 class="titre-section" data-anime="lignes">${c.t('estampes.principe.titre')}</h2>
+      <h2 class="titre-section" data-anime="lignes">${c.tb('estampes.principe.titre')}</h2>
       <ol class="etapes3" data-anime="cascade">
         ${[1, 2, 3].map((n) => html`<li><span class="n">0${n}</span><h3>${c.t(`estampes.principe.e${n}t`)}</h3><p>${c.t(`estampes.principe.e${n}`)}</p></li>`)}
       </ol>
@@ -41,7 +41,7 @@ export default (c) => {
     <div class="tete-section">
       <div>
         <p class="surtitre">${c.t('estampes.catalogue.surtitre')}</p>
-        <h2 class="titre-section" data-anime="lignes">${c.t('estampes.catalogue.titre')}</h2>
+        <h2 class="titre-section" data-anime="lignes">${c.tb('estampes.catalogue.titre')}</h2>
       </div>
       <p class="chapeau" data-anime>${c.t('estampes.catalogue.texte')}<br><b>${E.commun}</b></p>
     </div>
@@ -65,12 +65,14 @@ export default (c) => {
   <div class="vis-commandes">
     <button type="button" data-vis-prec aria-label="${c.s('commun.precedent')}">←</button>
     <button type="button" data-vis-suiv aria-label="${c.s('commun.suivant')}">→</button>
+    <button type="button" class="vis-loupe-bouton" data-vis-loupe aria-pressed="false">${c.t('commun.loupe')}</button>
     <button type="button" class="vis-fermer" data-vis-fermer>${c.t('estampes.catalogue.fermer')}</button>
   </div>
   <div class="vis-boite">
     <div class="vis-image"><img data-vis-img src="/assets/images/impulsions-i-a-960.webp" alt="" width="1600" height="1600"></div>
     <div class="vis-infos">
       <h2 data-vis-titre tabindex="-1">Impulsions</h2>
+      <p class="vis-astuce">${c.t('estampes.catalogue.loupe')}</p>
       <dl>
         <div><dt>${c.t('estampes.catalogue.formats')}</dt><dd data-vis-formats></dd></div>
         <div><dt>${c.t('estampes.catalogue.supports')}</dt><dd>${c.t('estampes.catalogue.supportsListe')}</dd></div>
@@ -87,7 +89,7 @@ export default (c) => {
     <div class="tete-section">
       <div>
         <p class="surtitre">${c.t('estampes.supports.surtitre')}</p>
-        <h2 class="titre-section" data-anime="lignes">${c.t('estampes.supports.titre')}</h2>
+        <h2 class="titre-section" data-anime="lignes">${c.tb('estampes.supports.titre')}</h2>
       </div>
       <p class="chapeau" data-anime>${c.t('estampes.supports.texte')}</p>
     </div>
@@ -102,7 +104,7 @@ export default (c) => {
     <div class="tete-section">
       <div>
         <p class="surtitre">${c.t('estampes.ventes.surtitre')}</p>
-        <h2 class="titre-section" data-anime="lignes">${c.t('estampes.ventes.titre')}</h2>
+        <h2 class="titre-section" data-anime="lignes">${c.tb('estampes.ventes.titre')}</h2>
       </div>
       <p class="chapeau" data-anime>${c.t('estampes.ventes.texte')}</p>
     </div>
@@ -113,7 +115,7 @@ export default (c) => {
 </section>
 
 ${appel(c, {
-  image: 'impulsions-i-b', alt: c.s('estampes.fin.alt'), titre: c.t('estampes.fin.titre'), texte: c.t('estampes.fin.texte'),
+  image: 'impulsions-i-b', alt: c.s('estampes.fin.alt'), titre: c.tb('estampes.fin.titre'), texte: c.t('estampes.fin.texte'),
   actions: [c.lien('contact', { ancre: 'demande', params: 'sujet=estampe', classe: 'bouton', texte: c.t('estampes.fin.action'), attrs: 'data-survol="magnetique"' })],
 })}
 `;

@@ -11,7 +11,7 @@ export default (c) => {
   ${c.media({ nom: 'lustre-verre', alt: 'Lustre de plaques de verre colorées suspendu dans un hall', priorite: true, classe: 'portrait-media ouv-media-rideau', cadrage: '50% 45%', sizes: '(max-width: 760px) 80vw, 40vw', attrs: 'data-iris-centre data-effet="portrait"' })}
   <div>
     <p class="surtitre ouv-entree">${c.t('design.ouv.surtitre')}</p>
-    <h1><span class="t-masque l"><span class="t-mot">${c.t('design.ouv.titre1')}</span></span><span class="t-masque l"><span class="t-mot">${c.t('design.ouv.titre2')}</span></span></h1>
+    <h1 data-grille="typo"><span class="t-masque l"><span class="t-mot">${c.t('design.ouv.titre1')}</span></span><span class="t-masque l"><span class="t-mot">${c.t('design.ouv.titre2')}</span></span></h1>
     <p class="chapeau ouv-entree masque-ecran-bas">${c.t('design.ouv.texte')}</p>
     <p class="split-actions ouv-entree">${c.lien('contact', { ancre: 'demande', params: 'sujet=design', classe: 'bouton', texte: c.t('design.ouv.action'), attrs: 'data-action-principale data-survol="magnetique"' })}</p>
     <p class="ouv-entree"><span class="split-info" data-info-cle>${c.t('design.ouv.info')}</span></p>
@@ -23,7 +23,7 @@ export default (c) => {
     <div class="tete-section">
       <div>
         <p class="surtitre">${c.t('design.commercial.surtitre')}</p>
-        <h2 class="titre-section" data-anime="lignes">${c.t('design.commercial.titre')}</h2>
+        <h2 class="titre-section" data-anime="lignes">${c.tb('design.commercial.titre')}</h2>
       </div>
       <p class="chapeau" data-anime>${c.t('design.commercial.texte')}</p>
     </div>
@@ -48,7 +48,7 @@ export default (c) => {
     <div class="tete-section">
       <div>
         <p class="surtitre">${c.t('design.interieur.surtitre')}</p>
-        <h2 class="titre-section" data-anime="lignes">${c.t('design.interieur.titre')}</h2>
+        <h2 class="titre-section" data-anime="lignes">${c.tb('design.interieur.titre')}</h2>
       </div>
       <p class="chapeau" data-anime>${c.t('design.interieur.texte')}</p>
     </div>
@@ -65,7 +65,7 @@ export default (c) => {
     <div class="tete-section">
       <div>
         <p class="surtitre">${c.t('design.luminaires.surtitre')}</p>
-        <h2 class="titre-section" data-anime="lignes">${c.t('design.luminaires.titre')}</h2>
+        <h2 class="titre-section" data-anime="lignes">${c.tb('design.luminaires.titre')}</h2>
       </div>
       <p class="chapeau" data-anime>${c.t('design.luminaires.texte')}</p>
     </div>
@@ -82,6 +82,7 @@ export default (c) => {
   <div class="vis-commandes">
     <button type="button" data-vis-prec aria-label="${c.s('commun.precedent')}">←</button>
     <button type="button" data-vis-suiv aria-label="${c.s('commun.suivant')}">→</button>
+    <button type="button" class="vis-loupe-bouton" data-vis-loupe aria-pressed="false">${c.t('commun.loupe')}</button>
     <button type="button" class="vis-fermer" data-vis-fermer>${c.t('commun.fermer')}</button>
   </div>
   <div class="vis-boite">
@@ -96,7 +97,7 @@ export default (c) => {
     <div class="tete-section">
       <div>
         <p class="surtitre">${c.t('design.sculptures.surtitre')}</p>
-        <h2 class="titre-section" data-anime="lignes">${c.t('design.sculptures.titre')}</h2>
+        <h2 class="titre-section" data-anime="lignes">${c.tb('design.sculptures.titre')}</h2>
       </div>
       <p class="chapeau" data-anime>${c.t('design.sculptures.texte')}</p>
     </div>
@@ -111,7 +112,7 @@ export default (c) => {
 </section>
 
 ${appel(c, {
-  image: 'interieur-sombre', alt: 'Salle de bain sombre aux niches lumineuses et baignoire noire', titre: c.t('design.fin.titre'), texte: c.t('design.fin.texte'), estampeImage: false,
+  image: 'interieur-sombre', alt: 'Salle de bain sombre aux niches lumineuses et baignoire noire', titre: c.tb('design.fin.titre'), texte: c.t('design.fin.texte'), estampeImage: false,
   actions: [c.lien('contact', { ancre: 'demande', params: 'sujet=design', classe: 'bouton', texte: c.t('design.fin.action'), attrs: 'data-survol="magnetique"' })],
 })}
 `;

@@ -81,6 +81,23 @@ img('paris-malaquais-ewa-design-2.png', 'expo-malaquais', 'vignette', 'Affiche d
 for (const [f, n, a] of [['contact-ewa-design.png', 'galerie-swiss-art-expo', 'Swiss Art Expo'], ['contact-ewa-design-5.png', 'galerie-cipriarte', 'Cipriarte Venezia'], ['contact-ewa-design-6.png', 'galerie-andie-art', 'Andie Art'], ['contact-ewa-design-8.png', 'galerie-spectrum', 'Spectrum Miami'], ['contact-ewa-design-10.png', 'galerie-thomson', 'Thomson Gallery'], ['contact-ewa-design-12.png', 'galerie-andakulova', 'Andakulova Gallery'], ['contact-ewa-design-13.png', 'galerie-nicoleta', 'Nicoleta Gallery Berlin'], ['contact-ewa-design-14.jpg', 'galerie-artboxy', 'ARTBOXY'], ['contact-ewa-design-18.png', 'galerie-artexpo', 'Artexpo New York']])
   plan.push({ source: R + f, nom: n, role: 'vignette', ratio: ratioNatif(f), alt: a, beaute: 3, recadrer: false, mobile: false, largeurs: [240, 480] });
 
+
+// Accrochages réels (programme ARTBOXY et salons) : bande de légende retirée, lieu et dates repris en texte.
+for (const [f, n, a] of [
+  ['e-w-design-france-35', 'expo-paris-2025', 'Estampe d\'EWA sur écran dans la salle d\'exposition du Carrousel du Louvre, à Paris'],
+  ['e-w-design-france-57', 'expo-new-york-2025', 'Estampe d\'EWA exposée à Artexpo New York, entre deux œuvres d\'autres artistes'],
+  ['e-w-design-france-43', 'expo-cologne-2025', 'Estampe d\'EWA sur un mur de palettes à Cologne Art Unframed'],
+  ['nicoletta', 'expo-berlin-2025', 'Estampe verticale d\'EWA dans la Nicoleta Gallery, à Berlin'],
+  ['e-w-design-france-24', 'expo-venise-2024', 'Estampe d\'EWA sur écran à la galerie Cipriarte, à Venise'],
+  ['re-draw-02-4', 'expo-zurich-2023', 'Stand de la Swiss Art Expo à Zurich, avec une estampe d\'EWA'],
+  ['e-w-design-france-46', 'expo-dubai-2025', 'Estampe d\'EWA dans le hall de l\'Andakulova Gallery, à Dubaï'],
+  ['e-w-design-france-38', 'expo-zoug-2025', 'Estampe d\'EWA dans un espace de la Thomson Gallery, à Zoug'],
+  ['e-w-design-france-40', 'expo-grenade-2025', 'Estampe verticale d\'EWA entre deux toiles à l\'Art Bar Gallery, à la Grenade'],
+  ['e-w-design-france-49', 'expo-palma-2025', 'Estampe d\'EWA près d\'un mur de pierre à la Casa del Arte, à Palma'],
+  ['re-draw-02-3', 'expo-miami-2023', 'Accrochage au Spectrum Miami Art Show avec une estampe d\'EWA']])
+  plan.push({ source: `recu/expos/${f}.png`, nom: n, role: 'galerie', ratio: '3:2', largeurs: [640, 1280], alt: a, beaute: 4, mobile: false });
+plan.push({ source: 'recu/ewa-design-recu/exposition-mne-bordeaux-ewa.jpg', nom: 'expo-mne-bordeaux', role: 'galerie', ratio: '3:2', largeurs: [640, 1280], alt: 'Public assis devant des estampes d\'EWA à la Maison de la Nature et de l\'Environnement de Bordeaux', beaute: 3, mobile: false });
+
 // Images à créer avec Grok
 const grok = (nom, ratio, page, emplacement, priorite, scene, o = {}) => plan.push({ source: `recu/grok-agrandi/${nom}.png`, nom: `grok/${nom}`, role: o.role || 'galerie', ratio, largeurs: o.largeurs || [640, 1280], page, emplacement, priorite, scene, alt: o.alt, beaute: 4, mobile: false, ...o.plus });
 grok('atelier-tirage', '16:9', 'accueil et estampes', 'Manifeste « Pas de stock, pas de déchets » (accueil) et « Comment ça marche » (estampes)', 'indispensable',

@@ -18,7 +18,7 @@ export default (c) => {
 <section class="ouv-lettre ecran" id="debut">
   <div>
     <p class="surtitre ouv-entree">${c.t('contact.ouv.surtitre')}</p>
-    <h1><span class="t-masque l"><span class="t-mot">${c.t('contact.ouv.titre')}</span></span></h1>
+    <h1 data-grille="typo"><span class="t-masque l"><span class="t-mot">${c.t('contact.ouv.titre')}</span></span></h1>
     <p class="chapeau ouv-entree masque-ecran-bas">${c.t('contact.ouv.texte')}</p>
     <a class="lettre-email ouv-entree" href="mailto:${c.site.contact.email}" data-info-cle>${c.site.contact.email}</a>
     <span class="lettre-email-ligne" aria-hidden="true"></span>
@@ -35,7 +35,7 @@ export default (c) => {
   <div class="conteneur form-grille">
     <div>
       <p class="surtitre">${F('surtitre')}</p>
-      <h2 class="titre-section" data-anime="lignes">${F('titre')}</h2>
+      <h2 class="titre-section" data-anime="lignes">${c.tb('contact.form.titre')}</h2>
       <p class="chapeau" data-anime>${F('texte')}</p>
     </div>
     <div class="fpe__carton" data-anime>
@@ -82,7 +82,7 @@ export default (c) => {
           <button class="fpe__bouton" type="submit">${F('envoyer')}</button>
         </div>
       </form>
-      <div class="fpe__fin" hidden>
+      <div class="fpe__fin" data-grille="retour" hidden>
         <svg class="fpe__coche" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28"/><path d="M20 33l8 8 16-17"/></svg>
         <h3>${F('merci')}</h3>
         <p data-resume></p>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#f5f3ef">
 <link rel="icon" href="/assets/images/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -103,6 +103,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <p class="menu-contact"><a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a><span class="menu-email">ewa_design@yahoo.com</span></p>
 </div>
 <main id="contenu" tabindex="-1">
+<div class="fil" data-grille="fil" aria-hidden="true"><span class="fil-n" data-fil-n>01</span><span class="fil-trait"><span class="fil-plein" data-fil-plein></span></span></div>
 <section class="ouv-split ecran" id="debut">
   <div class="split-art">
     <figure class="media estampe " data-iris-centre data-tirage data-effet="tirage-ouverture" style="--cadrage:50% 50%">
@@ -123,7 +124,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
   <div class="split-titre">
     <p class="surtitre ouv-entree masque-ecran-tres-bas">EWA Design · Bordeaux</p>
-    <h1 class="titre-split"><span class="t-masque"><span class="t-mot t-art">Art</span></span><span class="t-barre" aria-hidden="true"></span><span class="t-masque"><span class="t-mot">chitecture</span></span></h1>
+    <h1 class="titre-split" data-grille="typo"><span class="t-masque"><span class="t-mot t-art">Art</span></span><span class="t-barre" aria-hidden="true"></span><span class="t-masque"><span class="t-mot">chitecture</span></span></h1>
   </div>
   <div class="split-texte">
     <p class="ouv-entree masque-ecran-petit">Des estampes numériques en 30 exemplaires, tirées à la demande. Et des lieux dessinés, du Pérou à la Finlande.</p>
@@ -138,7 +139,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="conteneur demarche-grille">
     <div>
       <p class="surtitre">Eco Workshop Art</p>
-      <h2 class="titre-section" data-anime="lignes">Pas de stock, pas de déchets</h2>
+      <h2 class="titre-section" data-anime="lignes">Pas de stock, <em>pas de déchets</em></h2>
       <p class="chapeau" data-anime>L&#39;art comme une fête de la création, qui respecte la planète : chaque estampe existe d&#39;abord en fichier, et n&#39;est imprimée que lorsqu&#39;on la choisit.</p>
       <ol class="engagements" data-anime="cascade">
         <li><span class="n">01</span><h3>Tirée à la demande</h3><p>Aucune surproduction : on imprime seulement ce que l&#39;on aime.</p></li><li><span class="n">02</span><h3>Un papier choisi</h3><p>Papier local, recyclé ou certifié FSC : le collectionneur décide.</p></li><li><span class="n">03</span><h3>Un fichier pour la vie</h3><p>Le fichier reste disponible et se réimprime sans rien produire de plus.</p></li>
@@ -155,7 +156,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="conteneur tete-section">
     <div>
       <p class="surtitre">Les estampes</p>
-      <h2 class="titre-section" data-anime="lignes">Cinq séries, une seule règle : 30 exemplaires</h2>
+      <h2 class="titre-section" data-anime="lignes">Cinq séries, une seule règle : <em>30 exemplaires</em></h2>
     </div>
     <p class="chapeau" data-anime>Chaque œuvre est signée, numérotée et livrée avec son certificat d&#39;authenticité.<br><b>Série limitée à 30 exemplaires · certificat d&#39;authenticité · 300 ppp</b></p>
   </div>
@@ -213,7 +214,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </section>
 <section class="section" id="formats">
   <div class="conteneur formats-grille">
-    <div class="gig-scene" data-effet="gigogne" role="img" aria-label="Schéma : trois carrés emboîtés de 30, 60 et 90 cm à côté d&#39;une silhouette de 1,70 m">
+    <div class="gig-scene" data-effet="gigogne" data-grille="manipuler" role="img" aria-label="Schéma : trois carrés emboîtés de 30, 60 et 90 cm à côté d&#39;une silhouette de 1,70 m">
       <span class="gig-mur"></span><span class="gig-sol"></span>
       <span class="gig-cote"><span>1,70 m</span></span>
       <svg class="gig-silhouette" viewBox="0 0 44 170" aria-hidden="true"><circle cx="22" cy="11" r="10" fill="currentColor"/><path fill="currentColor" d="M9 25h26c3.3 0 6 2.7 6 6v46c0 2.2-1.8 4-4 4s-4-1.8-4-4V40h-1v124c0 3.3-2.7 6-6 6s-5-2.7-5-6V96h-2v68c0 3.3-2.2 6-5 6s-6-2.7-6-6V40h-1v37c0 2.2-1.8 4-4 4s-4-1.8-4-4V31c0-3.3 2.7-6 6-6z"/></svg>
@@ -221,6 +222,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <span class="gig-repere gig-r90"><span>90</span></span>
         <span class="gig-repere gig-r60"><span>60</span></span>
         <span class="gig-repere gig-r30"><span>30</span></span>
+        <span class="gig-cote-h" aria-hidden="true"><span><b data-gig-cote>90</b> cm</span></span>
+        <span class="gig-cote-v" aria-hidden="true"><span><b data-gig-cote>90</b></span></span>
+        <span class="gig-poignee" data-gig-poignee aria-hidden="true"></span>
         <div class="gig-oeuvre" data-gig-oeuvre>
           <img src="/assets/images/impulsions-g-960.webp" alt="" width="960" height="960" loading="lazy" decoding="async">
         </div>
@@ -229,11 +233,12 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
     <div>
       <p class="surtitre">Du fichier au mur</p>
-      <h2 class="titre-section" data-anime="lignes">30, 60 ou 90 centimètres de côté</h2>
+      <h2 class="titre-section" data-anime="lignes">30, 60 ou 90 <em>centimètres</em> de côté</h2>
       <p class="chapeau" data-anime>La même estampe Impulsions change d&#39;échelle sans perdre un détail : le fichier est préparé à 300 ppp. Une silhouette de 1,70 m donne la mesure.</p>
       <div class="choix-formats" role="group" aria-label="Choisir un format">
         <button type="button" data-gig-choix="30" aria-pressed="false">30 × 30 cm</button><button type="button" data-gig-choix="60" aria-pressed="false">60 × 60 cm</button><button type="button" data-gig-choix="90" aria-pressed="true">90 × 90 cm</button>
       </div>
+      <p class="gig-astuce" aria-hidden="true">Ou tirez le coin orange de l&#39;œuvre.</p>
       <p><b>Quatre supports, avec ou sans cadre</b></p>
       <ul class="supports-mini" data-anime="cascade">
         <li><figure class="media " data-grok style="--cadrage:50% 50%">
@@ -277,7 +282,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="conteneur trame-grille">
     <div>
       <p class="surtitre">Habitat autonome · littoral de Gironde</p>
-      <h2 class="titre-section" data-anime="lignes">Une maison qui grandit, module après module</h2>
+      <h2 class="titre-section" data-anime="lignes">Une maison qui grandit, <em>module après module</em></h2>
       <p class="chapeau" data-anime>Une trame de 4 × 4 m, en bois, que l&#39;on agrandit avec la famille : des maisons autonomes en énergie et en légumes, montées sur le terrain en une journée.</p>
       <figure class="media trame-media" data-fx="zoom" style="--cadrage:50% 50%">
   <picture>
@@ -311,7 +316,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="section" id="design">
   <div class="conteneur">
     <p class="surtitre">Design &amp; sculpture</p>
-    <h2 class="titre-section" data-anime="lignes">Du kiosque au luminaire</h2>
+    <h2 class="titre-section" data-anime="lignes">Du kiosque <em>au luminaire</em></h2>
     <div class="duo">
       <article class="duo-carte">
         <figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
@@ -321,6 +326,26 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </figure>
         <h3>The Crêpe Café</h3>
         <p>Une charte « fast casual » déclinée en cinq kiosques, dans les galeries marchandes des Émirats.</p>
+        <p class="duo-planches-titre"><b>Collection 2027 : huit planches de luminaires</b></p>
+        <ul class="duo-planches" data-anime="cascade">
+          <li><a href="/design-sculpture#luminaires" data-libelle="Design &amp; sculpture"><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/lum-ondoring-1536.webp" srcset="/assets/images/lum-ondoring-480.webp 480w, /assets/images/lum-ondoring-960.webp 960w, /assets/images/lum-ondoring-1536.webp 1536w" sizes="140px" alt="" width="1536" height="1681" loading="lazy" decoding="async">
+  </picture>
+</figure><span>Ondoring</span></a></li><li><a href="/design-sculpture#luminaires" data-libelle="Design &amp; sculpture"><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/lum-toroflux-1536.webp" srcset="/assets/images/lum-toroflux-480.webp 480w, /assets/images/lum-toroflux-960.webp 960w, /assets/images/lum-toroflux-1536.webp 1536w" sizes="140px" alt="" width="1536" height="1681" loading="lazy" decoding="async">
+  </picture>
+</figure><span>Toroflux</span></a></li><li><a href="/design-sculpture#luminaires" data-libelle="Design &amp; sculpture"><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/lum-saddeflux-1536.webp" srcset="/assets/images/lum-saddeflux-480.webp 480w, /assets/images/lum-saddeflux-960.webp 960w, /assets/images/lum-saddeflux-1536.webp 1536w" sizes="140px" alt="" width="1536" height="1024" loading="lazy" decoding="async">
+  </picture>
+</figure><span>Saddeflux</span></a></li><li><a href="/design-sculpture#luminaires" data-libelle="Design &amp; sculpture"><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/lum-strates-1536.webp" srcset="/assets/images/lum-strates-480.webp 480w, /assets/images/lum-strates-960.webp 960w, /assets/images/lum-strates-1536.webp 1536w" sizes="140px" alt="" width="1536" height="1404" loading="lazy" decoding="async">
+  </picture>
+</figure><span>Strates</span></a></li>
+        </ul>
       </article>
       <article class="duo-carte">
         <figure class="media " data-fx="parallaxe" style="--cadrage:50% 40%">
@@ -340,12 +365,54 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="tete-section">
       <div>
         <p class="surtitre">Expositions</p>
-        <h2 class="titre-section" data-anime="lignes">Montrées de Zurich à Miami</h2>
+        <h2 class="titre-section" data-anime="lignes">Exposées de Paris <em>à New York</em></h2>
       </div>
-      <p class="chapeau" data-anime>Les estampes d&#39;EWA voyagent avec le programme ARTBOXY et ses galeries partenaires.</p>
+      <p class="chapeau" data-anime>Depuis 2023, les estampes d&#39;EWA voyagent avec le programme ARTBOXY : galeries, salons et grands écrans, de Zurich à Dubaï. Le Luxembourg Art Prize leur a décerné deux certificats de mérite, en 2022 et en 2025.</p>
     </div>
-    <ul class="expos-liste" data-anime="cascade">
-      <li><span class="lieu">ARTBOXY · Palma, Zurich, Bâle, Venise, Miami</span><span class="annee">2023 – 2025</span></li><li><span class="lieu">Luxembourg Art Prize · certificat de mérite</span><span class="annee">2022 · 2025</span></li><li><span class="lieu">Villes indiennes · Paris-Malaquais</span><span class="annee">2005</span></li>
+    <ul class="accrochages" data-anime="cascade">
+      <li class="accrochage">
+        <figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/expo-paris-2025-1280.webp" srcset="/assets/images/expo-paris-2025-640.webp 640w, /assets/images/expo-paris-2025-1280.webp 1280w" sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw" alt="Estampe d&#39;EWA sur écran dans la salle d&#39;exposition du Carrousel du Louvre, à Paris" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><b>Paris</b> · Carrousel du Louvre<span>17 – 20 octobre 2025</span></p>
+      </li><li class="accrochage">
+        <figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/expo-new-york-2025-1280.webp" srcset="/assets/images/expo-new-york-2025-640.webp 640w, /assets/images/expo-new-york-2025-1280.webp 1280w" sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw" alt="Estampe d&#39;EWA exposée à Artexpo New York, entre deux œuvres d&#39;autres artistes" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><b>New York</b> · Artexpo New York<span>3 – 6 avril 2025</span></p>
+      </li><li class="accrochage">
+        <figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/expo-cologne-2025-1280.webp" srcset="/assets/images/expo-cologne-2025-640.webp 640w, /assets/images/expo-cologne-2025-1280.webp 1280w" sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw" alt="Estampe d&#39;EWA sur un mur de palettes à Cologne Art Unframed" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><b>Cologne</b> · Art Unframed<span>5 – 8 novembre 2025</span></p>
+      </li><li class="accrochage">
+        <figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/expo-berlin-2025-1280.webp" srcset="/assets/images/expo-berlin-2025-640.webp 640w, /assets/images/expo-berlin-2025-1280.webp 1280w" sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw" alt="Estampe verticale d&#39;EWA dans la Nicoleta Gallery, à Berlin" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><b>Berlin</b> · Nicoleta Gallery<span>septembre 2025</span></p>
+      </li><li class="accrochage">
+        <figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/expo-venise-2024-1280.webp" srcset="/assets/images/expo-venise-2024-640.webp 640w, /assets/images/expo-venise-2024-1280.webp 1280w" sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw" alt="Estampe d&#39;EWA sur écran à la galerie Cipriarte, à Venise" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><b>Venise</b> · Cipriarte<span>juin 2024</span></p>
+      </li><li class="accrochage">
+        <figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/expo-zurich-2023-1280.webp" srcset="/assets/images/expo-zurich-2023-640.webp 640w, /assets/images/expo-zurich-2023-1280.webp 1280w" sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw" alt="Stand de la Swiss Art Expo à Zurich, avec une estampe d&#39;EWA" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><b>Zurich</b> · Swiss Art Expo<span>6 – 10 septembre 2023</span></p>
+      </li>
     </ul>
     <p class="galeries-titre" style="margin-top:clamp(36px,5vw,64px)">Galeries partenaires du programme ARTBOXY</p>
     <div class="galeries" style="margin-top:0">
@@ -356,7 +423,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       </div>
       <button type="button" class="ruban-pause" data-pause-pour="ruban-galeries" data-libelle-pause="Pause" data-libelle-lecture="Lecture"><span data-libelle-bouton>Pause</span></button>
     </div>
-    <p style="margin-top:32px"><a href="/atelier#expositions" class="lien-fleche" data-libelle="L&#39;atelier">Parcours et presse</a></p>
+    <p style="margin-top:32px"><a href="/atelier#expositions" class="lien-fleche" data-libelle="L&#39;atelier">Toutes les expositions</a></p>
   </div>
 </section>
 <section class="appel" id="fin">
@@ -367,7 +434,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </picture>
 </figure>
     <div>
-      <h2 class="titre-section" data-anime="lignes">Une estampe, un projet ?</h2>
+      <h2 class="titre-section" data-anime="lignes">Une estampe, <em>un projet</em> ?</h2>
       <p data-anime>Choisissez une œuvre et son support, ou racontez votre projet : l&#39;atelier répond par e-mail.</p>
       <p class="appel-actions" data-anime><a href="/estampes#catalogue" class="bouton" data-libelle="Estampes" data-survol="magnetique">Choisir une estampe</a><a href="/contact?sujet=architecture#demande" class="bouton bouton--contour" data-libelle="Contact">Parler d&#39;un projet</a></p>
       <span class="appel-email">ewa_design@yahoo.com</span>

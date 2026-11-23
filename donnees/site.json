@@ -2,14 +2,39 @@
   "nom": "EWA Design",
   "adresse": "https://ewa-design-maquette.vercel.app",
   "siteActuel": "www.ewa-design.org",
-  "version": 1,
-  "langues": ["fr"],
-  "navigation": ["accueil", "estampes", "architecture", "design-sculpture", "atelier", "contact"],
-  "actionEntete": { "page": "estampes", "ancre": "catalogue" },
-  "couleurs": { "fond": "#f5f3ef", "texte": "#141414", "voile": "#141414", "ouverture": "#f5f3ef", "menu": "#141414", "theme": "#f5f3ef" },
+  "version": 2,
+  "langues": [
+    "fr"
+  ],
+  "navigation": [
+    "accueil",
+    "estampes",
+    "architecture",
+    "design-sculpture",
+    "atelier",
+    "contact"
+  ],
+  "actionEntete": {
+    "page": "estampes",
+    "ancre": "catalogue"
+  },
+  "couleurs": {
+    "fond": "#f5f3ef",
+    "texte": "#141414",
+    "voile": "#141414",
+    "ouverture": "#f5f3ef",
+    "menu": "#141414",
+    "theme": "#f5f3ef"
+  },
   "formeVoile": "barre",
-  "contact": { "email": "ewa_design@yahoo.com", "ville": "Bordeaux, France" },
-  "polices": ["/assets/fonts/jost.woff2", "/assets/fonts/dm-sans.woff2"],
+  "contact": {
+    "email": "ewa_design@yahoo.com",
+    "ville": "Bordeaux, France"
+  },
+  "polices": [
+    "/assets/fonts/jost.woff2",
+    "/assets/fonts/dm-sans.woff2"
+  ],
   "imagePartage": "impulsions-i-a-1600.webp",
   "curseur": true
 }

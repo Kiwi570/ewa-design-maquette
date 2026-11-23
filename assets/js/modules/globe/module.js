@@ -5,8 +5,8 @@
 // Téléphone et écrans bas : globe dans le flux, piloté par les boutons d'étape (aucun épinglage).
 // Mode calme : tracé complet, toutes les étapes allumées, vue d'ensemble immobile ; les boutons recentrent sans animation.
 /* Adapté au socle de la skill : boucle() du socle (dt, t), pas de mode calme, défilement natif ou adouci du socle. */
-import { boucle } from '../../socle/index.js?v=1';
-import { PAS, RANGEES } from './terres.js?v=1';
+import { boucle } from '../../socle/index.js?v=2';
+import { PAS, RANGEES } from './terres.js?v=2';
 
 /**
  * @param {HTMLElement} root  section.gi

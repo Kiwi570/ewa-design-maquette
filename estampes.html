@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#f5f3ef">
 <link rel="icon" href="/assets/images/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -103,10 +103,11 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <p class="menu-contact"><a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a><span class="menu-email">ewa_design@yahoo.com</span></p>
 </div>
 <main id="contenu" tabindex="-1">
+<div class="fil" data-grille="fil" aria-hidden="true"><span class="fil-n" data-fil-n>01</span><span class="fil-trait"><span class="fil-plein" data-fil-plein></span></span></div>
 <section class="ouv-majeste ecran" id="debut">
   <div class="majeste-texte">
     <p class="surtitre ouv-entree">Estampes numériques</p>
-    <h1><span class="t-masque l"><span class="t-mot">Signées,</span></span><span class="t-masque l"><span class="t-mot">numérotées,</span></span><span class="t-masque l"><span class="t-mot">tirées pour vous</span></span></h1>
+    <h1 data-grille="typo"><span class="t-masque l"><span class="t-mot">Signées,</span></span><span class="t-masque l"><span class="t-mot">numérotées,</span></span><span class="t-masque l"><span class="t-mot">tirées pour vous</span></span></h1>
     <p class="majeste-edition ouv-entree masque-ecran-tres-bas"><b>1/30</b><span>exemplaires par œuvre</span></p>
     <p class="ouv-entree masque-ecran-bas">Impulsions, Combo, Empreintes, Splash, Vibration nature : chaque œuvre est imprimée à la demande, sur le support que vous choisissez.</p>
     <p class="split-actions ouv-entree"><a class="bouton" href="#catalogue" data-action-principale data-sans-transition data-survol="magnetique">Voir le catalogue</a></p>
@@ -125,7 +126,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="conteneur principe-grille">
     <div>
       <p class="surtitre">Comment ça se passe</p>
-      <h2 class="titre-section" data-anime="lignes">Trois choix, puis l&#39;impression</h2>
+      <h2 class="titre-section" data-anime="lignes">Trois choix, <em>puis l'impression</em></h2>
       <ol class="etapes3" data-anime="cascade">
         <li><span class="n">01</span><h3>L&#39;œuvre</h3><p>Choisissez une estampe dans le catalogue et ouvrez sa fiche.</p></li><li><span class="n">02</span><h3>Le format et le support</h3><p>Plexiglas, aluminium brossé, toile ou papier Fine Art, avec ou sans cadre.</p></li><li><span class="n">03</span><h3>Le tirage</h3><p>L&#39;estampe est imprimée à la demande, numérotée sur 30, avec son certificat.</p></li>
       </ol>
@@ -142,7 +143,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="tete-section">
       <div>
         <p class="surtitre">Le catalogue</p>
-        <h2 class="titre-section" data-anime="lignes">Choisir une estampe</h2>
+        <h2 class="titre-section" data-anime="lignes">Choisir <em>une estampe</em></h2>
       </div>
       <p class="chapeau" data-anime>Une sélection de chaque série. Ouvrez une œuvre pour l&#39;agrandir et demander son tirage.<br><b>Série limitée à 30 exemplaires · certificat d&#39;authenticité · 300 ppp</b></p>
     </div>
@@ -539,12 +540,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="vis-commandes">
     <button type="button" data-vis-prec aria-label="Précédente">←</button>
     <button type="button" data-vis-suiv aria-label="Suivante">→</button>
+    <button type="button" class="vis-loupe-bouton" data-vis-loupe aria-pressed="false">Loupe</button>
     <button type="button" class="vis-fermer" data-vis-fermer>Fermer</button>
   </div>
   <div class="vis-boite">
     <div class="vis-image"><img data-vis-img src="/assets/images/impulsions-i-a-960.webp" alt="" width="1600" height="1600"></div>
     <div class="vis-infos">
       <h2 data-vis-titre tabindex="-1">Impulsions</h2>
+      <p class="vis-astuce">Cliquez sur l&#39;œuvre pour l&#39;explorer à la loupe. Le tirage, lui, part d&#39;un fichier préparé à 300 ppp.</p>
       <dl>
         <div><dt>Formats</dt><dd data-vis-formats></dd></div>
         <div><dt>Supports</dt><dd>Plexiglas, Alu Dibond, toile, papier Fine Art</dd></div>
@@ -560,7 +563,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="tete-section">
       <div>
         <p class="surtitre">Les supports</p>
-        <h2 class="titre-section" data-anime="lignes">Brillant, brossé, mat ou pigmentaire</h2>
+        <h2 class="titre-section" data-anime="lignes">Brillant, brossé, <em>mat ou pigmentaire</em></h2>
       </div>
       <p class="chapeau" data-anime>Les tirages sont réalisés par un laboratoire Fine Art, emballés et livrés avec soin.</p>
     </div>
@@ -590,7 +593,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="tete-section">
       <div>
         <p class="surtitre">Déjà accrochées</p>
-        <h2 class="titre-section" data-anime="lignes">Chez ceux qui les ont choisies</h2>
+        <h2 class="titre-section" data-anime="lignes">Chez ceux qui <em>les ont choisies</em></h2>
       </div>
       <p class="chapeau" data-anime>Des clients privés à Lacanau, Bordeaux ou La Réunion, et une commande en série pour une collection à Lima, au Pérou, en 2021.</p>
     </div>
@@ -623,7 +626,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </picture>
 </figure>
     <div>
-      <h2 class="titre-section" data-anime="lignes">Une œuvre vous a retenu ?</h2>
+      <h2 class="titre-section" data-anime="lignes">Une œuvre <em>vous a retenu</em> ?</h2>
       <p data-anime>Dites-nous laquelle, le format et le support : l&#39;atelier vous répond avec le prix et le délai.</p>
       <p class="appel-actions" data-anime><a href="/contact?sujet=estampe#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Demander un tirage</a></p>
       <span class="appel-email">ewa_design@yahoo.com</span>

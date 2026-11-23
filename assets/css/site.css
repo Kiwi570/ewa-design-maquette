@@ -611,3 +611,121 @@ html:not(.js) .ecran { min-height: calc(100svh - 120px); }
 .choix-formats button, .trame-onglets button, .filtres button { transition: none; }
 .annee-grand { padding-top: .16em; }
 .fpe .fpe__nom { white-space: normal; overflow: visible; text-overflow: clip; line-height: 1.2; font-size: 13px; }
+
+/* ========== Version 2 ========== */
+/* Accrochages en photos (accueil et atelier) : trois colonnes décalées, légende soulignée d'une barre orange. */
+.accrochages { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(28px, 3vw, 48px) clamp(16px, 2.2vw, 32px); }
+.accrochage .media { aspect-ratio: 3 / 2; border-radius: 0; }
+.accrochage:nth-child(3n + 2) { margin-top: clamp(28px, 5vw, 80px); }
+.accrochage:nth-child(3n + 3) { margin-top: clamp(14px, 2.5vw, 40px); }
+.accrochage p { position: relative; margin: 14px 0 0; padding-top: 12px; color: var(--texte-doux); font-size: .95rem; line-height: 1.4; }
+.accrochage p::before { content: ""; position: absolute; left: 0; top: 0; width: 28px; height: 3px; background: var(--accent); transition: width .6s var(--courbe); }
+.accrochage:hover p::before { width: 100%; }
+.accrochage p b { color: var(--texte); font: 400 clamp(1.3rem, 1.1rem + .7vw, 1.8rem)/1.15 var(--police-titres); }
+.accrochage p span { display: block; margin-top: 4px; font-size: .82rem; letter-spacing: .06em; text-transform: uppercase; color: var(--accent-texte); font-variant-numeric: tabular-nums; }
+@media (max-width: 1100px) { .accrochages { grid-template-columns: repeat(2, minmax(0, 1fr)); } .accrochage:nth-child(n) { margin-top: 0; } .accrochage:nth-child(2n) { margin-top: clamp(24px, 5vw, 56px); } }
+@media (max-width: 560px) { .accrochages { grid-template-columns: minmax(0, 1fr); } .accrochage:nth-child(n) { margin-top: 0; } }
+.expos-suite { margin-top: clamp(28px, 4vw, 48px); }
+
+/* Agenda des accrochages par année (atelier). */
+.agenda-titre { margin: clamp(56px, 7vw, 96px) 0 18px; font-size: .86rem; letter-spacing: .08em; text-transform: uppercase; color: var(--texte-doux); }
+.agenda { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(20px, 3vw, 48px); border-top: 1px solid #c9c1b5; }
+.agenda-annee { padding-top: 18px; }
+.agenda-a { margin: 0 0 12px; font: 200 clamp(3rem, 2rem + 3vw, 5.4rem)/1 var(--police-titres); letter-spacing: -.02em; font-variant-numeric: tabular-nums; padding-top: .08em; }
+.agenda-annee:last-child .agenda-a { color: var(--accent-texte); }
+.agenda ul { list-style: none; margin: 0; padding: 0; }
+.agenda li { padding: 9px 0; border-bottom: 1px solid #d8d1c6; font-size: .95rem; line-height: 1.4; }
+@media (max-width: 860px) { .agenda { grid-template-columns: minmax(0, 1fr); } }
+
+/* Planches de luminaires sous le kiosque (accueil). */
+.duo-planches-titre { margin: 28px 0 12px; font-size: .86rem; letter-spacing: .08em; text-transform: uppercase; color: var(--texte-doux); }
+.duo-planches { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.duo-planches a { display: block; text-decoration: none; }
+.duo-carte .duo-planches .media { aspect-ratio: 1; border-radius: 0; background: #fff; padding: 8px; transition: transform .5s var(--courbe), box-shadow .5s var(--courbe); }
+.duo-planches .media img { object-fit: contain; }
+.duo-planches a:hover .media, .duo-planches a:focus-visible .media { transform: translateY(-6px); box-shadow: 0 18px 30px -18px rgba(20, 20, 20, .45); }
+.duo-planches span { display: block; margin-top: 8px; font: 400 .95rem/1.2 var(--police-titres); }
+.duo-planches a:hover span { color: var(--accent-texte); }
+@media (max-width: 420px) { .duo-planches { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* Métiers de l'atelier : une vignette carrée qui se soulève au survol. */
+.metiers-liste a { grid-template-columns: clamp(64px, 8vw, 112px) minmax(0, 1fr) minmax(0, 1fr) auto; align-items: center; }
+.metier-vignette { aspect-ratio: 1; border-radius: 0; transition: transform .6s var(--courbe); }
+.metiers-liste a:hover .metier-vignette, .metiers-liste a:focus-visible .metier-vignette { transform: rotate(-4deg) scale(1.08); }
+.metiers-liste a:hover b { color: var(--accent); }
+.metiers-liste b { transition: color .3s; }
+@media (max-width: 760px) {
+  .metiers-liste a { grid-template-columns: 64px minmax(0, 1fr) auto; }
+  .metier-vignette { grid-row: 1 / span 2; }
+  .metiers-liste span { grid-column: 2; }
+  .metiers-liste i { grid-row: 1; grid-column: 3; }
+}
+
+/* Ouverture sur téléphone : l'estampe prend la place, le croquis s'étire à sa hauteur. */
+@media (max-width: 760px) {
+  .ouv-split { grid-template-columns: minmax(0, 1.5fr) 4px minmax(0, .8fr); }
+  .split-art { justify-content: center; }
+  .split-chi { justify-content: stretch; }
+  .split-chi .media { aspect-ratio: auto; height: 100%; min-height: 160px; }
+}
+
+/* Formats : des cotes d'architecte qui suivent l'œuvre (même échelle que le cadre). */
+.gig-cote-h, .gig-cote-v { position: absolute; background: var(--accent-texte); pointer-events: none; }
+.gig-cote-h { left: 50%; top: calc(50% + 50% * var(--gig-echelle, 1) + 14px); width: calc(100% * var(--gig-echelle, 1)); height: 1px; transform: translateX(-50%); }
+.gig-cote-v { top: 50%; left: calc(50% + 50% * var(--gig-echelle, 1) + 14px); height: calc(100% * var(--gig-echelle, 1)); width: 1px; transform: translateY(-50%); }
+.gig-cote-h::before, .gig-cote-h::after { content: ""; position: absolute; top: -5px; width: 1px; height: 11px; background: inherit; }
+.gig-cote-h::before { left: 0; } .gig-cote-h::after { right: 0; }
+.gig-cote-v::before, .gig-cote-v::after { content: ""; position: absolute; left: -5px; height: 1px; width: 11px; background: inherit; }
+.gig-cote-v::before { top: 0; } .gig-cote-v::after { bottom: 0; }
+.gig-cote-h > span { position: absolute; left: 50%; top: 6px; transform: translateX(-50%); padding: 0 6px; font: 500 max(13px, .78rem)/1.2 var(--police-titres); color: var(--accent-texte); background: #f3f0ea; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.gig-cote-v > span { position: absolute; top: 50%; left: 6px; transform: translateY(-50%); padding: 2px 0; font: 500 max(13px, .78rem)/1.2 var(--police-titres); color: var(--accent-texte); background: #f3f0ea; font-variant-numeric: tabular-nums; }
+
+/* Visionneuse : la loupe. */
+.vis-astuce { margin: -4px 0 14px; font-size: .9rem; color: var(--texte-doux); }
+.vis-astuce::before { content: ""; display: inline-block; width: 14px; height: 3px; margin-right: 8px; vertical-align: middle; background: var(--accent); }
+.vis-image img { cursor: zoom-in; }
+.vis-loupe { position: absolute; z-index: 1; background-color: #fff; background-repeat: no-repeat; background-size: 260% 260%; cursor: zoom-out; touch-action: none; box-shadow: var(--ombre-estampe); animation: loupe-entree .35s var(--courbe) both; }
+@keyframes loupe-entree { from { opacity: 0; } to { opacity: 1; } }
+.vis-commandes .vis-loupe-bouton[aria-pressed="true"] { background: var(--accent-texte); border-color: var(--accent-texte); color: #fff; }
+
+/* Le curseur du socle prend la forme du « | » du logo : une barre orange à côté de la flèche, qui se couche en trait sous ce qui se clique. */
+.curseur { left: 13px; top: 6px; width: 3px; height: 20px; border: 0; border-radius: 1px; background: var(--accent); transition: opacity .2s, width .3s var(--courbe), height .3s var(--courbe), left .3s var(--courbe), top .3s var(--courbe); }
+.curseur.curseur-lien { left: -4px; top: 22px; width: 26px; height: 3px; }
+
+/* Contact : la confirmation sort comme un tirage, sous la tête d'impression. */
+.fpe__fin--imprime { position: relative; animation: fin-tirage 1.4s cubic-bezier(.45, 0, .2, 1) both; }
+.fpe__fin--imprime::after { content: ""; position: absolute; left: -2%; right: -2%; top: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--accent) 12%, #fff6e8 50%, var(--accent) 88%, transparent); box-shadow: 0 0 18px 2px rgba(224, 88, 42, .55); pointer-events: none; animation: fin-tete 1.4s cubic-bezier(.45, 0, .2, 1) both; }
+@keyframes fin-tirage { from { clip-path: inset(0 -4% 100% -4%); } to { clip-path: inset(0 -4% -20px -4%); } }
+@keyframes fin-tete { 0% { top: 0; opacity: 1; } 92% { opacity: 1; } 100% { top: 100%; opacity: 0; } }
+
+/* Titre qui fait l'événement : la barre du logo écrit la dernière ligne du titre d'ouverture. */
+#debut [data-grille~="typo"] .t-masque { position: relative; }
+.t-trait { position: absolute; left: 0; top: .1em; bottom: .02em; width: max(3px, .045em); background: var(--accent); pointer-events: none; opacity: 0; }
+.annee-grand .t-trait { top: .3em; bottom: .12em; }
+html.js:not(.secours):is([data-arrivee="intro"], [data-arrivee="voile"]) #debut [data-grille~="typo"]:not(.titre-split) .t-masque:last-child .t-mot { transform: none; clip-path: inset(-.2em 100% -.25em -.1em); }
+
+/* Formats : le coin orange se tire. */
+.gig-poignee { position: absolute; z-index: 3; left: calc(50% + 50% * var(--gig-echelle, 1)); top: calc(50% + 50% * var(--gig-echelle, 1)); width: 44px; height: 44px; margin: -22px 0 0 -22px; border-radius: 50%; cursor: nwse-resize; touch-action: none; }
+.gig-poignee::before { content: ""; position: absolute; inset: 13px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px rgba(224, 88, 42, .22); transition: transform .3s var(--courbe), box-shadow .3s var(--courbe); }
+.gig-poignee::after { content: ""; position: absolute; left: 50%; top: 50%; width: 8px; height: 8px; margin: -4px 0 0 -4px; border-right: 2px solid #fff; border-bottom: 2px solid #fff; }
+.gig-poignee:hover::before, .gig-prise .gig-poignee::before { transform: scale(1.25); box-shadow: 0 0 0 8px rgba(224, 88, 42, .18); }
+html.js .gig-scene:not(.gig-prise) .gig-poignee::before { animation: poignee-appel 2.4s ease-in-out 3; }
+@keyframes poignee-appel { 50% { box-shadow: 0 0 0 10px rgba(224, 88, 42, 0); } }
+@media (hover: hover) and (pointer: fine) { .gig-oeuvre { cursor: nwse-resize; } }
+.gig-prise, .gig-prise * { cursor: nwse-resize; user-select: none; -webkit-user-select: none; }
+.gig-astuce { margin: 10px 0 22px; font-size: .9rem; color: var(--texte-doux); }
+.gig-astuce::before { content: ""; display: inline-block; width: 10px; height: 10px; margin-right: 8px; border-radius: 50%; background: var(--accent); vertical-align: -1px; }
+
+
+/* Fil dans la marge : la barre du logo se remplit avec la lecture, le folio donne la section (grands écrans). */
+.fil { position: fixed; z-index: 700; left: clamp(10px, calc((100vw - var(--largeur)) / 4 - 14px), 40px); top: 50%; transform: translateY(-50%); display: none; flex-direction: column; align-items: center; gap: 10px; pointer-events: none; }
+.fil-n { min-width: 26px; padding: 2px 4px; border-radius: 3px; background: var(--papier); color: var(--encre); font: 500 13px/1.2 var(--police-titres); text-align: center; font-variant-numeric: tabular-nums; box-shadow: 0 0 0 1px rgba(20, 20, 20, .08); }
+.fil-trait { position: relative; width: 3px; height: 26vh; background: rgba(20, 20, 20, .1); overflow: hidden; }
+.fil-plein { position: absolute; inset: 0; background: var(--accent); transform: scaleY(0); transform-origin: 50% 0; }
+.fil.fil-sombre .fil-trait { background: rgba(245, 243, 239, .2); }
+@media (min-width: 1180px) and (min-height: 560px) { .fil { display: flex; } }
+
+/* Planches de la Collection 2027 : montrées entières (texte des planches lisible), sur fond blanc. */
+.planches .planche-bouton .media { aspect-ratio: 1; background: #fff; padding: clamp(8px, 1vw, 14px); transition: transform .5s var(--courbe), box-shadow .5s var(--courbe); }
+.planches .planche-bouton .media img { object-fit: contain; object-position: 50% 50%; transform: none; }
+.planches .planche-bouton:hover .media, .planches .planche-bouton:focus-visible .media { transform: translateY(-6px); box-shadow: 0 22px 36px -22px rgba(20, 20, 20, .5); }

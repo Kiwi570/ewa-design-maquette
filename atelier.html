@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#f5f3ef">
 <link rel="icon" href="/assets/images/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -103,8 +103,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <p class="menu-contact"><a class="bouton" href="/estampes#catalogue" data-libelle="Estampes">Choisir une estampe</a><span class="menu-email">ewa_design@yahoo.com</span></p>
 </div>
 <main id="contenu" tabindex="-1">
+<div class="fil" data-grille="fil" aria-hidden="true"><span class="fil-n" data-fil-n>01</span><span class="fil-trait"><span class="fil-plein" data-fil-plein></span></span></div>
 <section class="ouv-annee ecran" id="debut">
-  <p class="annee-grand" aria-hidden="true"><span class="t-masque"><span class="t-mot" data-annee>2012</span></span></p>
+  <p class="annee-grand" aria-hidden="true" data-grille="typo"><span class="t-masque"><span class="t-mot" data-annee>2012</span></span></p>
   <div class="annee-texte">
     <p class="surtitre ouv-entree">L&#39;atelier EWA</p>
     <h1 class="ouv-entree">Eco Workshop Art, à Bordeaux</h1>
@@ -121,9 +122,25 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="section section--encre" id="metiers">
   <div class="conteneur">
     <p class="surtitre">Un atelier, quatre métiers</p>
-    <h2 class="titre-section" data-anime="lignes">Ce que l&#39;on peut demander à EWA</h2>
+    <h2 class="titre-section" data-anime="lignes">Ce que l'on peut <em>demander à EWA</em></h2>
     <ul class="metiers-liste" data-anime="cascade">
-      <li><a href="/architecture" data-libelle="Architecture"><b>Architecture</b><span>Concours, habitat autonome, éco-quartiers</span><i aria-hidden="true">→</i></a></li><li><a href="/design-sculpture" data-libelle="Design &amp; sculpture"><b>Design</b><span>Kiosques commerciaux, intérieurs</span><i aria-hidden="true">→</i></a></li><li><a href="/estampes" data-libelle="Estampes"><b>Estampes</b><span>Séries numériques en 30 exemplaires</span><i aria-hidden="true">→</i></a></li><li><a href="/design-sculpture#sculptures" data-libelle="Design &amp; sculpture"><b>Sculpture</b><span>Luminaires, acier Corten, verre</span><i aria-hidden="true">→</i></a></li>
+      <li><a href="/architecture" data-libelle="Architecture"><figure class="media metier-vignette" style="--cadrage:50% 45%">
+  <picture>
+    <img src="/assets/images/archi-rubans-1440.webp" srcset="/assets/images/archi-rubans-640.webp 640w, /assets/images/archi-rubans-960.webp 960w, /assets/images/archi-rubans-1440.webp 1440w" sizes="160px" alt="" width="1440" height="1080" loading="lazy" decoding="async">
+  </picture>
+</figure><b>Architecture</b><span>Concours, habitat autonome, éco-quartiers</span><i aria-hidden="true">→</i></a></li><li><a href="/design-sculpture" data-libelle="Design &amp; sculpture"><figure class="media metier-vignette" style="--cadrage:51% 36%">
+  <picture>
+    <img src="/assets/images/kiosque-1-1280.webp" srcset="/assets/images/kiosque-1-640.webp 640w, /assets/images/kiosque-1-1280.webp 1280w, /assets/images/kiosque-1-1600.webp 1600w" sizes="160px" alt="" width="1280" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure><b>Design</b><span>Kiosques commerciaux, intérieurs</span><i aria-hidden="true">→</i></a></li><li><a href="/estampes" data-libelle="Estampes"><figure class="media metier-vignette" style="--cadrage:47% 40%">
+  <picture>
+    <img src="/assets/images/impulsions-ja-1600.webp" srcset="/assets/images/impulsions-ja-480.webp 480w, /assets/images/impulsions-ja-960.webp 960w, /assets/images/impulsions-ja-1600.webp 1600w" sizes="160px" alt="" width="1600" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure><b>Estampes</b><span>Séries numériques en 30 exemplaires</span><i aria-hidden="true">→</i></a></li><li><a href="/design-sculpture#sculptures" data-libelle="Design &amp; sculpture"><figure class="media metier-vignette" style="--cadrage:53% 43%">
+  <picture>
+    <img src="/assets/images/sculpture-corten-1280.webp" srcset="/assets/images/sculpture-corten-640.webp 640w, /assets/images/sculpture-corten-1280.webp 1280w, /assets/images/sculpture-corten-1536.webp 1536w" sizes="160px" alt="" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure><b>Sculpture</b><span>Luminaires, acier Corten, verre</span><i aria-hidden="true">→</i></a></li>
     </ul>
   </div>
 </section>
@@ -132,7 +149,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="tete-section">
       <div>
         <p class="surtitre">Le parcours</p>
-        <h2 class="titre-section" data-anime="lignes">De Paris-Malaquais à Bordeaux</h2>
+        <h2 class="titre-section" data-anime="lignes">De Paris-Malaquais <em>à Bordeaux</em></h2>
       </div>
       <p class="chapeau" data-anime>Collaborations : Baggio-Piechaud Architecture à Bordeaux, Hafid El Awad Architectes à Casablanca.</p>
     </div>
@@ -146,12 +163,60 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="tete-section">
       <div>
         <p class="surtitre">Expositions</p>
-        <h2 class="titre-section" data-anime="lignes">Les éditions ARTBOXY</h2>
+        <h2 class="titre-section" data-anime="lignes">Les accrochages, <em>2023 – 2025</em></h2>
       </div>
-      <p class="chapeau" data-anime>Le programme ARTBOXY présente les œuvres sur grands écrans haute définition ou dans ses galeries partenaires.</p>
+      <p class="chapeau" data-anime>Une sélection des expositions du programme ARTBOXY, qui présente les œuvres sur grands écrans haute définition, dans ses galeries partenaires et sur les salons.</p>
     </div>
-    <ul class="editions" data-anime="cascade"><li>Palma 2.0</li><li>Palma 3.0</li><li>Zürich 6.0</li><li>Zürich 7.0</li><li>Basel 3.0</li><li>Venezia 2.0</li><li>Miami 4.0</li></ul>
-    <p class="galeries-titre" style="color:var(--texte-doux);margin-top:clamp(36px,5vw,64px)">Galeries partenaires du programme</p>
+    <ul class="accrochages" data-anime="cascade">
+      <li class="accrochage">
+        <figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/expo-dubai-2025-1280.webp" srcset="/assets/images/expo-dubai-2025-640.webp 640w, /assets/images/expo-dubai-2025-1280.webp 1280w" sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw" alt="Estampe d&#39;EWA dans le hall de l&#39;Andakulova Gallery, à Dubaï" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><b>Dubaï</b> · Andakulova Gallery<span>novembre 2025</span></p>
+      </li><li class="accrochage">
+        <figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/expo-zoug-2025-1280.webp" srcset="/assets/images/expo-zoug-2025-640.webp 640w, /assets/images/expo-zoug-2025-1280.webp 1280w" sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw" alt="Estampe d&#39;EWA dans un espace de la Thomson Gallery, à Zoug" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><b>Zoug</b> · Thomson Gallery<span>novembre 2025</span></p>
+      </li><li class="accrochage">
+        <figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/expo-grenade-2025-1280.webp" srcset="/assets/images/expo-grenade-2025-640.webp 640w, /assets/images/expo-grenade-2025-1280.webp 1280w" sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw" alt="Estampe verticale d&#39;EWA entre deux toiles à l&#39;Art Bar Gallery, à la Grenade" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><b>La Grenade</b> · Art Bar Gallery<span>octobre 2025</span></p>
+      </li><li class="accrochage">
+        <figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/expo-palma-2025-1280.webp" srcset="/assets/images/expo-palma-2025-640.webp 640w, /assets/images/expo-palma-2025-1280.webp 1280w" sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw" alt="Estampe d&#39;EWA près d&#39;un mur de pierre à la Casa del Arte, à Palma" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><b>Palma</b> · Casa del Arte<span>septembre 2025</span></p>
+      </li><li class="accrochage">
+        <figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/expo-miami-2023-1280.webp" srcset="/assets/images/expo-miami-2023-640.webp 640w, /assets/images/expo-miami-2023-1280.webp 1280w" sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw" alt="Accrochage au Spectrum Miami Art Show avec une estampe d&#39;EWA" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><b>Miami</b> · Spectrum Miami Art Show<span>6 – 10 décembre 2023</span></p>
+      </li><li class="accrochage">
+        <figure class="media " data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/expo-mne-bordeaux-1280.webp" srcset="/assets/images/expo-mne-bordeaux-640.webp 640w, /assets/images/expo-mne-bordeaux-1280.webp 1280w" sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw" alt="Public assis devant des estampes d&#39;EWA à la Maison de la Nature et de l&#39;Environnement de Bordeaux" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><b>Bordeaux</b> · Maison de la Nature et de l&#39;Environnement<span>Land art et Art Eco</span></p>
+      </li>
+    </ul>
+    <p class="agenda-titre"><b>Une sélection, année par année</b></p>
+    <div class="agenda" data-anime="cascade">
+      <div class="agenda-annee"><p class="agenda-a">2023</p><ul><li>Zurich · Swiss Art Expo · septembre</li><li>Miami · Spectrum Miami Art Show · décembre</li></ul></div><div class="agenda-annee"><p class="agenda-a">2024</p><ul><li>Berlin · Nicoleta Gallery · mars et septembre</li><li>Palma · Casa del Arte · avril et novembre</li><li>Athènes · Andie Art · avril et juillet</li><li>Zoug · Thomson Gallery · mai, juin et novembre</li><li>Venise · Cipriarte · juin et août</li><li>Dubaï · Andakulova Gallery · septembre et décembre</li><li>Paris · exposition ARTBOXY · octobre</li></ul></div><div class="agenda-annee"><p class="agenda-a">2025</p><ul><li>Dubaï · Andakulova Gallery · janvier et novembre</li><li>New York · Artexpo · avril</li><li>Berlin · Nicoleta Gallery · avril et septembre</li><li>Bâle · Artbox Expo · juin</li><li>Palma · Casa del Arte · août et septembre</li><li>La Grenade · Art Bar Gallery · octobre</li><li>Paris · Carrousel du Louvre · octobre</li><li>Cologne · Art Unframed · novembre</li><li>Zoug · Thomson Gallery · novembre</li><li>Luxembourg Art Prize · certificat de mérite</li></ul></div>
+    </div>
+    <p class="galeries-titre" style="margin-top:clamp(36px,5vw,64px)">Galeries partenaires du programme</p>
     <div class="galeries" style="margin-top:0">
       <div class="galeries-ruban" id="ruban-galeries-atelier" data-boucle-css data-ruban>
         <div class="galeries-piste"><span class="logo-galerie"><img src="/assets/images/galerie-swiss-art-expo-240.webp" alt="Swiss Art Expo" width="240" height="288" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-cipriarte-240.webp" alt="Cipriarte Venezia" width="240" height="219" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-nicoleta-240.webp" alt="Nicoleta Gallery Berlin" width="240" height="112" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-andakulova-240.webp" alt="Andakulova Gallery" width="240" height="85" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-thomson-240.webp" alt="Thomson Gallery" width="240" height="97" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-spectrum-240.webp" alt="Spectrum Miami" width="240" height="233" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-artexpo-240.webp" alt="Artexpo New York" width="240" height="98" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-andie-art-240.webp" alt="Andie Art" width="240" height="198" loading="lazy" decoding="async"></span><span class="logo-galerie"><img src="/assets/images/galerie-artboxy-240.webp" alt="ARTBOXY" width="240" height="35" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-swiss-art-expo-240.webp" alt="" width="240" height="288" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-cipriarte-240.webp" alt="" width="240" height="219" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-nicoleta-240.webp" alt="" width="240" height="112" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-andakulova-240.webp" alt="" width="240" height="85" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-thomson-240.webp" alt="" width="240" height="97" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-spectrum-240.webp" alt="" width="240" height="233" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-artexpo-240.webp" alt="" width="240" height="98" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-andie-art-240.webp" alt="" width="240" height="198" loading="lazy" decoding="async"></span><span class="logo-galerie" aria-hidden="true"><img src="/assets/images/galerie-artboxy-240.webp" alt="" width="240" height="35" loading="lazy" decoding="async"></span></div>
@@ -163,7 +228,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="section" id="presse">
   <div class="conteneur">
     <p class="surtitre">Presse et distinctions</p>
-    <h2 class="titre-section" data-anime="lignes">Ils en ont parlé</h2>
+    <h2 class="titre-section" data-anime="lignes">Ils <em>en ont parlé</em></h2>
     <ul class="presse-grille" data-anime="cascade">
       <li><button type="button" class="planche-bouton" data-planche data-image="/assets/images/presse-accrochages-960.webp" data-titre="Accrochages" data-texte="Magazine suisse d&#39;art et de musique, pages « Galerie d&#39;artistes »" aria-haspopup="dialog" aria-label="Agrandir : Accrochages">
         <figure class="media " style="--cadrage:50% 50%">
@@ -198,6 +263,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="vis-commandes">
     <button type="button" data-vis-prec aria-label="Précédente">←</button>
     <button type="button" data-vis-suiv aria-label="Suivante">→</button>
+    <button type="button" class="vis-loupe-bouton" data-vis-loupe aria-pressed="false">Loupe</button>
     <button type="button" class="vis-fermer" data-vis-fermer>Fermer</button>
   </div>
   <div class="vis-boite">
@@ -213,7 +279,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </picture>
 </figure>
     <div>
-      <h2 class="titre-section" data-anime="lignes">Une exposition, un article, une collaboration ?</h2>
+      <h2 class="titre-section" data-anime="lignes">Une exposition, un article, <em>une collaboration</em> ?</h2>
       <p data-anime>L&#39;atelier répond à toutes les demandes par e-mail.</p>
       <p class="appel-actions" data-anime><a href="/contact?sujet=exposition#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Écrire à l&#39;atelier</a></p>
       <span class="appel-email">ewa_design@yahoo.com</span>
